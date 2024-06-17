@@ -20,7 +20,7 @@
             <div class="col-span-3 text-pretty">
               {talk.title}{#if talk.part}, part {talk.part}{/if}
               {#if talk.abstract}
-                <a class="text-deep-red hover:text-red" href="{base}/talks/{talk.abstract}">(abstract)</a>
+                <a class="text-deep-red hover:text-red" href="{base}/talks/{talk.abstract}">(abs)</a>
               {/if}
             </div>
           </li>
