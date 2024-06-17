@@ -15,8 +15,10 @@
       <div class="mb-1 text-red font-bold">{date}</div>
       <ul class="flex flex-col gap-0.5">
         {#each data.grouped[date] as talk}
-          <li class="grid grid-cols-4 w-full">
-            <a class="pr-2 hover:text-red" href="{base}/speakers/{encodeURIComponent(String(talk.speaker))}">{talk.speaker}</a>
+          <li class="grid grid-cols-5 sm:grid-cols-4 w-full">
+            <a class="pr-2 col-span-2 sm:col-span-1 hover:text-red" href="{base}/speakers/{encodeURIComponent(String(talk.speaker))}">
+              {talk.speaker}
+            </a>
             <div class="col-span-3 text-pretty">
               {talk.title}{#if talk.part}, part {talk.part}{/if}
               {#if talk.abstract}
