@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Work Sans'],
+        'sans': ['Work Sans Variable'],
       },
       colors: {
         'red': '#A6192E',
