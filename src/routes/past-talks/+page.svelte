@@ -1,27 +1,32 @@
 <script>
  export let data;
  import { base } from '$app/paths';
-
+ import { writable } from 'svelte/store';
+ import { browser } from "$app/environment"
+ 
  var years = Object.keys(data.grouped).reverse();
  var currentyear = years[0];
 
  function toggleYear(n) {
-   currentyear = n;
+   $currentYear = n;
  }
  function setAll() {
-   currentyear = "All";
+   $currentYear = "All";
  }
+
+ const currentYear = writable(browser && sessionStorage.getItem("currentYear") && JSON.parse(sessionStorage.getItem("currentYear")) || years[0]);
+ currentYear.subscribe(val => {if (browser) sessionStorage.setItem("currentYear", JSON.stringify(val))});
 </script>
 
 <div class="grid grid-cols-12 sm:grid-cols-16 -mt-1 gap-0.5">
   {#each years.toReversed() as year}
-    <a class="py-1 text-center text-sm {currentyear == year ? 'bg-red text-sand' : 'bg-sand-light'}"
+    <a class="py-1 text-center text-sm {$currentYear == year ? 'bg-red text-sand' : 'bg-sand-light'}"
        href="javascript:void(0);"
        on:click={() => toggleYear(year)}>
       {String(year%100).padStart(2,'0')}
     </a>
   {/each}
-  <a class="py-1 text-center text-sm {currentyear == 'All' ? 'bg-red text-sand' : 'bg-sand-light'}"
+  <a class="py-1 text-center text-sm {$currentYear == 'All' ? 'bg-red text-sand' : 'bg-sand-light'}"
      href="javascript:void(0);"
      on:click={() => setAll()}>
     All
@@ -35,7 +40,7 @@
 </div>
 
 {#each years as year}
-  {#if currentyear == year || currentyear == 'All'}
+  {#if $currentYear == year || $currentYear == 'All'}
     <h2 class="bg-sand px-2.5 py-2 font-bold text-lg">{year}</h2>
     <div class="flex flex-col gap-0.5 -mt-1">
     {#each Object.keys(data.grouped[year]) as date}
