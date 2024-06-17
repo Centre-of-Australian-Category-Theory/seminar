@@ -1,5 +1,6 @@
 <script>
  export let data;
+ import { base } from '$app/paths';
 </script>
 
 <div class="py-4">
@@ -8,9 +9,9 @@
   other talks.
 </div>
 
-<div class="flex flex-col gap-1">
+<div class="flex flex-col gap-0.5">
   {#each Object.keys(data.grouped) as date}
-    <div class="rounded w-full bg-sand-light px-2.5 py-2">
+    <div class="w-full bg-sand-light px-2.5 py-2">
       <div class="mb-1 text-red font-bold">{date}</div>
       <ul class="flex flex-col gap-0.5">
         {#each data.grouped[date] as talk}

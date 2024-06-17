@@ -1,4 +1,5 @@
 <script>
+ import { base } from '$app/paths';
  export let data;
 </script>
 
@@ -9,7 +10,7 @@
 
 <div class="flex flex-col gap-1">
   {#each Object.keys(data.talks).reverse() as date}
-    <div class="rounded w-full bg-sand-light px-2.5 py-2">
+    <div class="w-full bg-sand-light px-2.5 py-2">
       <div class="mb-1 text-red"><b>{date}</b></div>
       <ul class="flex flex-col gap-0.5">
         {#each data.talks[date] as talk}

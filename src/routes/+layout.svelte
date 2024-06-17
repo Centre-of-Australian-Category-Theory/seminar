@@ -8,13 +8,15 @@
 </script>
 
 
-<div class="w-5/6 max-w-prose mx-auto flex flex-col gap-1.5 py-5">
+<div class="w-screen flex items-center justify-center">
+  <div class="w-5/6 max-w-prose mx-auto flex flex-col gap-1.5 py-5">
   <h1 class="text-4xl text-center font-semibold text-red mt-3 mb-5">Australian Category Seminar</h1>
-  <div class="grid grid-cols-4 w-full text-center justify-stretch items-stretch bg-sand-light">
-    <a class={path === "/" ? "p-3 bg-sand font-medium" : "p-3"} href="{base}">About</a>
-    <a class={path === "/recent-talks" ? "p-3 bg-sand font-medium" : "p-3"} href="{base}/recent-talks">Recent talks</a>
-    <a class={path === "/past-talks" ? "p-3 bg-sand font-medium" : "p-3"} href="{base}/past-talks">Past talks</a>
-    <a class={path === "/speakers" ? "p-3 bg-sand font-medium" : "p-3"} href="{base}/speakers">Speakers</a>
+  <div class="grid grid-cols-4 w-full text-center justify-stretch items-stretch gap-0.5">
+    <a class={path === "/" ? "p-3 bg-sand font-medium" : "p-3 bg-sand-light"} href="{base}/">About</a>
+    <a class={path === "/recent-talks" ? "p-3 bg-sand font-medium" : "p-3 bg-sand-light"} href="{base}/recent-talks">Recent talks</a>
+    <a class={path === "/past-talks" ? "p-3 bg-sand font-medium" : "p-3 bg-sand-light"} href="{base}/past-talks">Past talks</a>
+    <a class={path === "/speakers" ? "p-3 bg-sand font-medium" : "p-3 bg-sand-light"} href="{base}/speakers">Speakers</a>
   </div>
   <slot />
+  </div>
 </div>

@@ -1,5 +1,6 @@
 <script>
  export let data;
+ import { base } from '$app/paths';
 
  var years = Object.keys(data.grouped).reverse();
  var currentyear = years[0];
@@ -36,9 +37,9 @@
 {#each years as year}
   {#if currentyear == year || currentyear == 'All'}
     <h2 class="bg-sand px-2.5 py-2 font-bold text-lg">{year}</h2>
-    <div class="flex flex-col gap-1">
+    <div class="flex flex-col gap-0.5 -mt-1">
     {#each Object.keys(data.grouped[year]) as date}
-      <div class="rounded w-full bg-sand-light px-2.5 py-2">
+      <div class="w-full bg-sand-light px-2.5 py-2">
         <div class="mb-1 text-red font-bold">{date}</div>
         <ul class="flex flex-col gap-0.5">
           {#each data.grouped[year][date] as talk}

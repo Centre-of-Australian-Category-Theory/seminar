@@ -1,9 +1,10 @@
 <script>
  export let data;
+ import { base } from '$app/paths';
 </script>
 <div class="bg-sand-light px-2.5 py-2 mt-2">
   <h2 class="font-bold text-red">{data.title}</h2>
-  <div class="pt-1">
+  <div>
     <a class="hover:text-red" href="{base}/speakers/{encodeURIComponent(String(data.speaker))}">{data.speaker}</a><span class="mx-1" />·<span class="mx-1" />{data.humanDate}
   </div>
 </div>
@@ -17,5 +18,5 @@
 </div>
 
 <div>
-  <a href="javascript:history.back()" class="mt-4 rounded-md bg-sand-light p-2">Back</a>
+  <a href="javascript:history.back()" class="mt-4 bg-sand-light p-2">Back</a>
 </div>
