@@ -11,7 +11,7 @@
 <div class="text-left rounded-sm w-full bg-sand-light p-3">
   <div class="grid grid-cols-2 grid-flow-row gap-2 w-full">
     {#each data.speakers as speaker}
-      <a class="hover:text-red" href="/speakers/{encodeURIComponent(String(speaker))}">{speaker}</a>
+      <a class="hover:text-red" href="{base}/speakers/{encodeURIComponent(String(speaker))}">{speaker}</a>
     {/each}
   </div>
 </div>

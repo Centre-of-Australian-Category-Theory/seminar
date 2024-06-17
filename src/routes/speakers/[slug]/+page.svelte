@@ -22,7 +22,7 @@
                 {talk.title}
               {/if}
               {#if talk.abstract}
-                <a class="text-deep-red hover:text-red" href="/talks/{talk.id}">(abstract)</a>
+                <a class="text-deep-red hover:text-red" href="{base}/talks/{talk.id}">(abstract)</a>
               {/if}
             </div>
           </li>
