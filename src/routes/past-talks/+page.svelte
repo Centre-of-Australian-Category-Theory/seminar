@@ -15,13 +15,13 @@
 
 <div class="grid grid-cols-16 -mt-1 gap-0.5">
   {#each years.toReversed() as year}
-    <a class="p-1 text-center text-sm {currentyear == year ? 'bg-red text-sand' : 'bg-sand-light'}"
+    <a class="py-1 text-center text-xs sm:text-sm {currentyear == year ? 'bg-red text-sand' : 'bg-sand-light'}"
        href="javascript:void(0);"
        on:click={() => toggleYear(year)}>
       {String(year%100).padStart(2,'0')}
     </a>
   {/each}
-  <a class="p-1 text-center text-sm {currentyear == 'All' ? 'bg-red text-sand' : 'bg-sand-light'}"
+  <a class="py-1 text-center text-xs sm:text-sm {currentyear == 'All' ? 'bg-red text-sand' : 'bg-sand-light'}"
      href="javascript:void(0);"
      on:click={() => setAll()}>
     All

@@ -18,12 +18,10 @@
           <li class="grid grid-cols-4 w-full">
             <a class="pr-2 hover:text-red" href="{base}/speakers/{encodeURIComponent(String(talk.speaker))}">{talk.speaker}</a>
             <div class="col-span-3 text-pretty">
-              <div class="col-span-3 text-pretty">
-                {talk.title}{#if talk.part}, part {talk.part}{/if}
-                {#if talk.abstract}
-                  <a class="text-deep-red hover:text-red" href="{base}/talks/{talk.abstract}">(abstract)</a>
-                {/if}
-              </div>
+              {talk.title}{#if talk.part}, part {talk.part}{/if}
+              {#if talk.abstract}
+                <a class="text-deep-red hover:text-red" href="{base}/talks/{talk.abstract}">(abstract)</a>
+              {/if}
             </div>
           </li>
         {/each}
