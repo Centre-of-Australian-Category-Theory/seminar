@@ -13,15 +13,15 @@
  }
 </script>
 
-<div class="grid grid-cols-16 -mt-1 gap-0.5">
+<div class="grid grid-cols-12 sm:grid-cols-16 -mt-1 gap-0.5">
   {#each years.toReversed() as year}
-    <a class="py-1 text-center text-xs sm:text-sm {currentyear == year ? 'bg-red text-sand' : 'bg-sand-light'}"
+    <a class="py-1 text-center text-sm {currentyear == year ? 'bg-red text-sand' : 'bg-sand-light'}"
        href="javascript:void(0);"
        on:click={() => toggleYear(year)}>
       {String(year%100).padStart(2,'0')}
     </a>
   {/each}
-  <a class="py-1 text-center text-xs sm:text-sm {currentyear == 'All' ? 'bg-red text-sand' : 'bg-sand-light'}"
+  <a class="py-1 text-center text-sm {currentyear == 'All' ? 'bg-red text-sand' : 'bg-sand-light'}"
      href="javascript:void(0);"
      on:click={() => setAll()}>
     All
@@ -43,8 +43,8 @@
         <div class="mb-1 text-red font-bold">{date}</div>
         <ul class="flex flex-col gap-0.5">
           {#each data.grouped[year][date] as talk}
-            <li class="grid grid-cols-4 w-full">
-              <a class="pr-2 hover:text-red" href="{base}/speakers/{encodeURIComponent(String(talk.speaker))}">
+            <li class="grid grid-cols-5 sm:grid-cols-4 w-full">
+              <a class="pr-2 col-span-2 sm:col-span-1 hover:text-red" href="{base}/speakers/{encodeURIComponent(String(talk.speaker))}">
                 {talk.speaker}
               </a>
               <div class="col-span-3 text-pretty">
