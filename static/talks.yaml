@@ -13769,7 +13769,7 @@
 - id: 1794
   title: Weak equivalences between weak omega-categories (Part 2)
   speaker: Soichiro Fujii
-  date: 2024-19-06T00:00:00.000Z
+  date: 2024-06-19T00:00:00.000Z
   time: 2pm
   location: Macquarie
   abstract: In November last year, I talked about the 2-out-of-3 property for omega-weak equivalences between weak omega-categories (in the sense of Batanin-Leinster). These omega-weak equivalences are the strict omega-functors which are essentially surjective at every dimension. In this talk, I define weak omega-weak equivalences as weak omega-functors (in the sense of Garner) which are essentially surjective in a suitable sense. I show a few results about them, including the 2-out-of-3 property and their characterisation in terms of the underlying globular map of a weak omega-functor. (Joint work with Keisuke Hoshino and Yuki Maehara.)
