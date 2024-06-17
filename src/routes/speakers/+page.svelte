@@ -3,7 +3,7 @@
  export let data;
 </script>
 
-<div class="py-4 text-justify font-normal">
+<div class="py-4 font-normal">
   Here is a list of all speakers at
   the Australian Category Seminar. Click on a speaker's name for
   a list of their talks.

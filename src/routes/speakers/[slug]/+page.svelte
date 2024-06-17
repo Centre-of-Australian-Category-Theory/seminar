@@ -3,7 +3,7 @@
  export let data;
 </script>
 
-<div class="py-4 text-justify">
+<div class="py-4">
   Here is a list of all talks by {data.speaker} at the Australian
   Category Seminar. 
 </div>

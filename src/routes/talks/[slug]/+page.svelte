@@ -2,7 +2,7 @@
  export let data;
  import { base } from '$app/paths';
 </script>
-<div class="bg-sand-light px-2.5 py-2 mt-2">
+<div class="bg-sand-light px-2.5 py-2 -mt-1">
   <h2 class="font-bold text-red">{data.title}</h2>
   <div>
     <a class="hover:text-red" href="{base}/speakers/{encodeURIComponent(String(data.speaker))}">{data.speaker}</a><span class="mx-1" />·<span class="mx-1" />{data.humanDate}
