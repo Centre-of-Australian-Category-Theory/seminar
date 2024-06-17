@@ -1,0 +1,5 @@
+@import '@fontsource-variable/work-sans/wght-italic.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

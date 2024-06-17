@@ -1,0 +1,102 @@
+.small-caps {
+    font-variant: all-small-caps;
+}
+
+.text-red {
+    color: #A6192E;
+}
+
+.text-charcoal {
+    color: #373A36;
+}
+
+.text-sand-light {
+    color: #EDEBE5;
+}
+
+.text-purple {
+    color: #80225F;
+}
+
+.text-deep-red {
+    color: #76232F;
+}
+
+.text-bright-red {
+    color: #D6001C;
+}
+
+.text-magenta {
+    color: #C6007E;
+}
+
+.text-success {
+    color: #009174;
+}
+
+.text-alert {
+    color: #BC4700;
+}
+
+.text-information {
+    color: #415364;
+}
+
+.text-sand {
+    color: #D6D2C4;
+}
+
+.text-dark-purple {
+    color: #6F1D46;
+}
+
+
+
+
+.bg-red {
+    background-color: #A6192E;
+}
+
+.bg-charcoal {
+    background-color: #373A36;
+}
+
+.bg-sand-light {
+    background-color: #EDEBE5;
+}
+
+.bg-purple {
+    background-color: #80225F;
+}
+
+.bg-deep-red {
+    background-color: #76232F;
+}
+
+.bg-bright-red {
+    background-color: #D6001C;
+}
+
+.bg-magenta {
+    background-color: #C6007E;
+}
+
+.bg-success {
+    background-color: #009174;
+}
+
+.bg-alert {
+    background-color: #BC4700;
+}
+
+.bg-information {
+    background-color: #415364;
+}
+
+.bg-sand {
+    background-color: #D6D2C4;
+}
+
+.bg-dark-purple {
+    background-color: #6F1D46;
+}

@@ -1,0 +1,62 @@
+<script>
+ export let data;
+
+ var years = Object.keys(data.grouped).reverse();
+ var currentyear = years[0];
+
+ function toggleYear(n) {
+   currentyear = n;
+ }
+ function setAll() {
+   currentyear = "All";
+ }
+</script>
+
+<div class="grid grid-cols-16 -mt-1 gap-0.5">
+  {#each years.toReversed() as year}
+    <a class="p-1 text-center text-sm {currentyear == year ? 'bg-red text-sand' : 'bg-sand-light'}"
+       href="javascript:void(0);"
+       on:click={() => toggleYear(year)}>
+      {String(year%100).padStart(2,'0')}
+    </a>
+  {/each}
+  <a class="p-1 text-center text-sm {currentyear == 'All' ? 'bg-red text-sand' : 'bg-sand-light'}"
+     href="javascript:void(0);"
+     on:click={() => setAll()}>
+    All
+  </a>
+</div>
+
+<div class="py-4">
+  Here is a list of past talks given at the Australian Category
+  Seminar. Use the buttons to choose a year. Click on a speaker's name
+  for their other talks.
+</div>
+
+{#each years as year}
+  {#if currentyear == year || currentyear == 'All'}
+    <h2 class="bg-sand px-2.5 py-2 font-bold text-lg">{year}</h2>
+    <div class="flex flex-col gap-1">
+    {#each Object.keys(data.grouped[year]) as date}
+      <div class="rounded w-full bg-sand-light px-2.5 py-2">
+        <div class="mb-1 text-red font-bold">{date}</div>
+        <ul class="flex flex-col gap-0.5">
+          {#each data.grouped[year][date] as talk}
+            <li class="grid grid-cols-4 w-full">
+              <a class="pr-2 hover:text-red" href="/speakers/{encodeURIComponent(String(talk.speaker))}">
+                {talk.speaker}
+              </a>
+              <div class="col-span-3 text-pretty">
+                {talk.title}{#if talk.part}, part {talk.part}{/if}
+                {#if talk.abstract}
+                  <a class="text-deep-red hover:text-red" href="/talks/{talk.abstract}">(abstract)</a>
+                {/if}
+              </div>
+            </li>
+          {/each}
+        </ul>
+      </div>
+    {/each}
+    </div>
+  {/if}
+{/each}
