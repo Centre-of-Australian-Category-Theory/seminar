@@ -5,7 +5,6 @@
  import { browser } from "$app/environment"
  
  var years = Object.keys(data.grouped).reverse();
- var currentyear = years[0];
 
  function toggleYear(n) {
    $currentYear = n;
@@ -14,7 +13,7 @@
    $currentYear = "All";
  }
 
- const currentYear = writable(browser && sessionStorage.getItem("currentYear") && JSON.parse(sessionStorage.getItem("currentYear")) || years[0]);
+ const currentYear = writable((browser && sessionStorage.getItem("currentYear") && JSON.parse(sessionStorage.getItem("currentYear"))) || years[0]);
  currentYear.subscribe(val => {if (browser) sessionStorage.setItem("currentYear", JSON.stringify(val))});
 </script>
 
