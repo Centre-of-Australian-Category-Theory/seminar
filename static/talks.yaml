@@ -915,7 +915,7 @@
   part: 2
   previous: 110
 - id: 112
-  title: Distributed Algorithms
+  title: Distributed algorithms
   speaker: Giulio Katis
   date: 1997-11-19T16:00:00.000Z
   location: Sydney
@@ -926,7 +926,7 @@
   date: 1997-11-26T14:00:00.000Z
   location: Macquarie
   part: 2
-  previous: 113
+  previous: 112
 - id: 114
   title: A characterization of the image of Comod
   speaker: Paddy McCrudden
@@ -11870,7 +11870,7 @@
   date: 2024-06-12T14:00:00.000Z
   location: Macquarie
 - id: 1772
-  title: Weak equivalences between weak omega-categories (Part 2)
+  title: Weak equivalences between weak omega-categories II
   speaker: Soichiro Fujii
   date: 2024-06-19T14:00:00.000Z
   location: Macquarie

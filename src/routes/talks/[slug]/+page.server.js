@@ -15,9 +15,22 @@ export function load({ params }) {
   let talks = yaml.load(fs.readFileSync('static/talks.yaml').toString());
   let talk = talks.find(x => Number(x.id) == Number(params.slug));
 
-  if (talk.abstract)
+  let curtalk = talk;
+  let abstract;
+  while (true) {
+    if (curtalk.abstract) {
+      abstract = curtalk.abstract;
+      break;
+    } else if (curtalk.previous) {
+      curtalk = talks.find(x => Number(x.id) == Number(curtalk.previous));
+    } else {
+      break;
+    }
+  }
+
+  if (abstract)
   {
-    var paragraphs = talk.abstract.split('\n\n');
+    var paragraphs = abstract.split('\n\n');
     talk.abstract = '<p class="pb-3">' + paragraphs.join('</p><p class="pb-3">') + '</p>';
   }
 
