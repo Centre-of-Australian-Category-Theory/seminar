@@ -61,18 +61,18 @@
   date: 1996-08-21T16:00:00.000Z
   location: Sydney
   abstract: |-
-    1. basics of \omega-teisi, don't have precise definition. In particular, dimension raising of composition.
-    2. Delooping: define k-monoidal \omega-tas as \omega-tas with one (k-1)-arrow, and k-monoidal nD tas as (n+k)D tas with one (k-1)-arrow. View as nD tas with extra structure. Inclusion is \Sigma^k.
-    3. Looping: from pointed \omega-tas C, make C(id^k-1_c, id^k-1_c), which is k-monoidal, call this \Omega^k. \Sigma^k -| \Omega^k.
+    1. basics of ω-teisi, don't have precise definition. In particular, dimension raising of composition.
+    2. Delooping: define k-monoidal ω-tas as ω-tas with one (k-1)-arrow, and k-monoidal nD tas as (n+k)D tas with one (k-1)-arrow. View as nD tas with extra structure. Inclusion is \Sigma^k.
+    3. Looping: from pointed ω-tas C, make C(id^k-1_c, id^k-1_c), which is k-monoidal, call this ω^k. \Sigma^k -| ω^k.
     4. Suspension: underlying functor forgetting k-monoidal structure. Left adjoint to this, giving free k-monoidal structure, is suspension.
-    5. Baez-Dolan's stabilization hypothesis (rephrased for teisi): S: (k+2)-monoidal kD teisi → (k+3)-monoidal kD teisi is iso. proof: follows immediately by checking the dimension raising of (k+3)-monoidal structure. So stabilization *theorem* is easy consequence of basics of \omega-teisi.
-    6. This will be sections 2.6.1 - 2.6.3 of the forthcoming 80+ page paper "Central observations on \omega-teisi".
+    5. Baez-Dolan's stabilization hypothesis (rephrased for teisi): S: (k+2)-monoidal kD teisi → (k+3)-monoidal kD teisi is iso. proof: follows immediately by checking the dimension raising of (k+3)-monoidal structure. So stabilization *theorem* is easy consequence of basics of ω-teisi.
+    6. This will be sections 2.6.1 - 2.6.3 of the forthcoming 80+ page paper "Central observations on ω-teisi".
 - id: 7
   title: On the definition of weak n-categories
   speaker: Michael Batanin
   date: 1996-08-28T14:00:00.000Z
   location: Macquarie
-  abstract: I consider some combinatorial technique to explain the associativity condition for the operads I introduced in my previous talk.  Using this technique I construct a free operad and a universal contractible operad which acts on every weak omega-category.
+  abstract: I consider some combinatorial technique to explain the associativity condition for the operads I introduced in my previous talk.  Using this technique I construct a free operad and a universal contractible operad which acts on every weak ω-category.
   part: 3
   previous: 3
 - id: 8
@@ -88,7 +88,7 @@
   date: 1996-09-04T14:00:00.000Z
   location: Sydney
   abstract: |-
-    I consider in this talk the two dimensional case of the general definition of a weak omega-category (this definition was given in my talks on 14 August 1996 at Macquarie University )  My aim is to demonstrate that the weak 2-categories in the sense of this general definition are bicategories and conversely. 
+    I consider in this talk the two dimensional case of the general definition of a weak ω-category (this definition was given in my talks on 14 August 1996 at Macquarie University )  My aim is to demonstrate that the weak 2-categories in the sense of this general definition are bicategories and conversely. 
 
     For this I investigate thoroughly the structure of contractible 2-operads and prove the following lemma 
 
@@ -113,10 +113,10 @@
   abstract: |-
     1. what is universal property of center of group? Know that dividing by commutator subgroup gives largest quotient that is commutative; does largest commutative subgroup exist? No, because union of commutative groups is not commutative in general. Of course, this is nothing but saying that the inclusion of commutative groups into groups has a left adjoint, but not a right adjoint.
     2. observing a group is a category with one object, recognize an element of the center as a natural transformation id -> id. want to use this as basis for general definition of center.
-    3. short recall of basics of k-monoidal omega-teisi. q-transformations as maps of degree q and as functors C tensor 2_q -> D. Formal reindexing via Omega and Sigma.
-    4. for k-monoidal omega-tas C, define its k-center by Z_k (C) = Omega^k (omega-Teisi (Sigma^k C, Sigma^k C)). Low dimensional elements are identity transformations, higher dimensional elements are transformations between those.
+    3. short recall of basics of k-monoidal ω-teisi. q-transformations as maps of degree q and as functors C tensor 2_q -> D. Formal reindexing via Ω and Sigma.
+    4. for k-monoidal ω-tas C, define its k-center by Z_k (C) = Ω^k (ω-Teisi (Sigma^k C, Sigma^k C)). Low dimensional elements are identity transformations, higher dimensional elements are transformations between those.
     5. compare this with known definition of center of a monoidal category, where an object of the center is a pair (A, R_A,-): canonical projection Z_k (C) -> C by evaluation at the unique object of Sigma^k C, which explains the A, and q-transformation Sigma^k C tensor 2_q -> Sigma^k C induces, via a quite complicated construction called ``localization of transformations', a q-transformation C tensor 2_q C, which explains the R_A,-. This gives description of elements of k-center of C as element of C + transformation.
-    6. This will be sections 2.5.5 and 2.7 of the forthcoming 80+ page paper "Central observations on \omega-teisi".
+    6. This will be sections 2.5.5 and 2.7 of the forthcoming 80+ page paper "Central observations on ω-teisi".
 - id: 12
   title: The Book Part I, or Let's meet a quantum group
   speaker: Carolyn Kennett
@@ -186,13 +186,13 @@
   date: 1996-10-23T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    The subject of this talk was a construction of some categorical base for the development of the theory of omega-operads and weak omega-categories. This work was motivated by the necessity to clarify the definition of weak omega-category and to have a possibility to develop a sort of "internal" weak omega-category theory. 
+    The subject of this talk was a construction of some categorical base for the development of the theory of ω-operads and weak ω-categories. This work was motivated by the necessity to clarify the definition of weak ω-category and to have a possibility to develop a sort of "internal" weak ω-category theory. 
 
     For this one can try to define a sort of natural environment where the further constructions will  be developed.  It turns out that an appropriate enviroment is the theory of monoidal globular categories. 
 
     A  monoidal globular  category  is a sequence of categories together with source and target functors satisfying the same conditions as the wellknown source and target functions for  globular sets. We can also compose (in the sense of a $k$-th composition) a pair of objects if the $k$-source of one object coincides with $k$-target of another. There are also the functors which play the role of "weak units" for these compositions. The compositions must be `weakly associative' and `weakly inerchangeable`. There are also the coherence laws for these isomorphisms. A globular monoidal category is said to be strict if all these isomorphisms are identities. We have also the constructions of  free monoidal and strict free monoidal categories. 
 
-    The  examples of monoidal glogular categories were given that include the strict omega-categories, bicategories, braided monoidal and symmetric monoidal categories. There is also a  monoidal globular category of generalized spans, which will play an important role in further development. 
+    The  examples of monoidal glogular categories were given that include the strict ω-categories, bicategories, braided monoidal and symmetric monoidal categories. There is also a  monoidal globular category of generalized spans, which will play an important role in further development. 
 
     A coherence theorem for monoidal globular categories and its applicatins to higher order weak category theory will be the subject of my talk on the next seminar.
 - id: 22
@@ -247,7 +247,7 @@
 
     One can also define  an n-operad  of endomorphisms generated by an ω-globular set (or more generally by a globular object ( i.e. a globular functor from U to C, where U is a terminal globular category) in a monoidal globular category C). Finally, a weak ω-category is an ω-globular set together with a map from a contractible (in a suitable sense) ω-operad to the operad of endomorphisms of this globular set. 
 
-    For example, the strict ω-category are the algebras of a terminal omega-operad. The weak 2-categories are exactly the bicategories and the category of contractible 2-operads is isomorphic to the category of non-symmetric chaotic Cat-operads (this means that we have in every dimension a category which is equivalent to one-object one-arrow category). There exists a universal ω-operad which acts on every weak n-category (including n=ω.) Recently, Clemens Berger suggested to me a construction of a contractible 3-operad whose algebras are Gray-categories. 
+    For example, the strict ω-category are the algebras of a terminal ω-operad. The weak 2-categories are exactly the bicategories and the category of contractible 2-operads is isomorphic to the category of non-symmetric chaotic Cat-operads (this means that we have in every dimension a category which is equivalent to one-object one-arrow category). There exists a universal ω-operad which acts on every weak n-category (including n=ω.) Recently, Clemens Berger suggested to me a construction of a contractible 3-operad whose algebras are Gray-categories. 
 
     The theory of monoidal globular categories allows also the development of the theory of internal weak ω-category and cocategory objects that will be useful for the problem of modelling of homotopy types.
 - id: 27
@@ -293,11 +293,11 @@
   date: 1996-11-20T16:00:00.000Z
   location: Macquarie
   abstract: |-
-    Relevant papers: three of Kapranov and Voevodsky on braided monoidal 2-categories and Zamolodchikov equations, one of mine, Central observations on \omega-teisi, in preparation. The aim of the talk was to explain the Zamolodchikov equation by using teisi, and derive higher-dimensional generalizations as a consequence.    Recalled Yang-Baxter operator, Yang-Baxter system, two proofs of the lemma that in a braided monoidal category the braiding is a YB system, both of them in string diagram and commutative diagram formulation.    Recalled "one-dimensional" Zamolodchikov operator and system, and waved my hands a bit about pulling strings to prove the lemma that in a braided monoidal category the braiding gives a 1-dim Zam system.    In a braided monoidal 2-category the two proofs of YB turn into two cells which are required to be equal: "S+ = S-". The data for a "two-dimensional" Zam system are 1-dim R's and 2-dim S's filling YB hexagons.    To formulate Zam equation, look at how R and S operate on four factors; it turns out that the equation states that the two sides of the 3-dimensional permutohedron are equal.    By investigating 
+    Relevant papers: three of Kapranov and Voevodsky on braided monoidal 2-categories and Zamolodchikov equations, one of mine, Central observations on ω-teisi, in preparation. The aim of the talk was to explain the Zamolodchikov equation by using teisi, and derive higher-dimensional generalizations as a consequence.    Recalled Yang-Baxter operator, Yang-Baxter system, two proofs of the lemma that in a braided monoidal category the braiding is a YB system, both of them in string diagram and commutative diagram formulation.    Recalled "one-dimensional" Zamolodchikov operator and system, and waved my hands a bit about pulling strings to prove the lemma that in a braided monoidal category the braiding gives a 1-dim Zam system.    In a braided monoidal 2-category the two proofs of YB turn into two cells which are required to be equal: "S+ = S-". The data for a "two-dimensional" Zam system are 1-dim R's and 2-dim S's filling YB hexagons.    To formulate Zam equation, look at how R and S operate on four factors; it turns out that the equation states that the two sides of the 3-dimensional permutohedron are equal.    By investigating 
 
     —   —   —   —  /   \ /   \ /   \ /   \ .  D  .  C  .  B  .  A  .  \   / \   / \   / \   /   —   —   —   —   
 
-    in an \omega-tas with one arrow, get a clear and complete picture: in a braided monoidal 2-category the braiding is a Zam system, by taking S either one of the fillings of the YB hexagon (which are equal anyway), there are three different proofs of the Zam equation, which in a braided monoidal Gray-category turn into cells, and it follows from the axioms for \omega-teisi that these cells are equal.    It would also be possible to do things slightly weaker, by having a cell between S+ and S-, and elsewhere, and then there are five different proofs of Zam which again turn into cells. Careful analysis gives a beautiful five-dimensional diagram relating these 3-dim cells.    I gave the decompositions of the permutohedron for the different proofs; the decompositions are the same as Kapranov and Voevodsky give, except that 3 of their 8 don't give a legitimate proof (to wit: only a+++ = +++a, —a = a— and ++-- = --++ are legitimate).    It is now straightforward to define a three-dimensional Zam system as R's, S's and 3-dim T's filling the permutohedron; the 3-dim Zam equation can be summarized by 
+    in an ω-tas with one arrow, get a clear and complete picture: in a braided monoidal 2-category the braiding is a Zam system, by taking S either one of the fillings of the YB hexagon (which are equal anyway), there are three different proofs of the Zam equation, which in a braided monoidal Gray-category turn into cells, and it follows from the axioms for ω-teisi that these cells are equal.    It would also be possible to do things slightly weaker, by having a cell between S+ and S-, and elsewhere, and then there are five different proofs of Zam which again turn into cells. Careful analysis gives a beautiful five-dimensional diagram relating these 3-dim cells.    I gave the decompositions of the permutohedron for the different proofs; the decompositions are the same as Kapranov and Voevodsky give, except that 3 of their 8 don't give a legitimate proof (to wit: only a+++ = +++a, —a = a— and ++-- = --++ are legitimate).    It is now straightforward to define a three-dimensional Zam system as R's, S's and 3-dim T's filling the permutohedron; the 3-dim Zam equation can be summarized by 
 
     —   —   —   —   —  /   \ /   \ /   \ /   \ /   \ .  E  .  D  .  C  .  B  .  A  .   ,  \   / \   / \   / \   / \   /   —   —   —   —   —   
 
@@ -394,7 +394,7 @@
   abstract: |-
     The talk was about the second half of Chapter 3 of my PhD thesis, but with the emphasis on lax-q-transformations and their composition. In particular, I described Michael Johnson's pasting theorem, how, using this, the conditions for a lax-q-transformation can be formulated in terms of realizations of tensor products of globes with globes or with two joined globes, and I gave the mu-composition of lax-q-transformations in terms of triple tensor products of globes. 
 
-    The point is that this composition is dimension-raising in such a way that omega-categories and lax-q-transformations are a, even the, prototypic weak interchange category as Mike was after last week.
+    The point is that this composition is dimension-raising in such a way that ω-categories and lax-q-transformations are a, even the, prototypic weak interchange category as Mike was after last week.
 - id: 43
   title: Using pasting diagrams to represent programs
   speaker: Richard Buckland
@@ -425,11 +425,11 @@
   abstract: |-
     Michael Johnson has been claiming recently that he understands the coherence conditions for associativities and identities. In order to verify that claim, I went through Chapter 4 of his PhD thesis (which is as yet unavailable). 
 
-    (Internal) coherence is about commutativity of formal diagrams of natural transformations, Mike uses pasting schemes to describe coherent situations.   Example: coherence for multiplication m which is associative up to an associator a, pentagon.   A situation consists of a collection of k-dimensional pasting schemes (thought of as ways of multiplying n things) and a collection of singleton (k+1)-dimensional pasting schemes (the things for which one wants to establish coherence), together with a realization, satisfying conditions. The situation is coherent if all (k+1)-dimensional composites with same domain and codomain are equal ("all diagrams of a's commute").   To make the example into a situation, take 2-dimensional simplicial sets and singleton 3-dimensional simplicial sets. One needs a realization of these in an \omega-category, which is taken to be: one object, arrows natural numbers, 2-cells functors Kn -> Km, 3-cells natural transformations, with realization: triangles sent to m, tetrahedra to a.   To prove that all diagrams commute from commutativity of the pentagon, and more generally, to get sufficient conditions for coherence, Mike uses commuting completions of forks, and the well-known no overlap argument.    
+    (Internal) coherence is about commutativity of formal diagrams of natural transformations, Mike uses pasting schemes to describe coherent situations.   Example: coherence for multiplication m which is associative up to an associator a, pentagon.   A situation consists of a collection of k-dimensional pasting schemes (thought of as ways of multiplying n things) and a collection of singleton (k+1)-dimensional pasting schemes (the things for which one wants to establish coherence), together with a realization, satisfying conditions. The situation is coherent if all (k+1)-dimensional composites with same domain and codomain are equal ("all diagrams of a's commute").   To make the example into a situation, take 2-dimensional simplicial sets and singleton 3-dimensional simplicial sets. One needs a realization of these in an ω-category, which is taken to be: one object, arrows natural numbers, 2-cells functors Kn -> Km, 3-cells natural transformations, with realization: triangles sent to m, tetrahedra to a.   To prove that all diagrams commute from commutativity of the pentagon, and more generally, to get sufficient conditions for coherence, Mike uses commuting completions of forks, and the well-known no overlap argument.    
 
     How useful is this theory of coherence in relation to weak n-categories? 
 
-    (Weakly) monoidal n-categories goes via (n+1)-dimensional simplicial sets, as Mike shows.   For Gray-categories with a multiplication K tensor K -> K, the canonical things are pseudo-natural transformations, and the thing to realize in is not an n-category, but some Gray-version of these. If the pasting theorem can be extended to these sort of higher-dimensional categories, then this theory of coherence extends to this situation too.   For bicategories can just take the \omega-category to have more objects and arrows strings of objects, etc., and coherence of the associativity of composition can be dealt with as before.   For tricategories, 0-composition is a homomorphism of bicategories, which is too weak for the present set-up. So need coherence locally and of homomorphisms before can do coherence of 0-composition. This inductive approach is the same as in GPS's "Coherence for tricategories".   Making the identities of the same shape as the multiplication only works in a higher-dimensional category which itself has strict identities.    
+    (Weakly) monoidal n-categories goes via (n+1)-dimensional simplicial sets, as Mike shows.   For Gray-categories with a multiplication K tensor K -> K, the canonical things are pseudo-natural transformations, and the thing to realize in is not an n-category, but some Gray-version of these. If the pasting theorem can be extended to these sort of higher-dimensional categories, then this theory of coherence extends to this situation too.   For bicategories can just take the ω-category to have more objects and arrows strings of objects, etc., and coherence of the associativity of composition can be dealt with as before.   For tricategories, 0-composition is a homomorphism of bicategories, which is too weak for the present set-up. So need coherence locally and of homomorphisms before can do coherence of 0-composition. This inductive approach is the same as in GPS's "Coherence for tricategories".   Making the identities of the same shape as the multiplication only works in a higher-dimensional category which itself has strict identities.    
 
     Conclusion: Mike's approach to associativities and identities has the potential to go quite a long way. What it certainly can not do is relate associativities and identities in more than one dimension at once.
 - id: 47
@@ -495,7 +495,7 @@
   speaker: Ross Street
   date: 1997-03-19T14:00:00.000Z
   location: Macquarie
-  abstract: This was a report on recent work of Michael Batanin. The goal of his work is to provide an environment for defining the concepts associated with weak omega-categories and for developing the ensuing theory. The approach is "globular". The talk was a trial run for two invited lectures at the Conference on Higher Category Theory and Mathematical Physics, Northwestern University (Evanston, Illinois; 28-30 March 1997). All that is correct is Batanin's; all errors are mine.
+  abstract: This was a report on recent work of Michael Batanin. The goal of his work is to provide an environment for defining the concepts associated with weak ω-categories and for developing the ensuing theory. The approach is "globular". The talk was a trial run for two invited lectures at the Conference on Higher Category Theory and Mathematical Physics, Northwestern University (Evanston, Illinois; 28-30 March 1997). All that is correct is Batanin's; all errors are mine.
 - id: 55
   title: Injectivity in locally presentable categories
   speaker: Jiri Adámek
@@ -514,9 +514,9 @@
   date: 1997-03-26T16:00:00.000Z
   location: Sydney
   abstract: |-
-    The talk was based on material from my thesis (available in hard print, and electronically via my papers page), and from the forthcoming 100+ page paper "Central observations on omega-teisi". 
+    The talk was based on material from my thesis (available in hard print, and electronically via my papers page), and from the forthcoming 100+ page paper "Central observations on ω-teisi". 
 
-    I started by giving the definition of omega-category, and describing the nerve and the tensor product, both heuristically by drawing some diagrams in low (
+    I started by giving the definition of ω-category, and describing the nerve and the tensor product, both heuristically by drawing some diagrams in low (
 - id: 58
   title: Zen from three conferences
   speaker: Ross Street
@@ -529,7 +529,7 @@
 
     In relation to (c), John Baez gives a case for higher categories in field theory. Other speakers at Conference #II gave other needs from physics. The needs of knot theory, homotopy theory, algebraic geometry, cohomology theory, etc were well articulated. 
 
-    Good problems bring, with their solutions, more widely applicable techniques. The problem of defining weak n-categories has stimulated two magnificent ideas which I believe will be vastly more applicable than to the problem for which they were devised. These are:    (Baez-Dolan) the "plus construction on typed operads";    (Batanin) the omega-category of trees and the globular set  T*  of a tree  T.   
+    Good problems bring, with their solutions, more widely applicable techniques. The problem of defining weak n-categories has stimulated two magnificent ideas which I believe will be vastly more applicable than to the problem for which they were devised. These are:    (Baez-Dolan) the "plus construction on typed operads";    (Batanin) the ω-category of trees and the globular set  T*  of a tree  T.   
 - id: 59
   title: On property-like structures
   speaker: Steve Lack
@@ -554,11 +554,11 @@
   date: 1997-04-16T16:00:00.000Z
   location: Macquarie
   abstract: |-
-    We all know what natural transformations are. I gave a slightly different viewpoint: the commutativity condition is a higher-dimensional cell which happens to be an identity. In higher dimensions this leads to the notion of transfor, and to the important distinction between naturality and functoriality: the former is a cell relating composites in D, and the latter is an axiom on how composition in C relates to composition in D. Transfors should be composable, leading to an \omega-tas Hom(C,D), and to an \omega-tas \omega-Teisi. There are interesting, unsolved, conceptual problems in this, though. 
+    We all know what natural transformations are. I gave a slightly different viewpoint: the commutativity condition is a higher-dimensional cell which happens to be an identity. In higher dimensions this leads to the notion of transfor, and to the important distinction between naturality and functoriality: the former is a cell relating composites in D, and the latter is an axiom on how composition in C relates to composition in D. Transfors should be composable, leading to an ω-tas Hom(C,D), and to an ω-tas ω-Teisi. There are interesting, unsolved, conceptual problems in this, though. 
 
     I briefly hinted at localizations of transfors: a q-transfor r: C -> D gives rise to a q-transfor C(c,c') -> something which is almost, but not quite, D(r(c),r(c')). 
 
-    This talk was based on sections 2.5.1 and 2.5.3 of the forthcoming 100+ page paper Central observations on \omega-teisi.
+    This talk was based on sections 2.5.1 and 2.5.3 of the forthcoming 100+ page paper Central observations on ω-teisi.
 - id: 62
   title: The 2-category of equipments and adjunctions therein
   speaker: Max Kelly
@@ -577,11 +577,11 @@
   date: 1997-04-30T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    The first half of the talk I explained the mechanics of horizontal composition in \omega-teisi. 
+    The first half of the talk I explained the mechanics of horizontal composition in ω-teisi. 
 
-    In the second half, I explored quasi-functors of two variables in terms of transfors, the corresponding tensor product, and the extent to which this might fail to give a monoidal biclosed structure. Because the conditions for composition in an \omega-tas are exactly the same as the conditions for a quasi-functors of two variables, composition is a functor C tensor C -> C, and composition with a fixed q-cell is a q-transfor. Combining this with the interpretation of tensor as (-1)-composition, one gets that tensors are transfors. 
+    In the second half, I explored quasi-functors of two variables in terms of transfors, the corresponding tensor product, and the extent to which this might fail to give a monoidal biclosed structure. Because the conditions for composition in an ω-tas are exactly the same as the conditions for a quasi-functors of two variables, composition is a functor C tensor C -> C, and composition with a fixed q-cell is a q-transfor. Combining this with the interpretation of tensor as (-1)-composition, one gets that tensors are transfors. 
 
-    This talk was based on sections 2.4, 2.5.2 and 2.6.1 of the forthcoming 100+ page paper Central observations on \omega-teisi.
+    This talk was based on sections 2.4, 2.5.2 and 2.6.1 of the forthcoming 100+ page paper Central observations on ω-teisi.
 - id: 65
   title: On the monadicity of finitary monads
   speaker: Steve Lack
@@ -633,7 +633,7 @@
 
     I prove that every finitary monad A on the category of globular sets generates an appropriate  category of n-computads (for every integer n). If we denote by A(n) the "n-skeleton" of A (this is a monad on the category of n-globular sets) then we have an forgetful functor from the category of A(n)-algebras to the category of n-computads; moreover, this functor has a left adjoint (the construction of the free A(n)-algebra generated by an n-computad is interesting by itself as it uses machinery applicable in many different situations). The counit of this adjunction may be considered as a generalized pasting operation for A(n)-algebras. 
 
-    As examples I consider the following monads on globular sets:    The monad D_s whose algebras are omega-categories. It generates the ordinary notion of n-computad and the usual pasting operation in n-categories.    The monad B on 2-globular sets the algebras of which are bicategories. The corresponding notion of 2-computad is considered. The pasting theorem in this case asserts that the result of pasting  of a 2-dimensional diagram depends only on a bracketing of 1-dimensional skeleton of it (so this is an another proof of a Dominic Verity result).    The monad G on 3-globular sets whose algebras are Gray-categories. The corresponding notion of 3-computad is Gray-computad that M.McIntyre and T.Trimble used in their calculus of progressive 3D-diagrams.   
+    As examples I consider the following monads on globular sets:    The monad D_s whose algebras are ω-categories. It generates the ordinary notion of n-computad and the usual pasting operation in n-categories.    The monad B on 2-globular sets the algebras of which are bicategories. The corresponding notion of 2-computad is considered. The pasting theorem in this case asserts that the result of pasting  of a 2-dimensional diagram depends only on a bracketing of 1-dimensional skeleton of it (so this is an another proof of a Dominic Verity result).    The monad G on 3-globular sets whose algebras are Gray-categories. The corresponding notion of 3-computad is Gray-computad that M.McIntyre and T.Trimble used in their calculus of progressive 3D-diagrams.   
 - id: 72
   title: Small is beautiful – An Introduction to Synthetic Differential Geometry
   speaker: René Lavendhomme
@@ -847,7 +847,7 @@
   location: Macquarie
   abstract: |-
     In my previous talk, Max reminded me that there are precisely two monoidal biclosed structures on Cat: the cartesian product, and what Ross calls the "funny" tensor product. Enriching over these gives 2-categories and sesqui- categories respectively. One can envisage a generalization of this to higher dimensions, with more monoidal structures, e.g. Gray's tensor product of 2-categories, and with more ways of enriching, e.g. some sort of "weak" enrichment, e.g. one which should give bicategories and tricategories when enriched.
-    This led to the following tentative heuristic hypothetical diagram of higher-dimensional categorical structures, where the lines indicate enriching over possible tensor products:                                                        Sets                                                       |                                   --                 Cat     -   --                                  /                    |   \   \    \                      -   Sesqui-Cat       --       2-Cat           Bicat                     /    / |             /            |          /  |      \                  .            -      3-Cat       Gray-Cat               Tricat                /             /    /    |  \     /     |   \           /   |   \              .                  .                     .                          .            /                  /                       |                            \ proto-Teisi/NIC   . . .   omega-Cat    . . .    omega-Teisi      . . . .        weak-omega-Cat   The following small parts of this diagram have hitherto be considered: up to sesqui-categories, the whole line to omega-categories, and the Gray-tensor on it (see Chapter 3 of my PhD thesis), up to 4D teisi (with the results in this series of talks), and the named structures in the right hand line of the diagram. 
+    This led to the following tentative heuristic hypothetical diagram of higher-dimensional categorical structures, where the lines indicate enriching over possible tensor products:                                                        Sets                                                       |                                   --                 Cat     -   --                                  /                    |   \   \    \                      -   Sesqui-Cat       --       2-Cat           Bicat                     /    / |             /            |          /  |      \                  .            -      3-Cat       Gray-Cat               Tricat                /             /    /    |  \     /     |   \           /   |   \              .                  .                     .                          .            /                  /                       |                            \ proto-Teisi/NIC   . . .   ω-Cat    . . .    ω-Teisi      . . . .        weak-ω-Cat   The following small parts of this diagram have hitherto be considered: up to sesqui-categories, the whole line to ω-categories, and the Gray-tensor on it (see Chapter 3 of my PhD thesis), up to 4D teisi (with the results in this series of talks), and the named structures in the right hand line of the diagram. 
 
     I proved that the tensor product of Gray-categories defined a couple of talks ago is associative, via a presentation for the triple tensor. See sections 6 and 7 of the paper "A tensor product for Gray-categories". 
 
@@ -865,7 +865,7 @@
   speaker: Michael Batanin
   date: 1997-10-22T14:00:00.000Z
   location: Sydney
-  abstract: 'This talk was based on my impressions of the Montreal conference in September 1997 (Billfest), especially the talks and conversations about higher dimensional category theory. So there were 3 subjects I was talking about:    The categories of disks and trees of A.Joyal.    The category BigOmega as proposed by R.Street. The result is: Bigomega is the generic monoidal globular category containing a globular monoid.     C.Hermida''s construction of a bicategory  Span_H ( where H is a shape or cartesian monad ) and how to get the higher order operads in my sense from this construction (this result was obtained in the conversations of A.Joyal and R.Street and independently by T.Leinster).   '
+  abstract: 'This talk was based on my impressions of the Montreal conference in September 1997 (Billfest), especially the talks and conversations about higher dimensional category theory. So there were 3 subjects I was talking about:    The categories of disks and trees of A.Joyal.    The category BigΩ as proposed by R.Street. The result is: Bigω is the generic monoidal globular category containing a globular monoid.     C.Hermida''s construction of a bicategory  Span_H ( where H is a shape or cartesian monad ) and how to get the higher order operads in my sense from this construction (this result was obtained in the conversations of A.Joyal and R.Street and independently by T.Leinster).   '
   part: 1
 - id: 104
   title: Circuits and feedback
@@ -955,7 +955,7 @@
     A q-transfor is a functor C tensor 2_q -> D.
     A k-monoidal (n-dimensional) tas is a ((k+n)-dimensional) tas with one (k-1)-arrow (and hence with one i-arrow for every i  Sigma (C). Fixing an object A of C gives a transfor R_{A,-}: Sigma (C) tensor 2_1 -> Sigma (C). I indicated how, for braided 2-categories, this induces a transfor A tensor - -> - tensor A: C -> C. Similarly, an arrow f of C gives a 2-transfor R_{f,-}: Sigma (C) tensor 2_2 -> Sigma (C), which again induces a 2-transfor C tensor 2_1 -> C. There are problems in generalizing this to braidings on higher-dimensional teisi, however. 
 
-    Another way: by definition, a braiding is a functor R: Sigma (C) tensor Sigma (C) -> Sigma (C). Does it induce a transfor C tensor C -> C? It does for braided 2-categories, but not trivially. In higher dimensions, the question becomes whether there is a canonical relation between Omega (2_p tensor 2_q) (where Omega should be some extension of the above Omega to diagrams) and 2_{p-1} tensor 2_{q-1} tensor 2_1, which seems to me an interesting question in its own, topological, right. 
+    Another way: by definition, a braiding is a functor R: Sigma (C) tensor Sigma (C) -> Sigma (C). Does it induce a transfor C tensor C -> C? It does for braided 2-categories, but not trivially. In higher dimensions, the question becomes whether there is a canonical relation between Ω (2_p tensor 2_q) (where Ω should be some extension of the above Ω to diagrams) and 2_{p-1} tensor 2_{q-1} tensor 2_1, which seems to me an interesting question in its own, topological, right. 
 
     Conclusion: the usual definition of a braiding (e.g. as in Generalized centers of braided and sylleptic monoidal 2-categories) indeed corresponds to the definition from the teisi point of view. However, the latter definition should be regarded as more fundamental, and is indicated in higher dimensions.
 - id: 118
@@ -963,7 +963,7 @@
   speaker: George Janelidze
   date: 1998-01-07T16:00:00.000Z
   location: Macquarie
-  abstract: This is joint work with D.Bourn. Eilenberg - Mac Lane theory of group exnetsions is extended to protomodular categories in the sense of D.Bourn, using J.Beck's theory of torsors. A new syntactical description of protomodular varieties helps to construct various examples and establish the relationship with M.Barr - G.Orzech theory of extensions of omega-groups.
+  abstract: This is joint work with D.Bourn. Eilenberg - Mac Lane theory of group exnetsions is extended to protomodular categories in the sense of D.Bourn, using J.Beck's theory of torsors. A new syntactical description of protomodular varieties helps to construct various examples and establish the relationship with M.Barr - G.Orzech theory of extensions of ω-groups.
   part: 1
 - id: 119
   title: On free (enriched) categories with a class of colimits
@@ -1059,7 +1059,7 @@
   date: 1998-03-11T16:00:00.000Z
   location: Sydney
   abstract: |-
-    I want a conceptual machine which, when you input a decent category E, outputs a mathematical structure  M(E).  Input  Set  and you should get "monoid".  Input the category of globular sets and you should get "omega-category". 
+    I want a conceptual machine which, when you input a decent category E, outputs a mathematical structure  M(E).  Input  Set  and you should get "monoid".  Input the category of globular sets and you should get "ω-category". 
 
     For this purpose, the mathematical structure  M(E)  can be identified with an endofunctor of (monad on)  E.  When the machine is applied to the category  Set,  the endofunctor should be "words in" (that is,  t(x) = the set of words in the alphabet  x).  When the category is globular sets, the endofunctor should be "trees labelled in" (that is, Batanin's functor  D_s). 
 
@@ -1100,7 +1100,7 @@
 
     The basic principles for higher dimensional Gray-categorical structures are: horizontal composition is dimension raising, governed by the topological product of globes, axioms will be functoriality and associativity, labeled by ``elementary' pasting schemes (or, equivalently, trees), heuristically axiom equates ``most economical decomposition' with ``most uneconomical decomposition'. 
 
-    In practice, a 5-dimensional tas consists of a graded set (C_i)_i together with operations n-source, n-target: C_i -> C_n, n-composition: C_q x_n C_p -> C_{p+q+n-1}, and identity C_i -> C_{i+1}, such that source, target, vertical composition (i.e., where one of p, q is n+1, so this includes whiskering) and identity behave as in an omega-category, and such that horizontal composition behaves as follows:    for c' and c n-composable, with source (c)=a and target (c')=a' say, the faces of c' comp_n c are given as a certain composites in C (a, a'). For example, for p=q=3 and n=0 the diagram is as on page 13 of [tpgc] (but with different labeling), and involves other horizontal composites, and their inverses.    functoriality: for example,     --  /  \ — .—-.   .  \  / —   --   gives rise to d comp_0 (c' comp_1 c) = (d comp_0 c') whiskerandcomp_1 (d comp_0 c). This becomes very complicated in higher dimensions (I gave a 5-dimensional example on a slide), involving more horizontal composites and their inverses, and involving lower-dimensional axioms, to make both sides close up. Sometimes it only involves lower-dimensional axioms, in which case it holds trivially.    associativity: for example,     —   —   — .     .     .     .   —   —   —   gives rise to the familiar Yang-Baxter diagram.    interchange: does not follow automatically, and needs to be included.    also need functorio-associativity, arising from         --  — /  \ — .   .—-.   .  ,  — \  / —       --   cf. the diagram on page 46 of [tpgc], and functorio-functoriality.    
+    In practice, a 5-dimensional tas consists of a graded set (C_i)_i together with operations n-source, n-target: C_i -> C_n, n-composition: C_q x_n C_p -> C_{p+q+n-1}, and identity C_i -> C_{i+1}, such that source, target, vertical composition (i.e., where one of p, q is n+1, so this includes whiskering) and identity behave as in an ω-category, and such that horizontal composition behaves as follows:    for c' and c n-composable, with source (c)=a and target (c')=a' say, the faces of c' comp_n c are given as a certain composites in C (a, a'). For example, for p=q=3 and n=0 the diagram is as on page 13 of [tpgc] (but with different labeling), and involves other horizontal composites, and their inverses.    functoriality: for example,     --  /  \ — .—-.   .  \  / —   --   gives rise to d comp_0 (c' comp_1 c) = (d comp_0 c') whiskerandcomp_1 (d comp_0 c). This becomes very complicated in higher dimensions (I gave a 5-dimensional example on a slide), involving more horizontal composites and their inverses, and involving lower-dimensional axioms, to make both sides close up. Sometimes it only involves lower-dimensional axioms, in which case it holds trivially.    associativity: for example,     —   —   — .     .     .     .   —   —   —   gives rise to the familiar Yang-Baxter diagram.    interchange: does not follow automatically, and needs to be included.    also need functorio-associativity, arising from         --  — /  \ — .   .—-.   .  ,  — \  / —       --   cf. the diagram on page 46 of [tpgc], and functorio-functoriality.    
 
     Problem 1: how to determine where horizontal composites occur in the faces of a composite and in the axioms, and which direction they have.
     Problem 2: how to prove that all axioms close up.
@@ -1910,7 +1910,7 @@
     As a corollary, a globular collection amounts to a globular functor L -→ cospan(tr) where L is a globular set. One can now recognise Batanin collections as such globular functors whose image consists of cospans that are canonical in a certain sense.
   part: 1
 - id: 253
-  title: Pénon's 5-minute definition of weak omega-category
+  title: Pénon's 5-minute definition of weak ω-category
   speaker: Michael Batanin
   date: 1999-09-22T16:00:00.000Z
   location: Macquarie
@@ -2196,7 +2196,7 @@
   date: 2000-08-30T14:00:00.000Z
   location: Sydney
 - id: 303
-  title: On the cellular nerves of omega-categories
+  title: On the cellular nerves of ω-categories
   speaker: Ross Street
   date: 2000-08-30T16:00:00.000Z
   location: Sydney
@@ -2676,12 +2676,12 @@
   location: Macquarie
   abstract: "A category B is said to be path-linearizable [BN, BF] if it satisfies an ``interval glueing condition'. The latter (IG) is seen to be equivalent to the conjunction of two independent properties, namely (C) ``cancellation' and (FI) ``factorization lifting'.  Examples of path-linearizable categories are: any category free on a directed graph (in particular, the additive monoid N of natural numbers) and the additivive monoid R+ of non-negative real numbers.  It is proved in [BN] (see also [BF]) that over a path-linearizable category B, the category UFL/B of unique factorization lifting functors over B is a Grothendieck topos. \n\nThe history of the above mentioned Bunge-Niefield theorem [BN] (Theorem 4.5) is a comedy of errors.  It had been claimed (with a sketchy proof) by F. Lamarche [Lam] that for any small category B, the category UFL/B of unique factorization lifting functors (or of discrete ConduchÃ© fibrations [C] but also [G]) is (always) a topos.  This claim remained undisputed (at best, ignored) for several years.  In a preliminary version to [BN], submitted to P. T. Johnstone (as editor) for the Journal of Pure and Applied Algebra, Bunge and Niefield showed that the Lamarche claim was equivalent to the existence of a right adjoint to the canonical inclusion of UFL/B→Cat/B thus making UFL/B into a ``model-generated category' [N] and hence (in this case, also) a topos, which we then proceeded to ``prove'.  The statement, in this form, was shown by the said editor to be false, by exhibiting a counterexample (the independence square to the fact that UFL/B is in general a coreflective subcategory of Cat/B.  This led us to immediately locate the gap in our proof and to introduce accordingly the condition (IG) to repair it.  It also led the editor to publish his remarks in [J] even before our paper [BN] could appear in print.  An alternate proof, examining the role of each of the two conditions (C) and (FI) was then given in [BF], profitting this time partly from some useful remarks made in [J]. \n\nIn this talk I intend to add some new remarks to what is \\tcontained in [BN] and [BF], to wit: \n\nEstablish the validity of an ``ambush/UFL' \\tfactorization in the context of path-linearizable categories, \\tbased on comprehension for a suitable fibration with $\\Sigma$ \\tand a terminal T,    Relate the path-linearizable categories to the \\tMÃ¶bius categories of [CLL] and give a combinatorial \\tcharacterization of UFL functors in terms of homomorphisms of \\tincidence algebras, and    Discuss the notion of category of processes that arises \\tfrom assuming the existence of a ``duration' (or length, or \\tshape) functor on the control (or configuration) category, in \\tconnection with [Law],    Pose some questions regarding the 2-dimensional \\tanalogues of the UFL functors as defined in [S], and also \\tregarding the version of the UFL functors for geometric \\tmorphisms introduced in [BN].    \n\n\\tDiscussions with Ross Street and Bill Lawvere are gratefully \\tacknowledged. \n\n\\tBibliography: \n\n[BF]M. Bunge and M. Fiore, Unique factorization lifting functors \\tand categories of linearly-controlled processes, Math. \\tStr. in Comp. Sci. 10 (2000) 137-163. \n[BN]\\tM. Bunge and S.B. Niefield, Exponentiability and single \\tuniverses, J.Pure Appl. Algebra 148-3 (2000) \\t217-250. \n[C]\\tF. ConduchÃ©, Au sujet de l'existence d'adjoints Ã\_ \\tdroÃ®te aux foncteurs ``image reciproque' dans la \\tcatÃ©gorie des cetÃ©gories, C.R.Acad. Sci. Paris \\t275 (1972) A891-894. \n[CLL]\\tM. Content, F. Lemay and P. Leroux, CatÃ©gories de \\tMÃ¶bus et fonctorialitÃ©s: un cadre gÃ©nÃ©ral pour \\tl'inversion de MÃ¶bius, J. Combinatorial Theory \\tSeries A 28 (1980) 169-190. \n[FK]    P. Freyd and G.M. Kelly, Categories of continuous functors I, \\tJ. Pure Appl. Alg 2 (1972) 169-191.  Erratum: \\tJ. Pure Appl. Alg 4 (1974) 121. \n[G]\\tJ. Giraud, MÃ©thode de la descente, Bull. Math. \\tSoc. Memoire 2, 1964. \n[J]\\tP.T. Johnstone, A note of discrete ConduchÃ© fibrations, \\tTheory and Application of categories 5 (1999) \\t1-11. \n[Lam]\\tF. Lamarche, On a new class of toposes, Unpublished lecture, \\tPSSL Utrecht (1996). \n[Law]\\tF.W. Lawvere, State categories and response functors, \\tUnpublished manuscript (1986). \n[Mac]\\tS. MacLane, Categories for the Working Mathematician, \\tSpringer-Verlag, 1971. \n[N]\\tS.B. Niefield, Cartesianess, Ph.D. thesis, Rutgers \\tUniversity, 1978. \n[S]\\tR. Street, Categorical structures, in : Handbook of \\tAlgebra 1, North-Holland, 1998, 529-577. \n[SW]\\tR. Street and R.F.C. Walters, The comprehensive \\tfactorization of a functor, Bull. Amer. Math. Soc. \\t79 (1973) 936-941."
 - id: 369
-  title: Weak omega-categories
+  title: Weak ω-categories
   speaker: Ross Street
   date: 2001-09-05T16:00:00.000Z
   location: Macquarie
   abstract: |-
-    Recently I have revisited my original approximation to a definition of "weak omega-category" (as a simplicial set with extra structure) trying to remember some of the things I have thought of since those days. The main thing I want to report is a method of constructing the thin elements from the mere simplicial set so that being a weak omega-category becomes a property of a simplicial set rather than involving extra structure. I have many conjectures. 
+    Recently I have revisited my original approximation to a definition of "weak ω-category" (as a simplicial set with extra structure) trying to remember some of the things I have thought of since those days. The main thing I want to report is a method of constructing the thin elements from the mere simplicial set so that being a weak ω-category becomes a property of a simplicial set rather than involving extra structure. I have many conjectures. 
 
     For more details, see my preprint of the same title.
 - id: 370
@@ -2981,7 +2981,7 @@
   abstract: |-
     While James Dolan was visiting Macquarie he convinced me that (two-sided) modules for the terminal monoid in the monoidal category Set/N,  with substitution tensor product, are precisely monoidal functors from the opposite of the algebraic simplicial category (with ordinal sum) to Set  (with cartesian product).  Alexei Davydov rediscovered the result and asked me whether I had a conceptual reason for it.  This topic grew out of that question. 
 
-    \tThe importance of considering such (two-sided) modules comes from Batanin's idea [appearing in "Monoidal globular categories as a natural environment for the theory of weak  n-categories", Advances in Math  136 (1998) 39-103]  that morphisms of weak omega-categories are definable using a deformation of the identity module of the higher operad  K  for weak omega-categories.  
+    \tThe importance of considering such (two-sided) modules comes from Batanin's idea [appearing in "Monoidal globular categories as a natural environment for the theory of weak  n-categories", Advances in Math  136 (1998) 39-103]  that morphisms of weak ω-categories are definable using a deformation of the identity module of the higher operad  K  for weak ω-categories.  
 
     \tMonoids in the substitution monoidal category  Set/N  are of course (not-necessarily-symmetric) operads.  [The terminal monoid is the operad for monoids.]  An operad is a substitude structure on the terminal category  1  (see Day-Street "Abstract substitution in enriched categories" available on my publication web site). Generalizing the fact that each operad gives rise to a strict monoidal category (the PROP without the second "P" for permutations), each substitude  B  gives rise to a strict monoidal category  B^*. There is also a standard convolution lax monoidal structure on the functor category  [A, Set]  for any substitude  A.  Recall from Day-Street "Lax monoids, pseudo-operads, and convolution, Contemporary Mathematics (to appear)" that substitudes are monads in an appropriate Kleisli bicategory, so the notion of "bimodule" between substitudes has a straightforward meaning.  I claim that such a module from the substitude  A  to the substitude  B  is a morphism (B*)op→[A,Set] of lax monoidal categories (where  (B*)op has the lax monoidal structure coming from the strict monoidal B*  while  [A,Set]  has the standard convolution structure. This generalizes Dolan's observation.  A conceptual reason for this generalization begins with the observation that B*  is obtained by the Kleisli construction for a certain monad on the free strict monoidal category on  B  in a suitable module bicategory of lax monoidal categories.
 - id: 416
@@ -3666,12 +3666,12 @@
   date: 2004-06-30T14:00:00.000Z
   location: Macquarie
 - id: 523
-  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of omega-categories
+  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of ω-categories
   speaker: Dominic Verity
   date: 2004-07-28T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    The primary purpose of this work is to characterise strict \omega-categories as simplicial sets with structure. We prove the Street-Roberts conjecture which states that they are exactly the ``complicial sets' defined and named by John Roberts in his handwritten notes of that title. 
+    The primary purpose of this work is to characterise strict ω-categories as simplicial sets with structure. We prove the Street-Roberts conjecture which states that they are exactly the ``complicial sets' defined and named by John Roberts in his handwritten notes of that title. 
 
     The slides for the talks are available as a pdf file. 
 
@@ -3683,7 +3683,7 @@
   date: 2004-07-28T16:00:00.000Z
   location: Macquarie
 - id: 525
-  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of omega-categories
+  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of ω-categories
   speaker: Dominic Verity
   date: 2004-08-04T14:00:00.000Z
   location: Macquarie
@@ -3700,7 +3700,7 @@
   date: 2004-08-18T14:00:00.000Z
   location: Macquarie
 - id: 528
-  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of omega-categories
+  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of ω-categories
   speaker: Dominic Verity
   date: 2004-08-18T16:00:00.000Z
   location: Macquarie
@@ -3712,7 +3712,7 @@
   date: 2004-08-25T14:00:00.000Z
   location: Macquarie
 - id: 530
-  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of omega-categories
+  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of ω-categories
   speaker: Dominic Verity
   date: 2004-08-25T16:00:00.000Z
   location: Macquarie
@@ -3729,19 +3729,19 @@
   date: 2004-09-01T16:00:00.000Z
   location: Macquarie
 - id: 533
-  title: Dendrotopic sets for weak omega-categories
+  title: Dendrotopic sets for weak ω-categories
   speaker: Thorsten Palm
   date: 2004-09-08T14:00:00.000Z
   location: Sydney
 - id: 534
-  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of omega-categories
+  title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of ω-categories
   speaker: Dominic Verity
   date: 2004-09-08T16:00:00.000Z
   location: Sydney
   part: 5
   previous: 530
 - id: 535
-  title: Dendrotopic sets for weak omega-categories II
+  title: Dendrotopic sets for weak ω-categories II
   speaker: Thorsten Palm
   date: 2004-09-15T14:00:00.000Z
   location: Macquarie
@@ -4144,7 +4144,7 @@
   date: 2005-10-26T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    Our intuition that the theory of weak complicial sets is really some kind of weak omega-category theory leads us to hope that these structures behave as if they were quasi-categories enriched in weak complicial sets. We make this intuition precise and discuss some of the theory of these latter structures. 
+    Our intuition that the theory of weak complicial sets is really some kind of weak ω-category theory leads us to hope that these structures behave as if they were quasi-categories enriched in weak complicial sets. We make this intuition precise and discuss some of the theory of these latter structures. 
 
     Just as the theory of 2-categories is illuminated by regarding them as certain kinds of categories internal to Cat (vertically discrete double categories), it is convenient here to study the theory of quasi-categories internal to a combinatorial and complicially enriched Quillen model category. We generalise the theory of categorical discrete fibrations to this context and use it to provide motivation for a Yoneda embedding style coherence theorem which demonstrates that every weak complicial set enriched quasi-category may be replaced (up to weak equivalence) by a (strictly) enriched category. 
 
@@ -4945,7 +4945,7 @@
   abstract: |-
     It is generally held that the totality of all n-manifolds (with corners) should support a canonical weak n-categorical structure, under which all composites of cells are describable as "gluings" of manifolds along common boundary components.  At low dimensions, not only do we know that this is indeed the case, but we also know how to describe free weak 2- or 3-categories in terms of such higher categories of "cobordisms embedded in cubes". 
 
-    In this talk we describe how to build a weak complicial set (qua simplicial weak \omega-category) Cob^k, whose n-simplices correspond to embeddings of manifolds of some fixed co-dimension k into the geometric n-simplex.  Here we work in the PL-category in order to avoid some of the technicalities involved when working with manifolds with corners in the smooth setting. However, it is likely that our main results bear direct translation to that latter context. 
+    In this talk we describe how to build a weak complicial set (qua simplicial weak ω-category) Cob^k, whose n-simplices correspond to embeddings of manifolds of some fixed co-dimension k into the geometric n-simplex.  Here we work in the PL-category in order to avoid some of the technicalities involved when working with manifolds with corners in the smooth setting. However, it is likely that our main results bear direct translation to that latter context. 
 
     From the point of view of the theory of weak complicial sets, Cob^k is an interesting structure for a number of reasons. Firstly, its underlying simplicial set is a Kan complex. Secondly, it possess a stratification which makes it into a weak complicial set but which is non-trivially distinct from the "all simplices are thin" structure that comes with Kan-ness. Finally, we have strong reasons to conjecture that this non-trivial complicial stratification can be extended, by making thin all simplices which are "morally" equivalences, to a complicial stratification whose thin simplices bear a characterisation in terms of simple homotopy equivalences (and which are thus s-cobordism-like).
   part: 1
@@ -5099,7 +5099,7 @@
   speaker: Dominic Verity
   date: 2008-07-23T14:00:00.000Z
   location: Macquarie
-  abstract: A few months ago we embarked on a journey to discover how certain kinds of simplicial weak omega-categories (weak complicial sets) could be built to support the algebra of cobordisms. At that time, the activities of the semester interrupted these ruminations. In this talk (and the next) we return to this topic, review the fundamental constructions involved and push on to study the kinds of equivalence that arise in such structures. This latter analysis reveals a family of nested thinness notions (stratifications) each one of which makes the simplicial set of cobordisms into a weak complicial set.
+  abstract: A few months ago we embarked on a journey to discover how certain kinds of simplicial weak ω-categories (weak complicial sets) could be built to support the algebra of cobordisms. At that time, the activities of the semester interrupted these ruminations. In this talk (and the next) we return to this topic, review the fundamental constructions involved and push on to study the kinds of equivalence that arise in such structures. This latter analysis reveals a family of nested thinness notions (stratifications) each one of which makes the simplicial set of cobordisms into a weak complicial set.
   part: 1
 - id: 763
   title: Filtered operads
@@ -5464,7 +5464,7 @@
   abstract: |-
     In the literature one can find a number of different limit notions which one might refer to as a "descent construction". Genrally speaking, these may all be regarded as a kind of lax, pseudo or homotopy limit of a cosimplicial diagram of objects in some theory of "spatially enriched" categories. While each of these notions certainly deserves to bear the descent name, it is not necessarily immediately clear how they may be related in any more specific mathematical sense. 
 
-    Recently I was asked by Urs Schreiber if I knew how a couple of these descent notions might be related formally, and so spent a little time contemplating this problem. My hope is that this talk might achieve two things, firstly I hope to provide a little of the intuition which leads us to define and study such descent constructions. Then I would like to discuss a specific answer to Urs' question, which gives a precise relationship between Ross Street's descent construction for strict omega-categories (or more precisely strict omega-groupoids in this case) and the simplicial descent construction used to characterise the fibrant objects in model categories of simplicial sheaves.
+    Recently I was asked by Urs Schreiber if I knew how a couple of these descent notions might be related formally, and so spent a little time contemplating this problem. My hope is that this talk might achieve two things, firstly I hope to provide a little of the intuition which leads us to define and study such descent constructions. Then I would like to discuss a specific answer to Urs' question, which gives a precise relationship between Ross Street's descent construction for strict ω-categories (or more precisely strict ω-groupoids in this case) and the simplicial descent construction used to characterise the fibrant objects in model categories of simplicial sheaves.
   part: 1
 - id: 822
   title: On tensor product of A_{∞}-categories, E_n-algebras and higher categories
@@ -6029,7 +6029,7 @@
   part: 2
   previous: 914
 - id: 917
-  title: Type theory, weak omega-categories, and all that
+  title: Type theory, weak ω-categories, and all that
   speaker: Richard Garner
   date: 2010-12-08T14:00:00.000Z
   location: Macquarie
@@ -6337,7 +6337,7 @@
   date: 2011-09-07T16:00:00.000Z
   location: Macquarie
 - id: 968
-  title: An algebraic approach to weak omega groupoids
+  title: An algebraic approach to weak ω groupoids
   speaker: Camell Kachour
   date: 2011-09-14T14:00:00.000Z
   location: Macquarie
@@ -6817,11 +6817,11 @@
   location: Macquarie
   part: 1
 - id: 1043
-  title: The importance of omega-operad of coendomorphism in Higher Category Theory
+  title: The importance of ω-operad of coendomorphism in Higher Category Theory
   speaker: Camell Kachour
   date: 2012-08-29T16:00:00.000Z
   location: Macquarie
-  abstract: 'Two years ago I have pointed out the importance of omega-operad of coendomorphism to describe the weak omega category of the weak omega categories, up to a "contractibility hypothesis". In fact this technology of omega-operads of coendomorphism can be adapted for many higher structures, without any hypotheses : For instance we are going to describe the omega-graph of the omega-graphs, the reflexive omega-graphs of the reflexive omega-graphs, the omega-magma of the omega-magmas, and the reflexive omega-magma of the reflexive omega-magmas, all that by using the same technology, where omega-operads of coendomorphism play a central role.'
+  abstract: 'Two years ago I have pointed out the importance of ω-operad of coendomorphism to describe the weak ω category of the weak ω categories, up to a "contractibility hypothesis". In fact this technology of ω-operads of coendomorphism can be adapted for many higher structures, without any hypotheses : For instance we are going to describe the ω-graph of the ω-graphs, the reflexive ω-graphs of the reflexive ω-graphs, the ω-magma of the ω-magmas, and the reflexive ω-magma of the reflexive ω-magmas, all that by using the same technology, where ω-operads of coendomorphism play a central role.'
   part: 1
 - id: 1044
   title: Tangent structures
@@ -6831,7 +6831,7 @@
   part: 2
   previous: 1042
 - id: 1045
-  title: The importance of omega-operad of coendomorphism in Higher Category Theory
+  title: The importance of ω-operad of coendomorphism in Higher Category Theory
   speaker: Camell Kachour
   date: 2012-09-05T16:00:00.000Z
   location: Macquarie
@@ -6993,11 +6993,11 @@
   part: 3
   previous: 1066
 - id: 1070
-  title: Can topological weak equivalences be seen as equivalences of weak omega-categories?
+  title: Can topological weak equivalences be seen as equivalences of weak ω-categories?
   speaker: Remy Tuyeras
   date: 2013-02-20T14:00:00.000Z
   location: Macquarie
-  abstract: In this talk, we will see how to relate a topological weak equivalence to an equivalence of weak omega-categories. In particular, this suggests a model structure for weak omega-categories using that of Top.
+  abstract: In this talk, we will see how to relate a topological weak equivalence to an equivalence of weak ω-categories. In particular, this suggests a model structure for weak ω-categories using that of Top.
 - id: 1071
   title: h-monoidal model categories and left properness
   speaker: Michael Batanin
@@ -8711,7 +8711,7 @@
   speaker: Christopher Nguyen
   date: 2016-11-09T16:00:00.000Z
   location: Macquarie
-  abstract: A parity structure is a name given to various ways of formalising the idea of pasting diagrams, among these are; parity complexes (Street), pasting schemes (Johnson), and directed complexes (Steiner). Roughly speaking, the intuition behind these formalisms is to take a polytope-like object and attach orientation in a special way to obtain a presentation of a free omega category. Although these formalisms are powerful enough to capture the main examples (globes, simplexes and cubes), they tend to be too restrictive to cover various other examples. An example of interest is the associahedra, for which I have constructed an orientation which is not a parity complex. Nevertheless I am able to show the associahedra satisfy a weaker set of axioms, furthermore this set of axioms still gives a presentation for a free omega category. I will introduce a new kind of parity structure called label structures, which turns out to be useful for proving these axioms.
+  abstract: A parity structure is a name given to various ways of formalising the idea of pasting diagrams, among these are; parity complexes (Street), pasting schemes (Johnson), and directed complexes (Steiner). Roughly speaking, the intuition behind these formalisms is to take a polytope-like object and attach orientation in a special way to obtain a presentation of a free ω category. Although these formalisms are powerful enough to capture the main examples (globes, simplexes and cubes), they tend to be too restrictive to cover various other examples. An example of interest is the associahedra, for which I have constructed an orientation which is not a parity complex. Nevertheless I am able to show the associahedra satisfy a weaker set of axioms, furthermore this set of axioms still gives a presentation for a free ω category. I will introduce a new kind of parity structure called label structures, which turns out to be useful for proving these axioms.
 - id: 1359
   title: The quantale of alternating sign matrices
   speaker: James Dolan
@@ -10489,11 +10489,11 @@
   location: Online
   abstract: A few weeks ago (MQ Maths and Stats Colloquium, 24 April), I drew some pictures of D-modules and told you how we could view them as representations of the Lie algebra sl(2,C). In this talk, I'll take things one level higher and discuss actions of the category of representations of sl(2,C) on categories; i.e. representations of representations of sl(2,C). Together we'll uncover the beautiful fact that categories admitting such an action are classified by the simply laced Dynkin diagrams.
 - id: 1599
-  title: A cubical model for weak omega-categories
+  title: A cubical model for weak ω-categories
   speaker: Yuki Maehara
   date: 2020-06-03T14:00:00.000Z
   location: Online
-  abstract: In this joint project with Tim Campion and Chris Kapulkin, we propose a cubical version of complicial sets as another model for weak omega-categories. I will start the talk by recalling the globular and cubical approaches to strict omega-categories and Steiner's characterisation of their (marked) cubical nerves. Then I will present our model and the lax and pseudo Gray tensor products in this setting. I will also discuss how this model relates to the original complicial sets.
+  abstract: In this joint project with Tim Campion and Chris Kapulkin, we propose a cubical version of complicial sets as another model for weak ω-categories. I will start the talk by recalling the globular and cubical approaches to strict ω-categories and Steiner's characterisation of their (marked) cubical nerves. Then I will present our model and the lax and pseudo Gray tensor products in this setting. I will also discuss how this model relates to the original complicial sets.
 - id: 1600
   title: The folk model structure for double categories
   speaker: Alexander Campbell
@@ -11199,11 +11199,11 @@
   location: Macquarie
   abstract: My talk will discuss ongoing work to develop the theory of comonoids and comodules in a symmetric monoidal category. In my talk, I will introduce the new notion of a monoidal-extensive symmetric monoidal fibration. This notion specialises to the familiar notion of extensive fibration when the monoidal product on the total category of the fibration is cartesian monoidal. I will also explain why the functor that sends a symmetric monoidal category with nice equalisers to its associated comodule fibration is right adjoint to the functor that sends a monoidal-extensive symmetric monoidal fibration with nice fibred equalisers to its underlying symmetric monoidal category.
 - id: 1690
-  title: Homotopy theory of strict omega-categories
+  title: Homotopy theory of strict ω-categories
   speaker: Dimitri Ara
   date: 2022-05-18T16:00:00.000Z
   location: Macquarie
-  abstract: In this talk, I will present an ongoing project with Georges Maltsiniotis about generalizing the homotopy theory of small categories of Quillen, Thomason and Grothendieck to strict omega-categories. I will insist on the omega-categorical constructions we use in that project, such that the Gray tensor product, the join, the slices and the comma construction.
+  abstract: In this talk, I will present an ongoing project with Georges Maltsiniotis about generalizing the homotopy theory of small categories of Quillen, Thomason and Grothendieck to strict ω-categories. I will insist on the ω-categorical constructions we use in that project, such that the Gray tensor product, the join, the slices and the comma construction.
 - id: 1691
   title: 'Substitution and binders: a story of pseudo-monads'
   speaker: John Power
@@ -11657,11 +11657,11 @@
   location: Macquarie
   abstract: 'Last time, we discussed derivations and integrations in classical algebra. This week, we will discuss their analogues in a differential category. In such a setting, derivations are axiomatized by the chain rule, while integrations are axiomatized by the integration by substitution rule. This will be an extended version of the talk I am giving at the Octoberfest virtual conference: https://richardblute.ca/octoberfest-2023/ , and will also be a tutorial on differential categories (with antiderivatives).'
 - id: 1746
-  title: Weak equivalences between weak omega-categories
+  title: Weak equivalences between weak ω-categories
   speaker: Soichiro Fujii
   date: 2023-11-01T14:00:00.000Z
   location: Macquarie
-  abstract: Leinster defined weak omega-categories based on an earlier definition by Batanin. We define weak equivalences between weak omega-categories (in the sense of Leinster) as essentially surjective strict omega-functors, and show that the class of weak equivalences satisfies the 2-out-of-3 property. (Joint work with Keisuke Hoshino and Yuki Maehara.)
+  abstract: Leinster defined weak ω-categories based on an earlier definition by Batanin. We define weak equivalences between weak ω-categories (in the sense of Leinster) as essentially surjective strict ω-functors, and show that the class of weak equivalences satisfies the 2-out-of-3 property. (Joint work with Keisuke Hoshino and Yuki Maehara.)
 - id: 1747
   title: Tensor categories
   speaker: Bregje Pauwels
@@ -11865,8 +11865,8 @@
   date: 2024-06-12T14:00:00.000Z
   location: Macquarie
 - id: 1772
-  title: Weak equivalences between weak omega-categories II
+  title: Weak equivalences between weak ω-categories II
   speaker: Soichiro Fujii
   date: 2024-06-19T14:00:00.000Z
   location: Macquarie
-  abstract: In November last year, I talked about the 2-out-of-3 property for omega-weak equivalences between weak omega-categories (in the sense of Batanin-Leinster). These omega-weak equivalences are the strict omega-functors which are essentially surjective at every dimension. In this talk, I define weak omega-weak equivalences as weak omega-functors (in the sense of Garner) which are essentially surjective in a suitable sense. I show a few results about them, including the 2-out-of-3 property and their characterisation in terms of the underlying globular map of a weak omega-functor. (Joint work with Keisuke Hoshino and Yuki Maehara.)
+  abstract: In November last year, I talked about the 2-out-of-3 property for ω-weak equivalences between weak ω-categories (in the sense of Batanin-Leinster). These ω-weak equivalences are the strict ω-functors which are essentially surjective at every dimension. In this talk, I define weak ω-weak equivalences as weak ω-functors (in the sense of Garner) which are essentially surjective in a suitable sense. I show a few results about them, including the 2-out-of-3 property and their characterisation in terms of the underlying globular map of a weak ω-functor. (Joint work with Keisuke Hoshino and Yuki Maehara.)
