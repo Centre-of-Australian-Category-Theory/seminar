@@ -4188,6 +4188,7 @@
   date: 2006-03-15T16:00:00.000Z
   location: Macquarie
   abstract: These talks were based on the preprint 2-nerves of bicategories, written with Simona Paoli.
+  part: 1
 - id: 632
   title: Constant complements, reversibility and universal view updates II
   speaker: Bob Rosebrugh
@@ -4214,11 +4215,12 @@
   date: 2006-04-12T14:00:00.000Z
   location: Macquarie
 - id: 637
-  title: More on 2-nerves
+  title: 2-nerves of bicategories
   speaker: Steve Lack
   date: 2006-04-12T16:00:00.000Z
   location: Macquarie
-  abstract: These talks were based on the preprint 2-nerves of bicategories, written with Simona Paoli.
+  part: 2
+  previous: 631
 - id: 638
   title: 'Categories with slicing: the true story'
   speaker: Thorsten Palm
@@ -4386,20 +4388,19 @@
     In 1967, Gabriel and Zisman introduced the conditions needed on a class of arrows to admit a calculus of fractions. If one has a category C with a class W of weak equivalences that satisfy these conditions, the arrows in the homotopy category of fractions C[W-1] can be described as spans where the left leg is in W. This category is the universal category obtained from C by inverting the arrows in W. 
 
     In this talk I will discuss the bicategorical generalization of this: I will discuss the conditions needed for a bicalculus of fractions and give an explicit description of the 2-cells in C[W-1], the free bicategory obtained by turning the arrows in W into equivalences. This talk is based on my paper in Compositio Mathematica from 1996, but I will discuss some minor improvements on that paper as well as ways to generalize this further to monoidal bicategories of fractions, and eventually, tricategories of fractions.
+  part: 1
 - id: 668
   title: 'Semistrictification of Tamsamani''s weak 3-groupoids: the non path-connected case.'
   speaker: Simona Paoli
   date: 2006-10-11T14:00:00.000Z
   location: Macquarie
 - id: 669
-  title: Bicategories of fractions II
+  title: Bicategories of fractions
   speaker: Dorette Pronk
   date: 2006-10-11T16:00:00.000Z
   location: Macquarie
-  abstract: |-
-    In 1967, Gabriel and Zisman introduced the conditions needed on a class of arrows to admit a calculus of fractions. If one has a category C with a class W of weak equivalences that satisfy these conditions, the arrows in the homotopy category of fractions C[W-1] can be described as spans where the left leg is in W. This category is the universal category obtained from C by inverting the arrows in W. 
-
-    In this talk I will discuss the bicategorical generalization of this: I will discuss the conditions needed for a bicalculus of fractions and give an explicit description of the 2-cells in C[W-1], the free bicategory obtained by turning the arrows in W into equivalences. This talk is based on my paper in Compositio Mathematica from 1996, but I will discuss some minor improvements on that paper as well as ways to generalize this further to monoidal bicategories of fractions, and eventually, tricategories of fractions.
+  part: 2
+  previous: 667
 - id: 670
   title: Horizontal categorification of Gel'fand theory and categorical non-commutative geometry
   speaker: Paolo Bertozzini
@@ -4554,6 +4555,7 @@
   date: 2007-04-11T14:00:00.000Z
   location: Macquarie
   abstract: Much of the "category theory" of weak complicial sets is best cast in terms of a certain kind of internal quasi-category theory. In this talk we show how to define such internal quasi-categories within any suitably well behaved model category M. Furthermore, as a first step to developing the category theory of such structures, we build a natural model structure on the category of simplicial objects in M whose fibrant objects are precisely the quasi-categories internal to M.
+  part: 1
 - id: 697
   title: On the existence of fibre functors
   speaker: Dimitri Chikhladze
@@ -4564,7 +4566,8 @@
   speaker: Dominic Verity
   date: 2007-04-18T14:00:00.000Z
   location: Macquarie
-  abstract: Much of the "category theory" of weak complicial sets is best cast in terms of a certain kind of internal quasi-category theory. In this talk we show how to define such internal quasi-categories within any suitably well behaved model category M. Furthermore, as a first step to developing the category theory of such structures, we build a natural model structure on the category of simplicial objects in M whose fibrant objects are precisely the quasi-categories internal to M.
+  part: 2
+  previous: 696
 - id: 699
   title: Dijkgraaf-Witten topological field theory
   speaker: Alexei Davydov
@@ -4580,35 +4583,39 @@
   speaker: Dominic Verity
   date: 2007-05-02T16:00:00.000Z
   location: Macquarie
-  abstract: Much of the "category theory" of weak complicial sets is best cast in terms of a certain kind of internal quasi-category theory. In this talk we show how to define such internal quasi-categories within any suitably well behaved model category M. Furthermore, as a first step to developing the category theory of such structures, we build a natural model structure on the category of simplicial objects in M whose fibrant objects are precisely the quasi-categories internal to M.
+  part: 3
+  previous: 698
 - id: 702
   title: Computational coherence
   speaker: Jon Cohen
   date: 2007-05-09T14:00:00.000Z
   location: Macquarie
   abstract: Iterated monoidal categories form a categorical model of iterated loop spaces. The original paper on these structures included an intricate proof of coherence  of the "every diagram commutes" flavour. From a computational perspective,  what makes the coherence theorem nontrivial is that the      underlying term  rewriting system is non-confluent and, as such, does not enjoy unique normal  forms. We'll begin with a brief introduction to iterated monoidal categories  and use this as motivation for reducing coherence problems to questions in  term rewriting theory. Within this setting, we'll derive sufficient conditions  for the positive resolution of various coherence problems even in cases where  the rewriting system is non-confluent and/or non-terminating. With this  machinery in hand, we'll return to iterated monoidal categories and give a  more conceptual approach to their coherence problem.
+  part: 1
 - id: 703
   title: Hom lifting
   speaker: Ross Street
   date: 2007-05-09T16:00:00.000Z
   location: Macquarie
 - id: 704
-  title: Computational coherence (cont.)
+  title: Computational coherence
   speaker: Jon Cohen
   date: 2007-05-16T14:00:00.000Z
   location: Macquarie
-  abstract: Iterated monoidal categories form a categorical model of iterated loop spaces. The original paper on these structures included an intricate proof of coherence  of the "every diagram commutes" flavour. From a computational perspective,  what makes the coherence theorem nontrivial is that the      underlying term  rewriting system is non-confluent and, as such, does not enjoy unique normal  forms. We'll begin with a brief introduction to iterated monoidal categories  and use this as motivation for reducing coherence problems to questions in  term rewriting theory. Within this setting, we'll derive sufficient conditions  for the positive resolution of various coherence problems even in cases where  the rewriting system is non-confluent and/or non-terminating. With this  machinery in hand, we'll return to iterated monoidal categories and give a  more conceptual approach to their coherence problem.
+  part: 2
+  previous: 702
 - id: 705
   title: Slicing sites as categories with left-fastidious factorization systems
   speaker: Thorsten Palm
   date: 2007-05-16T16:00:00.000Z
   location: Macquarie
 - id: 706
-  title: Computational coherence (cont. 2)
+  title: Computational coherence
   speaker: Jon Cohen
   date: 2007-05-23T14:00:00.000Z
   location: Macquarie
-  abstract: Iterated monoidal categories form a categorical model of iterated loop spaces. The original paper on these structures included an intricate proof of coherence  of the "every diagram commutes" flavour. From a computational perspective,  what makes the coherence theorem nontrivial is that the      underlying term  rewriting system is non-confluent and, as such, does not enjoy unique normal  forms. We'll begin with a brief introduction to iterated monoidal categories  and use this as motivation for reducing coherence problems to questions in  term rewriting theory. Within this setting, we'll derive sufficient conditions  for the positive resolution of various coherence problems even in cases where  the rewriting system is non-confluent and/or non-terminating. With this  machinery in hand, we'll return to iterated monoidal categories and give a  more conceptual approach to their coherence problem.
+  part: 2
+  previous: 704
 - id: 707
   title: Mathematical applications of category theory in synthetic calculus of variations
   speaker: Vafa Khalighi
@@ -4810,6 +4817,7 @@
     In this talk we describe how to build a weak complicial set (qua simplicial weak \omega-category) Cob^k, whose n-simplices correspond to embeddings of manifolds of some fixed co-dimension k into the geometric n-simplex.  Here we work in the PL-category in order to avoid some of the technicalities involved when working with manifolds with corners in the smooth setting. However, it is likely that our main results bear direct translation to that latter context. 
 
     From the point of view of the theory of weak complicial sets, Cob^k is an interesting structure for a number of reasons. Firstly, its underlying simplicial set is a Kan complex. Secondly, it possess a stratification which makes it into a weak complicial set but which is non-trivially distinct from the "all simplices are thin" structure that comes with Kan-ness. Finally, we have strong reasons to conjecture that this non-trivial complicial stratification can be extended, by making thin all simplices which are "morally" equivalences, to a complicial stratification whose thin simplices bear a characterisation in terms of simple homotopy equivalences (and which are thus s-cobordism-like).
+  part: 1
 - id: 739
   title: Locally principally generated Q-modules
   speaker: Isar Stubbe
@@ -4835,12 +4843,8 @@
   speaker: Dominic Verity
   date: 2008-03-19T14:00:00.000Z
   location: Macquarie
-  abstract: |-
-    It is generally held that the totality of all n-manifolds (with corners) should support a canonical weak n-categorical structure, under which all composites of cells are describable as "gluings" of manifolds along common boundary components.  At low dimensions, not only do we know that this is indeed the case, but we also know how to describe free weak 2- or 3-categories in terms of such higher categories of "cobordisms embedded in cubes". 
-
-    In this talk we describe how to build a weak complicial set (qua simplicial weak \omega-category) Cob^k, whose n-simplices correspond to embeddings of manifolds of some fixed co-dimension k into the geometric n-simplex.  Here we work in the PL-category in order to avoid some of the technicalities involved when working with manifolds with corners in the smooth setting. However, it is likely that our main results bear direct translation to that latter context. 
-
-    From the point of view of the theory of weak complicial sets, Cob^k is an interesting structure for a number of reasons. Firstly, its underlying simplicial set is a Kan complex. Secondly, it possess a stratification which makes it into a weak complicial set but which is non-trivially distinct from the "all simplices are thin" structure that comes with Kan-ness. Finally, we have strong reasons to conjecture that this non-trivial complicial stratification can be extended, by making thin all simplices which are "morally" equivalences, to a complicial stratification whose thin simplices bear a characterisation in terms of simple homotopy equivalences (and which are thus s-cobordism-like).
+  part: 2
+  previous: 738
 - id: 743
   title: Smallness in the model category and smallness in the homotopy category
   speaker: Boris Chorny
@@ -4959,6 +4963,7 @@
   date: 2008-07-23T14:00:00.000Z
   location: Macquarie
   abstract: A few months ago we embarked on a journey to discover how certain kinds of simplicial weak omega-categories (weak complicial sets) could be built to support the algebra of cobordisms. At that time, the activities of the semester interrupted these ruminations. In this talk (and the next) we return to this topic, review the fundamental constructions involved and push on to study the kinds of equivalence that arise in such structures. This latter analysis reveals a family of nested thinness notions (stratifications) each one of which makes the simplicial set of cobordisms into a weak complicial set.
+  part: 1
 - id: 763
   title: Filtered operads
   speaker: Ezra Getzler
@@ -4969,7 +4974,8 @@
   speaker: Dominic Verity
   date: 2008-07-30T14:00:00.000Z
   location: Macquarie
-  abstract: A few months ago we embarked on a journey to discover how certain kinds of simplicial weak omega-categories (weak complicial sets) could be built to support the algebra of cobordisms. At that time, the activities of the semester interrupted these ruminations. In this talk (and the next) we return to this topic, review the fundamental constructions involved and push on to study the kinds of equivalence that arise in such structures. This latter analysis reveals a family of nested thinness notions (stratifications) each one of which makes the simplicial set of cobordisms into a weak complicial set.
+  part: 2
+  previous: 762
 - id: 765
   title: Stable categories and categories of modules
   speaker: James Wallbridge
@@ -5038,17 +5044,19 @@
   location: Macquarie
   abstract: To each category E with pullbacks we can construct a 2-category Cat(E) of internal categories in E, internal functors and internal natural transformations. I will discuss some 2-categorical properties which characterize such 2-categories.
 - id: 777
-  title: Quasi-algebras I
+  title: Quasi-algebras
   speaker: Denis-Charles Cisinski
   date: 2008-09-10T16:00:00.000Z
   location: Macquarie
   abstract: The notions of regular localizers and homotopy sketches will be recalled. These are convenient tools to produce natural model structures on presheaf categories associated to nice monads (e.g. monads with arities and parametric right adjoint monads as considered by M. Weber). We will recover as an example  of this general process the Joyal model structure for quasi-categories and the Rezk model structure for complete Segal spaces, as well as the Quillen equivalences relating them. This also allows us to consider in the same way the homotopy theory of "quasi-n-categories" or of "quasi-multicategories" (a.k.a. dendroidal inner Kan complexes in the sense of I. Weiss and I. Moerdijk).
+  part: 1
 - id: 778
-  title: Quasi-algebras II
+  title: Quasi-algebras
   speaker: Denis-Charles Cisinski
   date: 2008-09-17T14:00:00.000Z
   location: Macquarie
-  abstract: The notions of regular localizers and homotopy sketches will be recalled. These are convenient tools to produce natural model structures on presheaf categories associated to nice monads (e.g. monads with arities and parametric right adjoint monads as considered by M. Weber). We will recover as an example  of this general process the Joyal model structure for quasi-categories and the Rezk model structure for complete Segal spaces, as well as the Quillen equivalences relating them. This also allows us to consider in the same way the homotopy theory of "quasi-n-categories" or of "quasi-multicategories" (a.k.a. dendroidal inner Kan complexes in the sense of I. Weiss and I. Moerdijk).
+  part: 2
+  previous: 777
 - id: 779
   title: Separable functors, Yang-Baxter operators, and bimonoids
   speaker: Ross Street
@@ -5060,11 +5068,12 @@
   date: 2008-09-24T14:00:00.000Z
   location: Macquarie
 - id: 781
-  title: 'Quasi-algebras III: Higher quasi-categories versus weak higher categories'
+  title: Quasi-algebras
   speaker: Denis-Charles Cisinski
   date: 2008-09-24T16:00:00.000Z
   location: Macquarie
-  abstract: The notions of regular localizers and homotopy sketches will be recalled. These are convenient tools to produce natural model structures on presheaf categories associated to nice monads (e.g. monads with arities and parametric right adjoint monads as considered by M. Weber). We will recover as an example  of this general process the Joyal model structure for quasi-categories and the Rezk model structure for complete Segal spaces, as well as the Quillen equivalences relating them. This also allows us to consider in the same way the homotopy theory of "quasi-n-categories" or of "quasi-multicategories" (a.k.a. dendroidal inner Kan complexes in the sense of I. Weiss and I. Moerdijk).
+  part: 2
+  previous: 778
 - id: 782
   title: Bimonoidal and separable monoidal functors
   speaker: Ross Street
@@ -5129,11 +5138,12 @@
   date: 2008-12-03T14:00:00.000Z
   location: Macquarie
 - id: 794
-  title: 'Combinatorial differential geometry: reduction theroems revisited'
+  title: 'Combinatorial differential geometry: reduction theorems revisited'
   speaker: Martin Markl
   date: 2008-12-03T16:00:00.000Z
   location: Macquarie
   abstract: 'We apply the graph complex approach of arXiv:math/0612183 to natural differential operators acting on vector fields and a linear symmetric connection. We characterize all possible systems of generators for such vector-field valued operators including the classical ones given by normal tensors and covariant derivatives (thus reproving classical results by Schouten, Thomas, ...). We also describe the size of the space of such operators and prove the existence of an "ideal" basis consisting of operators with given leading terms which satisfy the (generalized) Bianchi-Ricci identities without the correction terms. The talk will be based on a joint paper arXiv:0809.1158 with J. Janskya. '
+  part: 1
 - id: 795
   title: Hopf monads on monoidal categories, and modularity of the centre
   speaker: Alain Bruguières
@@ -5141,11 +5151,12 @@
   location: Macquarie
   abstract: The talk comes in two independent parts. In the first part, I will explain how, with Steve Lack's help, we could at a single stroke simplify the definition of  Hopf monad, and extend it to arbtrary monoidal categories, and simplify the proof of the multiplicativity of the antipodes. I will also explain how this new definition can be interpreted in the case of a monoidal closed category, where being Hopf can be readily encoded in terms of 2-variable antipodes (recall that in the autonomous case we encoded it in terms of 1-variable antipodes). In the second part, I will recall the construction of the double of a Hopf monad on an autonomous category, which is based on the canonical lift of centralizers. I will apply this lifting property to fusion categories, and explain how this allows one to prove the modularity of the center of an arbitrary spherical fusion category over a ring (generalizing Mueger's modularity theorem, which concerns spherical fusion categories of invertible dimension over an algebraically closed field).
 - id: 796
-  title: 'Combinatorial differential geometry: reduction theroems revisited II'
+  title: 'Combinatorial differential geometry: reduction theorems revisited'
   speaker: Martin Markl
   date: 2008-12-10T16:00:00.000Z
   location: Macquarie
-  abstract: 'We apply the graph complex approach of arXiv:math/0612183 to natural differential operators acting on vector fields and a linear symmetric connection. We characterize all possible systems of generators for such vector-field valued operators including the classical ones given by normal tensors and covariant derivatives (thus reproving classical results by Schouten, Thomas, ...). We also describe the size of the space of such operators and prove the existence of an "ideal" basis consisting of operators with given leading terms which satisfy the (generalized) Bianchi-Ricci identities without the correction terms. The talk will be based on a joint paper arXiv:0809.1158 with J. Janskya. '
+  part: 2
+  previous: 794
 - id: 797
   title: Every planar *-autonomous diagram commutes
   speaker: Micah Blake McCurdy
@@ -5193,6 +5204,7 @@
     This is joint work with Michael Batanin. 
 
     We introduce two coloured operads in sets - the lattice path operad and a cyclic extension of it - closely related to iterated loop spaces and to universal operations on cochains. As main application we present a formal construction of an E2-action (respectively, a framed E2-action) on the Hochschild cochain complex of an associative (respectivelhy, a symmetric Frobenius) algebra.
+  part: 1
 - id: 804
   title: 'EASIK: Database design and manipulation implemented categorically'
   speaker: Bob Rosebrugh
@@ -5204,10 +5216,8 @@
   speaker: Clemens Berger
   date: 2009-03-04T14:00:00.000Z
   location: Macquarie
-  abstract: |-
-    This is joint work with Michael Batanin. 
-
-    We introduce two coloured operads in sets - the lattice path operad and a cyclic extension of it - closely related to iterated loop spaces and to universal operations on cochains. As main application we present a formal construction of an E2-action (respectively, a framed E2-action) on the Hochschild cochain complex of an associative (respectivelhy, a symmetric Frobenius) algebra.
+  part: 2
+  previous: 803
 - id: 806
   title: Frobenius functors between bicategories
   speaker: John Bourke
@@ -5306,6 +5316,7 @@
     In the literature one can find a number of different limit notions which one might refer to as a "descent construction". Genrally speaking, these may all be regarded as a kind of lax, pseudo or homotopy limit of a cosimplicial diagram of objects in some theory of "spatially enriched" categories. While each of these notions certainly deserves to bear the descent name, it is not necessarily immediately clear how they may be related in any more specific mathematical sense. 
 
     Recently I was asked by Urs Schreiber if I knew how a couple of these descent notions might be related formally, and so spent a little time contemplating this problem. My hope is that this talk might achieve two things, firstly I hope to provide a little of the intuition which leads us to define and study such descent constructions. Then I would like to discuss a specific answer to Urs' question, which gives a precise relationship between Ross Street's descent construction for strict omega-categories (or more precisely strict omega-groupoids in this case) and the simplicial descent construction used to characterise the fibrant objects in model categories of simplicial sheaves.
+  part: 1
 - id: 822
   title: On tensor product of A_{∞}-categories, E_n-algebras and higher categories
   speaker: Michael Batanin
@@ -5353,19 +5364,15 @@
   speaker: Dominic Verity
   date: 2009-07-22T14:00:00.000Z
   location: Macquarie
-  abstract: |-
-    In the literature one can find a number of different limit notions which one might refer to as a "descent construction". Genrally speaking, these may all be regarded as a kind of lax, pseudo or homotopy limit of a cosimplicial diagram of objects in some theory of "spatially enriched" categories. While each of these notions certainly deserves to bear the descent name, it is not necessarily immediately clear how they may be related in any more specific mathematical sense. 
-
-    Recently I was asked by Urs Schreiber if I knew how a couple of these descent notions might be related formally, and so spent a little time contemplating this problem. My hope is that this talk might achieve two things, firstly I hope to provide a little of the intuition which leads us to define and study such descent constructions. Then I would like to discuss a specific answer to Urs' question, which gives a precise relationship between Ross Street's descent construction for strict omega-categories (or more precisely strict omega-groupoids in this case) and the simplicial descent construction used to characterise the fibrant objects in model categories of simplicial sheaves.
+  part: 2
+  previous: 821
 - id: 830
   title: On the relationship between certain descent notions III
   speaker: Dominic Verity
   date: 2009-07-29T14:00:00.000Z
   location: Macquarie
-  abstract: |-
-    In the literature one can find a number of different limit notions which one might refer to as a "descent construction". Genrally speaking, these may all be regarded as a kind of lax, pseudo or homotopy limit of a cosimplicial diagram of objects in some theory of "spatially enriched" categories. While each of these notions certainly deserves to bear the descent name, it is not necessarily immediately clear how they may be related in any more specific mathematical sense. 
-
-    Recently I was asked by Urs Schreiber if I knew how a couple of these descent notions might be related formally, and so spent a little time contemplating this problem. My hope is that this talk might achieve two things, firstly I hope to provide a little of the intuition which leads us to define and study such descent constructions. Then I would like to discuss a specific answer to Urs' question, which gives a precise relationship between Ross Street's descent construction for strict omega-categories (or more precisely strict omega-groupoids in this case) and the simplicial descent construction used to characterise the fibrant objects in model categories of simplicial sheaves.
+  part: 3
+  previous: 829
 - id: 831
   title: Elementary results on torsors
   speaker: Ross Street
@@ -5462,7 +5469,7 @@
   date: 2009-11-04T16:00:00.000Z
   location: Macquarie
 - id: 848
-  title: Connectedness and acyclicity in string diagrams and proof nets I
+  title: Connectedness and acyclicity in string diagrams and proof nets
   speaker: Micah Blake McCurdy
   date: 2009-11-11T14:00:00.000Z
   location: Macquarie
@@ -5474,6 +5481,7 @@
     Robin Cockett pointed out some time ago taht specializing a linear functor between linearly distributive categories to the case where both categories have equal tensor and par produces a Frobenius monoial functor between monoidal categories. Seeing as linearly distributive categories are, by design, categorical models of the multiplicative fragment of linear logic, and string diagrams can be thought of as simple proof nets, it is tantalizing to think that the coincidence of the condition "connected and acyclic" is more than just a coincidence. 
 
     In the end, it is essentially a coincidence, as I will show; but the path to discover this gives generalizations of the results of M and Street which are themselves interesting.
+  part: 1
 - id: 849
   title: Funny tensor products
   speaker: Mark Weber
@@ -5481,18 +5489,12 @@
   location: Macquarie
   abstract: 'One of the central open problems of higher category theory is to describe the higher dimensional analogues of the Gray tensor product of 2-categories, as part of an inductive machine that would provide a definition of "semi-strict n-category". If we ignore al information on 2-cells in the Gray tensor product on 2-Cat, we get a well-known product on Cat. This is frequently called the "funny tensor product". In this talk I''ll explain why the funny tensor product is a very general phenomenon: there is an analogous tensor product for any higher dimensional structure definable by a "normalized" n-operad in the sense of Batanin.'
 - id: 850
-  title: Connectedness and acyclicity in string diagrams and proof nets II
+  title: Connectedness and acyclicity in string diagrams and proof nets
   speaker: Micah Blake McCurdy
   date: 2009-11-18T14:00:00.000Z
   location: Macquarie
-  abstract: |-
-    Girard introduced proof nets for the multiplicative fragment of linear logic way back in the mists of time (1987); they are built up inductively from simple components, but not all "proof structures" actually represent proofs. Girard gave a recognition principle for determining these last, namely, that a certain pack of derived graphs be connected and acyclic. 
-
-    Ross Street and I wrote a paper recently where we discussed labelling string diagrams in monoidal categories, and then considered "varying" the labelling along a Frobenius monoidal functor F. There are two obvious such "varyings", when they coincide, we say that the string diagram is F-invariant. A key result in the aforementioned paper is that a string diagram is F-invariant for all Frobenius monoidal functors if and only if it is connected and acyclic. 
-
-    Robin Cockett pointed out some time ago taht specializing a linear functor between linearly distributive categories to the case where both categories have equal tensor and par produces a Frobenius monoial functor between monoidal categories. Seeing as linearly distributive categories are, by design, categorical models of the multiplicative fragment of linear logic, and string diagrams can be thought of as simple proof nets, it is tantalizing to think that the coincidence of the condition "connected and acyclic" is more than just a coincidence. 
-
-    In the end, it is essentially a coincidence, as I will show; but the path to discover this gives generalizations of the results of M and Street which are themselves interesting.
+  part: 2
+  previous: 848
 - id: 851
   title: 'Ionads: a generalisation of the notion of topological space'
   speaker: Richard Garner
@@ -5501,18 +5503,12 @@
   previous: 844
   part: 2
 - id: 852
-  title: Connectedness and acyclicity in string diagrams and proof nets III
+  title: Connectedness and acyclicity in string diagrams and proof nets
   speaker: Micah Blake McCurdy
   date: 2009-11-25T14:00:00.000Z
   location: Macquarie
-  abstract: |-
-    Girard introduced proof nets for the multiplicative fragment of linear logic way back in the mists of time (1987); they are built up inductively from simple components, but not all "proof structures" actually represent proofs. Girard gave a recognition principle for determining these last, namely, that a certain pack of derived graphs be connected and acyclic. 
-
-    Ross Street and I wrote a paper recently where we discussed labelling string diagrams in monoidal categories, and then considered "varying" the labelling along a Frobenius monoidal functor F. There are two obvious such "varyings", when they coincide, we say that the string diagram is F-invariant. A key result in the aforementioned paper is that a string diagram is F-invariant for all Frobenius monoidal functors if and only if it is connected and acyclic. 
-
-    Robin Cockett pointed out some time ago taht specializing a linear functor between linearly distributive categories to the case where both categories have equal tensor and par produces a Frobenius monoial functor between monoidal categories. Seeing as linearly distributive categories are, by design, categorical models of the multiplicative fragment of linear logic, and string diagrams can be thought of as simple proof nets, it is tantalizing to think that the coincidence of the condition "connected and acyclic" is more than just a coincidence. 
-
-    In the end, it is essentially a coincidence, as I will show; but the path to discover this gives generalizations of the results of M and Street which are themselves interesting.
+  part: 3
+  previous: 850
 - id: 853
   title: Tannaka representation theorem with respect to a frobenius fiber functor
   speaker: Dimitri Chikhladze
@@ -9435,6 +9431,7 @@
   date: 2018-09-19T16:00:00.000Z
   location: Macquarie
   abstract: A quasi-category is said to be n-truncated if its hom-spaces are (n-1)-types. In this talk, we will study the model structure for n-truncated quasi-categories, which can be constructed as the Bousfield localisation of Joyal's model structure for quasi-categories at the boundary inclusion of the (n+2)-simplex. Furthermore, we will prove the expected Quillen equivalences between categories and 1-truncated quasi-categories and between n-truncated quasi-categories and Rezk's model for weak (n,1)-categories. This is joint work with Edoardo Lanari.
+  part: 1
 - id: 1488
   title: The fundamental theorem of n-quasi-category theory
   speaker: Alexander Campbell
@@ -9464,8 +9461,8 @@
   speaker: Alexander Campbell
   date: 2018-10-24T16:00:00.000Z
   location: Macquarie
-  abstract: A quasi-category is said to be n-truncated if its hom-spaces are (n-1)-types. In this talk, we will study the model structure for n-truncated quasi-categories, which can be constructed as the Bousfield localisation of Joyal's model structure for quasi-categories at the boundary inclusion of the (n+2)-simplex. Furthermore, we will prove the expected Quillen equivalences between categories and 1-truncated quasi-categories and between n-truncated quasi-categories and Rezk's model for weak (n,1)-categories. This is joint work with Edoardo Lanari.
   part: 2
+  previous: 1487
 - id: 1493
   title: A categorical approach to representation theory in positive characteristic
   speaker: Vinoth Nandakumar
@@ -9581,7 +9578,7 @@
   date: 2019-02-13T14:00:00.000Z
   location: Macquarie
   abstract: Following the work of Gambino-Kock, Weber and Walker on polynomials in categories, I will present an even more bicategorical approach to some of the constructions and results.
-  first: 1516
+  part: 1
 - id: 1509
   title: Hopf structures, hyperplanes, and bands
   speaker: Steve Lack
@@ -9603,7 +9600,8 @@
   date: 2019-02-27T16:00:00.000Z
   location: Macquarie
   abstract: Following the work of Gambino-Kock, Weber and Walker on polynomials in categories, I will present an even more bicategorical approach to some of the constructions and results.
-  first: 1516
+  part: 2
+  previous: 1508
 - id: 1512
   title: An introduction to compact symmetric multicategories and problematic loops
   speaker: Sophie Raynor
@@ -11295,10 +11293,6 @@
   speaker: Bregje Pauwels
   date: 2023-03-29T14:00:00.000Z
   location: Macquarie
-  abstract: |-
-    Approximation, Serre duality and recollements are three major tools, theories really, used to study triangulated categories in algebraic geometry and representation theory. However, the existence of Serre duality is a very strong condition; the bounded derived category of a finite dimensional algebra satisfies Serre duality if and only if it has finite global dimension. Replacing Serre duality by the weaker notion of a partial Serre functor, we get a new tool which applies to any approximable category, and in particular to any ring.
-
-    In this talk, I will explain how these tools interact. I will briefly (and badly) introduce Neeman's theory of approximation for triangulated categories, and show how approximability and Serre functors behave under recollements.
   part: 2
   previous: 1724
 - id: 1726
