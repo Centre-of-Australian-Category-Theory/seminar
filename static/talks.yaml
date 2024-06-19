@@ -11,7 +11,7 @@
   date: 1996-07-31T16:00:00.000Z
   location: Macquarie
   abstract: |-
-    This was a report on my recent preprint "The Quantum Double and Related Constructions". Three monoidal constructions were discussed:
+    This was a report on my recent preprint “The Quantum Double and Related Constructions”. Three monoidal constructions were discussed:
 
     1) a braided monoidal category Z(V) from any monoidal category V
     2) a balanced monoidal category V^Z from any braided monoidal category V
@@ -53,7 +53,7 @@
     Last week (at the University of Sydney) I discussed the contravariant adjunction between V-opcategories and V-categories:
     each V-category C yields a V-opcategory C^(czech) and each V-opcategory A yields a V-category Comod_{f} A.
 
-    This week I looked at refining this when C is monoidal and A is comonoidal (a one-object comonoidal V-opcategory is a bialgebra). This is further refined when C is autonomous (=3D rigid) and A is a "Hopf opalgebroid".  The ideas of my old generalised Beck monadicity theorem from the paper  Two constructions on lax functors, Cahiers topologie et geometrie differentielle 13 (1972) 217-264  are applied.
+    This week I looked at refining this when C is monoidal and A is comonoidal (a one-object comonoidal V-opcategory is a bialgebra). This is further refined when C is autonomous (=3D rigid) and A is a “Hopf opalgebroid”.  The ideas of my old generalised Beck monadicity theorem from the paper  Two constructions on lax functors, Cahiers topologie et geometrie differentielle 13 (1972) 217-264  are applied.
   part: 1
 - id: 6
   title: Looping and delooping, suspension, the stabilization theorem
@@ -66,7 +66,7 @@
     3. Looping: from pointed ω-tas C, make C(id^k-1_c, id^k-1_c), which is k-monoidal, call this ω^k. \Sigma^k -| ω^k.
     4. Suspension: underlying functor forgetting k-monoidal structure. Left adjoint to this, giving free k-monoidal structure, is suspension.
     5. Baez-Dolan's stabilization hypothesis (rephrased for teisi): S: (k+2)-monoidal kD teisi → (k+3)-monoidal kD teisi is iso. proof: follows immediately by checking the dimension raising of (k+3)-monoidal structure. So stabilization *theorem* is easy consequence of basics of ω-teisi.
-    6. This will be sections 2.6.1 - 2.6.3 of the forthcoming 80+ page paper "Central observations on ω-teisi".
+    6. This will be sections 2.6.1 - 2.6.3 of the forthcoming 80+ page paper “Central observations on ω-teisi”.
 - id: 7
   title: On the definition of weak n-categories
   speaker: Michael Batanin
@@ -112,11 +112,11 @@
   location: Macquarie
   abstract: |-
     1. what is universal property of center of group? Know that dividing by commutator subgroup gives largest quotient that is commutative; does largest commutative subgroup exist? No, because union of commutative groups is not commutative in general. Of course, this is nothing but saying that the inclusion of commutative groups into groups has a left adjoint, but not a right adjoint.
-    2. observing a group is a category with one object, recognize an element of the center as a natural transformation id -> id. want to use this as basis for general definition of center.
-    3. short recall of basics of k-monoidal ω-teisi. q-transformations as maps of degree q and as functors C tensor 2_q -> D. Formal reindexing via Ω and Sigma.
+    2. observing a group is a category with one object, recognize an element of the center as a natural transformation id → id. want to use this as basis for general definition of center.
+    3. short recall of basics of k-monoidal ω-teisi. q-transformations as maps of degree q and as functors C tensor 2_q → D. Formal reindexing via Ω and Sigma.
     4. for k-monoidal ω-tas C, define its k-center by Z_k (C) = Ω^k (ω-Teisi (Sigma^k C, Sigma^k C)). Low dimensional elements are identity transformations, higher dimensional elements are transformations between those.
-    5. compare this with known definition of center of a monoidal category, where an object of the center is a pair (A, R_A,-): canonical projection Z_k (C) -> C by evaluation at the unique object of Sigma^k C, which explains the A, and q-transformation Sigma^k C tensor 2_q -> Sigma^k C induces, via a quite complicated construction called ``localization of transformations', a q-transformation C tensor 2_q C, which explains the R_A,-. This gives description of elements of k-center of C as element of C + transformation.
-    6. This will be sections 2.5.5 and 2.7 of the forthcoming 80+ page paper "Central observations on ω-teisi".
+    5. compare this with known definition of center of a monoidal category, where an object of the center is a pair (A, R_A,-): canonical projection Z_k (C) → C by evaluation at the unique object of Sigma^k C, which explains the A, and q-transformation Sigma^k C tensor 2_q → Sigma^k C induces, via a quite complicated construction called ``localization of transformations', a q-transformation C tensor 2_q C, which explains the R_A,-. This gives description of elements of k-center of C as element of C + transformation.
+    6. This will be sections 2.5.5 and 2.7 of the forthcoming 80+ page paper “Central observations on ω-teisi”.
 - id: 12
   title: The Book Part I, or Let's meet a quantum group
   speaker: Carolyn Kennett
@@ -166,8 +166,8 @@
   date: 1996-10-09T16:00:00.000Z
   location: Macquarie
   abstract: |-
-    This was a report on *-autonomous categories and the paper "Michael Barr, The Chu Construction, Theory and Applications of Categories, Volume 2, Number 2 (1996), 17-35". 
-    The talk is summarized by my review which should appear soon in "Mathematical Reviews".
+    This was a report on *-autonomous categories and the paper “Michael Barr, The Chu Construction, Theory and Applications of Categories, Volume 2, Number 2 (1996), 17-35”. 
+    The talk is summarized by my review which should appear soon in “Mathematical Reviews”.
 - id: 19
   title: For which classes L of limits is the forgetful functor from the category of L-complete categories and L-continuous functors to the category of graphs and graph-morphisms a monadic functor?
   speaker: Max Kelly
@@ -186,11 +186,11 @@
   date: 1996-10-23T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    The subject of this talk was a construction of some categorical base for the development of the theory of ω-operads and weak ω-categories. This work was motivated by the necessity to clarify the definition of weak ω-category and to have a possibility to develop a sort of "internal" weak ω-category theory. 
+    The subject of this talk was a construction of some categorical base for the development of the theory of ω-operads and weak ω-categories. This work was motivated by the necessity to clarify the definition of weak ω-category and to have a possibility to develop a sort of “internal” weak ω-category theory. 
 
     For this one can try to define a sort of natural environment where the further constructions will  be developed.  It turns out that an appropriate enviroment is the theory of monoidal globular categories. 
 
-    A  monoidal globular  category  is a sequence of categories together with source and target functors satisfying the same conditions as the wellknown source and target functions for  globular sets. We can also compose (in the sense of a $k$-th composition) a pair of objects if the $k$-source of one object coincides with $k$-target of another. There are also the functors which play the role of "weak units" for these compositions. The compositions must be `weakly associative' and `weakly inerchangeable`. There are also the coherence laws for these isomorphisms. A globular monoidal category is said to be strict if all these isomorphisms are identities. We have also the constructions of  free monoidal and strict free monoidal categories. 
+    A  monoidal globular  category  is a sequence of categories together with source and target functors satisfying the same conditions as the wellknown source and target functions for  globular sets. We can also compose (in the sense of a <i>k</i>-th composition) a pair of objects if the <i>k</i>-source of one object coincides with <i>k</i>-target of another. There are also the functors which play the role of “weak units” for these compositions. The compositions must be “weakly associative” and “weakly interchangeable”. There are also the coherence laws for these isomorphisms. A globular monoidal category is said to be strict if all these isomorphisms are identities. We have also the constructions of  free monoidal and strict free monoidal categories. 
 
     The  examples of monoidal glogular categories were given that include the strict ω-categories, bicategories, braided monoidal and symmetric monoidal categories. There is also a  monoidal globular category of generalized spans, which will play an important role in further development. 
 
@@ -207,11 +207,11 @@
   date: 1996-10-30T14:00:00.000Z
   location: Sydney
   abstract: |-
-    In my previous talk I introduced a  notion of monoidal globular  category which is a sequence of categories together with source and target functors satisfying the same conditions as the wellknown source and target functions for  globular sets. We can also compose (in the sense of a $k$-th composition) a pair of objects if the $k$-source of one object coincides with $k$-target of another. There are also the functors which play the role of units for these compositions. The compositions must be `weakly associative' and `inerchangeable`. There are also the coherence laws for these isomorphisms. 
+    In my previous talk I introduced a  notion of monoidal globular  category which is a sequence of categories together with source and target functors satisfying the same conditions as the wellknown source and target functions for  globular sets. We can also compose (in the sense of a <i>k</i>-th composition) a pair of objects if the <i>k</i>-source of one object coincides with <i>k</i>-target of another. There are also the functors which play the role of units for these compositions. The compositions must be `weakly associative' and `inerchangeable`. There are also the coherence laws for these isomorphisms. 
 
     A  monoidal globular category is said to be strict if all these isomorphisms are identities. I give in this talk  the constructions of  free monoidal  and strict free monoidal globular categories. For this I consider a special strict monoidal globular category $Tr$ called the category of multistage trees. I proved that the discretisation of $Tr$ is the free ω-category generated by one object, one enddomorphism of this object, one endomotphism of this endomorphism and so on. This discrete monoidal category will play a central role in the definition of weak ω-category. 
 
-    The coherence theorem is proved, which asserts that a natural strict monoidal functor from the free monoidal globular category generated by a globular category to the  free  strict monoidal globular category generated by this globular category is an equivalence. This theorem generalizes  MacLane's coherence theorem for monoidal and symmetric monoidal categories, and the coherence theorem for bicategories and for braided monoidal categories of Joyal-Street.  On the other hand it contains as a special case a sort of pasting theorem for $n$-categories. The applications of this theorem to the theory of weak ω-categories will be given in my next talk.
+    The coherence theorem is proved, which asserts that a natural strict monoidal functor from the free monoidal globular category generated by a globular category to the  free  strict monoidal globular category generated by this globular category is an equivalence. This theorem generalizes  MacLane's coherence theorem for monoidal and symmetric monoidal categories, and the coherence theorem for bicategories and for braided monoidal categories of Joyal-Street.  On the other hand it contains as a special case a sort of pasting theorem for <i>n</i>-categories. The applications of this theorem to the theory of weak ω-categories will be given in my next talk.
 - id: 24
   title: U_q(sl(2)), SL_q(2), and duality for Hopf algebras
   speaker: Steve Lack
@@ -273,7 +273,7 @@
   date: 1996-11-13T16:00:00.000Z
   location: Sydney
   abstract: |-
-    Since only one member of the audience admitted to having heard last year's talk on fusion operators, I reviewed my paper Fusion operators and cocycloids in monoidal categories (preprint, August 1995; submitted). A fusion operator  V : A(tensor)A -~-> A(tensor)A  on  A  gives rise to a 3-cocycle  v : A(tensor)A -~-> A(tensor)A  via  v = c V  where  c  is (at least) a braiding.  A 3-cocycle is a 4-simplex in the nerve of the ambient braided monoidal category regarded as a 1-object 1-arrow tricategory. They also appear in the expression of coherence for associativity constraint of a promonoidal category.  Each Hopf algebra  H  gives a fusion operator  V on  H  which is the composite of  (delta)(tensor)1  and  1(tensor)(mu). The unit and counit can be used to recapture the multiplication  mu, the comultiplication  delta,  and the antipode  (nu).  This is the point of the talk's title. Ideas of Tannaka duality can be used to obtain a Hopf algebra from the monoidal category of modules over a tricocycloid (= object equipped with a 3-cocycle). 
+    Since only one member of the audience admitted to having heard last year's talk on fusion operators, I reviewed my paper Fusion operators and cocycloids in monoidal categories (preprint, August 1995; submitted). A fusion operator  V : A(tensor)A -~→ A(tensor)A  on  A  gives rise to a 3-cocycle  v : A(tensor)A -~→ A(tensor)A  via  v = c V  where  c  is (at least) a braiding.  A 3-cocycle is a 4-simplex in the nerve of the ambient braided monoidal category regarded as a 1-object 1-arrow tricategory. They also appear in the expression of coherence for associativity constraint of a promonoidal category.  Each Hopf algebra  H  gives a fusion operator  V on  H  which is the composite of  (delta)(tensor)1  and  1(tensor)(mu). The unit and counit can be used to recapture the multiplication  mu, the comultiplication  delta,  and the antipode  (nu).  This is the point of the talk's title. Ideas of Tannaka duality can be used to obtain a Hopf algebra from the monoidal category of modules over a tricocycloid (= object equipped with a 3-cocycle). 
 
     I gave what I believe to be generators and relations for the free braided monoidal category on a single generating object bearing a tricocycloid structure. It would be nice to have a geometric model and/or something like a faithful representation by free group automorphisms as we do for the Baez-Birman singular (or welded) braids which are relevant to Vassiliev invariants for knots.
 - id: 29
@@ -425,11 +425,11 @@
   abstract: |-
     Michael Johnson has been claiming recently that he understands the coherence conditions for associativities and identities. In order to verify that claim, I went through Chapter 4 of his PhD thesis (which is as yet unavailable). 
 
-    (Internal) coherence is about commutativity of formal diagrams of natural transformations, Mike uses pasting schemes to describe coherent situations.   Example: coherence for multiplication m which is associative up to an associator a, pentagon.   A situation consists of a collection of k-dimensional pasting schemes (thought of as ways of multiplying n things) and a collection of singleton (k+1)-dimensional pasting schemes (the things for which one wants to establish coherence), together with a realization, satisfying conditions. The situation is coherent if all (k+1)-dimensional composites with same domain and codomain are equal ("all diagrams of a's commute").   To make the example into a situation, take 2-dimensional simplicial sets and singleton 3-dimensional simplicial sets. One needs a realization of these in an ω-category, which is taken to be: one object, arrows natural numbers, 2-cells functors Kn -> Km, 3-cells natural transformations, with realization: triangles sent to m, tetrahedra to a.   To prove that all diagrams commute from commutativity of the pentagon, and more generally, to get sufficient conditions for coherence, Mike uses commuting completions of forks, and the well-known no overlap argument.    
+    (Internal) coherence is about commutativity of formal diagrams of natural transformations, Mike uses pasting schemes to describe coherent situations.   Example: coherence for multiplication m which is associative up to an associator a, pentagon.   A situation consists of a collection of k-dimensional pasting schemes (thought of as ways of multiplying n things) and a collection of singleton (k+1)-dimensional pasting schemes (the things for which one wants to establish coherence), together with a realization, satisfying conditions. The situation is coherent if all (k+1)-dimensional composites with same domain and codomain are equal ("all diagrams of a's commute").   To make the example into a situation, take 2-dimensional simplicial sets and singleton 3-dimensional simplicial sets. One needs a realization of these in an ω-category, which is taken to be: one object, arrows natural numbers, 2-cells functors Kn → Km, 3-cells natural transformations, with realization: triangles sent to m, tetrahedra to a.   To prove that all diagrams commute from commutativity of the pentagon, and more generally, to get sufficient conditions for coherence, Mike uses commuting completions of forks, and the well-known no overlap argument.    
 
     How useful is this theory of coherence in relation to weak n-categories? 
 
-    (Weakly) monoidal n-categories goes via (n+1)-dimensional simplicial sets, as Mike shows.   For Gray-categories with a multiplication K tensor K -> K, the canonical things are pseudo-natural transformations, and the thing to realize in is not an n-category, but some Gray-version of these. If the pasting theorem can be extended to these sort of higher-dimensional categories, then this theory of coherence extends to this situation too.   For bicategories can just take the ω-category to have more objects and arrows strings of objects, etc., and coherence of the associativity of composition can be dealt with as before.   For tricategories, 0-composition is a homomorphism of bicategories, which is too weak for the present set-up. So need coherence locally and of homomorphisms before can do coherence of 0-composition. This inductive approach is the same as in GPS's "Coherence for tricategories".   Making the identities of the same shape as the multiplication only works in a higher-dimensional category which itself has strict identities.    
+    (Weakly) monoidal n-categories goes via (n+1)-dimensional simplicial sets, as Mike shows.   For Gray-categories with a multiplication K tensor K → K, the canonical things are pseudo-natural transformations, and the thing to realize in is not an n-category, but some Gray-version of these. If the pasting theorem can be extended to these sort of higher-dimensional categories, then this theory of coherence extends to this situation too.   For bicategories can just take the ω-category to have more objects and arrows strings of objects, etc., and coherence of the associativity of composition can be dealt with as before.   For tricategories, 0-composition is a homomorphism of bicategories, which is too weak for the present set-up. So need coherence locally and of homomorphisms before can do coherence of 0-composition. This inductive approach is the same as in GPS's "Coherence for tricategories".   Making the identities of the same shape as the multiplication only works in a higher-dimensional category which itself has strict identities.    
 
     Conclusion: Mike's approach to associativities and identities has the potential to go quite a long way. What it certainly can not do is relate associativities and identities in more than one dimension at once.
 - id: 47
@@ -556,7 +556,7 @@
   abstract: |-
     We all know what natural transformations are. I gave a slightly different viewpoint: the commutativity condition is a higher-dimensional cell which happens to be an identity. In higher dimensions this leads to the notion of transfor, and to the important distinction between naturality and functoriality: the former is a cell relating composites in D, and the latter is an axiom on how composition in C relates to composition in D. Transfors should be composable, leading to an ω-tas Hom(C,D), and to an ω-tas ω-Teisi. There are interesting, unsolved, conceptual problems in this, though. 
 
-    I briefly hinted at localizations of transfors: a q-transfor r: C -> D gives rise to a q-transfor C(c,c') -> something which is almost, but not quite, D(r(c),r(c')). 
+    I briefly hinted at localizations of transfors: a q-transfor r: C → D gives rise to a q-transfor C(c,c') → something which is almost, but not quite, D(r(c),r(c')). 
 
     This talk was based on sections 2.5.1 and 2.5.3 of the forthcoming 100+ page paper Central observations on ω-teisi.
 - id: 62
@@ -579,7 +579,7 @@
   abstract: |-
     The first half of the talk I explained the mechanics of horizontal composition in ω-teisi. 
 
-    In the second half, I explored quasi-functors of two variables in terms of transfors, the corresponding tensor product, and the extent to which this might fail to give a monoidal biclosed structure. Because the conditions for composition in an ω-tas are exactly the same as the conditions for a quasi-functors of two variables, composition is a functor C tensor C -> C, and composition with a fixed q-cell is a q-transfor. Combining this with the interpretation of tensor as (-1)-composition, one gets that tensors are transfors. 
+    In the second half, I explored quasi-functors of two variables in terms of transfors, the corresponding tensor product, and the extent to which this might fail to give a monoidal biclosed structure. Because the conditions for composition in an ω-tas are exactly the same as the conditions for a quasi-functors of two variables, composition is a functor C tensor C → C, and composition with a fixed q-cell is a q-transfor. Combining this with the interpretation of tensor as (-1)-composition, one gets that tensors are transfors. 
 
     This talk was based on sections 2.4, 2.5.2 and 2.6.1 of the forthcoming 100+ page paper Central observations on ω-teisi.
 - id: 65
@@ -952,10 +952,10 @@
   location: Macquarie
   abstract: |-
     Setting: the setting is of semistrict higher-dimensional algebra. In dimension 3 this means Gray-categories, in dimension 4 this means 4-dimensional teisi, defined as (Gray-Cat)-categories, for the monoidal structure on Gray-Cat as in "A tensor product for Gray-categories".
-    A q-transfor is a functor C tensor 2_q -> D.
-    A k-monoidal (n-dimensional) tas is a ((k+n)-dimensional) tas with one (k-1)-arrow (and hence with one i-arrow for every i  Sigma (C). Fixing an object A of C gives a transfor R_{A,-}: Sigma (C) tensor 2_1 -> Sigma (C). I indicated how, for braided 2-categories, this induces a transfor A tensor - -> - tensor A: C -> C. Similarly, an arrow f of C gives a 2-transfor R_{f,-}: Sigma (C) tensor 2_2 -> Sigma (C), which again induces a 2-transfor C tensor 2_1 -> C. There are problems in generalizing this to braidings on higher-dimensional teisi, however. 
+    A q-transfor is a functor C tensor 2_q → D.
+    A k-monoidal (n-dimensional) tas is a ((k+n)-dimensional) tas with one (k-1)-arrow (and hence with one i-arrow for every i  Sigma (C). Fixing an object A of C gives a transfor R_{A,-}: Sigma (C) tensor 2_1 → Sigma (C). I indicated how, for braided 2-categories, this induces a transfor A tensor - → - tensor A: C → C. Similarly, an arrow f of C gives a 2-transfor R_{f,-}: Sigma (C) tensor 2_2 → Sigma (C), which again induces a 2-transfor C tensor 2_1 → C. There are problems in generalizing this to braidings on higher-dimensional teisi, however. 
 
-    Another way: by definition, a braiding is a functor R: Sigma (C) tensor Sigma (C) -> Sigma (C). Does it induce a transfor C tensor C -> C? It does for braided 2-categories, but not trivially. In higher dimensions, the question becomes whether there is a canonical relation between Ω (2_p tensor 2_q) (where Ω should be some extension of the above Ω to diagrams) and 2_{p-1} tensor 2_{q-1} tensor 2_1, which seems to me an interesting question in its own, topological, right. 
+    Another way: by definition, a braiding is a functor R: Sigma (C) tensor Sigma (C) → Sigma (C). Does it induce a transfor C tensor C → C? It does for braided 2-categories, but not trivially. In higher dimensions, the question becomes whether there is a canonical relation between Ω (2_p tensor 2_q) (where Ω should be some extension of the above Ω to diagrams) and 2_{p-1} tensor 2_{q-1} tensor 2_1, which seems to me an interesting question in its own, topological, right. 
 
     Conclusion: the usual definition of a braiding (e.g. as in Generalized centers of braided and sylleptic monoidal 2-categories) indeed corresponds to the definition from the teisi point of view. However, the latter definition should be regarded as more fundamental, and is indicated in higher dimensions.
 - id: 118
@@ -1100,12 +1100,12 @@
 
     The basic principles for higher dimensional Gray-categorical structures are: horizontal composition is dimension raising, governed by the topological product of globes, axioms will be functoriality and associativity, labeled by ``elementary' pasting schemes (or, equivalently, trees), heuristically axiom equates ``most economical decomposition' with ``most uneconomical decomposition'. 
 
-    In practice, a 5-dimensional tas consists of a graded set (C_i)_i together with operations n-source, n-target: C_i -> C_n, n-composition: C_q x_n C_p -> C_{p+q+n-1}, and identity C_i -> C_{i+1}, such that source, target, vertical composition (i.e., where one of p, q is n+1, so this includes whiskering) and identity behave as in an ω-category, and such that horizontal composition behaves as follows:    for c' and c n-composable, with source (c)=a and target (c')=a' say, the faces of c' comp_n c are given as a certain composites in C (a, a'). For example, for p=q=3 and n=0 the diagram is as on page 13 of [tpgc] (but with different labeling), and involves other horizontal composites, and their inverses.    functoriality: for example,     --  /  \ — .—-.   .  \  / —   --   gives rise to d comp_0 (c' comp_1 c) = (d comp_0 c') whiskerandcomp_1 (d comp_0 c). This becomes very complicated in higher dimensions (I gave a 5-dimensional example on a slide), involving more horizontal composites and their inverses, and involving lower-dimensional axioms, to make both sides close up. Sometimes it only involves lower-dimensional axioms, in which case it holds trivially.    associativity: for example,     —   —   — .     .     .     .   —   —   —   gives rise to the familiar Yang-Baxter diagram.    interchange: does not follow automatically, and needs to be included.    also need functorio-associativity, arising from         --  — /  \ — .   .—-.   .  ,  — \  / —       --   cf. the diagram on page 46 of [tpgc], and functorio-functoriality.    
+    In practice, a 5-dimensional tas consists of a graded set (C_i)_i together with operations n-source, n-target: C_i → C_n, n-composition: C_q x_n C_p → C_{p+q+n-1}, and identity C_i → C_{i+1}, such that source, target, vertical composition (i.e., where one of p, q is n+1, so this includes whiskering) and identity behave as in an ω-category, and such that horizontal composition behaves as follows:    for c' and c n-composable, with source (c)=a and target (c')=a' say, the faces of c' comp_n c are given as a certain composites in C (a, a'). For example, for p=q=3 and n=0 the diagram is as on page 13 of [tpgc] (but with different labeling), and involves other horizontal composites, and their inverses.    functoriality: for example,     --  /  \ — .—-.   .  \  / —   --   gives rise to d comp_0 (c' comp_1 c) = (d comp_0 c') whiskerandcomp_1 (d comp_0 c). This becomes very complicated in higher dimensions (I gave a 5-dimensional example on a slide), involving more horizontal composites and their inverses, and involving lower-dimensional axioms, to make both sides close up. Sometimes it only involves lower-dimensional axioms, in which case it holds trivially.    associativity: for example,     —   —   — .     .     .     .   —   —   —   gives rise to the familiar Yang-Baxter diagram.    interchange: does not follow automatically, and needs to be included.    also need functorio-associativity, arising from         --  — /  \ — .   .—-.   .  ,  — \  / —       --   cf. the diagram on page 46 of [tpgc], and functorio-functoriality.    
 
     Problem 1: how to determine where horizontal composites occur in the faces of a composite and in the axioms, and which direction they have.
     Problem 2: how to prove that all axioms close up.
     Problem 3: how to recognize which axioms follow from lower-dimensional ones.
-    Non-problem 4: composition is a functor C(a,a') ``tensor' C(a',a') -> C(a,a'), but this tensor product (of (Gray-Cat_tensor)-categories) is not associative. So, one could say this is not A, i.e., Z, tensor product. Still, there should be a suitable, post-modern, way to enrich with respect to it resulting in 5-dimensional teisi.
+    Non-problem 4: composition is a functor C(a,a') ``tensor' C(a',a') → C(a,a'), but this tensor product (of (Gray-Cat_tensor)-categories) is not associative. So, one could say this is not A, i.e., Z, tensor product. Still, there should be a suitable, post-modern, way to enrich with respect to it resulting in 5-dimensional teisi.
 - id: 137
   title: Logic in a tos
   speaker: Ryan Shelswell
@@ -1302,7 +1302,7 @@
   date: 1998-07-29T14:00:00.000Z
   location: Sydney
   abstract: |-
-    A Chu space (A,r,X) over an alphabet K consists of a carrier A consisting of points a,a',..., a "cocarrier" X consisting of dual points or states x,x',..., and an "interaction matrix" r:AxX->K.  Morphisms are defined by analogy with continuous functions between topological spaces, with X as the set of open sets and r(a,x) as the "degree of membership" of point a in "open set" x; equivalently they may be understood as abstract adjunctions, the "right adjoint" to f:A->B being the map g:Y->X sending open sets of B to open sets of A.  As such Chu spaces amount to generalized topological spaces, with no closure conditions on the open sets and any (fixed) number of degrees of membership.  For ordinary Chu spaces, A, X, and K are sets and r is a function, while the V-enriched generalization takes these from any symmetric monoidal closed V. The category of V-enriched spaces with alphabet (dualizing object) k, introduced by Barr and his student Chu, is denoted Chu(V,k). 
+    A Chu space (A,r,X) over an alphabet K consists of a carrier A consisting of points a,a',..., a "cocarrier" X consisting of dual points or states x,x',..., and an "interaction matrix" r:AxX→K.  Morphisms are defined by analogy with continuous functions between topological spaces, with X as the set of open sets and r(a,x) as the "degree of membership" of point a in "open set" x; equivalently they may be understood as abstract adjunctions, the "right adjoint" to f:A→B being the map g:Y→X sending open sets of B to open sets of A.  As such Chu spaces amount to generalized topological spaces, with no closure conditions on the open sets and any (fixed) number of degrees of membership.  For ordinary Chu spaces, A, X, and K are sets and r is a function, while the V-enriched generalization takes these from any symmetric monoidal closed V. The category of V-enriched spaces with alphabet (dualizing object) k, introduced by Barr and his student Chu, is denoted Chu(V,k). 
 
     We show that ordinary Chu spaces have a universal character indicated by several concrete full embeddings.  The category of n-ary relational structures and their homomorphisms so embeds in Chu(Set,2^n).  Any small category C embeds fully in Chu(Set,|C|) (K = the set of arrows of C). And any small concrete category embeds fully and concretely in Chu(Set,K) where K is the set of all elements of C, i.e. the disjoint union of the underlying sets of the objects of C.
 - id: 169
@@ -2272,9 +2272,9 @@
   abstract: |-
     Let C be a category with pullbacks and let E be a pullback-stable class of morphisms of C which is closed under composition with the isomorphisms. E defines a pseudofunctor from Cop to Cat, also denoted by E, which sends an object C to E/C, the full subcategory of the slice category C/C consisting of arrows in E with codomain C. We may then consider the category of E-descent morphisms in C as defined in G. Janelidze and W. Tholen, Facets of Descent I, Applied Categorical Structures 2, 1994:1-37. 
 
-    Suppose J is a Grothendieck topology on C which is generated by the subcanonical pretopology J' for which a family (Ci->D) is in J' if and only if: the coproduct C of the Ci exists, it is universal and disjoint, and the induced morphism C→D is both a universal regular epimorphism and an E-descent morphism. 
+    Suppose J is a Grothendieck topology on C which is generated by the subcanonical pretopology J' for which a family (Ci→D) is in J' if and only if: the coproduct C of the Ci exists, it is universal and disjoint, and the induced morphism C→D is both a universal regular epimorphism and an E-descent morphism. 
 
-    Using the Yoneda embedding Y:Cop->Sh(C,J) we prove several results related to E-effective descent morphisms, Galois objects, and torsors in C. As an application, we get the following two theorems. 
+    Using the Yoneda embedding Y:Cop→Sh(C,J) we prove several results related to E-effective descent morphisms, Galois objects, and torsors in C. As an application, we get the following two theorems. 
 
     (For a commutative group G in C we denote by Gal(G,C) the abelian group of (isomorphism classes of) Galois G-objects.) 
 
@@ -2545,7 +2545,7 @@
   speaker: Joost van Hamel
   date: 2001-06-20T16:00:00.000Z
   location: Sydney
-  abstract: 'Let f: X -> S be a smooth projective curve over a base S, let Gm be the fppf sheaf represented by the multiplicative group.  I will discuss the result of Grothendieck and Deligne, dating from the end of the 1960s, that the truncation up to degree 1 of Rf*Gm is Cartier dual to itself. Their proof essentially boils down to the correspondence between sections of f and relative divisors on X, but in order to make this run smoothly, they use the fact that the truncation up to degree 1 of Rf*Gm can be identified in a natural way with the ''Picard stack'' (symmetric group-like stack) on S of invertible sheaves on X.'
+  abstract: 'Let f: X → S be a smooth projective curve over a base S, let Gm be the fppf sheaf represented by the multiplicative group.  I will discuss the result of Grothendieck and Deligne, dating from the end of the 1960s, that the truncation up to degree 1 of Rf*Gm is Cartier dual to itself. Their proof essentially boils down to the correspondence between sections of f and relative divisors on X, but in order to make this run smoothly, they use the fact that the truncation up to degree 1 of Rf*Gm can be identified in a natural way with the ''Picard stack'' (symmetric group-like stack) on S of invertible sheaves on X.'
 - id: 358
   title: Constructive Galois toposes
   speaker: Marta Bunge
@@ -4541,7 +4541,7 @@
   speaker: Stephen Allen
   date: 2006-11-08T14:00:00.000Z
   location: Macquarie
-  abstract: 'A higher rank graph is pair (Lambda,d), where Lambda is a category and d: Lambda -> Nk is a functor, which satisfy a condition called the factorisation property. In this talk we show that if a category C has a functor delta :C -> Nk then it can be represented as a higher rank graph. That is, there exists a universal higher rank graph denoted [C,delta] with a functor i : C -> [C,delta] such that delta = di (where d is the degree map of [C,delta]). We then show conditions for when C is a full subcategory of [C,delta]. This has many applications to the study of higher rank graphs because it allows many categories with no factorisation property to still be viewed as higher rank graphs.'
+  abstract: 'A higher rank graph is pair (Lambda,d), where Lambda is a category and d: Lambda → Nk is a functor, which satisfy a condition called the factorisation property. In this talk we show that if a category C has a functor delta :C → Nk then it can be represented as a higher rank graph. That is, there exists a universal higher rank graph denoted [C,delta] with a functor i : C → [C,delta] such that delta = di (where d is the degree map of [C,delta]). We then show conditions for when C is a full subcategory of [C,delta]. This has many applications to the study of higher rank graphs because it allows many categories with no factorisation property to still be viewed as higher rank graphs.'
 - id: 674
   title: A polytopic approach to (fairly) general infinity-computads, part II
   speaker: Thorsten Palm
@@ -4887,7 +4887,7 @@
   date: 2008-01-16T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    In recent joint work, Bob Walters and the speaker have shown that maps (left adjoint arrows) between Frobenius objects in a cartesian bicategory ${\bf B}$ are precisely comonoid homomorphisms and, for $A$ Frobenius and any $T$ in ${\bf B}$, ${\rm map}({\bf B})(T,A)$ is a groupoid. 
+    In recent joint work, Bob Walters and the speaker have shown that maps (left adjoint arrows) between Frobenius objects in a cartesian bicategory ${\bf B}$ are precisely comonoid homomorphisms and, for <I>A</I> Frobenius and any <I>T</I> in ${\bf B}$, ${\rm map}({\bf B})(T,A)$ is a groupoid. 
 
     In this talk, the context of the second result will be thoroughly explained and a proof given. As a corollary, it follows that a Frobenius object in the bicategory of categories and profunctors is a groupoid. This last result was first proved about 20 years ago by Aurelio Carboni and the speaker, independently. However, it is only recently that general cartesian bicategories have been defined so as to be able to contemplate the present theorem.
 - id: 732
@@ -5336,7 +5336,7 @@
   abstract: |-
     Assume that agent reasoning is done by semantic entailment: a set of sentences X entails a set of sentences Y if every semantic structure that satisfies all of X also satisfies all of Y. This presents problems for agents because they are bounded by finite resources: of computational power, time, storage capacity, etc. So semantic checking of entailment is not generally possible by a finite agent. This leads to the idea of "restricted entailment", where, by definition, semantic checking is done only over a subset of structures. (If the subset is finite and the language suitably constrained, then the restricted entailment is computable.) 
 
-    In logic, restricted entailment is defined semantically as follows. Working within a suitable universe of sets, let STRUC be the set of all semantic structures (for a given first-order language). Let W be a subset of STRUC and X a set of first-order sentences. The set of structures modW(X) is defined to be all structures belonging to W that satisfy all of X. Then "X entails Y restricted to W", denoted X|=W Y, if and only if modW(X) is a subset of modW(Y). A restricted entailment is a binary relation defined on sets of first-order sentences. This can be defined categorically in an elementary way by saying X|=W Yif and only if modW(X)>->modW(Y)>->W in the category WET. (Of course, in SET >-> is defined by means of a subobject classifier diagram.) 
+    In logic, restricted entailment is defined semantically as follows. Working within a suitable universe of sets, let STRUC be the set of all semantic structures (for a given first-order language). Let W be a subset of STRUC and X a set of first-order sentences. The set of structures modW(X) is defined to be all structures belonging to W that satisfy all of X. Then "X entails Y restricted to W", denoted X|=W Y, if and only if modW(X) is a subset of modW(Y). A restricted entailment is a binary relation defined on sets of first-order sentences. This can be defined categorically in an elementary way by saying X|=W Yif and only if modW(X)>→modW(Y)>→W in the category WET. (Of course, in SET >→ is defined by means of a subobject classifier diagram.) 
 
     There is a category SENW with a unique morphism between sets of sentences X and Y if X |=W Y; also there is a category RESENT with objects restricted entailments. There is a unique morphism from |=J to |=I iff |=J is a subset of |=I. RESENT is isomorphic to a certain category of structures FSTRUC, and SENW is equivalent to a category of structures FSTRUCW. The definition of these categories depends on the notion of "fullness" of sets of structures, which in turn depends on the relation of elementary equivalence between structures. 
 
@@ -6491,7 +6491,7 @@
   abstract: |-
     A catead in a finitely complete 2-category K is an internal category whose source-target span is a two-sided discrete fibration. Cateads were named and studied by Bourn and Penon in their preprint "2-Catégories réductibles" (now a TAC reprint).
 
-    We show that cateads in the finitely complete K are precisely those internal categories whose externalisation (K_0)^op -> Cat extends to a 2-functor K^op -> Cat. We deduce that the 2-category Kat(K) of cateads, internal functors and internal natural transformations, is an exact completion of K: the closure of the representables  in [K^op, Cat] under finite limits and codescent objects of cateads.
+    We show that cateads in the finitely complete K are precisely those internal categories whose externalisation (K_0)^op → Cat extends to a 2-functor K^op → Cat. We deduce that the 2-category Kat(K) of cateads, internal functors and internal natural transformations, is an exact completion of K: the closure of the representables  in [K^op, Cat] under finite limits and codescent objects of cateads.
   part: 1
 - id: 994
   title: The formal theory of Tannaka duality
@@ -8796,7 +8796,7 @@
   date: 2017-02-01T16:00:00.000Z
   location: Macquarie
   abstract: |-
-    I defined a notion of braiding for a skew monoidal category, generalizing the usual notion for monoidal categories, and involving isomorphisms (XA)B->(XB)A. In the case where the left unit maps IA->A are invertible, one can take X=I and so obtain an isomorphism AB-> BA, but in general this may not be possible.
+    I defined a notion of braiding for a skew monoidal category, generalizing the usual notion for monoidal categories, and involving isomorphisms (XA)B→(XB)A. In the case where the left unit maps IA→A are invertible, one can take X=I and so obtain an isomorphism AB→ BA, but in general this may not be possible.
 
     One example is the category of categories with chosen finite limits, and functors which strictly preserve them. This has a skew closed structure for which the internal hom [A,B] consists of the functors which preserve finite limits in the usual sense. There is a corresponding tensor product, and this the resulting skew monoidal category has a braiding in our sense. There are many related examples where the structure of finite limits is replaced by some other "commutative" structure.
 
@@ -9108,7 +9108,7 @@
   date: 2017-08-16T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    Trimble's approach to defining weak $n$-categories is by iterated enrichment, where each stage of enrichment is parametrised by the action of an operad. For some time it was thought that this definition would be ``too strict' because although associativity and units are made weak, interchange remains strict. However, work by Joyal and Kock has shown that an alternative strictification to the usual one is possible: interchange can be made strict if units and associativity are not. Specifically, they proved that, given any monoidal 2-category with this level of weakness, End(I) is a braided monoidal category, and that every braided monoidal category arises in this way, up to some suitable equivalence.
+    Trimble's approach to defining weak <i>n</i>-categories is by iterated enrichment, where each stage of enrichment is parametrised by the action of an operad. For some time it was thought that this definition would be ``too strict' because although associativity and units are made weak, interchange remains strict. However, work by Joyal and Kock has shown that an alternative strictification to the usual one is possible: interchange can be made strict if units and associativity are not. Specifically, they proved that, given any monoidal 2-category with this level of weakness, End(I) is a braided monoidal category, and that every braided monoidal category arises in this way, up to some suitable equivalence.
 
     We will give an analogous comparison for doubly degenerate Trimble 3-categories. We will construct a comparison functor to braided monoidal categories inspired by Joyal and Kock's use of cliques, and show that every braided monoidal category arises in this way, up to a suitable notion of equivalence. There is a difficulty in that notion of equivalence, as Trimble's original definition cleverly sidesteps the issue of weak functors, whereas we will need it. Thus we also propose a definition of weak functor for doubly degenerate Trimble 3-categories, based on the work of Cheng and Gurksi showing that an approach using icons gives the right higher maps between degenerate n-categories. Using these weak functors we construct a 2-category of doubly degenerate Trimble 3-categories and give a sense in which this is 2-equivalent to a 2-category of braided monoidal categories.
 - id: 1420
@@ -9924,7 +9924,7 @@
   speaker: Marcy Robertson
   date: 2019-05-15T14:00:00.000Z
   location: Macquarie
-  abstract: In this talk I'll discuss two examples of infinity (pr)operads that arise from geometric examples– the first comes from low dimensional topology and the theory of $w$-tangles and the second from the real points of a moduli space of algebraic curves with $n$-marked points. I'll explain how actions of these weakened (pr)operads are related to formality theorems for lie algebras and lie bialgebras.
+  abstract: In this talk I'll discuss two examples of infinity (pr)operads that arise from geometric examples– the first comes from low dimensional topology and the theory of <i>w</i>-tangles and the second from the real points of a moduli space of algebraic curves with <i>n</i>-marked points. I'll explain how actions of these weakened (pr)operads are related to formality theorems for lie algebras and lie bialgebras.
 - id: 1531
   title: A counterexample in quasi-category theory
   speaker: Alexander Campbell
@@ -9936,7 +9936,7 @@
   speaker: David Bulger
   date: 2019-05-22T14:00:00.000Z
   location: Macquarie
-  abstract: This short presentation will describe a problem arising in a music theory application that I'm hoping to express more clearly and solve more elegantly and generally. Briefly, the problem is to describe the group of symmetries of an orbifold arising as the quotient $\R^N/G$, where $G$ is a group of affine transformations. I am seeking your assistance; it seems like the sort of problem where the right algebraic or categorical perspective might be very helpful.
+  abstract: This short presentation will describe a problem arising in a music theory application that I'm hoping to express more clearly and solve more elegantly and generally. Briefly, the problem is to describe the group of symmetries of an orbifold arising as the quotient $\R^N/G$, where <I>G</I> is a group of affine transformations. I am seeking your assistance; it seems like the sort of problem where the right algebraic or categorical perspective might be very helpful.
 - id: 1533
   title: Polynomic rethink
   speaker: Ross Street
@@ -10044,7 +10044,7 @@
   abstract: |-
     It has been known since Segal that various small categories can be used as blueprints for algebraic structures in homotopy theory, providing alternatives to operads in such questions as for example delooping. The examples of those categories include finite sets, ordered sets, n-ordinals of Batanin and various exit path categories of configuration spaces, as well as categories of operators of general topological operads. More recently, the Lurie has shown how to develop higher-categorical algebra using the language of various fibrations over such categories, provided one is willing to pay the price of (immense) technical difficulty.
 
-    In our talk, we would like to explain the examples of various operation-indexing categories (and offer a definition of such a notion due to Harpaz) and how one can use them to describe homotopy-algebraic structures via the fibrations of model and higher categories. Our approach is arguably much less technical than that of Lurie, and provides what can be viewed as "Segal objects" in chain complexes of vector spaces. Depending on time and the interest of the audience, we may also present the particular example of the category of trees of Kontsevich-Soibelman and discuss its relation to the Hochschild cohomology.
+    In our talk, we would like to explain the examples of various operation-indexing categories (and offer a definition of such a notion due to Harpaz) and how one can use them to describe homotopy-algebraic structures via the fibrations of model and higher categories. Our approach is arguably much less technical than that of Lurie, and provides what can be viewed as “Segal objects” in chain complexes of vector spaces. Depending on time and the interest of the audience, we may also present the particular example of the category of trees of Kontsevich-Soibelman and discuss its relation to the Hochschild cohomology.
 - id: 1549
   title: Ambrose-Palais-Singer theorem for tangent categories
   speaker: Steve Lack
@@ -10223,7 +10223,7 @@
   date: 2019-11-20T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    A result due to Bourke, subsequently developed further by Miranda, states that the 2-category of finitely complete 2-categories is pseudocomonadic over the 2-category of finitely complete ordinary categories, via the pseudocomonad E |-> Cat(E).
+    A result due to Bourke, subsequently developed further by Miranda, states that the 2-category of finitely complete 2-categories is pseudocomonadic over the 2-category of finitely complete ordinary categories, via the pseudocomonad E |→ Cat(E).
 
     We explain a more general version of this result: if V is locally finitely presentable as a symmetric monoidal category, then the 2-category of finitely complete V-categories is comonadic over the 2-category of finitely complete ordinary categories. Besides the motivating case V = Cat, this applies, for example, when V = Ch or V = sSet.
 
@@ -10252,7 +10252,7 @@
 
     1. Feynman categories Fey form a full reflective subcategory of operadic categories Oper.
 
-    2. There are two other functors: O: Fey -> Oper, F:Oper -> Fey with the property that the composites F(O) and O(F) are +-constructions on corresponding categories.
+    2. There are two other functors: O: Fey → Oper, F:Oper → Fey with the property that the composites F(O) and O(F) are +-constructions on corresponding categories.
 
     3. Both Fey and Oper are equipped with comprehensive factorisation systems which are consistent with the above functors in appropriate sense.
 - id: 1575
@@ -10422,7 +10422,7 @@
 
     We have been told for over 30 years that one may model state by use of the "state" or "side-effects" monad, (Sx-)^S for a countable set S, but the situation is more subtle than that, and category theory can help to illuminate some of the structure.
 
-    There are natural operations and equations that generate the monad (Sx-)^S, which I shall describe. The operations may be described as lookup:X^S->X and update:X->X^S. However, lookup is of countable arity, whereas programming languages do not have operations of countable arity in general. That concern led Plotto to define a notion of "generic effect", that being equivalent to giving an operation. The underlying category theory of the correspondence is routine, but the computational significance is profound. It amounts to adding a new type to the language to represent an arity, then adding a constant of that type to represent an operation of the corresponding arity. The correspondence makes lookup and update into familiar programming constructs.
+    There are natural operations and equations that generate the monad (Sx-)^S, which I shall describe. The operations may be described as lookup:X^S→X and update:X→X^S. However, lookup is of countable arity, whereas programming languages do not have operations of countable arity in general. That concern led Plotto to define a notion of "generic effect", that being equivalent to giving an operation. The underlying category theory of the correspondence is routine, but the computational significance is profound. It amounts to adding a new type to the language to represent an arity, then adding a constant of that type to represent an operation of the corresponding arity. The correspondence makes lookup and update into familiar programming constructs.
 
     Beyond that, in practice, a state is typically a function from a finite set Loc of locations into a countable set Val of values, with lookup meaning looking up a location, and update meaning updating a value. The state monad is predicated upon that, with (Sx-)^S referring to "global" state. However, typically, a program may also add locations using, for example, a block operation. So we studied  lookup, update and block, yielding a more subtle monad on a presheaf category, modelling the computationally more natural "local" state. There is an oversight in the paper (my mistake), and more importantly, I do not believe there has been a definitive semantic account of local state yet, but we made substantial progress, which I shall describe.
 - id: 1592
@@ -10433,7 +10433,7 @@
   abstract: |-
     A few weeks ago, I explained how models and comodels of an algebraic theory T can encode programs and their associated environments. This week I will explain how co-S-models in the category of T-models provide a way of translating T-environments into S-environments.
 
-    In particular, I consider the case where S and T are the free theories generated by an A-ary, respectively B-ary operation. In this case, co-S-models in T-models encode a simple kind of automaton translating streams of B's into streams of A's. Our novel result is that the terminal co-S-model in T-models (describing possible behaviours of such automata) is exactly the set of continuous functions between Baire spaces B^N->A^N; this realises the old idea of Brouwer that continuous = computable, and extends prior work of Hancock, Ghani and Pattinson.
+    In particular, I consider the case where S and T are the free theories generated by an A-ary, respectively B-ary operation. In this case, co-S-models in T-models encode a simple kind of automaton translating streams of B's into streams of A's. Our novel result is that the terminal co-S-model in T-models (describing possible behaviours of such automata) is exactly the set of continuous functions between Baire spaces B^N→A^N; this realises the old idea of Brouwer that continuous = computable, and extends prior work of Hancock, Ghani and Pattinson.
 - id: 1593
   title: The nucleus of an adjunction
   speaker: Ross Street
@@ -11643,7 +11643,7 @@
   speaker: Soichiro Fujii
   date: 2023-10-04T14:00:00.000Z
   location: Macquarie
-  abstract: 'The notion of (Grothendieck) fibration can be defined internal to any 2-category K, and when K has oplax limits of 1-cells, there is a simple criterion for a 1-cell in K to be a fibration. In this talk, I will show that the 2-functor (-)-Cat : BICAT -> 2-CAT, mapping each bicategory B to the 2-category B-Cat of B-categories, preserves fibrations. Here, BICAT is the 2-category of bicategories, lax functors, and icons, and the fibrations in BICAT are exactly the pseudo functors which are locally (Grothendieck) fibrations. (Joint work with Steve Lack.)'
+  abstract: 'The notion of (Grothendieck) fibration can be defined internal to any 2-category K, and when K has oplax limits of 1-cells, there is a simple criterion for a 1-cell in K to be a fibration. In this talk, I will show that the 2-functor (-)-Cat : BICAT → 2-CAT, mapping each bicategory B to the 2-category B-Cat of B-categories, preserves fibrations. Here, BICAT is the 2-category of bicategories, lax functors, and icons, and the fibrations in BICAT are exactly the pseudo functors which are locally (Grothendieck) fibrations. (Joint work with Steve Lack.)'
 - id: 1744
   title: Forest-skein categories and groups
   speaker: Arnaud Brothier
@@ -11667,7 +11667,7 @@
   speaker: Bregje Pauwels
   date: 2023-11-08T14:00:00.000Z
   location: Macquarie
-  abstract: 'In characteristic zero, the structure theory of (symmetric) tensor categories (with objects of finite length) is governed by Deligne''s classical results: a tensor category is the representation category of a supergroup if and only if it is of moderate growth. On the other hand, in characteristic p>0 there was very little progress until the last few years. One of the major developments is the notion of incompressible categories, which take over the role played by the category of (super)vector spaces in characteristic zero. In this talk, I''ll give a broad overview of the classical results, more recent work (mostly not by me), and open conjectures. In other words: what''s known, what''s unknown, and why do non-category theorists care?'
+  abstract: 'In characteristic zero, the structure theory of (symmetric) tensor categories (with objects of finite length) is governed by Deligne’‘s classical results: a tensor category is the representation category of a supergroup if and only if it is of moderate growth. On the other hand, in characteristic p>0 there was very little progress until the last few years. One of the major developments is the notion of incompressible categories, which take over the role played by the category of (super)vector spaces in characteristic zero. In this talk, I’ll give a broad overview of the classical results, more recent work (mostly not by me), and open conjectures. In other words: what’s known, what’s unknown, and why do non-category theorists care?'
   part: 1
 - id: 1748
   title: Tensor categories
@@ -11687,14 +11687,14 @@
   speaker: Ross Street
   date: 2023-12-13T14:00:00.000Z
   location: Macquarie
-  abstract: This will present some further thoughts on the topic of Richard Wood's 1978 paper. I will look at procomonads and their categories of algebras in the sense of the 1971 PhD thesis of Michel Thi\'ebaud.
+  abstract: This will present some further thoughts on the topic of Richard Wood’s 1978 paper. I will look at procomonads and their categories of algebras in the sense of the 1971 PhD thesis of Michel Thiébaud.
 - id: 1751
   title: A groupoid approach to regular *-semigroups
   speaker: James East
   date: 2024-01-17T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    A cornerstone of inverse semigroup theory is the Ehresmann–Schein–-Nambooripad Theorem, which states that the category of inverse
+    A cornerstone of inverse semigroup theory is the Ehresmann–Schein–Nambooripad Theorem, which states that the category of inverse
     semigroups is isomorphic to the category of inductive groupoids. This was generalised to regular semigroups by Nambooripad in his legendary
     1979 memoir. In this pair of talks we will discuss our recent work on the intermediate class of regular *-semigroups. These semigroups have an
     involution, but their idempotents need not commute; key examples include partition, Brauer and Temperley–Lieb monoids. The role of the
@@ -11704,10 +11704,10 @@
     *-semigroups is isomorphic to the category of (what we call) chained projection groupoids.
 
     The second talk (Azeef) will cover an interesting consequence, namely the existence of free (idempotent- and projection-generated) regular
-    *-semigroups. Specifically, the forgetful functor RSS -> PA (where these are the categories of regular *-semigroups and projection algebras) has a
-    left adjoint PA -> RSS. At the object level, the adjoint constructs a so-called chain semigroup C_P from a projection algebra P, wherein C_P is
+    *-semigroups. Specifically, the forgetful functor RSS → PA (where these are the categories of regular *-semigroups and projection algebras) has a
+    left adjoint PA → RSS. At the object level, the adjoint constructs a so-called chain semigroup C_P from a projection algebra P, wherein C_P is
     realised as a quotient of a free category arising from P. This utilises what we call linked pairs of projections (which are analogous to
-    Nambooripad's singular squares in biordered sets). We shall also glimpse the special cases of various diagram monoids, and if time permits we
+    Nambooripad’s singular squares in biordered sets). We shall also glimpse the special cases of various diagram monoids, and if time permits we
     will discuss recent and ongoing joint work with Robert Gray (East Anglia) and Nik Ruskuc (St Andrews) in this direction.
   part: 1
 - id: 1752
@@ -11722,7 +11722,7 @@
   speaker: Emily Riehl
   date: 2024-01-24T14:00:00.000Z
   location: Macquarie
-  abstract: The fundamental theorem of category theory is the Yoneda lemma, which in its simplest form identifies natural transformations between represented functors with morphisms between the representing objects. The ∞-categorical Yoneda lemma is surprisingly hard to prove — at least in the traditional set-based foundations of mathematics. In this talk we'll describe the experience of developing ∞-category theory in an alternate foundation system based on homotopy type theory, in which constructions determined up to a contractible space of choices are genuinely "well-defined" and elementwise mappings are automatically homotopically-coherently functorial. In this setting the proof the ∞-categorical Yoneda lemma is arguably easier than the 1-categorical Yoneda lemma. We'll end by posing the question as to whether similar foundations would be useful for other "higher structures." This is based on joint work with Mike Shulman and involves computer formalizations written in collaboration with Nikolai Kudasov and Jonathan Weinberger.
+  abstract: The fundamental theorem of category theory is the Yoneda lemma, which in its simplest form identifies natural transformations between represented functors with morphisms between the representing objects. The ∞-categorical Yoneda lemma is surprisingly hard to prove — at least in the traditional set-based foundations of mathematics. In this talk we’ll describe the experience of developing ∞-category theory in an alternate foundation system based on homotopy type theory, in which constructions determined up to a contractible space of choices are genuinely “well-defined” and elementwise mappings are automatically homotopically-coherently functorial. In this setting the proof the ∞-categorical Yoneda lemma is arguably easier than the 1-categorical Yoneda lemma. We’ll end by posing the question as to whether similar foundations would be useful for other “higher structures." This is based on joint work with Mike Shulman and involves computer formalizations written in collaboration with Nikolai Kudasov and Jonathan Weinberger.
 - id: 1754
   title: The geometric tangent category of an operad
   speaker: Marcello Lanfranchi
@@ -11751,14 +11751,14 @@
 
     Lawvere also called for a similar axiomatization of the two-dimensional structure of categories, functors,
     and natural transformations. In this talk I will describe a characterisation of 2-categories Cat(E) of
-    categories internal to a model of ETCS. This builds upon Bourke's characterisation of Cat(E) when E just
+    categories internal to a model of ETCS. This builds upon Bourke’s characterisation of Cat(E) when E just
     has pullbacks. The resulting theory is the elementary theory of the 2-category of small categories
     (ET2CSC) of the title. The main result is that the 2-categories of models of ETCS and ET2CSC are
     biequivalent. 
 
     Time permitting (or in a follow up talk!), I will also describe how the two-dimensional setting supports a
     convenient way of incorporating the axiom of replacement, albeit in a non-elementary way. This uses
-    Weber's discrete opfibration classifiers and is inspired by the categories of small maps from algebraic set
+    Weber’s discrete opfibration classifiers and is inspired by the categories of small maps from algebraic set
     theory. 
 
     This talk is based on joint work with Calum Hughes. 
@@ -11767,13 +11767,13 @@
   speaker: Richard Garner
   date: 2024-02-28T14:00:00.000Z
   location: Macquarie
-  abstract: (Joint work with JS Lemay). In this talk, I describe a result of JS and myself, which says that, for an additive symmetric monoidal category satisfying mild conditions, the forgetful functor from monoidal differential modalities to monoidal coalgebra modalities has a left adjoint. The mild conditions involve the existence of what we call "algebraically-free commutative monoids", a notion which is apparently new and interesting in its own right.
+  abstract: (Joint work with JS Lemay). In this talk, I describe a result of JS and myself, which says that, for an additive symmetric monoidal category satisfying mild conditions, the forgetful functor from monoidal differential modalities to monoidal coalgebra modalities has a left adjoint. The mild conditions involve the existence of what we call “algebraically-free commutative monoids”, a notion which is apparently new and interesting in its own right.
 - id: 1758
   title: Quantum Sets and Finiteness Spaces
   speaker: Richard Blute
   date: 2024-03-06T14:00:00.000Z
   location: Macquarie
-  abstract: We look at the possibility of extending the work of Coecke, Pavlovic, Vicary and others on the theory of quantum sets to infinite-dimensions. In previous work, those authors showed that the category of commutative dagger-Frobenius algebras in the category of finite-dimensional Hilbert spaces is equivalent to the category of finite sets. This allows one to have a notion of finite set in more general monoidal categories. But the extension of these ideas to infinite dimensions requires new structures. I'm going to suggest that Ehrhard's finiteness spaces are a sensible possibility. Rather than Hilbert spaces, one works in a category of Lefschetz topological spaces, which give a *-autonomous category of topological vector spaces. This work is a summary of ongoing discussions with J.S.Lemay.
+  abstract: We look at the possibility of extending the work of Coecke, Pavlovic, Vicary and others on the theory of quantum sets to infinite-dimensions. In previous work, those authors showed that the category of commutative dagger-Frobenius algebras in the category of finite-dimensional Hilbert spaces is equivalent to the category of finite sets. This allows one to have a notion of finite set in more general monoidal categories. But the extension of these ideas to infinite dimensions requires new structures. I’m going to suggest that Ehrhard’s finiteness spaces are a sensible possibility. Rather than Hilbert spaces, one works in a category of Lefschetz topological spaces, which give a *-autonomous category of topological vector spaces. This work is a summary of ongoing discussions with J.S.Lemay.
 - id: 1759
   title: Classifying representations of the Thompson groups and the Cuntz algebra
   speaker: Dilshan Wijesena
@@ -11786,44 +11786,43 @@
   date: 2024-03-20T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    The Grothendieck construction establishes an equivalence between fibrations, a.k.a. fibred categories, and indexed categories, and is one of the fundamental results of category theory. Cockett and Cruttwell introduced the notion of fibrations in the context of tangent categories and proved that the fibres of a tangent fibration inherit a tangent structure from the total tangent category. The main goal of this talk is to provide a Grothendieck construction for tangent fibrations. Our first attempt will focus on providing a correspondence between tangent fibrations and indexed tangent categories, which are collections of tangent categories and tangent morphisms indexed by the objects and morphisms of a base tangent category. We will show that this construction inverts Cockett and Cruttwell's result but it does not provide a full equivalence between these two concepts. In order to understand how to define a genuine Grothendieck equivalence in the context of tangent categories, we introduce a new concept: the formal notion of tangent objects. Tangent objects play a similar role in tangent category theory as formal monads for monad theory. We show that tangent fibrations arise as tangent objects of a suitable 2-category and we employ this characterization to lift the Grothendieck construction between fibrations and indexed categories to a genuine Grothendieck equivalence between tangent fibrations and tangent indexed categories. I want to thank Geoff Cruttwell for introducing me to the world of fibrations, and I also would like to thank Dorette Pronk and Geoff Vooys for the
-    stimulating discussions about the Grothendieck construction.
+    The Grothendieck construction establishes an equivalence between fibrations, a.k.a. fibred categories, and indexed categories, and is one of the fundamental results of category theory. Cockett and Cruttwell introduced the notion of fibrations in the context of tangent categories and proved that the fibres of a tangent fibration inherit a tangent structure from the total tangent category. The main goal of this talk is to provide a Grothendieck construction for tangent fibrations. Our first attempt will focus on providing a correspondence between tangent fibrations and indexed tangent categories, which are collections of tangent categories and tangent morphisms indexed by the objects and morphisms of a base tangent category. We will show that this construction inverts Cockett and Cruttwell’s result but it does not provide a full equivalence between these two concepts. In order to understand how to define a genuine Grothendieck equivalence in the context of tangent categories, we introduce a new concept: the formal notion of tangent objects. Tangent objects play a similar role in tangent category theory as formal monads for monad theory. We show that tangent fibrations arise as tangent objects of a suitable 2-category and we employ this characterization to lift the Grothendieck construction between fibrations and indexed categories to a genuine Grothendieck equivalence between tangent fibrations and tangent indexed categories. I want to thank Geoff Cruttwell for introducing me to the world of fibrations, and I also would like to thank Dorette Pronk and Geoff Vooys for the stimulating discussions about the Grothendieck construction.
 - id: 1761
   title: Algebraic deformation and tangent categories
   speaker: Marcello Lanfranchi
   date: 2024-03-27T14:00:00.000Z
   location: Macquarie
-  abstract: In the algebraic approach to Quantum Mechanics, the observables of a system, i.e. the physical quantities one can measure of a system, are mathematically represented by a *-algebra, which is an associative Banach algebra with an involution map. Employing the celebrated theorem of Gelfand and Najmark one can show that commutative *-algebras formalize classical observables, while non-commutative ones represent the observables of a quantum system. In the algebraic approach, usually, one starts with a well-known classical theory and builds a non-commutative version of the corresponding commutative *-algebra. This technique of building noncommutative algebras from commutative ones is called deformation quantization and it is based on the principles of deformation theory. Deformation theory aims to construct algebraic objects of some type, e.g. associative algebras, starting from other ones, in a controlled way, so that one can restore the original objects by "killing" some extra terms. This construction, in my opinion, can be interpreted geometrically. In this talk, I would like to discuss some ideas and intuitions I developed to employ tangent category theory to interpret geometrically the deformation of an algebraic object. In particular, I will show that the category of operad is itself a tangent category, whose vector fields are related to infinitesimal deformations of the corresponding algebras.
+  abstract: In the algebraic approach to Quantum Mechanics, the observables of a system, i.e. the physical quantities one can measure of a system, are mathematically represented by a *-algebra, which is an associative Banach algebra with an involution map. Employing the celebrated theorem of Gelfand and Najmark one can show that commutative *-algebras formalize classical observables, while non-commutative ones represent the observables of a quantum system. In the algebraic approach, usually, one starts with a well-known classical theory and builds a non-commutative version of the corresponding commutative *-algebra. This technique of building noncommutative algebras from commutative ones is called deformation quantization and it is based on the principles of deformation theory. Deformation theory aims to construct algebraic objects of some type, e.g. associative algebras, starting from other ones, in a controlled way, so that one can restore the original objects by “killing” some extra terms. This construction, in my opinion, can be interpreted geometrically. In this talk, I would like to discuss some ideas and intuitions I developed to employ tangent category theory to interpret geometrically the deformation of an algebraic object. In particular, I will show that the category of operad is itself a tangent category, whose vector fields are related to infinitesimal deformations of the corresponding algebras.
 - id: 1762
   title: Forest-skein categories and groups
   speaker: Arnaud Brothier
   date: 2024-04-03T14:00:00.000Z
   location: Macquarie
-  abstract: 'Vaughan Jones found unexpected connections between subfactor theory and Richard Thompson''s group while attempting to construct conformal field theories (CFT). This led to numerous fruitful applications and among others provided a novel way to construct group actions using categories. I am initiating a program strengthening Jones'' visionary work where the Thompson group is replaced by a family of groups that I name "forest-skein groups". These groups are interesting on their own, satisfying exceptional properties and having powerful extra-structures for studying them. They are isotropy subgroup of forest-skein categories: categories of planar diagrams mod out by certain skein relations (just like planar algebras are in Jones'' subfactor framework). I will briefly say a word about the story of Jones''s discovery and then present forest-skein categories and groups using explicit examples.'
+  abstract: 'Vaughan Jones found unexpected connections between subfactor theory and Richard Thompson’s group while attempting to construct conformal field theories (CFT). This led to numerous fruitful applications and among others provided a novel way to construct group actions using categories. I am initiating a program strengthening Jones’ visionary work where the Thompson group is replaced by a family of groups that I name “forest-skein groups”. These groups are interesting on their own, satisfying exceptional properties and having powerful extra-structures for studying them. They are isotropy subgroup of forest-skein categories: categories of planar diagrams mod out by certain skein relations (just like planar algebras are in Jones’ subfactor framework). I will briefly say a word about the story of Jones’s discovery and then present forest-skein categories and groups using explicit examples.'
 - id: 1763
   title: Drazin Inverses in Categories
   speaker: JS Lemay
   date: 2024-04-17T14:00:00.000Z
   location: Macquarie
-  abstract: 'Drazin inverses are a special kind of generalized inverse that have been extensively studied in ring theory, semigroup theory, and matrix theory. Drazin inverses can also be defined for endomorphisms in any category. In this talk I''ll give an introduction to Drazin inverses from a categorical perspective. Based on this paper: https://arxiv.org/pdf/2402.18226.pdf which is joint work with Robin Cockett and Priyaa Varshinee Srinivasan'
+  abstract: 'Drazin inverses are a special kind of generalized inverse that have been extensively studied in ring theory, semigroup theory, and matrix theory. Drazin inverses can also be defined for endomorphisms in any category. In this talk I’ll give an introduction to Drazin inverses from a categorical perspective. Based on this paper: https://arxiv.org/pdf/2402.18226.pdf which is joint work with Robin Cockett and Priyaa Varshinee Srinivasan'
 - id: 1764
   title: On Leinster's Eventual Image Duality (and the relation to Drazin inverses)
   speaker: JS Lemay
   date: 2024-04-24T14:00:00.000Z
   location: Macquarie
-  abstract: Last time I talked about Drazin inverses in categories and mentioned that there was a link between Drazin inverses and Leinster's notion of eventual image duality. This week, I'll give a survey of Leinster's eventual image duality (https://arxiv.org/abs/2210.00302) going over the definition, basic properties, and main examples. Afterwards, I'll explain how Drazin split endomorphisms have eventual image duality (https://arxiv.org/pdf/2402.18226.pdf).
+  abstract: Last time I talked about Drazin inverses in categories and mentioned that there was a link between Drazin inverses and Leinster’s notion of eventual image duality. This week, I’ll give a survey of Leinster’s eventual image duality (https://arxiv.org/abs/2210.00302) going over the definition, basic properties, and main examples. Afterwards, I’ll explain how Drazin split endomorphisms have eventual image duality (https://arxiv.org/pdf/2402.18226.pdf).
 - id: 1765
   title: A Binding Calculation
   speaker: John Power
   date: 2024-05-01T14:00:00.000Z
   location: Macquarie
-  abstract: A few years ago, I gave two talks on Miki Tanaka and my generalisation of Plotto et al's 1999 work on variable binding. It inherently involves a definition of binding signature. At the end of my second talk, Steve asked whether there is a natural mathematical reason for the definition as stated. I could not answer then, and I still cannot. However, although I stated the key theorem that a binding signature must satisfy, I did not explain the proof, which I regarded, and still regard, as remarkably delicate. So I propose to give a little background in order to make the motivation for the calculation somewhat comprehensible, then try to explain the proof. My hope is that one of you, or I, might see a more conceptual formulation of binding signature that reflects the theorem. Nobody other than Marcelo Fiore seems to have done much with Plotto et al's work, but I think it was fine work that merits thought.
+  abstract: A few years ago, I gave two talks on Miki Tanaka and my generalisation of Plotto et al’s 1999 work on variable binding. It inherently involves a definition of binding signature. At the end of my second talk, Steve asked whether there is a natural mathematical reason for the definition as stated. I could not answer then, and I still cannot. However, although I stated the key theorem that a binding signature must satisfy, I did not explain the proof, which I regarded, and still regard, as remarkably delicate. So I propose to give a little background in order to make the motivation for the calculation somewhat comprehensible, then try to explain the proof. My hope is that one of you, or I, might see a more conceptual formulation of binding signature that reflects the theorem. Nobody other than Marcelo Fiore seems to have done much with Plotto et al’s work, but I think it was fine work that merits thought.
 - id: 1766
   title: Drazin Inverses in Additive Categories and Fitting's Results
   speaker: JS Lemay
   date: 2024-05-08T14:00:00.000Z
   location: Macquarie
-  abstract: 'I''ll discuss Drazin inverses in additive categories, which covers the last remaining section of our paper: https://arxiv.org/pdf/2402.18226 that I have not covered yet. We will discuss pi-regularity, the core-nilpotent decomposition, a matrix decomposition, and Fitting''s results in additive/Abelian categories.'
+  abstract: 'I’ll discuss Drazin inverses in additive categories, which covers the last remaining section of our paper: https://arxiv.org/pdf/2402.18226 that I have not covered yet. We will discuss pi-regularity, the core-nilpotent decomposition, a matrix decomposition, and Fitting’s results in additive/Abelian categories.'
 - id: 1767
   title: Objective Mackey and Tambara functors
   speaker: Ross Street
@@ -11845,10 +11844,10 @@
     In general (universal) algebra, a concrete clone describes algebraic structure in terms of the operations available on a fixed base set. Further, concrete clones may be regarded as representations of abstract clones, known to be equivalent to Lawvere's algebraic theories in category theory.  Relational clones arise as fixpoints of a Galois connection (adjunction) between operations and relations on a base set; concrete clones are the fixpoints on the other side. When the base set is finite, clones and coclones form dually isomorphic lattices — a duality between clones of operations and clones of relations. We will present our work on a category theoretic treatment of this situation in talks over two consecutive weeks:
 
     Part I. Syntactic categories and functorial semantics.
-    We will see that a relational clone corresponds to a certain category, and these `coclone theories' fit in with the formalism of a crowning achievement of the categorical approach to logic. We proceed to describe functorial semantics, to characterise the categories of models, and to consider a number of examples along the way.
+    We will see that a relational clone corresponds to a certain category, and these ‘coclone theories’ fit in with the formalism of a crowning achievement of the categorical approach to logic. We proceed to describe functorial semantics, to characterise the categories of models, and to consider a number of examples along the way.
 
     Part II. Abstract coclones, duality.
-    A key insight into the structure of the syntactic category of a relational clone provides a basis from which we introduce the notion of `abstract coclone'. This leads us to an account of the duality between clones and coclones as a dual equivalence between categories whose objects on each side are certain classes of finite limit theories; the algebraic (Lawvere) theories of the clones are recoverable as certain subcategories thereof.
+    A key insight into the structure of the syntactic category of a relational clone provides a basis from which we introduce the notion of ‘abstract coclone’. This leads us to an account of the duality between clones and coclones as a dual equivalence between categories whose objects on each side are certain classes of finite limit theories; the algebraic (Lawvere) theories of the clones are recoverable as certain subcategories thereof.
 
     This work provides an answer to an invitation extended by editors John Power and Cai Wingfield in the Proceedings of the 2013 Workshop on Algebra, Coalgebra and Topology to obtain a category theoretic treatment of the connection between clones and coclones in terms of Lawvere theories.
   part: 1
