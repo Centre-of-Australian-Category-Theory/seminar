@@ -5,5 +5,5 @@
   Soichiro Fujii. If you would like to sign up for seminar
   announcements, or if you would like to speak at the seminar, you
   may contact Soichiro at
-  <a class="hover:text-red" href="mailto:s.fujii.math@gmail.com">s.fujii.math@gmail.com</a>.
+  <a class="hover:text-red text-deep-red" href="mailto:s.fujii.math@gmail.com">s.fujii.math@gmail.com</a>.
 </div>
