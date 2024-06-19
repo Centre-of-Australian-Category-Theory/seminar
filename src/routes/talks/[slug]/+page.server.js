@@ -15,6 +15,15 @@ export function load({ params }) {
   let talks = yaml.load(fs.readFileSync('static/talks.yaml').toString());
   let talk = talks.find(x => Number(x.id) == Number(params.slug));
 
+  talks.forEach( (talk) => {
+    let curtalk = talk;
+    curtalk.totalParts = talk.part;
+    while (curtalk.previous) {
+      curtalk = talks.find(x => Number(x.id) == Number(curtalk.previous));
+      curtalk.totalParts = talk.part;
+    }
+  });
+
   let curtalk = talk;
   let abstract;
   while (true) {

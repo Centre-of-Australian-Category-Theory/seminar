@@ -10,7 +10,7 @@
 
 
 <div class="w-screen flex items-center justify-center px-3">
-  <div class="max-w-prose mx-auto flex flex-col gap-1.5 py-5">
+  <div class="w-full max-w-prose mx-auto flex flex-col gap-1.5 py-5">
     <h1 class="text-3xl text-center font-semibold text-red mt-3 mb-5">Australian Category Seminar</h1>
     <div class="grid grid-cols-4 w-full text-center justify-stretch items-stretch gap-0.5">
       <a class={path.endsWith('/') ? "py-3 bg-sand font-medium" : "py-3 bg-sand-light"} href="{base}/">About</a>

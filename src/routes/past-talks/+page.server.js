@@ -39,7 +39,7 @@ function group(data) {
     let subkey = humanizeDate(cur.date);
     if (!acc[key]) acc[key] = {};
     if (!acc[key][subkey]) acc[key][subkey] = [];
-    acc[key][subkey].push({ title: cur.title, date: cur.date, speaker: cur.speaker, part: cur.part, totalParts: cur.totalParts, abstract: cur.hasAbstract ? cur.id : false});
+    acc[key][subkey].push({ title: cur.title, date: cur.date, speaker: cur.speaker, part: cur.part, totalParts: cur.totalParts, abstract: cur.hasAbstract ? cur.id : undefined});
     return acc;
   }, {});
 }

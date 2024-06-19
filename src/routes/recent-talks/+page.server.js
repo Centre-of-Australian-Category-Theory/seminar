@@ -40,7 +40,7 @@ function group(data) {
     if ((dateNow - cur.date) <= 365* 24* 60* 60 * 1000) {
       let key = humanizeDate(cur.date);
       if (!acc[key]) acc[key] = [];
-      acc[key].push({ title: cur.title, date: cur.date, speaker: cur.speaker, part: cur.part, totalParts: cur.totalParts, abstract: cur.hasAbstract ? cur.id : false});
+      acc[key].push({ title: cur.title, date: cur.date, speaker: cur.speaker, part: cur.part, totalParts: cur.totalParts, abstract: cur.hasAbstract ? cur.id : undefined});
     }
     return acc;
   }, {});
@@ -56,7 +56,7 @@ export async function load({ fetch }) {
   Object.keys(grouped).forEach ( (date) => {
     grouped[date].sort((a,b) => a.date - b.date);
     grouped[date].forEach ( (item) => delete item.date );
-    });
+  });
   
   return grouped;
 }
