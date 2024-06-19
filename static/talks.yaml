@@ -5156,7 +5156,7 @@
   speaker: Mark Weber
   date: 2008-08-20T16:00:00.000Z
   location: Macquarie
-  part: 1
+  part: 2
   previous: 769
 - id: 772
   title: Hopf objects in monoidal catgories and their categories of representations
@@ -6941,7 +6941,6 @@
   date: 2012-11-21T14:00:00.000Z
   location: Macquarie
   abstract: We compare the usual tensor product of finitely cocomplete categories with Deligne's tensor product of abelian categories given in his "Catégories tannakiennes."'
-  first: null
 - id: 1062
   title: It's all in the weights!
   speaker: Dominic Verity
@@ -7249,7 +7248,6 @@
   date: 2013-09-11T14:00:00.000Z
   location: Macquarie
   abstract: 'This will be a few remarks about the paper arXiv:1307.5969v1 entitled: `An alternative description of braided monoidal categories''.'''
-  first: null
 - id: 1114
   title: Hopf-Galois extensions
   speaker: Ignacio López Franco
@@ -9840,7 +9838,6 @@
   abstract: In this third talk on CSMs and loops, I'll discuss another modification of the Joyal-Kock graph category and how this gives us a new construction of CSMs.
   part: 3
   previous: 1512
-  first: null
 - id: 1520
   title: Quantum functors à la Chikhladze turned skew
   speaker: Ramon Abud Alcala
@@ -10457,7 +10454,6 @@
 
     N([CX,M]_{cf}) \to [X, N(M_{cf})]
     of complicial sets, wherein N denotes the homotopy coherent nerve construction for complicially enriched categories and C denotes its left adjoint, homotopy coherent realisation.
-  part: 1
 - id: 1595
   title: Probabilistic automata as comodels in models
   speaker: Richard Garner
@@ -10514,8 +10510,7 @@
   speaker: Richard Garner
   date: 2020-06-17T16:00:00.000Z
   location: Online
-  abstract: We explain Ahman and Uustalu's dependently typed update monad, give an imperfect algebraic presentation, and describe its comodels.'
-  first: null
+  abstract: We explain Ahman and Uustalu's dependently typed update monad, give an imperfect algebraic presentation, and describe its comodels.
 - id: 1602
   title: A distributive law for modular operads
   speaker: Sophie Raynor
