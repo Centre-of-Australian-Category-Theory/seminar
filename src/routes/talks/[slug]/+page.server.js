@@ -40,7 +40,11 @@ export function load({ params }) {
   if (abstract)
   {
     var paragraphs = abstract.split('\n\n');
-    talk.abstract = '<p class="pb-3">' + paragraphs.join('</p><p class="pb-3">') + '</p>';
+    abstract = '<p class="pb-3">' + paragraphs.join('</p><p class="pb-3">') + '</p>';
+    console.log(abstract);
+    abstract = abstract.replaceAll(/\((https?[^\s)]*)\)/g, '<a href="$1" class="px-0.5 text-deep-red hover:text-red">(link)</a>');
+    console.log(abstract);
+    talk.abstract = abstract.replaceAll(/([^"])(https?[^\s<)]*)/g, '$1<a href="$2" class="px-0.5 text-deep-red hover:text-red">(link)</a>');
   }
 
   talk.humanDate = humanizeDate(talk.date);
