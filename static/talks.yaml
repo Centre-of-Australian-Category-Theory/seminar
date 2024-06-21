@@ -9902,7 +9902,7 @@
   abstract: |-
     Joint work with Emily Riehl
 
-    I've always been very fond of Dubuc's Adjoint Triangle theorems. It seems to me that they are an important, surprisingly useful, and yet oft overlooked tool in the category theory armoury. Indeed, as a canonical example of sheer elegance and beauty in categorical proof making, one can really do no better than Par{\'e}'s adjoint lifting proof that elementary toposes are finitely cocomplete.
+    I've always been very fond of Dubuc's Adjoint Triangle theorems. It seems to me that they are an important, surprisingly useful, and yet oft overlooked tool in the category theory armoury. Indeed, as a canonical example of sheer elegance and beauty in categorical proof making, one can really do no better than Paré's adjoint lifting proof that elementary toposes are finitely cocomplete.
 
     So how might we import these techniques into the world of synthetic ∞-category theory? More specifically, how can we prove such results in the framework provided by ∞-Cosmoi and homotopy coherent monads that Emily Riehl and I have been developing over the past few years? While left adjoint lifting is straightforward by (relatively) elementary means in this context, right adjoint lifting has proved a little more elusive.
 
@@ -10179,12 +10179,12 @@
   part: 2
   previous: 1561
 - id: 1564
-  title: Everything around sl(2+,\eps) is DoPeGDO. So what?
+  title: Everything around sl(2+,ϵ) is DoPeGDO. So what?
   speaker: Dror Bar-Natan
   date: 2019-10-23T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    I'll explain what "everything around" means: the classical and quantum product, co-product, antipode, trace, R-matrix, cuap, and Cartan involution, as well as the dual pairing, the associator, the twist element, the dequantizator, and more, and all of their compositions. What DoPeGDO means: the category of Docile Perturbed Gaussian Differential Operators. And what sl(2+,\eps) means: a solvable approximation of the semi-simple Lie algebra sl(2).
+    I'll explain what "everything around" means: the classical and quantum product, co-product, antipode, trace, R-matrix, cuap, and Cartan involution, as well as the dual pairing, the associator, the twist element, the dequantizator, and more, and all of their compositions. What DoPeGDO means: the category of Docile Perturbed Gaussian Differential Operators. And what sl(2+,ϵ) means: a solvable approximation of the semi-simple Lie algebra sl(2).
 
     Knot theorists should rejoice because all this leads to very powerful and well-behaved poly-time-computable knot invariants. Quantum algebraists should rejoice because it's a realistic playground for testing complicated equations and theories.
 
@@ -10327,7 +10327,7 @@
 
     What's more, Ara has proved that in many cases of interest, this notion of homotopy coherent models coincides with the natural generalization of (complete) Segal spaces to an arbitrary sketch.
 
-    We'll then describe the theory of strict Z-categories and strict Z_{\leq n}-categories, and lay out how weak versions, defined by way of the earlier discussion, fit into a grander scheme synthesizing Grothendieck's homotopy hypothesis and the Baez-Dolan stabilization hypothesis.
+    We'll then describe the theory of strict Z-categories and strict Z_≤-categories, and lay out how weak versions, defined by way of the earlier discussion, fit into a grander scheme synthesizing Grothendieck's homotopy hypothesis and the Baez-Dolan stabilization hypothesis.
   part: 3
   previous: 1568
 - id: 1581
@@ -10353,7 +10353,7 @@
   abstract: |-
     In this fourth talk in the series, we'll leverage our new intuition for Cisinski model categories to re-imagine a result from the heroic age of combinatorial topology.
 
-    We'll begin with the development of strict \Z and \Z-{\leq n} categories; we give a simple finite limit sketch definition for these abiding notions.
+    We'll begin with the development of strict \Z and \Z_{≤ n} categories; we give a simple finite limit sketch definition for these abiding notions.
 
     We'll then describe how the homotopification of those strict notions, gotten by way of our understanding of Cisinski's machine, fits into a grand scheme. More, in that grand scheme we will locate both Grothendieck's homotopy hypothesis and the Baez-Dolan Stabilization hypothesis.
 
@@ -10472,11 +10472,11 @@
   date: 2020-05-13T14:00:00.000Z
   location: Online
   abstract: |-
-    One of the key constructions in Jacob Lurie's development of quasi-category theory is the (un)straightening equivalence which, for our purposes here, we might decompose into two stages. The first of these is, in essence, the Grothendieck construction, which straightens functors f: A^{op}\to Q , with codomain the quasi-category of small  infinity-categories Q, into cartesian (nee Grothendieck) fibrations  p:E \to A  with small fibres. The second relates a functor quasi-category  [A^{op},Q]  to the homotopy coherent nerve of a corresponding enriched model category  [CA^{op}, sSet_J]  of simplicial presheaves under the Joyal model structure. This step straightens homotopy coherent natural transformations into (strict) simplicially natural ones. In this talk we propose to implement the second of these steps in the complicial model of  (∞,∞)-categories and thereby provide a foundation for developing the category theory of those structures.
+    One of the key constructions in Jacob Lurie's development of quasi-category theory is the (un)straightening equivalence which, for our purposes here, we might decompose into two stages. The first of these is, in essence, the Grothendieck construction, which straightens functors f: A^{op} → Q , with codomain the quasi-category of small  infinity-categories Q, into cartesian (nee Grothendieck) fibrations  p:E → A  with small fibres. The second relates a functor quasi-category  [A^{op},Q]  to the homotopy coherent nerve of a corresponding enriched model category  [CA^{op}, sSet_J]  of simplicial presheaves under the Joyal model structure. This step straightens homotopy coherent natural transformations into (strict) simplicially natural ones. In this talk we propose to implement the second of these steps in the complicial model of  (∞,∞)-categories and thereby provide a foundation for developing the category theory of those structures.
 
     Specifically, let  msSet_C  denote the model category of marked (nee stratified) simplicial sets equipped with a complicial model structure and let M denote a model category enriched in there. Assume further that M is well behaved enough to ensure that for each (small)  msSet -enriched category D the enriched functor category [D,M]  admits the projective model structure, thereby making it into a  msSet_C -enriched model category (M is an admissible model category say). Then given any (small) marked simplicial set  X \in msSet  we shall construct a straightening equivalence
 
-    N([CX,M]_{cf}) \to [X, N(M_{cf})]
+    N([CX,M]_{cf}) → [X, N(M_{cf})]
     of complicial sets, wherein N denotes the homotopy coherent nerve construction for complicially enriched categories and C denotes its left adjoint, homotopy coherent realisation.
 - id: 1595
   title: Probabilistic automata as comodels in models
@@ -10580,7 +10580,7 @@
   speaker: Paula Verdugo Hernandez
   date: 2020-08-05T09:00:00.000Z
   location: Online
-  abstract: I will be presenting joint work with Lyne Moser and Maru Sarazola, where we construct two model structures on the category of double categories and double functors. Both of these model structures share the distinctive feature of admitting a homotopically fully faithful functor from Lack's model structure on 2-categories to them – this can be rephrased in vaguer terms as saying that they contain the homotopy theory of 2-categories. Moreover, both induce Lack's model structure through (some version of) the horizontal embedding $H:2Cat \to DblCat$. We will introduce these model structures together with their main properties, and discuss their similitudes and differences.
+  abstract: I will be presenting joint work with Lyne Moser and Maru Sarazola, where we construct two model structures on the category of double categories and double functors. Both of these model structures share the distinctive feature of admitting a homotopically fully faithful functor from Lack's model structure on 2-categories to them – this can be rephrased in vaguer terms as saying that they contain the homotopy theory of 2-categories. Moreover, both induce Lack's model structure through (some version of) the horizontal embedding $H:2Cat → DblCat$. We will introduce these model structures together with their main properties, and discuss their similitudes and differences.
 - id: 1608
   title: Accessible categories with limits of some class
   speaker: Giacomo Tendas
@@ -11129,7 +11129,7 @@
 
     Many concepts in mathematics have relative versions. The concept applies to objects while the relative version applies to morphisms. One recaptures the original concept by specializing the domain or codomain of the relative version. Conversely, the relative version is often obtained by applying the concept to objects in a different category. In topology, proper maps relativize compactness.
 
-    More relevant to the talk is the concept of monoid in a monoidal category which is relativized by monoidal functor. A monoidal functor $T : mathcal{D}\to mathcal{C}$ can be thought of as a two-sided monoid; when $mathcal{D} = mathbf{1}$ it is a monoid in $mathcal{C}$. Yet monoidal functors are monoids in a convolution monoidal structure. This is a one-object (yet indicative) version of categories enriched in bicategories on two sides.
+    More relevant to the talk is the concept of monoid in a monoidal category which is relativized by monoidal functor. A monoidal functor 𝑇: 𝒟 → 𝒞 can be thought of as a two-sided monoid; when 𝒟 = <span class="font-semibold">1</span> it is a monoid in 𝒞. Yet monoidal functors are monoids in a convolution monoidal structure. This is a one-object (yet indicative) version of categories enriched in bicategories on two sides.
 
     The plan is to revisit change of base in the sense of Kelly-Labella-Schmit-St using two-sided enrichment and to present our work with Branko on the topic. We consider there to be four results worthy of the title “theorem”. We also have more examples than in our earlier preprint.
 - id: 1677
@@ -11166,7 +11166,7 @@
   speaker: Ross Street
   date: 2022-02-16T14:00:00.000Z
   location: Macquarie
-  abstract: After my talk to Categories and Companions on Thurs 10 Jun 2021 about Mackey functors, one of the questions was whether I knew about the recent work on Mackey 2-functors. No I had not. Soon after that, Mathematical Reviews asked me whether I would be willing to review the book referred to in the title of this talk. I agreed and now would like to give some idea of what the book is about. (The talk is dedicated to the memory of Jean B\'enabou whose concept of bicategory and example of spans are essential to the book.)
+  abstract: After my talk to Categories and Companions on Thurs 10 Jun 2021 about Mackey functors, one of the questions was whether I knew about the recent work on Mackey 2-functors. No I had not. Soon after that, Mathematical Reviews asked me whether I would be willing to review the book referred to in the title of this talk. I agreed and now would like to give some idea of what the book is about. (The talk is dedicated to the memory of Jean Bénabou whose concept of bicategory and example of spans are essential to the book.)
 - id: 1682
   title: Some facts about sound classes of weights
   speaker: Giacomo Tendas
@@ -11300,11 +11300,11 @@
   location: Macquarie
   abstract: Right-connected double categories were first introduced by Bourke and Garner in the study of algebraic weak factorisation systems (AWFS). In this talk, I provide an explicit construction of the completion of a double category under the property of right-connectedness. Several properties of the right-connected completion are studied, including when its category of morphisms arises as a category of (co)algebras. If a double category has companions, it is also shown that its right-connected completion behaves like a lax limit in the 2-category of double categories, lax double functors, and horizontal transformations. Several examples will be presented throughout the talk, with a particular focus on applications to the theory of lenses.
 - id: 1701
-  title: Thoughts on the paper ``Generic representation theory of finite fields in nondescribing characteristic' by N.J. Kuhn
+  title: Thoughts on the paper “Generic representation theory of finite fields in nondescribing characteristic” by N.J. Kuhn
   speaker: Ross Street
   date: 2022-07-13T14:00:00.000Z
   location: Macquarie
-  abstract: Let bbF be a finite field, let scrF be the category of finite dimensional vector spaces and linear functions over bbF, and let scrG be the subcategory of scrF with all the objects and only the bijective linear functions. Let scrV be the category of vector spaces over the complex numbers (say). André Joyal and I studied a monoidal structure on the functor category [scrG,scrV] as recorded in our publication [49]. So I was quite interested and surprised when Nicholas Kuhn told Steve Lack and me about his equivalence of categories [scrF,scrV] \simeq [scrG,scrV] when we were discussing Dold-Kan-type theorems. The proof depends on a remarkable piece of linear algebra by our late ANU colleague Laci Kov\'aks. Given Kov\'aks' result (1992), I am studying the rest of the argument. It is at a fairly early stage but that has not in the past stopped me from giving a premature talk!
+  abstract: Let bbF be a finite field, let scrF be the category of finite dimensional vector spaces and linear functions over bbF, and let scrG be the subcategory of scrF with all the objects and only the bijective linear functions. Let scrV be the category of vector spaces over the complex numbers (say). André Joyal and I studied a monoidal structure on the functor category [scrG,scrV] as recorded in our publication [49]. So I was quite interested and surprised when Nicholas Kuhn told Steve Lack and me about his equivalence of categories [scrF,scrV] \simeq [scrG,scrV] when we were discussing Dold-Kan-type theorems. The proof depends on a remarkable piece of linear algebra by our late ANU colleague Laci Kováks. Given Kováks' result (1992), I am studying the rest of the argument. It is at a fairly early stage but that has not in the past stopped me from giving a premature talk!
 - id: 1702
   title: An op/lax Fam construction
   speaker: Jason Brown

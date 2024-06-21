@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['Work Sans Variable'],
+        'sans': ['Work Sans Variable', 'Stix Math Two Regular'],
       },
       colors: {
         'red': '#A6192E',
