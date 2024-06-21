@@ -2186,7 +2186,7 @@
   date: 2000-08-23T14:00:00.000Z
   location: Macquarie
 - id: 301
-  title: Berger's homogeneous theory structure on Joyal's category Theta
+  title: Berger's homogeneous theory structure on Joyal's category Θ
   speaker: Ross Street
   date: 2000-08-23T16:00:00.000Z
   location: Macquarie
@@ -4652,7 +4652,7 @@
   speaker: Clemens Berger
   date: 2007-03-07T14:00:00.000Z
   location: Macquarie
-  abstract: In this talk, I shall explain how to construct out of Joyal's cell category Theta comparatively small CW-models for Eilenberg-MacLane spaces. The cellular structure is completely encoded by some tree combinatorics. In particular, Serre's calculations of the cohomology mod 2 of K(Z/2,n) can be done on cochain level.
+  abstract: In this talk, I shall explain how to construct out of Joyal's cell category Θ comparatively small CW-models for Eilenberg-MacLane spaces. The cellular structure is completely encoded by some tree combinatorics. In particular, Serre's calculations of the cohomology mod 2 of K(Z/2,n) can be done on cochain level.
 - id: 690
   title: Tannaka duality for comodules over a Hopf algebra
   speaker: Steve Bennoun
@@ -7585,7 +7585,7 @@
     which records the combinatorics of partitioning moments into elementary 
     ones. In this way the notions of symmetric, non-symmetric and 
     n-operad correspond to moment structures on Gamma (Segal), Delta
-    (Eilenberg) and Theta_n (Joyal) respectively.
+    (Eilenberg) and Θ_n (Joyal) respectively.
   part: 1
 - id: 1164
   title: pi_0-exact squares of 2-categories
@@ -8581,7 +8581,7 @@
 
     Just like associahedra arise in the coherence of monoidal categories, several polytopes (the associahedron, the permutohedron, and a third one, called hemi-associahedron) intervene in the investigation of the notion of weak Cat-operad (in which the two kinds of operadic associativities - the sequential and the parallel one - are weakened to be coherent isomorphisms). The situation for weak cyclic operads is currently under investigation.
 - id: 1329
-  title: n-quasicategories and Theta_n-spaces
+  title: n-quasicategories and Θ_n-spaces
   speaker: Edoardo Lanari
   date: 2016-07-06T16:00:00.000Z
   location: Macquarie
@@ -9385,7 +9385,7 @@
   speaker: Alexander Campbell
   date: 2018-01-24T16:00:00.000Z
   location: Macquarie
-  abstract: This talk will introduce the homotopy coherent cellular nerve of a bicategory, which defines a fully faithful functor from the category of bicategories and normal pseudofunctors to the category of presheaves over Joyal's category Theta_2. We will show that this functor restricts to the right part of a Quillen adjunction between Lack's model structure for bicategories and Ara's model structure for 2-quasi-categories.
+  abstract: This talk will introduce the homotopy coherent cellular nerve of a bicategory, which defines a fully faithful functor from the category of bicategories and normal pseudofunctors to the category of presheaves over Joyal's category Θ_2. We will show that this functor restricts to the right part of a Quillen adjunction between Lack's model structure for bicategories and Ara's model structure for 2-quasi-categories.
 - id: 1452
   title: Change of base for enriched model categories
   speaker: Alexander Campbell
@@ -9527,7 +9527,7 @@
   date: 2018-05-30T16:00:00.000Z
   location: Macquarie
   abstract: |-
-    In this talk I will construct a Quillen equivalence between Lack's model category of bicategories and Rezk's model structure for weak 2-categories on the category of simplicial presheaves over Joyal's category Theta_2. The underlying adjunction of this Quillen equivalence is the composite of the homotopy coherent cellular nerve adjunction (defined in my talk of 24 January 2018) and an adjunction due to Ara.
+    In this talk I will construct a Quillen equivalence between Lack's model category of bicategories and Rezk's model structure for weak 2-categories on the category of simplicial presheaves over Joyal's category Θ_2. The underlying adjunction of this Quillen equivalence is the composite of the homotopy coherent cellular nerve adjunction (defined in my talk of 24 January 2018) and an adjunction due to Ara.
 
     To this end, I will construct the homotopy bicategory of a 2-quasi-category, which defines a left adjoint to the fully faithful homotopy coherent cellular nerve functor from the category of bicategories and normal pseudofunctors to the category of 2-quasi-categories, and show that a morphism of 2-quasi-categories is a weak equivalence in Ara's model structure iff it is essentially surjective on objects and an equivalence on hom-quasi-categories.
   part: 1
@@ -9854,7 +9854,7 @@
   speaker: Yuki Maehara
   date: 2019-03-27T14:00:00.000Z
   location: Macquarie
-  abstract: Ara's definition of n-quasi-category uses spines rather than inner horns. It is the best definition for what he does (comparing his model structure to Rezk's one for Theta_n-spaces), but not for combinatorics. The main result of this talk is that for n=2 there is an alternative characterisation using inner horns which is combinatorially more tractable. But I will not really talk about how I proved it, and instead explain how Oury constructed these horns.
+  abstract: Ara's definition of n-quasi-category uses spines rather than inner horns. It is the best definition for what he does (comparing his model structure to Rezk's one for Θ_n-spaces), but not for combinatorics. The main result of this talk is that for n=2 there is an alternative characterisation using inner horns which is combinatorially more tractable. But I will not really talk about how I proved it, and instead explain how Oury constructed these horns.
 - id: 1519
   title: An introduction to compact symmetric multicategories and problematic loops
   speaker: Sophie Raynor
@@ -10024,11 +10024,11 @@
     We apply this to categories of perfect complexes. For example, the bounded derived category of finitely presented modules
     over a right coherent ring is the completion of the category of perfect complexes.
 - id: 1542
-  title: Theta_2 and weak bimodules over 2-operads
+  title: Θ_2 and weak bimodules over 2-operads
   speaker: Florian de Leger
   date: 2019-07-03T16:00:00.000Z
   location: Macquarie
-  abstract: In this talk, I will define weak bimodules over 2-operads. I will explain the equivalence between the category of functors from Theta_2 to a symmetric monoidal category V and the category of weak bimodules over the terminal 2-operad in V.
+  abstract: In this talk, I will define weak bimodules over 2-operads. I will explain the equivalence between the category of functors from Θ_2 to a symmetric monoidal category V and the category of weak bimodules over the terminal 2-operad in V.
   part: 1
 - id: 1543
   title: 'Category theory in Physics: Applications in Quantum Resource Theories'
@@ -10037,11 +10037,11 @@
   location: Macquarie
   abstract: As a physicist, I have been interested in what additional tools category theory might bring to theoretical physics. One application is in resource theories, a study of resourcefulness of objects or states, that have been stated, by Coecke, Fritz and Spekkens (2016), to be symmetric monoidal categories. In this talk, I will discuss some work in progress towards framing quantum mechanics and measurements in category theory for use with Resource theories, in the hope that fruitful discussions may occur.
 - id: 1544
-  title: Theta_2 and weak bimodules over 2-operads
+  title: Θ_2 and weak bimodules over 2-operads
   speaker: Florian de Leger
   date: 2019-07-31T14:00:00.000Z
   location: Macquarie
-  abstract: This is the second part of my talk from 3 July. Last time, I talked about 2-operads and duoidal categories. This time, I will talk about duoids in a duoidal category and the category Theta_2. I will explain the equivalence between the category of functors from Theta_2 to a symmetric monoidal category V and the category of weak bimodules over the terminal 2-operad in V.
+  abstract: This is the second part of my talk from 3 July. Last time, I talked about 2-operads and duoidal categories. This time, I will talk about duoids in a duoidal category and the category Θ_2. I will explain the equivalence between the category of functors from Θ_2 to a symmetric monoidal category V and the category of weak bimodules over the terminal 2-operad in V.
   part: 2
   previous: 1542
 - id: 1545
