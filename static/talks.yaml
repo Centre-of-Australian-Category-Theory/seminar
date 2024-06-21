@@ -1653,7 +1653,7 @@
   speaker: John Corbett
   date: 1999-02-24T16:00:00.000Z
   location: Macquarie
-  abstract: 'The standard Hilbert space formalism of quantum mechanics is reinterpreted via the topos of sheaves on the state space of the system. The logic is intuitionistic and the associated real numbers, the sheaf of Dedekind reals,contains quantum numbers that are labelled by the self-adjoint operators of the standard formalism. These numbers are taken as the values of physical quantities associated with  the quantum system. A number of interesting consequences follow:   Quantum particles have trajectories.   If the dynamics, expressed in these numbers,is taken to be \tgiven by Newton''s equations of motion then Heisenberg''s operator \tequations of motion arise as local approximations.   The von Neumann- Luders projection postulate for measurement, \talso known as collapse or reduction of the wave packet, is an \tapproximation to the description of the passage of a particle \tthrough a slit.   '
+  abstract: 'The standard Hilbert space formalism of quantum mechanics is reinterpreted via the topos of sheaves on the state space of the system. The logic is intuitionistic and the associated real numbers, the sheaf of Dedekind reals,contains quantum numbers that are labelled by the self-adjoint operators of the standard formalism. These numbers are taken as the values of physical quantities associated with  the quantum system. A number of interesting consequences follow:   Quantum particles have trajectories.   If the dynamics, expressed in these numbers,is taken to be given by Newton''s equations of motion then Heisenberg''s operator equations of motion arise as local approximations.   The von Neumann- Luders projection postulate for measurement, also known as collapse or reduction of the wave packet, is an approximation to the description of the passage of a particle through a slit.   '
 - id: 216
   title: Machiavellian games
   speaker: Daniel Ford
@@ -2674,7 +2674,7 @@
   speaker: Marta Bunge
   date: 2001-09-05T14:00:00.000Z
   location: Macquarie
-  abstract: "A category B is said to be path-linearizable [BN, BF] if it satisfies an ``interval glueing condition'. The latter (IG) is seen to be equivalent to the conjunction of two independent properties, namely (C) ``cancellation' and (FI) ``factorization lifting'.  Examples of path-linearizable categories are: any category free on a directed graph (in particular, the additive monoid N of natural numbers) and the additivive monoid R+ of non-negative real numbers.  It is proved in [BN] (see also [BF]) that over a path-linearizable category B, the category UFL/B of unique factorization lifting functors over B is a Grothendieck topos. \n\nThe history of the above mentioned Bunge-Niefield theorem [BN] (Theorem 4.5) is a comedy of errors.  It had been claimed (with a sketchy proof) by F. Lamarche [Lam] that for any small category B, the category UFL/B of unique factorization lifting functors (or of discrete ConduchÃ© fibrations [C] but also [G]) is (always) a topos.  This claim remained undisputed (at best, ignored) for several years.  In a preliminary version to [BN], submitted to P. T. Johnstone (as editor) for the Journal of Pure and Applied Algebra, Bunge and Niefield showed that the Lamarche claim was equivalent to the existence of a right adjoint to the canonical inclusion of UFL/B→Cat/B thus making UFL/B into a ``model-generated category' [N] and hence (in this case, also) a topos, which we then proceeded to ``prove'.  The statement, in this form, was shown by the said editor to be false, by exhibiting a counterexample (the independence square to the fact that UFL/B is in general a coreflective subcategory of Cat/B.  This led us to immediately locate the gap in our proof and to introduce accordingly the condition (IG) to repair it.  It also led the editor to publish his remarks in [J] even before our paper [BN] could appear in print.  An alternate proof, examining the role of each of the two conditions (C) and (FI) was then given in [BF], profitting this time partly from some useful remarks made in [J]. \n\nIn this talk I intend to add some new remarks to what is \\tcontained in [BN] and [BF], to wit: \n\nEstablish the validity of an ``ambush/UFL' \\tfactorization in the context of path-linearizable categories, \\tbased on comprehension for a suitable fibration with $\\Sigma$ \\tand a terminal T,    Relate the path-linearizable categories to the \\tMÃ¶bius categories of [CLL] and give a combinatorial \\tcharacterization of UFL functors in terms of homomorphisms of \\tincidence algebras, and    Discuss the notion of category of processes that arises \\tfrom assuming the existence of a ``duration' (or length, or \\tshape) functor on the control (or configuration) category, in \\tconnection with [Law],    Pose some questions regarding the 2-dimensional \\tanalogues of the UFL functors as defined in [S], and also \\tregarding the version of the UFL functors for geometric \\tmorphisms introduced in [BN].    \n\n\\tDiscussions with Ross Street and Bill Lawvere are gratefully \\tacknowledged. \n\n\\tBibliography: \n\n[BF]M. Bunge and M. Fiore, Unique factorization lifting functors \\tand categories of linearly-controlled processes, Math. \\tStr. in Comp. Sci. 10 (2000) 137-163. \n[BN]\\tM. Bunge and S.B. Niefield, Exponentiability and single \\tuniverses, J.Pure Appl. Algebra 148-3 (2000) \\t217-250. \n[C]\\tF. ConduchÃ©, Au sujet de l'existence d'adjoints Ã\_ \\tdroÃ®te aux foncteurs ``image reciproque' dans la \\tcatÃ©gorie des cetÃ©gories, C.R.Acad. Sci. Paris \\t275 (1972) A891-894. \n[CLL]\\tM. Content, F. Lemay and P. Leroux, CatÃ©gories de \\tMÃ¶bus et fonctorialitÃ©s: un cadre gÃ©nÃ©ral pour \\tl'inversion de MÃ¶bius, J. Combinatorial Theory \\tSeries A 28 (1980) 169-190. \n[FK]    P. Freyd and G.M. Kelly, Categories of continuous functors I, \\tJ. Pure Appl. Alg 2 (1972) 169-191.  Erratum: \\tJ. Pure Appl. Alg 4 (1974) 121. \n[G]\\tJ. Giraud, MÃ©thode de la descente, Bull. Math. \\tSoc. Memoire 2, 1964. \n[J]\\tP.T. Johnstone, A note of discrete ConduchÃ© fibrations, \\tTheory and Application of categories 5 (1999) \\t1-11. \n[Lam]\\tF. Lamarche, On a new class of toposes, Unpublished lecture, \\tPSSL Utrecht (1996). \n[Law]\\tF.W. Lawvere, State categories and response functors, \\tUnpublished manuscript (1986). \n[Mac]\\tS. MacLane, Categories for the Working Mathematician, \\tSpringer-Verlag, 1971. \n[N]\\tS.B. Niefield, Cartesianess, Ph.D. thesis, Rutgers \\tUniversity, 1978. \n[S]\\tR. Street, Categorical structures, in : Handbook of \\tAlgebra 1, North-Holland, 1998, 529-577. \n[SW]\\tR. Street and R.F.C. Walters, The comprehensive \\tfactorization of a functor, Bull. Amer. Math. Soc. \\t79 (1973) 936-941."
+  abstract: "A category B is said to be path-linearizable [BN, BF] if it satisfies an ``interval glueing condition'. The latter (IG) is seen to be equivalent to the conjunction of two independent properties, namely (C) ``cancellation' and (FI) ``factorization lifting'.  Examples of path-linearizable categories are: any category free on a directed graph (in particular, the additive monoid N of natural numbers) and the additivive monoid R+ of non-negative real numbers.  It is proved in [BN] (see also [BF]) that over a path-linearizable category B, the category UFL/B of unique factorization lifting functors over B is a Grothendieck topos. \n\nThe history of the above mentioned Bunge-Niefield theorem [BN] (Theorem 4.5) is a comedy of errors.  It had been claimed (with a sketchy proof) by F. Lamarche [Lam] that for any small category B, the category UFL/B of unique factorization lifting functors (or of discrete ConduchÃ© fibrations [C] but also [G]) is (always) a topos.  This claim remained undisputed (at best, ignored) for several years.  In a preliminary version to [BN], submitted to P. T. Johnstone (as editor) for the Journal of Pure and Applied Algebra, Bunge and Niefield showed that the Lamarche claim was equivalent to the existence of a right adjoint to the canonical inclusion of UFL/B→Cat/B thus making UFL/B into a ``model-generated category' [N] and hence (in this case, also) a topos, which we then proceeded to ``prove'.  The statement, in this form, was shown by the said editor to be false, by exhibiting a counterexample (the independence square to the fact that UFL/B is in general a coreflective subcategory of Cat/B.  This led us to immediately locate the gap in our proof and to introduce accordingly the condition (IG) to repair it.  It also led the editor to publish his remarks in [J] even before our paper [BN] could appear in print.  An alternate proof, examining the role of each of the two conditions (C) and (FI) was then given in [BF], profitting this time partly from some useful remarks made in [J]. \n\nIn this talk I intend to add some new remarks to what is contained in [BN] and [BF], to wit: \n\nEstablish the validity of an ``ambush/UFL' factorization in the context of path-linearizable categories, based on comprehension for a suitable fibration with $\\Sigma$ and a terminal T,    Relate the path-linearizable categories to the MÃ¶bius categories of [CLL] and give a combinatorial characterization of UFL functors in terms of homomorphisms of incidence algebras, and    Discuss the notion of category of processes that arises from assuming the existence of a ``duration' (or length, or shape) functor on the control (or configuration) category, in connection with [Law],    Pose some questions regarding the 2-dimensional analogues of the UFL functors as defined in [S], and also regarding the version of the UFL functors for geometric morphisms introduced in [BN].    \n\nDiscussions with Ross Street and Bill Lawvere are gratefully acknowledged. \n\nBibliography: \n\n[BF]M. Bunge and M. Fiore, Unique factorization lifting functors and categories of linearly-controlled processes, Math. Str. in Comp. Sci. 10 (2000) 137-163. \n[BN]M. Bunge and S.B. Niefield, Exponentiability and single universes, J.Pure Appl. Algebra 148-3 (2000) 217-250. \n[C]F. ConduchÃ©, Au sujet de l'existence d'adjoints Ã\_ droÃ®te aux foncteurs ``image reciproque' dans la catÃ©gorie des cetÃ©gories, C.R.Acad. Sci. Paris 275 (1972) A891-894. \n[CLL]M. Content, F. Lemay and P. Leroux, CatÃ©gories de MÃ¶bus et fonctorialitÃ©s: un cadre gÃ©nÃ©ral pour l'inversion de MÃ¶bius, J. Combinatorial Theory Series A 28 (1980) 169-190. \n[FK]    P. Freyd and G.M. Kelly, Categories of continuous functors I, J. Pure Appl. Alg 2 (1972) 169-191.  Erratum: J. Pure Appl. Alg 4 (1974) 121. \n[G]J. Giraud, MÃ©thode de la descente, Bull. Math. Soc. Memoire 2, 1964. \n[J]P.T. Johnstone, A note of discrete ConduchÃ© fibrations, Theory and Application of categories 5 (1999) 1-11. \n[Lam]F. Lamarche, On a new class of toposes, Unpublished lecture, PSSL Utrecht (1996). \n[Law]F.W. Lawvere, State categories and response functors, Unpublished manuscript (1986). \n[Mac]S. MacLane, Categories for the Working Mathematician, Springer-Verlag, 1971. \n[N]S.B. Niefield, Cartesianess, Ph.D. thesis, Rutgers University, 1978. \n[S]R. Street, Categorical structures, in : Handbook of Algebra 1, North-Holland, 1998, 529-577. \n[SW]R. Street and R.F.C. Walters, The comprehensive factorization of a functor, Bull. Amer. Math. Soc. 79 (1973) 936-941."
 - id: 369
   title: Weak ω-categories
   speaker: Ross Street
@@ -2789,7 +2789,7 @@
   speaker: Marta Bunge
   date: 2001-11-14T16:00:00.000Z
   location: Macquarie
-  abstract: 'Outline  The lecture will consist of two parts, as    follows.      In the first part we begin by recalling the definitions and properties    of certain classes of geometric morphisms, such as connected locally    connected (c.l.c.) and surjective local homeomorphisms (s. l.h.). This is    followed by a review of the main result of [BM], which consists on    establishing the equivalence of a natural comparison map from the paths    to the coverings fundamental groups of an unpointed topos E bounded over    an elementary base topos S ([MW],[M],[B]).        The second part is joint work with Steve Lack [BL]. The general theme    of [BL] is to establish a Van Kampen theorem for toposes (bounded over a    base topos S) in terms of their fundamental groups (coverings and    paths) and to apply it to branched coverings and the fundamental group    of a knot, motivated by work of R.H.Fox [Fox]. In this lecture I complement    results presented by my co-author Steven Lack, in which, first, a    2-categorical version of a theorem of Brown and Janelidze [BJ] is    given, with an application to a van Kampen theorem for covering    projections of toposes, and second, on the result that the 2-category    Top_S of toposes bounded over S is lextensive as a 2-category.  .     In this lecture, after reviewing the notion of a locally paths    simply connected (l.p.s.c.) topos and recalling the results mentioned    above, I turn to a proof of the following results.      Theorem.(Van Kampen theorem for toposes) Let E, E_0, E_1    and E_2 be c.l.c. and l.p.s.c. toposes, with E_1 and E_2 subtoposes of E    having intersection E_0 in E. Assume that the induced geometric morphism    p: E_1 + E_2 → E is a surjective local homeomorphism.    Then, the induced square of (paths) fundamental group toposes (P_1(E_0),    P_1(E_1), P_1(E_2) and P_1(E)) is a pushout of toposes.       Corollary. In the context of the above theorem, assume    furthermore that the inclusions E_1 >→ E and E_2>→E    are local homeomorphism and that E_2 is paths simply connected. Then,    in the pushout of fundamental group toposes, the geometric morphism    P_1(E_1) → P_1(E) is connected locally connected, and the    composite P_1(E_0)→P_1(E_1)→P(E) factors though a point S→P(E)    via the structural map P_1(E_0)→S.       In order to derive an application of the above to the fundamental group    of a knot in this general context, we recall the following definition, given    in [BN] and [Fu] but both following [Fox]. The intuition is that E_1  >→E    is the inclusion of the open complement of a knot Z>→E in E, and that    E_2>→E is an inclusion into E of a paths simply connected subtopos    containing Z>→E, and that E_1 and E_2    together cover E.       Recall that by the fundamental group of the knot embedded in say R^3,    it is meant (see [R]) the fundamental group of its complement. In an    alternative treatment of (topological) knot invariants, Fox [Fox] suggested    using the category Br_Z(E) of branched coverings over E with the    knot Z as their branching set. In the context of toposes, this has a    precise meaning, as follows.       Definition Let E be a connected locally connected    topos. Let a given local homeomorphism inclusion E/Y >→E.    Denote by Br_Y(E) the full subcategory of Top_S/E determined by those    complete spreads over E with locally connected domain, assumed to be the    spread completions of a local homeomorphism E/X→E which factors    through the inclusion E/Y>→E by means of a covering projection    E/X→E/Y.       We now give a justification for using branched covers (instead of    paths) to calculate (via automorphisms) the fundamental group of a knot.      PropositionIn the context of the above definition, there    is a canonical equivalence of  Br_Y(E) with P_1(E/Y).      In topological applications, a base point p is chosen and assumed to    belong to E, E_1, E_2 and (therefore) E_0, but this point p is not to    lie on the knot (whose complement in E is E_1). When the    toposes are pointed, the fundamental groups of these pointed toposes are    (discrete localic) groups. In this setting, we can say something quite    specific.       Corollary With assumptions as in the Corollary of the    van Kampen theorem for toposes, and with the additional assumption    that the topos E_0 is pointed by means of a geometric morphism    p:S→E_0, let G(E,p), G(E_1, p) and G(E_0, p) denote the (discrete localic)    groups classified by the respective fundamental group toposes. Then,    the induced continuous group homomorphism h: G(E_1, p) → G(E, p) is    surjective, and its kernel is precisely the image N of the continuous    homomorphism k: G(E_0, p) → G(E_1, p). It follows that G(E, p) is    the quotient (discrete localic) group G(E_1, p)/N.       References         [BD] M.Barr and R.Diaconescu, On locally simply connected toposes and \t their fundamental groups, Cahiers de Top. et Geo. Diff. XXII-3 (1981) \t 301-314.   \t   [Br] R. Brown, Groupoids and Van Kampen ''s theorem, Proc. \t London Math. Soc. (3) 17 (1967) 385-401.   \t   [BJ] R. Brown and G.Janelidze, Van Kampen theorems for            categories of covering morphisms in lextensive categories, J.            Pure Appl. Alg. 19 (1997) 255-263.   \t   [B] M.Bunge, Classifying toposes and fundamental \t  localic groupoids, in R.A.G.Seely, ed., Categroy Theory ''91, CMS \t  Conference Proceedings 13 (1992) 73-96.              [BF1] M. Bunge and J. Funk, Spreads and the symmetric topos, \t J.Pure Appl. Alg.113 (1996) 1–38.   \t   [BF2] M.Bunge and J.Funk, Spreads and the Symmetric Topos II, \t  J. Pure Appl. Alg.130 (1998) 49-84.  \t   [BL] M.Bunge and S.Lack, A Van Kampen theorem for toposes \t  (in preparation.)  \t     [BM] M.Bunge and I.Moerdijk, On the construction of the \t   Grothendieck fundamental group of a topos by paths, J. Pure Appl. \t   Alg.116 (1997) 99-113.  \t    [BN] M.Bunge and S.B.Niefield,  Exponentiability and \t   single universes, J. Pure Appl. Algebra 148-3 (2000) 217-250.  \t     [CLW] A.Carboni, S.Lack and R.F.C.Walters, Introduction to \t   extensive and distributive categories, J. Pure Appl. Alg. 84 (1993) \t   145-158.   \t    [Fox] R.H.Fox, Covering spaces with singularities, in R.H.Fox \t  et al. (Eds.), Algebraic Geometry and Topology: A Symposium in \t  Honor of S.Lefschetz, Princeton University  Press} (1957) \t  243–257.  \t   [Fu] J.Funk, On branched covers in topos theory, Theory and \t  Applications of Categories 7-1 (2000) 1-22.  \t   [Ma] W.S.Massey, A Basic Course in Algebraic Topology, \t  Springer-Verlag, 1991.   \t   [M] I.Moerdijk, Continuous fibrations and inverse limits of \t  toposes, Compositio Math. 58 (1986) 45-72.   \t   [PS] V.V.Prasolov and A.B.Sossinsky, Knots, Links, Braids and \t  3-Manifolds, An introduction to thye new invariants in low-dimensional \t   topology, Translations of Mathematical Monographs 154, Amer. Math. \t   Soc.1991.  \t     [R] D. Rolfsen, Knots and Links, Mathematical Lecture \t   Series 7, Publish or persih, 1976, 1990.           '
+  abstract: 'Outline  The lecture will consist of two parts, as    follows.      In the first part we begin by recalling the definitions and properties    of certain classes of geometric morphisms, such as connected locally    connected (c.l.c.) and surjective local homeomorphisms (s. l.h.). This is    followed by a review of the main result of [BM], which consists on    establishing the equivalence of a natural comparison map from the paths    to the coverings fundamental groups of an unpointed topos E bounded over    an elementary base topos S ([MW],[M],[B]).        The second part is joint work with Steve Lack [BL]. The general theme    of [BL] is to establish a Van Kampen theorem for toposes (bounded over a    base topos S) in terms of their fundamental groups (coverings and    paths) and to apply it to branched coverings and the fundamental group    of a knot, motivated by work of R.H.Fox [Fox]. In this lecture I complement    results presented by my co-author Steven Lack, in which, first, a    2-categorical version of a theorem of Brown and Janelidze [BJ] is    given, with an application to a van Kampen theorem for covering    projections of toposes, and second, on the result that the 2-category    Top_S of toposes bounded over S is lextensive as a 2-category.  .     In this lecture, after reviewing the notion of a locally paths    simply connected (l.p.s.c.) topos and recalling the results mentioned    above, I turn to a proof of the following results.      Theorem.(Van Kampen theorem for toposes) Let E, E_0, E_1    and E_2 be c.l.c. and l.p.s.c. toposes, with E_1 and E_2 subtoposes of E    having intersection E_0 in E. Assume that the induced geometric morphism    p: E_1 + E_2 → E is a surjective local homeomorphism.    Then, the induced square of (paths) fundamental group toposes (P_1(E_0),    P_1(E_1), P_1(E_2) and P_1(E)) is a pushout of toposes.       Corollary. In the context of the above theorem, assume    furthermore that the inclusions E_1 >→ E and E_2>→E    are local homeomorphism and that E_2 is paths simply connected. Then,    in the pushout of fundamental group toposes, the geometric morphism    P_1(E_1) → P_1(E) is connected locally connected, and the    composite P_1(E_0)→P_1(E_1)→P(E) factors though a point S→P(E)    via the structural map P_1(E_0)→S.       In order to derive an application of the above to the fundamental group    of a knot in this general context, we recall the following definition, given    in [BN] and [Fu] but both following [Fox]. The intuition is that E_1  >→E    is the inclusion of the open complement of a knot Z>→E in E, and that    E_2>→E is an inclusion into E of a paths simply connected subtopos    containing Z>→E, and that E_1 and E_2    together cover E.       Recall that by the fundamental group of the knot embedded in say R^3,    it is meant (see [R]) the fundamental group of its complement. In an    alternative treatment of (topological) knot invariants, Fox [Fox] suggested    using the category Br_Z(E) of branched coverings over E with the    knot Z as their branching set. In the context of toposes, this has a    precise meaning, as follows.       Definition Let E be a connected locally connected    topos. Let a given local homeomorphism inclusion E/Y >→E.    Denote by Br_Y(E) the full subcategory of Top_S/E determined by those    complete spreads over E with locally connected domain, assumed to be the    spread completions of a local homeomorphism E/X→E which factors    through the inclusion E/Y>→E by means of a covering projection    E/X→E/Y.       We now give a justification for using branched covers (instead of    paths) to calculate (via automorphisms) the fundamental group of a knot.      PropositionIn the context of the above definition, there    is a canonical equivalence of  Br_Y(E) with P_1(E/Y).      In topological applications, a base point p is chosen and assumed to    belong to E, E_1, E_2 and (therefore) E_0, but this point p is not to    lie on the knot (whose complement in E is E_1). When the    toposes are pointed, the fundamental groups of these pointed toposes are    (discrete localic) groups. In this setting, we can say something quite    specific.       Corollary With assumptions as in the Corollary of the    van Kampen theorem for toposes, and with the additional assumption    that the topos E_0 is pointed by means of a geometric morphism    p:S→E_0, let G(E,p), G(E_1, p) and G(E_0, p) denote the (discrete localic)    groups classified by the respective fundamental group toposes. Then,    the induced continuous group homomorphism h: G(E_1, p) → G(E, p) is    surjective, and its kernel is precisely the image N of the continuous    homomorphism k: G(E_0, p) → G(E_1, p). It follows that G(E, p) is    the quotient (discrete localic) group G(E_1, p)/N.       References         [BD] M.Barr and R.Diaconescu, On locally simply connected toposes and  their fundamental groups, Cahiers de Top. et Geo. Diff. XXII-3 (1981)  301-314.      [Br] R. Brown, Groupoids and Van Kampen ''s theorem, Proc.  London Math. Soc. (3) 17 (1967) 385-401.      [BJ] R. Brown and G.Janelidze, Van Kampen theorems for            categories of covering morphisms in lextensive categories, J.            Pure Appl. Alg. 19 (1997) 255-263.      [B] M.Bunge, Classifying toposes and fundamental   localic groupoids, in R.A.G.Seely, ed., Categroy Theory ''91, CMS   Conference Proceedings 13 (1992) 73-96.              [BF1] M. Bunge and J. Funk, Spreads and the symmetric topos,  J.Pure Appl. Alg.113 (1996) 1–38.      [BF2] M.Bunge and J.Funk, Spreads and the Symmetric Topos II,   J. Pure Appl. Alg.130 (1998) 49-84.     [BL] M.Bunge and S.Lack, A Van Kampen theorem for toposes   (in preparation.)       [BM] M.Bunge and I.Moerdijk, On the construction of the    Grothendieck fundamental group of a topos by paths, J. Pure Appl.    Alg.116 (1997) 99-113.      [BN] M.Bunge and S.B.Niefield,  Exponentiability and    single universes, J. Pure Appl. Algebra 148-3 (2000) 217-250.       [CLW] A.Carboni, S.Lack and R.F.C.Walters, Introduction to    extensive and distributive categories, J. Pure Appl. Alg. 84 (1993)    145-158.       [Fox] R.H.Fox, Covering spaces with singularities, in R.H.Fox   et al. (Eds.), Algebraic Geometry and Topology: A Symposium in   Honor of S.Lefschetz, Princeton University  Press} (1957)   243–257.     [Fu] J.Funk, On branched covers in topos theory, Theory and   Applications of Categories 7-1 (2000) 1-22.     [Ma] W.S.Massey, A Basic Course in Algebraic Topology,   Springer-Verlag, 1991.      [M] I.Moerdijk, Continuous fibrations and inverse limits of   toposes, Compositio Math. 58 (1986) 45-72.      [PS] V.V.Prasolov and A.B.Sossinsky, Knots, Links, Braids and   3-Manifolds, An introduction to thye new invariants in low-dimensional    topology, Translations of Mathematical Monographs 154, Amer. Math.    Soc.1991.       [R] D. Rolfsen, Knots and Links, Mathematical Lecture    Series 7, Publish or persih, 1976, 1990.           '
 - id: 384
   title: Some remarks on semi-abelian categories
   speaker: George Janelidze
@@ -2981,9 +2981,9 @@
   abstract: |-
     While James Dolan was visiting Macquarie he convinced me that (two-sided) modules for the terminal monoid in the monoidal category Set/N,  with substitution tensor product, are precisely monoidal functors from the opposite of the algebraic simplicial category (with ordinal sum) to Set  (with cartesian product).  Alexei Davydov rediscovered the result and asked me whether I had a conceptual reason for it.  This topic grew out of that question. 
 
-    \tThe importance of considering such (two-sided) modules comes from Batanin's idea [appearing in "Monoidal globular categories as a natural environment for the theory of weak  n-categories", Advances in Math  136 (1998) 39-103]  that morphisms of weak ω-categories are definable using a deformation of the identity module of the higher operad  K  for weak ω-categories.  
+    The importance of considering such (two-sided) modules comes from Batanin's idea [appearing in "Monoidal globular categories as a natural environment for the theory of weak  n-categories", Advances in Math  136 (1998) 39-103]  that morphisms of weak ω-categories are definable using a deformation of the identity module of the higher operad  K  for weak ω-categories.  
 
-    \tMonoids in the substitution monoidal category  Set/N  are of course (not-necessarily-symmetric) operads.  [The terminal monoid is the operad for monoids.]  An operad is a substitude structure on the terminal category  1  (see Day-Street "Abstract substitution in enriched categories" available on my publication web site). Generalizing the fact that each operad gives rise to a strict monoidal category (the PROP without the second "P" for permutations), each substitude  B  gives rise to a strict monoidal category  B^*. There is also a standard convolution lax monoidal structure on the functor category  [A, Set]  for any substitude  A.  Recall from Day-Street "Lax monoids, pseudo-operads, and convolution, Contemporary Mathematics (to appear)" that substitudes are monads in an appropriate Kleisli bicategory, so the notion of "bimodule" between substitudes has a straightforward meaning.  I claim that such a module from the substitude  A  to the substitude  B  is a morphism (B*)op→[A,Set] of lax monoidal categories (where  (B*)op has the lax monoidal structure coming from the strict monoidal B*  while  [A,Set]  has the standard convolution structure. This generalizes Dolan's observation.  A conceptual reason for this generalization begins with the observation that B*  is obtained by the Kleisli construction for a certain monad on the free strict monoidal category on  B  in a suitable module bicategory of lax monoidal categories.
+    Monoids in the substitution monoidal category  Set/N  are of course (not-necessarily-symmetric) operads.  [The terminal monoid is the operad for monoids.]  An operad is a substitude structure on the terminal category  1  (see Day-Street "Abstract substitution in enriched categories" available on my publication web site). Generalizing the fact that each operad gives rise to a strict monoidal category (the PROP without the second "P" for permutations), each substitude  B  gives rise to a strict monoidal category  B^*. There is also a standard convolution lax monoidal structure on the functor category  [A, Set]  for any substitude  A.  Recall from Day-Street "Lax monoids, pseudo-operads, and convolution, Contemporary Mathematics (to appear)" that substitudes are monads in an appropriate Kleisli bicategory, so the notion of "bimodule" between substitudes has a straightforward meaning.  I claim that such a module from the substitude  A  to the substitude  B  is a morphism (B*)op→[A,Set] of lax monoidal categories (where  (B*)op has the lax monoidal structure coming from the strict monoidal B*  while  [A,Set]  has the standard convolution structure. This generalizes Dolan's observation.  A conceptual reason for this generalization begins with the observation that B*  is obtained by the Kleisli construction for a certain monad on the free strict monoidal category on  B  in a suitable module bicategory of lax monoidal categories.
 - id: 416
   title: Q_n operads
   speaker: Michael Batanin
@@ -3246,7 +3246,7 @@
   location: Sydney
   abstract: The talk will concern a category having directed graphs as objects, and morphisms that can be used to model resource availability.  This has applications in modeling the "mapping problem" in parallel processing, and in other situations involving modeling of resource availability. The talk will survey what is known about this category, and a number of elegant open problems that are well-known to the graph theory community and apparently difficult.  It may be that homological methods could help to settle these.
 - id: 456
-  title: Categorical and combinatorial aspects of descent theory, Part II
+  title: Categorical and combinatorial aspects of descent theory
   speaker: Ross Street
   date: 2003-03-12T16:00:00.000Z
   location: Sydney
@@ -3423,7 +3423,7 @@
   date: 2003-09-10T16:00:00.000Z
   location: Sydney
 - id: 482
-  title: Comparing homotopy models, Part II
+  title: Comparing homotopy models
   speaker: Simona Paoli
   date: 2003-09-17T14:00:00.000Z
   location: Macquarie
@@ -3733,6 +3733,7 @@
   speaker: Thorsten Palm
   date: 2004-09-08T14:00:00.000Z
   location: Sydney
+  part: 1
 - id: 534
   title: Complicial Sets - A proof of the Street-Roberts conjecture regarding nerves of ω-categories
   speaker: Dominic Verity
@@ -3741,10 +3742,12 @@
   part: 5
   previous: 530
 - id: 535
-  title: Dendrotopic sets for weak ω-categories II
+  title: Dendrotopic sets for weak ω-categories
   speaker: Thorsten Palm
   date: 2004-09-15T14:00:00.000Z
   location: Macquarie
+  part: 2
+  previous: 533
 - id: 536
   title: Monoids and things monoidal
   speaker: Ross Street
@@ -3770,16 +3773,19 @@
   speaker: Thorsten Palm
   date: 2004-10-06T16:00:00.000Z
   location: Macquarie
+  part: 1
 - id: 541
   title: Representations of categorical groups
   speaker: Alexei Davydov
   date: 2004-10-20T14:00:00.000Z
   location: Macquarie
 - id: 542
-  title: Categories with a slice-category construction as categories of certain set-valued functors, cont.
+  title: Categories with a slice-category construction as categories of certain set-valued functors
   speaker: Thorsten Palm
   date: 2004-10-20T16:00:00.000Z
   location: Macquarie
+  part: 2
+  previous: 540
 - id: 543
   title: Opetopes and polynomial functors
   speaker: Michael Batanin
@@ -3942,10 +3948,11 @@
   date: 2005-04-01T14:00:00.000Z
   location: Macquarie
 - id: 571
-  title: A polytopic approach to (fairly) general infinity-computads, part I
+  title: A polytopic approach to (fairly) general infinity-computads
   speaker: Thorsten Palm
   date: 2005-04-06T14:00:00.000Z
   location: Macquarie
+  part: 1
 - id: 572
   title: Cartesian bicategories II
   speaker: Richard Wood
@@ -3971,6 +3978,7 @@
   speaker: Thorsten Palm
   date: 2005-05-04T14:00:00.000Z
   location: Macquarie
+  part: 1
 - id: 577
   title: Free braided monoidal 2-categories
   speaker: Alexei Davydov
@@ -3978,10 +3986,12 @@
   location: Macquarie
   part: 1
 - id: 578
-  title: Dendrotopic sets, encore, continued
+  title: 'Dendrotopic sets, encore: composition and representability'
   speaker: Thorsten Palm
   date: 2005-05-11T14:00:00.000Z
   location: Sydney
+  part: 2
+  previous: 576
 - id: 579
   title: Free braided monoidal 2-categories
   speaker: Alexei Davydov
@@ -3990,20 +4000,24 @@
   part: 2
   previous: 577
 - id: 580
-  title: Dendrotopic sets, encore, continued
+  title: 'Dendrotopic sets, encore: composition and representability'
   speaker: Thorsten Palm
   date: 2005-05-18T14:00:00.000Z
   location: Macquarie
+  part: 3
+  previous: 578
 - id: 581
   title: Theory of products and coproducts in the semantics of communication
   speaker: Robin Cockett
   date: 2005-05-18T16:00:00.000Z
   location: Macquarie
 - id: 582
-  title: Dendrotopic sets, encore, continued - and finished
+  title: 'Dendrotopic sets, encore: composition and representability'
   speaker: Thorsten Palm
   date: 2005-05-25T14:00:00.000Z
   location: Macquarie
+  part: 4
+  previous: 580
 - id: 583
   title: Higher adjoint equivalences
   speaker: Ross Street
@@ -4543,10 +4557,12 @@
   location: Macquarie
   abstract: 'A higher rank graph is pair (Lambda,d), where Lambda is a category and d: Lambda → Nk is a functor, which satisfy a condition called the factorisation property. In this talk we show that if a category C has a functor delta :C → Nk then it can be represented as a higher rank graph. That is, there exists a universal higher rank graph denoted [C,delta] with a functor i : C → [C,delta] such that delta = di (where d is the degree map of [C,delta]). We then show conditions for when C is a full subcategory of [C,delta]. This has many applications to the study of higher rank graphs because it allows many categories with no factorisation property to still be viewed as higher rank graphs.'
 - id: 674
-  title: A polytopic approach to (fairly) general infinity-computads, part II
+  title: A polytopic approach to (fairly) general infinity-computads
   speaker: Thorsten Palm
   date: 2006-11-15T14:00:00.000Z
   location: Macquarie
+  part: 2
+  previous: 571
 - id: 675
   title: Orbifolds and groupoids
   speaker: Dorette Pronk
@@ -4590,20 +4606,24 @@
   date: 2007-01-17T16:00:00.000Z
   location: Macquarie
 - id: 682
-  title: A polytopic approach to (fairly) general infinity-computads, III.
+  title: A polytopic approach to (fairly) general infinity-computads
   speaker: Thorsten Palm
   date: 2007-01-24T14:00:00.000Z
   location: Macquarie
+  part: 3
+  previous: 674
 - id: 683
   title: Nuclei, bits and pieces
   speaker: Alexei Davydov
   date: 2007-01-24T16:00:00.000Z
   location: Macquarie
 - id: 684
-  title: A polytopic approach to (fairly) general infinity-computads, IV.
+  title: A polytopic approach to (fairly) general infinity-computads
   speaker: Thorsten Palm
   date: 2007-02-14T14:00:00.000Z
   location: Macquarie
+  part: 4
+  previous: 682
 - id: 685
   title: Nerves and parametric right adjoints
   speaker: Mark Weber
@@ -4648,10 +4668,12 @@
   date: 2007-03-14T14:00:00.000Z
   location: Macquarie
 - id: 692
-  title: A polytopic approach to (fairly) general infinity-computads V
+  title: A polytopic approach to (fairly) general infinity-computads
   speaker: Thorsten Palm
   date: 2007-03-14T16:00:00.000Z
   location: Macquarie
+  part: 5
+  previous: 684
 - id: 693
   title: Model structures on the category of double categories
   speaker: Simona Paoli
@@ -4728,6 +4750,7 @@
   speaker: Thorsten Palm
   date: 2007-05-16T16:00:00.000Z
   location: Macquarie
+  part: 1
 - id: 706
   title: Computational coherence
   speaker: Jon Cohen
@@ -4741,14 +4764,16 @@
   date: 2007-05-23T16:00:00.000Z
   location: Macquarie
   abstract: |-
-    1. Introduction:   In various lectures on categorical dynamics given in 1967, Lawvere laid down the foundations of a new discipline which in recent years has undergone a rapid development and has come to be known as "synthetic differential geometry". As the title of Lawvere's lectures suggests the motivation came from the search for a suitable complete category theory, small Greek delta, in which to develop dynamics. Such a category, small Greek delta, unlike the category m of smooth paracompact manifolds and smooth mappings was to possess all finite limits and exponentials. 
+    1. Introduction:   In various lectures on categorical dynamics given in 1967, Lawvere laid down the foundations of a new discipline which in recent years has undergone a rapid development and has come to be known as “synthetic differential geometry”. As the title of Lawvere’s lectures suggests the motivation came from the search for a suitable complete category theory, δ, in which to develop dynamics. Such a category, δ, unlike the category M of smooth paracompact manifolds and smooth mappings was to possess all finite limits and exponentials. 
 
     2. Some simple questions in the calculus of variations: We look at some simple questions in the calculus of variations like: to find the shortest curve between two points on a surface or to find a closed curve of given length and maximal enclosed area, and we analyse how category theory can answer these simple questions.
 - id: 708
-  title: Slicing sites as categories with left-fastidious factorization systems (cont.)
+  title: Slicing sites as categories with left-fastidious factorization systems
   speaker: Thorsten Palm
   date: 2007-05-23T18:00:00.000Z
   location: Macquarie
+  part: 2
+  previous: 705
 - id: 709
   title: Fusion rule of modular invariants for simple current CFT
   speaker: Alexei Davydov
@@ -5712,7 +5737,7 @@
   speaker: Mikhail Borovoi
   date: 2010-01-20T14:00:00.000Z
   location: Macquarie
-  abstract: I am going to speak about group cohomology and Galois cohomology, but I am inspired by category theory. I will explain everything, in particular what is H^1(\Gamma, G), when \Gamma is a profinite group acting on a nonabelian discrete  group G.
+  abstract: I am going to speak about group cohomology and Galois cohomology, but I am inspired by category theory. I will explain everything, in particular what is H^1</sup>(Γ, G), when Γ is a profinite group acting on a nonabelian discrete  group G.
 - id: 863
   title: Involutive Monoidal Categories
   speaker: Jeff Egger
@@ -11107,7 +11132,7 @@
 
     More relevant to the talk is the concept of monoid in a monoidal category which is relativized by monoidal functor. A monoidal functor $T : mathcal{D}\to mathcal{C}$ can be thought of as a two-sided monoid; when $mathcal{D} = mathbf{1}$ it is a monoid in $mathcal{C}$. Yet monoidal functors are monoids in a convolution monoidal structure. This is a one-object (yet indicative) version of categories enriched in bicategories on two sides.
 
-    The plan is to revisit change of base in the sense of Kelly-Labella-Schmit-St using two-sided enrichment and to present our work with Branko on the topic. We consider there to be four results worthy of the title ``theorem'. We also have more examples than in our earlier preprint.
+    The plan is to revisit change of base in the sense of Kelly-Labella-Schmit-St using two-sided enrichment and to present our work with Branko on the topic. We consider there to be four results worthy of the title “theorem”. We also have more examples than in our earlier preprint.
 - id: 1677
   title: The Signed Measure Monad
   speaker: Hardy Hulley
@@ -11136,9 +11161,9 @@
   speaker: Nicola di Vittorio
   date: 2022-02-09T14:00:00.000Z
   location: Macquarie
-  abstract: Pasting diagrams are a very useful device to express composition in higher categories. In the literature there are a number of results on the uniqueness of pastings, starting from John Power's pasting theorem for 2-categories. For non-strict higher categories there is usually extra work to be done to address various layers of coherence. In this talk I will go through the proof of a pasting theorem for Gray-categories, which gives a foundation to some aspects of the theory of higher derivators I've been developing. This is joint work with Dominic Verity.
+  abstract: Pasting diagrams are a very useful device to express composition in higher categories. In the literature there are a number of results on the uniqueness of pastings, starting from John Power’s pasting theorem for 2-categories. For non-strict higher categories there is usually extra work to be done to address various layers of coherence. In this talk I will go through the proof of a pasting theorem for Gray-categories, which gives a foundation to some aspects of the theory of higher derivators I’ve been developing. This is joint work with Dominic Verity.
 - id: 1681
-  title: 'Report on the book: ``Mackey 2-Functors and Mackey 2-Motives'' by Balmer and Dell''Ambrogio'
+  title: 'Report on the book: "Mackey 2-Functors and Mackey 2-Motives" by Balmer and Dell''Ambrogio'
   speaker: Ross Street
   date: 2022-02-16T14:00:00.000Z
   location: Macquarie
