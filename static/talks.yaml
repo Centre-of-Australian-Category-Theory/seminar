@@ -3280,13 +3280,13 @@
   date: 2003-05-07T14:00:00.000Z
   location: Macquarie
 - id: 462
-  title: Compositions of A_infty-homotopies
+  title: Compositions of A_∞-homotopies
   speaker: Alexei Davydov
   date: 2003-05-07T16:00:00.000Z
   location: Macquarie
   part: 1
 - id: 463
-  title: Compositions of A_infty-homotopies
+  title: Compositions of A_∞-homotopies
   speaker: Alexei Davydov
   date: 2003-05-14T14:00:00.000Z
   location: Macquarie
@@ -3317,7 +3317,7 @@
 
     [2] Andre Joyal:  Foncteurs analytiques et especes de structures. SLNM 1234 pp 126-159, 1991.
 - id: 466
-  title: Compositions of A_infty-homotopies
+  title: Compositions of A_∞-homotopies
   speaker: Alexei Davydov
   date: 2003-05-28T16:00:00.000Z
   location: Macquarie
@@ -3656,7 +3656,7 @@
   date: 2004-05-12T16:00:00.000Z
   location: Sydney
 - id: 521
-  title: A_infty n-categories
+  title: A_∞ n-categories
   speaker: Michael Batanin
   date: 2004-05-26T14:00:00.000Z
   location: Macquarie
@@ -9011,7 +9011,7 @@
   location: Macquarie
   abstract: 'There will be a talk by Dmitri Nikshych at the UNSW on the last Wednesday of this month. His Abstract begins by mentioning ``A classical theorem of Joyal and Street . . . ''. So I thought it might be appropriate to remind you, a week before, of Theorem 3.3 in BTC [44]. '
 - id: 1401
-  title: Graphical calculus in symmetric monoidal (infty-)categories with duals
+  title: Graphical calculus in symmetric monoidal (∞-)categories with duals
   speaker: Jun Yoshida
   date: 2017-05-24T16:00:00.000Z
   location: Macquarie
@@ -9038,7 +9038,7 @@
   location: Macquarie
   abstract: In recent years interactions between representation theory and category theory have led to exciting discoveries and solutions of several important problems. In this talk I will give an overview of some of these developments. I will start with the origin story, namely Chuang and Rouquier's notion of a categorical sl(2)-representation and its applications to modular representation theory of the symmetric group. Then I will discuss categorical g-representations, for any semi simple Lie algebra g, and the appearance of these structures in some of my own work related to Schubert varieties in the affine Grassmannian. If there is time, I would like to also discuss some open problems in this area that I think will require tools from higher category theory.
 - id: 1405
-  title: Graphical calculus in symmetric monoidal (infty-)categories with duals
+  title: Graphical calculus in symmetric monoidal (∞-)categories with duals
   speaker: Jun Yoshida
   date: 2017-06-07T16:00:00.000Z
   location: Macquarie
