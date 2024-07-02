@@ -11893,3 +11893,10 @@
   date: 2024-06-19T14:00:00.000Z
   location: Macquarie
   abstract: In November last year, I talked about the 2-out-of-3 property for ω-weak equivalences between weak ω-categories (in the sense of Batanin-Leinster). These ω-weak equivalences are the strict ω-functors which are essentially surjective at every dimension. In this talk, I define weak ω-weak equivalences as weak ω-functors (in the sense of Garner) which are essentially surjective in a suitable sense. I show a few results about them, including the 2-out-of-3 property and their characterisation in terms of the underlying globular map of a weak ω-functor. (Joint work with Keisuke Hoshino and Yuki Maehara.)
+- id: 1773
+  title: Generalized multicategories and change-of-base
+  speaker: Steve Lack
+  date: 2024-07-03T14:00:00.000Z
+  location: Macquarie
+  part: 2
+  previous: 1771
