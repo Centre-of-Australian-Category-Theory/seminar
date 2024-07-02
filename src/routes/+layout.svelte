@@ -8,6 +8,9 @@
  $: path = $page.url.pathname;
 </script>
 
+<svelte:head>
+  <title>Australian Category Seminar</title>
+</svelte:head>
 
 <div class="w-screen flex items-center justify-center px-3">
   <div class="w-full max-w-prose mx-auto flex flex-col gap-1.5 py-5">
