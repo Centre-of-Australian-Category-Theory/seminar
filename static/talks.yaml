@@ -11901,3 +11901,14 @@
   location: Macquarie
   part: 2
   previous: 1771
+- id: 1774
+  title: Relative limits as weighted limits
+  speaker: Alexander Campbell
+  date: 2024-07-10T14:00:00.000Z
+  location: Macquarie
+  abstract: In this talk we shall see that the cartesian cones of Schumacher and Street (nowadays better known as relative limits, following Lurie's terminology) can be understood as weighted limits in the slice equipments of categories over a fixed base, and conversely that all weighted limits in these equipments reduce to cartesian cones.
+- id: 1775
+  title: What I did on my holidays
+  speaker: Richard Garner
+  date: 2024-07-10T16:00:00.000Z
+  location: Macquarie
