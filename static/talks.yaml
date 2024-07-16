@@ -11912,3 +11912,19 @@
   speaker: Richard Garner
   date: 2024-07-10T16:00:00.000Z
   location: Macquarie
+- id: 1776
+  title: Paré on tripleability of Compact Hausdorff Spaces
+  speaker: Ross Street
+  date: 1970-10-07T00:00:00.000Z
+  location: Macquarie
+- id: 1777
+  title: Many Sorted Theories Derived from not so Many Sorted Theories
+  speaker: Michael Johnson
+  date: 1986-02-05T15:00:00.000Z
+  location: Sydney
+  abstract: |-
+    The Moore-category on a space X, is an important "homming into X" construction but cannot be classically explained (Moore's domains are not a co-category object in Top). We present an analysis of the Moore construction.
+
+    Suppose T is a finite limit theory, G a T-algebra then elG is a theory called the many sorted theory of T with algebra of sorts G. ElG-algebras correspond (via el left adjoint to Fam) to T-algebras in FamC whose projection onto C is G; similarly elG-coalgebras (co-many-sorted T-algebras) correspond to T-algebras in Fam(C^op). Every T-algebra is trivially an elG-algebra and any elG-algebra K yields a T-algebra F via Kan extension which is given on objects T ∈ T by F(T) = ΣKx x ∈ GT (forget that the G-Indexed sorts are different).
+
+    Moore's domains are a co-many-sorted category in Top, so homming into X gives a many sorted category whose associated ordinary category is the Moore category on X. Similarly the free monoid on a set and the free category on a dirccted graph result from homming out of co-many-sorted monoid and category objects in Set and Grph respectively, and the collection of well formed simplicial complexes form a co—many-sorted ω-category in the category of simplicial sets.
