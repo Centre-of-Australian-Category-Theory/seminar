@@ -13,6 +13,19 @@
 <div class="pt-2">
   {#if data.abstract}
     {@html data.abstract}
+    <script>
+      function renderMathsInAbstract() {
+        renderMathInElement(document.querySelector(".pt-2"), { delimiters: [
+              {left: "$$", right: "$$", display: true},
+              {left: "$", right: "$", display: false},
+        ]});
+      };
+      if (document.readyState === "complete") {
+        renderMathsInAbstract();
+      } else {
+        document.addEventListener("DOMContentLoaded", renderMathsInAbstract);
+      }
+    </script>
   {:else}
     <p><i>No abstract</i></p>
   {/if}
