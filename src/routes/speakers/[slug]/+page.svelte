@@ -20,7 +20,7 @@
               {#if talk.previous && data.dates[talk.previous]}
                 <i class="text-gray-500">⤳ from {data.dates[talk.previous]} {#if data.years[talk.previous] != date} {data.years[talk.previous]}{/if}</i>
               {:else}
-                {talk.title}
+                {@html talk.title}
               {/if}
               {#if talk.abstract}
                 <a class="text-deep-red hover:text-red" href="{base}/talks/{talk.id}">(abs)</a>

@@ -8804,7 +8804,7 @@
 
     For any coloured operad R, we prove a Faa di Bruno formula for the 'connected Green function' in the incidence bialgebra of R. This generalises on one hand the classical Faa di Bruno formula (dual to composition of power series), corresponding to the case where R is the terminal reduced operad, and on the other hand the Faa di Bruno formula for P-trees of Galvez-Kock-Tonks (P a finitary polynomial endofunctor), which corresponds to the case where R is the free operad on P. Following Galvez-Kock-Tonks, we work at the objective level of groupoid slices, hence all proofs are 'bijective': the formula is established as the homotopy cardinality of an explicit equivalence of groupoids, in turn derived from a certain two-sided bar construction. In fact we establish the formula more generally in a relative situation, for algebras for one polynomial monad internal to another. This covers in particular nonsymmetric operads (for which the terminal reduced case yields the noncommutative Faa di Bruno formula of Brouder-Frabetti-Krattenthaler).
 - id: 1368
-  title: Local convolution and MonCat-bicategories
+  title: Local convolution and $\mathbf{MonCat}$-bicategories
   speaker: Ross Street
   date: 2017-01-11T14:00:00.000Z
   location: Macquarie
@@ -10036,7 +10036,7 @@
     We apply this to categories of perfect complexes. For example, the bounded derived category of finitely presented modules
     over a right coherent ring is the completion of the category of perfect complexes.
 - id: 1542
-  title: Θ_2 and weak bimodules over 2-operads
+  title: $Θ_2$ and weak bimodules over 2-operads
   speaker: Florian de Leger
   date: 2019-07-03T16:00:00.000Z
   location: Macquarie
@@ -10049,7 +10049,7 @@
   location: Macquarie
   abstract: As a physicist, I have been interested in what additional tools category theory might bring to theoretical physics. One application is in resource theories, a study of resourcefulness of objects or states, that have been stated, by Coecke, Fritz and Spekkens (2016), to be symmetric monoidal categories. In this talk, I will discuss some work in progress towards framing quantum mechanics and measurements in category theory for use with Resource theories, in the hope that fruitful discussions may occur.
 - id: 1544
-  title: Θ_2 and weak bimodules over 2-operads
+  title: $Θ_2$ and weak bimodules over 2-operads
   speaker: Florian de Leger
   date: 2019-07-31T14:00:00.000Z
   location: Macquarie
@@ -10192,7 +10192,7 @@
   part: 2
   previous: 1561
 - id: 1564
-  title: Everything around sl(2+,ϵ) is DoPeGDO. So what?
+  title: Everything around $sl(2+,ϵ)$ is DoPeGDO. So what?
   speaker: Dror Bar-Natan
   date: 2019-10-23T14:00:00.000Z
   location: Macquarie
@@ -10881,7 +10881,7 @@
   location: Online
   abstract: Higher-rank graphs, or k-graphs, are higher-dimensional analogues of directed graphs. Each k-graph can be described in terms of a coloured graph, called is skeleton, and some factorisation rules that describe how 2-coloured paths pair up into commuting squares. C*-algebras of k-graphs generalise Cuntz-Krieger algebras, and have been the subject of sustained interest essentially because questions about crossed products of C*-algebras by higher-rank free abelian groups are hard, and k-graphs algberas constitute a comparably tractable class of examples that could point the way to general theorems. A particularly obstinate question in this vein is that of determining the K-theory of a k-graph algebra; or even just whether the K-theory depends on the factorisation rules, or only on the skeleton. I'll outline some joint work with James Fletcher and Elizabeth Gillaspy that uses a homotopy argument to establish a surprising link between this question and the question of connectedness (or otherwise) of the space of solutions to a Yang-Baxter-like equation. I won't assume any background about C*-algebras, k-graphs, or the Yang-Baxter equations, and all are welcome. People who might know about connectedness (or otherwise) of the spaces of solutions to Yang-Baxter-like equations are especially welcome!
 - id: 1641
-  title: A Question About Homotopies of Product Systems, Prefaced with an Introduction to A^1 / Motivic Homotopy Theory and Oestvaers's Motivic-style Homotopy Theory of C*-algebras
+  title: A Question About Homotopies of Product Systems, Prefaced with an Introduction to $A^1$ / Motivic Homotopy Theory and Oestvaers's Motivic-style Homotopy Theory of $C^\ast$-algebras
   speaker: Paul Lessard
   date: 2021-02-24T16:00:00.000Z
   location: Online
@@ -11957,7 +11957,7 @@
   date: 1986-03-05T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    An inductive geometric definition of k-dimensional source and target for an n-cube is described. Viewed as functions n = {1,2,...,n} → Λ = {-,0,+}, the subcubes of the n-cube can be interpreted as words of length n in {-,0,+}. The sources and targets of the n-cube arise as particular "k-blocks in Λ^n", where a "0-block" is an element of Λ^n, and we inductively define a k-block, k odd (resp. even) is a column (resp. row) of (k-1)-blocks. The sources $\theta_k(n)$, $\tau_k(n)$ of dimensions k of the n-cube can be defined inductively by the maps $\lambda_k, \nu_k, \mu_k : B_n^k \to B_{n + 1}^k, B_{n + 1}^k, B_{n + 1}^{k + 1}$ respectively, where $B_n^k$ is the set of k-blocks in Λ^n. Cocycle conditions for an n-category structure can be defined which correspond naturally to the cocycles discovered by Street in his work on orientals.
+    An inductive geometric definition of k-dimensional source and target for an n-cube is described. Viewed as functions $n = \{1,2,...,n\} \to Λ = \{-,0,+\}$, the subcubes of the $n$-cube can be interpreted as words of length $n$ in $\{-,0,+\}$. The sources and targets of the n-cube arise as particular "k-blocks in $Λ^n$", where a "0-block" is an element of $Λ^n$, and we inductively define a k-block, k odd (resp. even) is a column (resp. row) of (k-1)-blocks. The sources $\theta_k(n)$, $\tau_k(n)$ of dimensions k of the n-cube can be defined inductively by the maps $\lambda_k, \nu_k, \mu_k : B_n^k \to B_{n + 1}^k, B_{n + 1}^k, B_{n + 1}^{k + 1}$ respectively, where $B_n^k$ is the set of k-blocks in Λ^n. Cocycle conditions for an n-category structure can be defined which correspond naturally to the cocycles discovered by Street in his work on orientals.
 - id: 1781
   title: Report on Work done while on Leave
   speaker: Robert Walters
@@ -12064,12 +12064,13 @@
   abstract: |-
     (This results from a disscussion with R. Pare while he was in Sydney) If A is any category define T(C)=[C,A] to be the standard parametrization of A. If T is a parametrized category, say T is good if T(f) has both adjoints for all f : C -> D. The standard parametrization is good iff A is complete and cocomplete. If H denotes the homotopy category the we know it is not complete. Heller has introduced an alternative parametrization. For any small category C, we form Top^C. This has a quillen model structure which gives a class of weak equivalences. We invert these and call the result H(C). Theorem (Heller): H is a good parametrization of H. Similarly: If U is a filter on a set X, we can define N(C) for each C by N = Set^C/U (filter-power of Set^C). Theorem: N is a good parametrization of Set^X/U. Both of these, N and H are non-standard parametrizations. Are they part of a general process to make a parametrization good? One feels that for A complete and cocomplete one needn't go beyond the standard parametrization. The standard parametrization of Set^X/U is not good (Adelman–Johnstone).
 - id: 1795
-  title: $A \square B$
+  title: $A \mathbin{\square} B$
   speaker: Barry Jay
   date: 1986-04-23T14:00:00.000Z
   location: Sydney
   abstract: |-
     Following a previous talk, a new proof is given of the existence of $A \square B$, for symmetric monoidal categories A and B. Proposition 1: SMon(A,SMon(B,C)) $\cong$ SMon(B,SMon(A,C)) 2-naturally in all variables $\square$ Note that by replacing SMon by SMon_strong or SMon_strict ie replace "all monoidal functors B -> C" by "all strong (resp. strict)..." many parallel theorems result. Proposition 2: Let $\alpha$ be a 2-cell in SMon then SMon($\alpha$, -) is defined. Theorem 3: SMon(B,-) : SMon_strict -> SMon has a left 2-adjoint $-\square B$ which is 2-natural in B. Hence $\square$ : SMon^2 -> SMon is a 2—functor. Proposition 4: i: Smon_strict(A $\square$ B,C) -> SMon(A $\square$ B,C) has a right adjoint S. Proof. S is constructed on the gencrators of A $\square$ B given in the previous lecture. Corollary 5: There are 2-natural strict monoidal functors a and a' between (A $\square$ B) $\square$ C and A $\square$ (B $\square$ C) which both satisfy the pentagon law for monoidal categories. Note 1) a and a’ are not inverse. Note 2) Prettier calculations may be made with strong monoidal functors (eg. a becomes an equivalence) but a 'norm' is not strong im general. Note 3) There is a third version of the theorem for bicategorics and homomorphisms. For morphisms of bicategories and homomorphisms. For morphisms of bicategories the naturality conditions break down.
+  part: 1
 - id: 1796
   title: Some Parametrized Concepts III
   speaker: Ross Street
@@ -12085,12 +12086,14 @@
   abstract: |-
     What follows arises from conversations with A. Kock. Let B be a cartesian closed category and let Vect_R(B) demote the category of R-vector spaces (=modules) in B, where R is a ring in B. The restricted double dual of an object B of B, denoted by D (B) is defined as D (B) = Hom_R(R^B,R) where Hom_R is the object of homomorphisms and R^B has its pointwise vector space structure. Evaluating gives a map k : B -> Hom_R(R^B,B), Now assume that free vector spaces exist, that is, a left adjoint to the forgetful functor Vect_R( B ). The map k above induces a homomorphism h : F(B) -> D (B). We call B linearly finite when h is an isomorphism. If B = Set and R is any field then linear finite is equivalent to finite. This needs decidability to prove. It is even interesting to ask when h is a mono. This situation doesn't cover the motivating example ie. where D (B) is distributions on B, B is a manifold, and the statement that h is an iso is Walbroek's theorem. The problem is we camnot use Vect but some form of complete vector spaces.
 - id: 1798
-  title: A $\square$ B II
+  title: $A \mathbin{\square} B$
   speaker: Barry Jay
   date: 1986-05-07T16:30:00.000Z
   location: Sydney
   abstract: |-
     (I) The right-hand associativity for $\square$ , r : A -> A $\square$ A is natural in A and satisfies the triangle law. There is a strict symmetric monoidal functor r' : a$\square$ -> A but it is not natural. (II) On generalization of the notion "monoid” is "category". Another is "monoidal category". In the same way "abelian group" becomes "additive category" or "symmetric monoidal closed category". There is a full embedding Ab -> SMon mapping A tensor B to A $\square$ B. (III) Definition. Let A be a SMC and V be SMon. Then a V-norm for A is a symmetric monoidal functor | | : A -> V satisfying the following condition, |A(A, B)| $\cong$ |A(B, A)|. |A| is the V-cat with the same objects as A but with |A|(A, B) = |A(A, B)| etc. Say | | is cauchy complete iff |A| is.
+  part: 2
+  previous: 1795
 - id: 1799
   title: String Diagrams
   speaker: I. Aitchinson
