@@ -11927,7 +11927,7 @@
   date: 1970-10-07T00:00:00.000Z
   location: Macquarie
 - id: 1777
-  title: Many Sorted Theories Derived from not so Many Sorted Theories
+  title: Many-sorted theories derived from not-so-many-sorted theories
   speaker: Michael Johnson
   date: 1986-02-05T15:00:00.000Z
   location: Sydney
@@ -11938,7 +11938,7 @@
 
     Moore's domains are a co-many-sorted category in Top, so homming into X gives a many sorted category whose associated ordinary category is the Moore category on X. Similarly the free monoid on a set and the free category on a dirccted graph result from homming out of co-many-sorted monoid and category objects in Set and Grph respectively, and the collection of well formed simplicial complexes form a co-many-sorted ω-category in the category of simplicial sets.
 - id: 1778
-  title: Preservation of Finite Connected Limits
+  title: Preservation of finite connected limits
   speaker: Robert Paré
   date: 1986-02-26T14:00:00.000Z
   location: Sydney
@@ -12066,7 +12066,7 @@
   abstract: |-
     (This results from a disscussion with R. Pare while he was in Sydney) If A is any category define T(C)=[C,A] to be the standard parametrization of A. If T is a parametrized category, say T is good if T(f) has both adjoints for all f : C -> D. The standard parametrization is good iff A is complete and cocomplete. If H denotes the homotopy category the we know it is not complete. Heller has introduced an alternative parametrization. For any small category C, we form Top^C. This has a quillen model structure which gives a class of weak equivalences. We invert these and call the result H(C). Theorem (Heller): H is a good parametrization of H. Similarly: If U is a filter on a set X, we can define N(C) for each C by N = Set^C/U (filter-power of Set^C). Theorem: N is a good parametrization of Set^X/U. Both of these, N and H are non-standard parametrizations. Are they part of a general process to make a parametrization good? One feels that for A complete and cocomplete one needn't go beyond the standard parametrization. The standard parametrization of Set^X/U is not good (Adelman–Johnstone).
 - id: 1795
-  title: $A \mathbin{\square} B$
+  title: A □ B
   speaker: Barry Jay
   date: 1986-04-23T14:00:00.000Z
   location: Sydney
@@ -12088,7 +12088,7 @@
   abstract: |-
     What follows arises from conversations with A. Kock. Let B be a cartesian closed category and let Vect_R(B) demote the category of R-vector spaces (=modules) in B, where R is a ring in B. The restricted double dual of an object B of B, denoted by D (B) is defined as D (B) = Hom_R(R^B,R) where Hom_R is the object of homomorphisms and R^B has its pointwise vector space structure. Evaluating gives a map k : B -> Hom_R(R^B,B), Now assume that free vector spaces exist, that is, a left adjoint to the forgetful functor Vect_R( B ). The map k above induces a homomorphism h : F(B) -> D (B). We call B linearly finite when h is an isomorphism. If B = Set and R is any field then linear finite is equivalent to finite. This needs decidability to prove. It is even interesting to ask when h is a mono. This situation doesn't cover the motivating example ie. where D (B) is distributions on B, B is a manifold, and the statement that h is an iso is Walbroek's theorem. The problem is we camnot use Vect but some form of complete vector spaces.
 - id: 1798
-  title: $A \mathbin{\square} B$
+  title: A □ B
   speaker: Barry Jay
   date: 1986-05-07T16:30:00.000Z
   location: Sydney
@@ -12097,26 +12097,26 @@
   part: 2
   previous: 1795
 - id: 1799
-  title: String Diagrams
-  speaker: I. Aitchinson
+  title: String diagrams
+  speaker: Iain Aitchinson
   date: 1986-05-21T15:45:00.000Z
   location: Macquarie
 - id: 1800
-  title: Braided Monoidal Categories
+  title: Braided monoidal categories
   speaker: Ross Street
   date: 1986-05-28T14:00:00.000Z
   location: Sydney
   abstract: |-
     Crossed modules give rise to monoidal categories of a special kind (groups in Cat). Braidings on these monoidal categories amount to bracket operations (like abstract commutators) on crossed modules. These arise as Samelson brackets in homotopy theory $\pi_2 X \times \pi_2 X \to \pi_3 X$. In preparation for characterizing braided monoidal groupoids with each Aq- an equivalence, aspects of group cohomology were discussed.
 - id: 1801
-  title: The Foundations of Homotopy Theory
+  title: The foundations of homotopy theory
   speaker: Robert Walters
   date: 1986-06-11T14:00:00.000Z
   location: Macquarie
   abstract: |-
     I gave some motivation for my work with Mike Johnson. Our first idea is that one should study paths first and then homotopy. (Following Lavwere) we begin with a topos E. We expect that paths in an object X should have a co-category structure (paths of all dimensions). The first axiom should be that paths are represented. In examples (Sets, simplicial sets, etc.) we find that paths are in fact represented by a family of objects I -> N . The paper we are currently completing deals with the dif- ficult task of defining paths (of all dimensions) in a simplicial set and establishing the $\omega$-category structure on the paths.
 - id: 1801
-  title: Well-formed Simplicial Sets
+  title: Well-formed simplicial sets
   speaker: Michael Johnson
   date: 1986-06-11T15:00:00.000Z
   location: Macquarie
@@ -12138,14 +12138,15 @@
   date: 1986-06-18T15:15:00.000Z
   location: Sydney
   abstract: |-
-    The monoidal structure on H^*(G,-) was described. Artin–Tate periodicity was discussed with applications to the Eilenberg–Mac Lane cohomology of abelian groups.
+    The monoidal structure on $H^*(G,\text{-})$ was described. Artin–Tate periodicity was discussed with applications to the Eilenberg–Mac Lane cohomology of abelian groups.
 - id: 1804
-  title: Nerve of n-categories I
+  title: Nerve of n-categories
   speaker: Michael Zaks
   date: 1986-06-25T14:00:00.000Z
   location: Macquarie
   abstract: |-
     Elementary introduction to simplicial sets and the nerve of a category. I showed that simplicial sets that are nerves of categories satisfy simple extension properties and that this characterizes them.
+  part: 1
 - id: 1805
   title: Paths in Simplicial Sets
   speaker: Robert Walters
@@ -12154,14 +12155,16 @@
   abstract: |-
     Any geometric subject should begin with the correct abstract operations. To begin, we should have a category with finite limits, subobject classifiers, exponentiation. For homotopy theory we should have an object I to parametrize paths; ie paths shoud be a representble functor into $\omega$-categories. The idea is to first study this structure and later study homotopy classes of functions. In fact, work with Michael Johnson has lead to considering many sorted co-$\omega$-category objects (where the sorts form an $\omega$-category) to parametrize paths. The Moore-path category is obtained from a co-category with sorts being real intervals. The free monoid on a set arises from a co-monoid with sorts being natural numbers. In simplicial sets, Street's orientals yield a many-sorted co-$\omega$-category to parametrize paths (Johnson).
 - id: 1806
-  title: Nerve of n-categories II
+  title: Nerve of n-categories
   speaker: Michael Zaks
   date: 1986-06-02T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    A description of the nerve of the free omega category on 2 [Street, oriented simplices] was given. I used the notion of a shift on a simplicial set.
+    A description of the nerve of the free ω-category on 2 [Street, Oriented simplices] was given. I used the notion of a shift on a simplicial set.
+  part: 2
+  previous: 1804
 - id: 1807
-  title: Paths and Omega Categories
+  title: Paths and ω-categories
   speaker: Robert Walters
   date: 1986-06-02T15:00:00.000Z
   location: Macquarie
@@ -12176,7 +12179,7 @@
   abstract: |-
     A summary of the series of talks given on normed abelian groups using enriched category theory. (No abstract; comment is by editor, me!)
 - id: 1809
-  title: Paths and Omega Categories
+  title: Paths and ω-categories
   speaker: Robert Walters
   date: 1986-06-09T14:00:00.000Z
   location: Sydney
@@ -12194,3 +12197,13 @@
   location: Sydney
   abstract: |-
     Let M be the endomorphism monoid of 2 in Cat. Then the category of right M-sets is the category of graphs (directed, with chosen endo-edges at each vertex). Let $\omega = \{0,1,2,\dots\}$ as an ordered set. Call $\alpha \colon \omega \to \omega$ in Cat eventually consecutive when there exists $k$ such that $\alpha(i + 1) = \alpha(i) + 1$ for all $i>k$. Let $\Delta$ denote the monoid of eventually constant $\alpha \colon \omega \to \omega$ under composition. The category of right $\Delta$-sets is essentially the category of simplicial sets: there can be some infinite dimension cells. (This was not the main point of the lecture.) The remainder of the lecture described $O_n$, giving some technicalities as to why no loops occur.
+- id: 1810
+  title: Coherent invertibility in associative n-categories
+  speaker: Nick Hu
+  date: 2024-07-17T14:00:00.000Z
+  abstract: |-
+    In this talk, I will present my PhD work on enhancing the combinatorial foundation of the proof assistant homotopy.io to support invertible generators.
+
+    The theory of associative n-categories has been employed to give a combinatorial model of directed higher categories amenable to computer implementation, presented as n-dimensional string diagrams. However, the theory lacks a notion of inverse, which would require the existence of cancellation moves along with an infinite collection of higher-dimensional coherence data.
+
+    We generalise the theory to support invertibility by equipping generators with framing data, allowing for a natural representation of the inverse. Using this framed zigzags approach, we show that the required cancellation moves and coherence data arise uniformly via a colimit mechanism. We use tools from enriched category theory to justify correctness of our constructions, and exhibit a proof assistant which implements our theory.
