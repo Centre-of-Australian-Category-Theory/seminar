@@ -21,6 +21,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource-variable/work-sans": "^5.0.19",
-		"js-yaml": "^4.1.0"
+		"js-yaml": "^4.1.0",
+		"katex": "^0.16.11"
 	}
 }

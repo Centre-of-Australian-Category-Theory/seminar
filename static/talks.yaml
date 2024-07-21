@@ -11618,13 +11618,9 @@
   date: 2023-07-26T14:00:00.000Z
   location: Macquarie
   abstract: |-
-    A function R → R may encode a system whose output at a given time depends only on its input at that time. A natural generalisation involves shift-invariant operators l^2(R) → l^2(R), which may encode systems whose output at a given time depends on its input at all preceding times. One can reasonably ask what happens to the differential calculus in this situation. Well: ordinary derivatives are replaced by Frechet derivatives; and Taylor series are replaced by so-called Volterra series.
+    A function $\mathbb{R} \to \mathbb{R}$ may encode a system whose output at a given time depends only on its input at that time. A natural generalisation involves shift-invariant operators $\ell^2(\mathbb{R}) \to \ell^2(\mathbb{R})$, which may encode systems whose output at a given time depends on its input at all preceding times. One can reasonably ask what happens to the differential calculus in this situation. Well: ordinary derivatives are replaced by Frechet derivatives; and Taylor series are replaced by so-called Volterra series.
 
-
-    This talk will sketch the general theory with a vagueness that would
-    make a functional analyst wince; the point really being to provide grist
-    for a category theorist who fancied turning the whole business into
-    combinatorics or profunctor calculus.
+    This talk will sketch the general theory with a vagueness that would make a functional analyst wince; the point really being to provide grist for a category theorist who fancied turning the whole business into combinatorics or profunctor calculus.
 - id: 1737
   title: Opmonoidal pseudomonads
   speaker: Adrian Miranda
@@ -11634,10 +11630,10 @@
     Given an opmonoidal monad, the category of algebras inherits a monoidal structure. Similarly, braidings and symmetries lift to categories of algebras under suitable compatibility conditions. In this talk I first will review some abstract perspectives on this phenomenon [1], [2], [3]. Then we will discuss generalisations to the two-dimensional setting, now involving pseudomonads on semi-strict monoidal 2-categories, aka Gray monoids. We find that 2-categories of pseudoalgebras do inherit a monoidal structure, but one in which associativity and left and right unit laws only hold up to coherent 2-natural isomorphisms.
 
 
-    [1] McCrudden, P., Opmonoidal Monads, Theory and Applications of Categories, Vol.10, No.19, 2002, pp.469–485.
-    [2] Lack, S., Limits of Lax Morphisms, Applied Categorical Structures (2005) 13: 189–203
+    [1] McCrudden, P., Opmonoidal Monads, Theory and Applications of Categories, Vol.10, No.19, 2002, pp.469–485.</br>
+    [2] Lack, S., Limits of Lax Morphisms, Applied Categorical Structures (2005) 13: 189–203</br>
     [3] Zawadowski, M., The formal theory of monoidal monads, Journal of Pure and Applied Algebra, Volume 216, Issues 8–9, August 2012, Pages
-    1932–1942.
+    1932–1942
   part: 1
 - id: 1738
   title: Opmonoidal pseudomonads
@@ -11742,8 +11738,8 @@
 
     The second talk (Azeef) will cover an interesting consequence, namely the existence of free (idempotent- and projection-generated) regular
     *-semigroups. Specifically, the forgetful functor RSS → PA (where these are the categories of regular *-semigroups and projection algebras) has a
-    left adjoint PA → RSS. At the object level, the adjoint constructs a so-called chain semigroup C_P from a projection algebra P, wherein C_P is
-    realised as a quotient of a free category arising from P. This utilises what we call linked pairs of projections (which are analogous to
+    left adjoint PA → RSS. At the object level, the adjoint constructs a so-called chain semigroup $C_P$ from a projection algebra $P$, wherein $C_P$ is
+    realised as a quotient of a free category arising from $P$. This utilises what we call linked pairs of projections (which are analogous to
     Nambooripad’s singular squares in biordered sets). We shall also glimpse the special cases of various diagram monoids, and if time permits we
     will discuss recent and ongoing joint work with Robert Gray (East Anglia) and Nik Ruskuc (St Andrews) in this direction.
   part: 1
@@ -11949,7 +11945,7 @@
   abstract: |-
     Proposition 1. A category has finite connccted limits iff it has pullbacks and equalizers. Proposition 2. A functor between finitely complete categories preserves finite comnected limits if it preserves pullbacks. Example. Categories A and B have finite connected limits and F: A → B preserves pullbacks but doesn't preserve equalizers. (Let f:H→G be a non one-one group homomorphism. Build a category G out of G by considering it as a one object category and formally adjoining an initial object. Do the same for H and define a functor in the obvious way. This last mentioned functor is an example of the above.) Question: Why are the finite limits needed in proposition 2? Or rather, what is the A and B have limits of finite connected diagrams which admit a cocone, then F preserves these iff F preserves pullbacks.
 - id: 1779
-  title: Logic and Factorization Systems I.
+  title: Logic and Factorization Systems I
   speaker: G. Munro
   date: 1986-02-26T15:15:00.000Z
   location: Sydney
@@ -11963,7 +11959,7 @@
   abstract: |-
     An inductive geometric definition of k-dimensional source and target for an n-cube is described. Viewed as functions n = {1,2,...,n} → Λ = {-,0,+}, the subcubes of the n-cube can be interpreted as words of length n in {-,0,+}. The sources and targets of the n-cube arise as particular "k-blocks in Λ^n", where a "0-block" is an element of Λ^n, and we inductively define a k-block, k odd (resp. even) is a column (resp. row) of (k-1)-blocks. The sources $\theta_k(n)$, $\tau_k(n)$ of dimensions k of the n-cube can be defined inductively by the maps $\lambda_k, \nu_k, \mu_k : B_n^k \to B_{n + 1}^k, B_{n + 1}^k, B_{n + 1}^{k + 1}$ respectively, where $B_n^k$ is the set of k-blocks in Λ^n. Cocycle conditions for an n-category structure can be defined which correspond naturally to the cocycles discovered by Street in his work on orientals.
 - id: 1781
-  title: Report on Work done while on Leave.
+  title: Report on Work done while on Leave
   speaker: Robert Walters
   date: 1986-03-05T15:15:15.000Z
   location: Macquarie
@@ -11977,7 +11973,7 @@
   abstract: |-
     A normed abelian group $(A, |\ |)$ is an abelian group A together with a monoidal functor $|\ | \colon A \to R^+$ (see Lawvere's Metric Spaces paper) (ie $|a + b| \leq |a| + |b|$, $|0| \leq 0$) satisfying further $|-a| = |a|$. Morphisms of these are norm-reducing group homomorphisms. The category is called Nab. Theorem 1: There is a forgetful fusctor $U : Nab - Met$ (= Metric spaces) which is monadic. Proof: $F(x,d)=(F'X, |\ |)$ where $F'X$ is the free abelian group in X. The norm is generated by $|x-y| = d(xy)$. □ A normed R-algebra is an R-algebra R together with an abelian group norm satisfying $|xy| \leq |x| . |y|$, $|rx| \leq |r| . |x|$ $r \in R$, $|1| \leq 1$. The morphisms are norm-reducing R-algebra homomorphisms; the category is $NR^+$alg. Theorem 2: $NR$-alg → Met is monadic. By cauchy-completing we get the corollary that Banach algebras are monadic over complete metric spaces.
 - id: 1783
-  title: Introduction To Accessible Categories.
+  title: Introduction To Accessible Categories
   speaker: Robert Paré
   date: 1986-03-05T16:10:00.000Z
   location: Sydney
@@ -11991,7 +11987,7 @@
   abstract: |-
     It was shown that the 2-category of $\kappa$-accessible categories, $\kappa$-accessible functors and natural transformations is biequivalent to the bicategory of small functors, right $\kappa$-flat profunctors, and natural transformations. This followed from the fact that a $\kappa$-accessible category is equivalent to the category of flat functors from a small category into Set. Also, last week's homework problem was worked out in detail.
 - id: 1784
-  title: Logic and Factorization Systems II.
+  title: Logic and Factorization Systems II
   speaker: G. Monro
   date: 1986-03-12T16:15:00.000Z
   location: Sydney
@@ -12012,7 +12008,7 @@
   abstract: |-
     A category parametrized by a category C was taken to merely be a functor $\partial \colon A \to C$. Categorical matters to do with limits were claimed to do with cartesian cones in A. The existence of enough cartesian cones includes the fibration condition and completeness of fibres with respect to stable limits. Monics also have to do with limits and so we get a notion of parametric monic in A. This leads to a natural notion of wellpoweredness for parametrized categories.
 - id: 1787
-  title: A Tensor Product of Symmetric Monoidal Categories.
+  title: A Tensor Product of Symmetric Monoidal Categories
   speaker: Barry Jay
   date: 1986-03-19T17:00:00.000Z
   location: Macquarie
@@ -12026,14 +12022,14 @@
   abstract: |-
     The letter discusses: 1) Wood's work on proarrows. 2) Resemblence of i : T-Alg -> T-Alg to Wood's situation which suggests the question of the adjoint to i. 3) Kan arrows in Street–Walters sense. 4) Does W left adjoint to Z left adjoint to Y imply A isomorphic to [B^op, Set] where Y is yoneda for A. (Remark: R. Walters believes locales give a counterexample to this.)
 - id: 1789
-  title: Many Sorted Algebras and the Moore Construction.
+  title: Many Sorted Algebras and the Moore Construction
   speaker: Michael Johnson
   date: 1986-04-02T14:00:00.000Z
   location: Sydney
   abstract: |-
     Section titles: 1) Motivation 2) Many sorted algebras 3) Theory of many sorted algebras 3) Examples.
 - id: 1790
-  title: Logic and Factorization Systems III.
+  title: Logic and Factorization Systems III
   speaker: G. Monro
   date: 1986-04-09T16:30:00.000Z
   location: Macquarie
@@ -12047,14 +12043,14 @@
   abstract: |-
     What does it mean for a category to have ultra-powers? Paré, Makkai and myself seem to have independently come to the same conclusion that having ultra-powers is part of the axiomatics of a category of models of a theory written in first order logic. Preferably we should be able to state it as a diagonal functor having an adjoint as is the case with having limits and colimits. If X is a set and U is an ultrafilter on X, form a site X as follows: The underlying category is 2^X and the covers of I are finite families {J_i} so that $I = \cup J_i$. Then the characteristic function is a point of the site inducing an adjoint pair p_*, left adjoint to p^* : Shv( X ) -> Set. If we view p_*, as a diagonal; saying p^* exists is saying the U-ultrapower exists. If T is a coherent theory, p_* restricts to Mod(T) -> Mod(T, Shv( X )); but not in theories with negation (eg. the theory of sets with at least two elements). We seem to need Shv( X )/U for this. We loose adjoints in this construction; however perhaps this is the right thing interpreted over a different base topos other than sets, or viewed as a fibred category with a "non-standard" fibration.
 - id: 1792
-  title: Bicategorical Aspects of Representation Theory.
+  title: Bicategorical Aspects of Representation Theory
   speaker: Robert Walters
   date: 1986-04-09T15:15:00.000Z
   location: Macquarie
   abstract: |-
     Many examples exist of the following phenomenon: a bicategory B (distributive and with further structure), an additive category A, and a "cardinality functor" # : B -> A. The cardinality of a finite set, the dimension of a vector space, the cardinality of a species, all fit into this pattern. I discussed the following important example. Let B be the bicategory whose objects are finite groups, arrows from G to H are finite dimensional left G, right H modules. Let A be the additive category with objects same as B, but arrows from G to H are class functions G $\times$ H -> C. Then the character of a representation provides a cardinality functor. (Which preserves biclosed structure, global tensor product, etc.) The fact that it preserves composition is a fundamental fact not usually stressed in standard books on group representation.
 - id: 1793
-  title: Some Parametrized Categorical Concepts II.
+  title: Some Parametrized Categorical Concepts II
   speaker: Ross Street
   date: 1986-04-16T14:00:00.000Z
   location: Sydney
@@ -12075,7 +12071,7 @@
   abstract: |-
     Following a previous talk, a new proof is given of the existence of $A \square B$, for symmetric monoidal categories A and B. Proposition 1: SMon(A,SMon(B,C)) $\cong$ SMon(B,SMon(A,C)) 2-naturally in all variables $\square$ Note that by replacing SMon by SMon_strong or SMon_strict ie replace "all monoidal functors B -> C" by "all strong (resp. strict)..." many parallel theorems result. Proposition 2: Let $\alpha$ be a 2-cell in SMon then SMon($\alpha$, -) is defined. Theorem 3: SMon(B,-) : SMon_strict -> SMon has a left 2-adjoint $-\square B$ which is 2-natural in B. Hence $\square$ : SMon^2 -> SMon is a 2—functor. Proposition 4: i: Smon_strict(A $\square$ B,C) -> SMon(A $\square$ B,C) has a right adjoint S. Proof. S is constructed on the gencrators of A $\square$ B given in the previous lecture. Corollary 5: There are 2-natural strict monoidal functors a and a' between (A $\square$ B) $\square$ C and A $\square$ (B $\square$ C) which both satisfy the pentagon law for monoidal categories. Note 1) a and a’ are not inverse. Note 2) Prettier calculations may be made with strong monoidal functors (eg. a becomes an equivalence) but a 'norm' is not strong im general. Note 3) There is a third version of the theorem for bicategorics and homomorphisms. For morphisms of bicategories and homomorphisms. For morphisms of bicategories the naturality conditions break down.
 - id: 1796
-  title: Some Parametrized Concepts III.
+  title: Some Parametrized Concepts III
   speaker: Ross Street
   date: 1986-04-23T15:20:00.000Z
   location: Sydney
@@ -12089,14 +12085,14 @@
   abstract: |-
     What follows arises from conversations with A. Kock. Let B be a cartesian closed category and let Vect_R(B) demote the category of R-vector spaces (=modules) in B, where R is a ring in B. The restricted double dual of an object B of B, denoted by D (B) is defined as D (B) = Hom_R(R^B,R) where Hom_R is the object of homomorphisms and R^B has its pointwise vector space structure. Evaluating gives a map k : B -> Hom_R(R^B,B), Now assume that free vector spaces exist, that is, a left adjoint to the forgetful functor Vect_R( B ). The map k above induces a homomorphism h : F(B) -> D (B). We call B linearly finite when h is an isomorphism. If B = Set and R is any field then linear finite is equivalent to finite. This needs decidability to prove. It is even interesting to ask when h is a mono. This situation doesn't cover the motivating example ie. where D (B) is distributions on B, B is a manifold, and the statement that h is an iso is Walbroek's theorem. The problem is we camnot use Vect but some form of complete vector spaces.
 - id: 1798
-  title: A $\square$ B II.
+  title: A $\square$ B II
   speaker: Barry Jay
   date: 1986-05-07T16:30:00.000Z
   location: Sydney
   abstract: |-
     (I) The right-hand associativity for $\square$ , r : A -> A $\square$ A is natural in A and satisfies the triangle law. There is a strict symmetric monoidal functor r' : a$\square$ -> A but it is not natural. (II) On generalization of the notion "monoid” is "category". Another is "monoidal category". In the same way "abelian group" becomes "additive category" or "symmetric monoidal closed category". There is a full embedding Ab -> SMon mapping A tensor B to A $\square$ B. (III) Definition. Let A be a SMC and V be SMon. Then a V-norm for A is a symmetric monoidal functor | | : A -> V satisfying the following condition, |A(A, B)| $\cong$ |A(B, A)|. |A| is the V-cat with the same objects as A but with |A|(A, B) = |A(A, B)| etc. Say | | is cauchy complete iff |A| is.
 - id: 1799
-  title: String Diagrams.
+  title: String Diagrams
   speaker: I. Aitchinson
   date: 1986-05-21T15:45:00.000Z
   location: Macquarie
@@ -12115,45 +12111,45 @@
   abstract: |-
     I gave some motivation for my work with Mike Johnson. Our first idea is that one should study paths first and then homotopy. (Following Lavwere) we begin with a topos E. We expect that paths in an object X should have a co-category structure (paths of all dimensions). The first axiom should be that paths are represented. In examples (Sets, simplicial sets, etc.) we find that paths are in fact represented by a family of objects I -> N . The paper we are currently completing deals with the dif- ficult task of defining paths (of all dimensions) in a simplicial set and establishing the $\omega$-category structure on the paths.
 - id: 1801
-  title: Well-formed Simplicial Sets.
+  title: Well-formed Simplicial Sets
   speaker: Michael Johnson
   date: 1986-06-11T15:00:00.000Z
   location: Macquarie
   abstract: |-
     This talk presented an alternative description of Street's orientals. The description is geometric. The elements of the orientals turn out to be certain simplicial sets. A finite n-dimensional simplicial set A is called compatible if for x, y $\in$ X_n, x $\partial_i$; = y $\partial_j$, i+j even, implies x=y. A compatible simplicial set is "sensibly oriented" at its top dimension. To analyze its lower dimensions we define the domain and codomain of a simplicial set. If A is an n-dimensional simplicial set, x $\in$ A is called an end of A if there exists y $\in A_n$, {a_0, a_1, ... a_k } even integers a_0 < a_1 ... < a_k with x = y $\partial_{a_k} \partial_{a_{k - 1}} \cdots \partial_{a_0}$ (composing a la Eilenberg). The graded set of ends of A is denoted by EA). The domain of A is by definition, A-E(A). Similarly for the codomain of A (odd integers). Well formed simplicial sets are defined inductively: A zero dimensional well formed simplicial set is a singleton; an n-dimensional simplicial set is well formed if it's compatible and its domain and codomain are well formed simplicial sets. The collection of well formed simplicial sets form an $\omega$-catecgory (with union as composition).
 - id: 1802
-  title: A New Notion of Field.
+  title: A New Notion of Field
   speaker: Barry Jay
   date: 1986-06-11T16:15:00.000Z
   location: Macquarie
 - id: 1803
-  title: Convolution For The Working Mathematician.
+  title: Convolution For The Working Mathematician
   speaker: Brian Day
   date: 1986-06-18T14:10:00.000Z
   location: Macquarie
 - id: 1804
-  title: Some Remarks on Group Cohomology.
+  title: Some Remarks on Group Cohomology
   speaker: Ross Street
   date: 1986-06-18T15:15:00.000Z
   location: Sydney
   abstract: |-
     The monoidal structure on H^*(G,-) was described. Artin–Tate periodicity was discussed with applications to the Eilenberg–Mac Lane cohomology of abelian groups.
 - id: 1804
-  title: Nerve of n-categories I.
+  title: Nerve of n-categories I
   speaker: M. Zaks
   date: 1986-06-25T14:00:00.000Z
   location: Macquarie
   abstract: |-
     Elementary introduction to simplicial sets and the nerve of a category. I showed that simplicial sets that are nerves of categories satisfy simple extension properties and that this characterizes them.
 - id: 1805
-  title: Paths in Simplicial Sets.
+  title: Paths in Simplicial Sets
   speaker: Robert Walters
   date: 1986-06-25T16:50:00.000Z
   location: Macquarie
   abstract: |-
     Any geometric subject should begin with the correct abstract operations. To begin, we should have a category with finite limits, subobject classifiers, exponentiation. For homotopy theory we should have an object I to parametrize paths; ie paths shoud be a representble functor into $\omega$-categories. The idea is to first study this structure and later study homotopy classes of functions. In fact, work with Michael Johnson has lead to considering many sorted co-$\omega$—category objects (where the sorts form an $\omega$-category) to parametrize paths. The Moore-path category is obtained from a co-category with sorts being real intervals. The free monoid on a set arises from a co-monoid with sorts being natural numbers. In simplicial sets, Street's orientals yield a many-sorted co-$\omega$-category to parametrize paths (Johnson).
 - id: 1806
-  title: Nerve of n-categories II.
+  title: Nerve of n-categories II
   speaker: M. Zaks
   date: 1986-06-02T14:00:00.000Z
   location: Macquarie
@@ -12167,7 +12163,7 @@
   abstract: |-
     More on paths in simplicial sets. The new aspect of the talk was that we (Johnson, Walters) have discovered that the higher identity laws arise from the orientals - against our expectations that the identity laws have a different goometry than the associative laws.
 - id: 1808
-  title: Algebraic Structure on Enriched Categories.
+  title: Algebraic Structure on Enriched Categories
   speaker: Barry Jay
   date: 1986-06-02T16:00:00.000Z
   location: Macquarie
@@ -12186,7 +12182,7 @@
   date: 1986-06-09T15:00:00.000Z
   location: Sydney
 - id: 1809
-  title: Why There Are No Loops.
+  title: Why There Are No Loops
   speaker: Ross Street
   date: 1986-06-09T16:20:00.000Z
   location: Sydney
