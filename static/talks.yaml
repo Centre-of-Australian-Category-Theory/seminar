@@ -11936,7 +11936,7 @@
 
     Suppose T is a finite limit theory, G a T-algebra then elG is a theory called the many sorted theory of T with algebra of sorts G. ElG-algebras correspond (via el left adjoint to Fam) to T-algebras in FamC whose projection onto C is G; similarly elG-coalgebras (co-many-sorted T-algebras) correspond to T-algebras in Fam(C^op). Every T-algebra is trivially an elG-algebra and any elG-algebra K yields a T-algebra F via Kan extension which is given on objects T ∈ T by F(T) = ΣKx x ∈ GT (forget that the G-Indexed sorts are different).
 
-    Moore's domains are a co-many-sorted category in Top, so homming into X gives a many sorted category whose associated ordinary category is the Moore category on X. Similarly the free monoid on a set and the free category on a dirccted graph result from homming out of co-many-sorted monoid and category objects in Set and Grph respectively, and the collection of well formed simplicial complexes form a co—many-sorted ω-category in the category of simplicial sets.
+    Moore's domains are a co-many-sorted category in Top, so homming into X gives a many sorted category whose associated ordinary category is the Moore category on X. Similarly the free monoid on a set and the free category on a dirccted graph result from homming out of co-many-sorted monoid and category objects in Set and Grph respectively, and the collection of well formed simplicial complexes form a co-many-sorted ω-category in the category of simplicial sets.
 - id: 1778
   title: Preservation of Finite Connected Limits
   speaker: Robert Paré
@@ -11978,7 +11978,9 @@
   date: 1986-03-05T16:10:00.000Z
   location: Sydney
   abstract: |-
-    Some basic facts on $\kappa$—filtered colimits were reviewed. Right $\kappa$-filtered profunctors were introduced, and a number of their properties given. A $\kappa$-accessible category was defined to be a category for which there existed a small set of $\kappa$-presentable objects of which every object was a $\kappa$—filtered colimit. Homework: show that every small category with split idempotents is $\kappa$-accessible for some $\kappa$.
+    Some basic facts on $\kappa$-filtered colimits were reviewed. Right $\kappa$-filtered profunctors were introduced, and a number of their properties given. A $\kappa$-accessible category was defined to be a category for which there existed a small set of $\kappa$-presentable objects of which every object was a $\kappa$-filtered colimit.
+
+    Homework: show that every small category with split idempotents is $\kappa$-accessible for some $\kappa$.
 - id: 1784
   title: Accessible Categories (ct'd)
   speaker: Robert Paré
@@ -12034,10 +12036,10 @@
   date: 1986-04-09T16:30:00.000Z
   location: Macquarie
   abstract: |-
-    Let A be an EM-category and A an object of A. A power object of A in A is an object PA together with a relation $\epsilon_A : PA \to A$ such that for every relation r : X -> A there is a unique morphism f : X -> PA such that $r = \epsilon_A^\circ\Lambda(f)$. If every object has a power object we call A a near-topos. The full higher-order logic of topoi can be interpreted in a near—topos, every PA is complete (proof uses higher-order logic); the complete objects form a reflective subcategory with left exact reflector and the complete objects form an elementary topos. Examples: (i) Any quasitopos, with (E,M) = (Epis, Strong Monos) (ii) Category of topological spaces, with (Epis, Subspace inclusions) (iii) Elementary topos with topology j; E = composites epi with j-dense mono, M = j-closed monos. Here the complete objects are the j-sheaves, so the result above generalizes the sheafification theorem for elementary topoi.
+    Let A be an EM-category and A an object of A. A power object of A in A is an object PA together with a relation $\epsilon_A : PA \to A$ such that for every relation r : X -> A there is a unique morphism f : X -> PA such that $r = \epsilon_A^\circ\Lambda(f)$. If every object has a power object we call A a near-topos. The full higher-order logic of topoi can be interpreted in a near-topos, every PA is complete (proof uses higher-order logic); the complete objects form a reflective subcategory with left exact reflector and the complete objects form an elementary topos. Examples: (i) Any quasitopos, with (E,M) = (Epis, Strong Monos) (ii) Category of topological spaces, with (Epis, Subspace inclusions) (iii) Elementary topos with topology j; E = composites epi with j-dense mono, M = j-closed monos. Here the complete objects are the j-sheaves, so the result above generalizes the sheafification theorem for elementary topoi.
 - id: 1791
   title: Reading Between the Lines of Paré's Talks
-  speaker: M. Adelman
+  speaker: Murray Adelman
   date: 1986-04-09T14:00:00.000Z
   location: Macquarie
   abstract: |-
@@ -12058,7 +12060,7 @@
     Suppose $\partial$ : A - C is a fibration, A, C are finitely complete and $\partial$ is left exact. Various categories over C are defined: Mon_C(A), Hom_C(A, B), Idem_C(A). Write A_gpd for the category with the same objects as A and cartesian arrows. Call A wellpowered when each Mon_C(A)_gpd has a terminal object. Say A has small homs when each Hom_C(A,B) has a terminal object. Say A has small idempotency when each Idem_C(A) has a terminal object. Theorems: (i) Wellpowered implies Mon_C(A) is essentially small. (ii) Small homs iff small idempotency.
 - id: 1794
   title: Standard and Nonstandard Parametrized Categories
-  speaker: M. Adelman
+  speaker: Murray Adelman
   date: 1986-04-16T15:15:00.000Z
   location: Sydney
   abstract: |-
@@ -12069,7 +12071,7 @@
   date: 1986-04-23T14:00:00.000Z
   location: Sydney
   abstract: |-
-    Following a previous talk, a new proof is given of the existence of $A \square B$, for symmetric monoidal categories A and B. Proposition 1: SMon(A,SMon(B,C)) $\cong$ SMon(B,SMon(A,C)) 2-naturally in all variables $\square$ Note that by replacing SMon by SMon_strong or SMon_strict ie replace "all monoidal functors B -> C" by "all strong (resp. strict)..." many parallel theorems result. Proposition 2: Let $\alpha$ be a 2-cell in SMon then SMon($\alpha$, -) is defined. Theorem 3: SMon(B,-) : SMon_strict -> SMon has a left 2-adjoint $-\square B$ which is 2-natural in B. Hence $\square$ : SMon^2 -> SMon is a 2—functor. Proposition 4: i: Smon_strict(A $\square$ B,C) -> SMon(A $\square$ B,C) has a right adjoint S. Proof. S is constructed on the gencrators of A $\square$ B given in the previous lecture. Corollary 5: There are 2-natural strict monoidal functors a and a' between (A $\square$ B) $\square$ C and A $\square$ (B $\square$ C) which both satisfy the pentagon law for monoidal categories. Note 1) a and a’ are not inverse. Note 2) Prettier calculations may be made with strong monoidal functors (eg. a becomes an equivalence) but a 'norm' is not strong im general. Note 3) There is a third version of the theorem for bicategorics and homomorphisms. For morphisms of bicategories and homomorphisms. For morphisms of bicategories the naturality conditions break down.
+    Following a previous talk, a new proof is given of the existence of $A \square B$, for symmetric monoidal categories A and B. Proposition 1: SMon(A,SMon(B,C)) $\cong$ SMon(B,SMon(A,C)) 2-naturally in all variables $\square$ Note that by replacing SMon by SMon_strong or SMon_strict ie replace "all monoidal functors B -> C" by "all strong (resp. strict)..." many parallel theorems result. Proposition 2: Let $\alpha$ be a 2-cell in SMon then SMon($\alpha$, -) is defined. Theorem 3: SMon(B,-) : SMon_strict -> SMon has a left 2-adjoint $-\square B$ which is 2-natural in B. Hence $\square$ : SMon^2 -> SMon is a 2-functor. Proposition 4: i: Smon_strict(A $\square$ B,C) -> SMon(A $\square$ B,C) has a right adjoint S. Proof. S is constructed on the gencrators of A $\square$ B given in the previous lecture. Corollary 5: There are 2-natural strict monoidal functors a and a' between (A $\square$ B) $\square$ C and A $\square$ (B $\square$ C) which both satisfy the pentagon law for monoidal categories. Note 1) a and a’ are not inverse. Note 2) Prettier calculations may be made with strong monoidal functors (eg. a becomes an equivalence) but a 'norm' is not strong im general. Note 3) There is a third version of the theorem for bicategorics and homomorphisms. For morphisms of bicategories and homomorphisms. For morphisms of bicategories the naturality conditions break down.
   part: 1
 - id: 1796
   title: Some Parametrized Concepts III
@@ -12080,7 +12082,7 @@
     Generators and strong gemerators for a parametrized category were defined. If A is fibred over C and has small homs we have: C^2 admits monic parts and A has a generator implies A admits monic parts. C^2 admits invertible parts and A has a strong genherator implies A admits invertible parts.
 - id: 1797
   title: Linear Finiteness
-  speaker: M. Adelman
+  speaker: Murray Adelman
   date: 1986-04-23T16:50:00.000Z
   location: Sydney
   abstract: |-
@@ -12139,7 +12141,7 @@
     The monoidal structure on H^*(G,-) was described. Artin–Tate periodicity was discussed with applications to the Eilenberg–Mac Lane cohomology of abelian groups.
 - id: 1804
   title: Nerve of n-categories I
-  speaker: M. Zaks
+  speaker: Michael Zaks
   date: 1986-06-25T14:00:00.000Z
   location: Macquarie
   abstract: |-
@@ -12150,10 +12152,10 @@
   date: 1986-06-25T16:50:00.000Z
   location: Macquarie
   abstract: |-
-    Any geometric subject should begin with the correct abstract operations. To begin, we should have a category with finite limits, subobject classifiers, exponentiation. For homotopy theory we should have an object I to parametrize paths; ie paths shoud be a representble functor into $\omega$-categories. The idea is to first study this structure and later study homotopy classes of functions. In fact, work with Michael Johnson has lead to considering many sorted co-$\omega$—category objects (where the sorts form an $\omega$-category) to parametrize paths. The Moore-path category is obtained from a co-category with sorts being real intervals. The free monoid on a set arises from a co-monoid with sorts being natural numbers. In simplicial sets, Street's orientals yield a many-sorted co-$\omega$-category to parametrize paths (Johnson).
+    Any geometric subject should begin with the correct abstract operations. To begin, we should have a category with finite limits, subobject classifiers, exponentiation. For homotopy theory we should have an object I to parametrize paths; ie paths shoud be a representble functor into $\omega$-categories. The idea is to first study this structure and later study homotopy classes of functions. In fact, work with Michael Johnson has lead to considering many sorted co-$\omega$-category objects (where the sorts form an $\omega$-category) to parametrize paths. The Moore-path category is obtained from a co-category with sorts being real intervals. The free monoid on a set arises from a co-monoid with sorts being natural numbers. In simplicial sets, Street's orientals yield a many-sorted co-$\omega$-category to parametrize paths (Johnson).
 - id: 1806
   title: Nerve of n-categories II
-  speaker: M. Zaks
+  speaker: Michael Zaks
   date: 1986-06-02T14:00:00.000Z
   location: Macquarie
   abstract: |-
@@ -12165,6 +12167,7 @@
   location: Macquarie
   abstract: |-
     More on paths in simplicial sets. The new aspect of the talk was that we (Johnson, Walters) have discovered that the higher identity laws arise from the orientals - against our expectations that the identity laws have a different goometry than the associative laws.
+  part: 1
 - id: 1808
   title: Algebraic Structure on Enriched Categories
   speaker: Barry Jay
@@ -12177,17 +12180,17 @@
   speaker: Robert Walters
   date: 1986-06-09T14:00:00.000Z
   location: Sydney
-  abstract: |-
-    Continuation of previous lecture (11/June/1986).
+  part: 2
+  previous: 1807
 - id: 1810
   title: Cellular Spaces
   speaker: Samuel Eilenberg
   date: 1986-06-09T15:00:00.000Z
   location: Sydney
 - id: 1809
-  title: Why There Are No Loops
+  title: Why there are no loops
   speaker: Ross Street
   date: 1986-06-09T16:20:00.000Z
   location: Sydney
   abstract: |-
-    Let M be the endomorphism monoid of 2 in Cat. Then the category of right M-sets is the category of graphs (directed, with chosen endo-edges at each vertex). Let $\omega$ = {0,1,2,...} as an ordered set. Call $\alpha \colon \omega \to \omega$ in Cat eventually consecutive when there exists k such that $\alpha(i + 1) = \alpha(i) + 1$ for all i>k. Let $\Delta$ denote the monoid of eventually constant $\alpha \colon \omega \to \omega$ under composition. The category of right $\Delta$-sets is essentially the category of simplicial sets : there can be some infinite dimension cells. (This was not the main point of the lecture.) The remainder of the lecture described O_n, giving some technicalities as to why no loops occur.
+    Let M be the endomorphism monoid of 2 in Cat. Then the category of right M-sets is the category of graphs (directed, with chosen endo-edges at each vertex). Let $\omega = \{0,1,2,\dots\}$ as an ordered set. Call $\alpha \colon \omega \to \omega$ in Cat eventually consecutive when there exists $k$ such that $\alpha(i + 1) = \alpha(i) + 1$ for all $i>k$. Let $\Delta$ denote the monoid of eventually constant $\alpha \colon \omega \to \omega$ under composition. The category of right $\Delta$-sets is essentially the category of simplicial sets: there can be some infinite dimension cells. (This was not the main point of the lecture.) The remainder of the lecture described $O_n$, giving some technicalities as to why no loops occur.

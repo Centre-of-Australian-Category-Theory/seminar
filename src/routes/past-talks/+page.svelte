@@ -52,7 +52,7 @@
                 {talk.speaker}
               </a>
               <div class="col-span-3 text-pretty">
-                {@html talk.title}{#if talk.part}<span class="text-gray-500 pl-1">({talk.part}/{talk.totalParts})</span>{/if}
+                {talk.title}{#if talk.part}<span class="text-gray-500 pl-1">({talk.part}/{talk.totalParts})</span>{/if}
                 {#if talk.abstract}
                   <a class="text-deep-red hover:text-red" href="{base}/talks/{talk.abstract}">(abs)</a>
                 {/if}
