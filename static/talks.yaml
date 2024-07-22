@@ -12218,3 +12218,19 @@
     The theory of associative n-categories has been employed to give a combinatorial model of directed higher categories amenable to computer implementation, presented as n-dimensional string diagrams. However, the theory lacks a notion of inverse, which would require the existence of cancellation moves along with an infinite collection of higher-dimensional coherence data.
 
     We generalise the theory to support invertibility by equipping generators with framing data, allowing for a natural representation of the inverse. Using this framed zigzags approach, we show that the required cancellation moves and coherence data arise uniformly via a colimit mechanism. We use tools from enriched category theory to justify correctness of our constructions, and exhibit a proof assistant which implements our theory.
+- id: 1811
+  title: Visualising program dataflow with string diagrams
+  speaker: Nick Hu
+  date: 2024-07-24T14:00:00.000+10
+  abstract: |-
+    In this talk, I will present a whirlwind introduction to the theory of programming languages and compilers, along with the categorical semantics of programming languages. I will discuss some ideas about how string diagrams can be used inside compilers, leading to a semantics-first derivation of a compiler with the goal of being correct-by-construction.
+
+    String diagrams for monoidal closed categories have been proposed as a form of abstract syntax for the representation of programs. Two programs are identified by having the same representation in string diagrams, in the form of a hierarchical hypergraph. Moreover, semantic-preserving program transformations can be given as an equational theory of string diagram rewriting. Such a theory affords a two-dimensional syntax, and allows for a more topological presentation of complex program transformations (e.g. reverse-mode automatic differentiation), which is key to proving correctness. In this talk, we present sd-visualiser: a tool for interactive graphical analysis of large real-world programs rooted in string diagrammatic foundations, based on novel techniques for rendering string diagrams as graphs. At a glance, nodes represent operations and wires represent dataflow. We show how our techniques allow for a completely graphical approach to verify the correctness of program transformations.
+
+    This is joint work with Dan Ghica, Alex Rice, and Calin Tataru.
+- id: 1812
+  title: Two models for equipment-enriched category theory
+  speaker: Alexander Campbell
+  date: 2024-07-24T16:00:00.000+10
+  abstract: |-
+    In this talk, I will prove that two notions of categories enriched over a virtual equipment (one due to Leinster, the other apparently new, but essentially due to Betti and Walters) are equivalent, in the sense that they define biequivalent virtual equipments.
