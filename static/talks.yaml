@@ -12234,3 +12234,17 @@
   date: 2024-07-24T16:00:00.000+10
   abstract: |-
     In this talk, I will prove that two notions of categories enriched over a virtual equipment (one due to Leinster, the other apparently new, but essentially due to Betti and Walters) are equivalent, in the sense that they define biequivalent virtual equipments.
+- id: 1818
+  title: Enhanced Marked 2-Limits
+  speaker: Joanna Ko
+  date: 2024-07-31T14:00:00.000+10
+  abstract: |-
+    Marked 2-limits, or Cartesian quasi-limits introduced by Gray, give an alternative approach to Cat-weighted limits in 2-category theory. The equivalence between marked 2-limits and Cat-weighted limits was first established by Street, and we aim to give a new approach to this result using marked codescent objects of marked coherence data which we explain in this talk. We introduce the notion of enhanced marked 2-limits, which is a natural generalisation of marked 2-limits to the enhanced 2-categorical setting. We learn in the talk that enhanced marked 2-limits and F-weighted limits both have the same expressive power.
+- id: 1819
+  title: Powerful functors via simplicial sets
+  speaker: Soichiro Fujii
+  date: 2024-07-31T15:00:00.000+10
+  abstract: |-
+    A morphism $p \colon X \to Y$ in a category $\mathcal{C}$ with pullbacks is called powerful (or exponentiable) if the functor $p^* \colon \mathcal{C}/Y \to \mathcal{C}/X$, defined by pulling back along $p$, has a right adjoint. Giraud and Conduché characterized the powerful functors (i.e., the powerful morphisms in $\mathcal{C} = \mathbf{Cat}$) by explicit conditions. In this talk, I will present a proof of the equivalence of the powerfulness and the Giraud–Conduché condition for a functor, using simplicial sets.
+
+    (Based on discussion with Steve Lack.)
