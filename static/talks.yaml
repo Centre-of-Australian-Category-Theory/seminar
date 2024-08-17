@@ -2631,9 +2631,9 @@
 
     The symmetric topos M(E) was originally constructed (using forcing methods in topos theory) as the classifier of the Lawvere distributions on a topos E bounded over a base topos S [1]. An alternative construction was then given in [2] in an algebraic spirit and even having applications in algebra.
 
-    In [3] it is shown that the equivalence (obtained therein by other means) between S-valued distributions on E and complete spreads over E with a locally connected domain, could alternatively be seen as an equivalence between the category of points of M(E) and the category of discrete fibrations [11] associated with the symmetric monad on E. This approach is particularly suited to an analogy with the original construction of the spread completion given by R.H.Fox [6].
 
     The algebras for the symmetric monad are identified [4] with the "linear objects" and this results in an interpretation of Waelbroeck's theorem in Functional Analysis [13] saying essentially that, for any topos E, the topos M(E) is the free "cocompletion" of E in the sense of admitting left Kan extensions along any essential geometric morphisms satisfying the BCC for comma objects.
+    In [3] it is shown that the equivalence (obtained therein by other means) between S-valued distributions on E and complete spreads over E with a locally connected domain, could alternatively be seen as an equivalence between the category of points of M(E) and the category of discrete fibrations [11] associated with the symmetric monad on E. This approach is particularly suited to an analogy with the original construction of the spread completion given by R.H.Fox [6].
 
     An abstract notion of an admissible KZ-doctrine M is introduced in [5] as a generalization of the symmetric monad by imposing a condition on bicomma objects on the usual KZ-doctrine [8]. In addition to the symmetric monad on TopS, there are other interesting applications, for instance in Theoretical Computer Science. In this general context, one can speak about M-fibrations and opfibrations, M-algebras, and of the M-comprehensive factorization, generalizing work of Street and Walters [12].
 
@@ -12248,3 +12248,24 @@
     A morphism $p \colon X \to Y$ in a category $\mathcal{C}$ with pullbacks is called powerful (or exponentiable) if the functor $p^* \colon \mathcal{C}/Y \to \mathcal{C}/X$, defined by pulling back along $p$, has a right adjoint. Giraud and Conduché characterized the powerful functors (i.e., the powerful morphisms in $\mathcal{C} = \mathbf{Cat}$) by explicit conditions. In this talk, I will present a proof of the equivalence of the powerfulness and the Giraud–Conduché condition for a functor, using simplicial sets.
 
     (Based on discussion with Steve Lack.)
+- id: 1820
+  title: Limits of (∞, 1)-categories with Structure & Their Lax Morphisms
+  speaker: Joanna Ko
+  date: 2024-08-07T14:00:00.000+10
+  abstract: |-
+    We study the limits of (∞, 1)-categories with structure and the lax morphisms between them by introducing the notion of enhanced simplicial categories. We establish that many interesting enhanced simplicial categories, including that of (∞, 1)-categories with limits, and that of Cartesian fibrations between (∞, 1)-categories, admit several kinds of weighted limits that involve lax morphisms in the diagrams, such as Eilenberg-Moore objects over monads that are lax morphisms, and ∞-categorical versions of equifiers and inserters whose diagrams involve lax morphisms. Our results specialise to any model for (∞, 1)-categories, therefore generalising results in quasi-categories and also categories.
+- id: 1821
+  title: Enrichment and families over a virtual double category
+  speaker: Soichiro Fujii
+  date: 2024-08-07T15:00:00.000+10
+  abstract: |-
+    Enriched category theory gives rise to a 2-functor $\mathrm{Enr}$ from a suitable 2-category of enrichment bases to the 2-category $\mathbf{2}\text{-}\mathbf{CAT}$ of 2-categories, sending each base $\mathcal{V}$ to the 2-category $\mathrm{Enr}(\mathcal{V}) = \mathbf{V-Cat}$ of $\mathcal{V}$-categories. Classically, the monoidal categories are taken as the enrichment bases, but there have been several extensions. In this talk, I will show that the 2-functor $\mathrm{Enr}$ becomes a parametric right 2-adjoint if we take the virtual double categories as the enrichment bases, by decomposing the 2-functor $\mathrm{Enr}_1 \colon \mathbf{VDBL} --> \mathbf{2}\text{-}\mathbf{CAT}/\mathrm{Enr}(1)$ into a few basic right adjoint 2-functors. The powerfulness (or exponentiability) of discrete opfibrations between virtual double categories and the notion of horizontal unit in a virtual double category play essential roles.
+
+    (Joint work with Steve Lack)
+- id: 1822
+  title: Powerset and Vietoris, universally
+  speaker: Richard Garner
+  date: 2024-08-14T14:00:00.000+10
+  abstract: |-
+    The contravariant power-set functor on Set is not very mysterious. The covariant power-set functor seems harder to characterise. This talk will give such a characterisation, which immediately implies its monad structure. We then explain how the same universal property comes very close to characterising the Vietoris monad on the category of compact Hausdorff spaces. With a bit more work, we can completely characterise it, and once again, reconstruct its monad structure.
+
