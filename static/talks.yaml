@@ -12268,4 +12268,21 @@
   date: 2024-08-14T14:00:00.000+10
   abstract: |-
     The contravariant power-set functor on Set is not very mysterious. The covariant power-set functor seems harder to characterise. This talk will give such a characterisation, which immediately implies its monad structure. We then explain how the same universal property comes very close to characterising the Vietoris monad on the category of compact Hausdorff spaces. With a bit more work, we can completely characterise it, and once again, reconstruct its monad structure.
+- id: 1823
+  title: The ring of differential operators on a monomial curve is a Hopf algebroid
+  speaker: Ulrich Krähmer
+  date: 2024-08-21T14:00:00.000+10
+  abstract: |-
+    The ring of differential operators on a cuspidal curve whose coordinate ring is a numerical semigroup algebra is shown to be a cocommutative and cocomplete left Hopf algebroid, which essentially means that the category of $\mathcal{D}$-modules is closed monoidal. If the semigroup is symmetric so that the curve is Gorenstein, it is a full Hopf algebroid (admits an antipode), which means that the subcategory of $\mathcal{D}$-modules that are finite rank vector bundles over the curve is rigid. Based on joint work with Myriam Mahaman.
+- id: 1824
+  title: The countable reals
+  speaker: Andrej Bauer
+  date: 2024-08-21T14:00:00.000+10
+  abstract: |-
+    Cantor's theorem about uncountability of the reals can be proved using excluded middle or countable choice. But can it be proved without either of them? I will present joint work with James E. Hanson in which we give the answer by constructing a topos, i.e., a model of intuotionistic higher-order logic, in which the Dedekind reals are countable. There are two main ingridients:
 
+    <ul><li>A result in computability theory, established by Joseph S. Miller, that there exists a sequence of reals against which oracle Turing machines cannot diagonalize uniformly in the oracle representing the sequence. The theorem relies on a generalization of Brouwer's fixed point theorem to the Hilbert cube and multi-valued continuous maps whose images are closed convex sets.</li>
+
+    <li>A new variant of realizability, which we call uniform realizability that embodies the uniform oracle computations used in Miller's sequences.</li><ul>
+
+    In this talk I will present the general ideas, the construction of Miller's sequences, and outline uniform realizability.
