@@ -12277,12 +12277,12 @@
 - id: 1824
   title: The countable reals
   speaker: Andrej Bauer
-  date: 2024-08-21T14:00:00.000+10
+  date: 2024-08-21T15:00:00.000+10
   abstract: |-
     Cantor's theorem about uncountability of the reals can be proved using excluded middle or countable choice. But can it be proved without either of them? I will present joint work with James E. Hanson in which we give the answer by constructing a topos, i.e., a model of intuotionistic higher-order logic, in which the Dedekind reals are countable. There are two main ingridients:
 
-    <ul><li>A result in computability theory, established by Joseph S. Miller, that there exists a sequence of reals against which oracle Turing machines cannot diagonalize uniformly in the oracle representing the sequence. The theorem relies on a generalization of Brouwer's fixed point theorem to the Hilbert cube and multi-valued continuous maps whose images are closed convex sets.</li>
+    •  A result in computability theory, established by Joseph S. Miller, that there exists a sequence of reals against which oracle Turing machines cannot diagonalize uniformly in the oracle representing the sequence. The theorem relies on a generalization of Brouwer's fixed point theorem to the Hilbert cube and multi-valued continuous maps whose images are closed convex sets.
 
-    <li>A new variant of realizability, which we call uniform realizability that embodies the uniform oracle computations used in Miller's sequences.</li><ul>
+    •  A new variant of realizability, which we call uniform realizability that embodies the uniform oracle computations used in Miller's sequences.
 
     In this talk I will present the general ideas, the construction of Miller's sequences, and outline uniform realizability.
