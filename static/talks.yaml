@@ -12279,10 +12279,20 @@
   speaker: Andrej Bauer
   date: 2024-08-21T15:00:00.000+10
   abstract: |-
-    Cantor's theorem about uncountability of the reals can be proved using excluded middle or countable choice. But can it be proved without either of them? I will present joint work with James E. Hanson in which we give the answer by constructing a topos, i.e., a model of intuotionistic higher-order logic, in which the Dedekind reals are countable. There are two main ingridients:
+    Cantor's theorem about uncountability of the reals can be proved using excluded middle or countable choice. But can it be proved without either of them? I will present joint work with James E. Hanson in which we give the answer by constructing a topos, i.e., a model of intuotionistic higher-order logic, in which the Dedekind reals are countable. There are two main ingredients:
 
     •  A result in computability theory, established by Joseph S. Miller, that there exists a sequence of reals against which oracle Turing machines cannot diagonalize uniformly in the oracle representing the sequence. The theorem relies on a generalization of Brouwer's fixed point theorem to the Hilbert cube and multi-valued continuous maps whose images are closed convex sets.
 
     •  A new variant of realizability, which we call uniform realizability that embodies the uniform oracle computations used in Miller's sequences.
 
     In this talk I will present the general ideas, the construction of Miller's sequences, and outline uniform realizability.
+- id: 1825
+  title: Characterising the category of Hilbert spaces
+  speaker: Shay Tobin
+  date: 2024-08-28T14:00:00.000+10
+  abstract: |-
+    In 2022, the category of real or complex Hilbert spaces and bounded linear maps was characterised in purely categorical terms by Chris Heunen and Andre Kornell. The tensor product of Hilbert spaces played a key role in this characterisation. In this talk I will present some work from my Master Thesis which I completed at the end of 2023 with supervision from Steve Lack. I give a new but related characterisation which does not involve the tensor product. As a bonus, we are also able to characterise the category of quaternionic Hilbert spaces.
+- id: 1826
+  title: T-categories, T-simplicial structure, and horizontal units
+  speaker: Steve Lack
+  date: 2024-08-28T15:00:00.000+10
