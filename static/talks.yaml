@@ -12296,3 +12296,9 @@
   title: T-categories, T-simplicial structure, and horizontal units
   speaker: Steve Lack
   date: 2024-08-28T15:00:00.000+10
+- id: 1827
+  title: Isotropy Groups
+  speaker: Richard Garner
+  date: 2024-09-11T14:00:00.000+10
+  abstract: |-
+    The isotropy group of a category C is a group object in C which is universal among groups which act on every of C and act on themselves by conjugation. The notation was introduced by Funk, Hofstra, and Steinberg, though it is closely related to Freyd’s notion of the core of a typos. This talk will give an overview of some aspects of the theory of isotropy.
