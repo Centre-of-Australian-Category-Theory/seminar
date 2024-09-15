@@ -12302,3 +12302,9 @@
   date: 2024-09-11T14:00:00.000+10
   abstract: |-
     The isotropy group of a category C is a group object in C which is universal among groups which act on every of C and act on themselves by conjugation. The notation was introduced by Funk, Hofstra, and Steinberg, though it is closely related to Freyd’s notion of the core of a typos. This talk will give an overview of some aspects of the theory of isotropy.
+- id: 1828
+  title: Weights for oplax colimits
+  speaker: Jason Brown
+  date: 2024-09-18T14:00:00.000+10
+  abstract: |-
+    In 2-categories one can consider a notion of colimit whose universal property is expressed in terms of oplax transformations, rather than 2-natural transformations. These are called oplax colimits. Examples include the coKleisli category of a comonad and the Grothendieck construction for functors into Cat. By applying the theory of oplax-morphism classifiers one can express oplax colimits as ordinary weighted Cat-colimits for particular sorts of weights. I plan to summarise some of the work done during my phd (supervised by Richard Garner) toward describing these weights; in particular, characterising the saturation as the class of coalgebras for oplax-morphism classifiers. If time allows I might also discuss free completions of 2-categories under colimits for this class of weights.
