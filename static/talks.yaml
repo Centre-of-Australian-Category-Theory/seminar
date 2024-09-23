@@ -12308,3 +12308,17 @@
   date: 2024-09-18T14:00:00.000+10
   abstract: |-
     In 2-categories one can consider a notion of colimit whose universal property is expressed in terms of oplax transformations, rather than 2-natural transformations. These are called oplax colimits. Examples include the coKleisli category of a comonad and the Grothendieck construction for functors into Cat. By applying the theory of oplax-morphism classifiers one can express oplax colimits as ordinary weighted Cat-colimits for particular sorts of weights. I plan to summarise some of the work done during my phd (supervised by Richard Garner) toward describing these weights; in particular, characterising the saturation as the class of coalgebras for oplax-morphism classifiers. If time allows I might also discuss free completions of 2-categories under colimits for this class of weights.
+- id: 1829
+  title: Fun with supersymmetry
+  speaker: Alexander Sherman
+  date: 2024-09-25T14:00:00.000+10
+  abstract: |-
+    I'll introduce the mathematics of supersymmetry, explaining both the "physical" intuition as well as how super mathematics arises from the world of tensor categories. After such generalities, I'll delve into a developing analogy between supergroups over the complex numbers and the modular representations of finite groups. In particular, it is possible to define the notion of a Sylow subgroup, as well as the analogue of a p-group, in the super setting. This opens up the possibility of applying a wealth of techniques developed for finite groups in the super setting. Part of joint works with Julia Pevtsova, Vera Serganova, and Dmitry Vaintrob.
+
+    The talk will be accessible to a broad audience, although a bit of finite group theory will be assumed.
+- id: 1830
+  title: Equality in Elementary Fibrations
+  speaker: Isaac Bankier
+  date: 2024-09-25T15:00:00.000+10
+  abstract: |-
+    Primary doctrines present a fragment of first order logic over a base category. Primary doctrines need not have internal notions of equality, but Pasquali showed we can add one cofreely by taking "quotients" by all possible equivalence relations. In this talk we will show that in the proof relevant generalisation of primary doctrines, called primary fibrations, we can also cofreely add equality. Here internal groupoids play the role of equivalence relations.
