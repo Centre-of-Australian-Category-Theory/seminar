@@ -12322,3 +12322,9 @@
   date: 2024-09-25T15:00:00.000+10
   abstract: |-
     Primary doctrines present a fragment of first order logic over a base category. Primary doctrines need not have internal notions of equality, but Pasquali showed we can add one cofreely by taking "quotients" by all possible equivalence relations. In this talk we will show that in the proof relevant generalisation of primary doctrines, called primary fibrations, we can also cofreely add equality. Here internal groupoids play the role of equivalence relations.
+- id: 1831
+  title: Coherence problems within a six functor formalism
+  speaker: Christopher Hone
+  date: 2024-10-09T14:00:00.000+10
+  abstract: |-
+    A six functor formalism is a two categorical framework which is widely used in sheaf theoretic geometry. They are the natural categorical setup for algebraic topology, giving clean definitions of homology, cohomology, Poincare duality, cup products, and more. The complexity of the data involved in a six functor formalism gives rise to many natural, nontrivial coherence problems between functors, and I’ll talk about some coherence results in this framework, proven using string diagrammatics. I’ll aim to give some of the geometric/topological context motivating these problems, though the results themselves are pure category theory.
