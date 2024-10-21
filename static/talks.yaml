@@ -12327,7 +12327,8 @@
   speaker: Christopher Hone
   date: 2024-10-09T14:00:00.000+10
   abstract: |-
-    A six functor formalism is a two categorical framework which is widely used in sheaf theoretic geometry. They are the natural categorical setup for algebraic topology, giving clean definitions of homology, cohomology, Poincare duality, cup products, and more. The complexity of the data involved in a six functor formalism gives rise to many natural, nontrivial coherence problems between functors, and I’ll talk about some coherence results in this framework, proven using string diagrammatics. I’ll aim to give some of the geometric/topological context motivating these problems, though the results themselves are pure category theory.- id: 1832
+    A six functor formalism is a two categorical framework which is widely used in sheaf theoretic geometry. They are the natural categorical setup for algebraic topology, giving clean definitions of homology, cohomology, Poincare duality, cup products, and more. The complexity of the data involved in a six functor formalism gives rise to many natural, nontrivial coherence problems between functors, and I’ll talk about some coherence results in this framework, proven using string diagrammatics. I’ll aim to give some of the geometric/topological context motivating these problems, though the results themselves are pure category theory.
+- id: 1832
   title: Category O and its generalisations
   speaker: Joe Baine
   date: 2024-10-23T14:00:00.000+10
