@@ -12293,7 +12293,7 @@
   abstract: |-
     In 2022, the category of real or complex Hilbert spaces and bounded linear maps was characterised in purely categorical terms by Chris Heunen and Andre Kornell. The tensor product of Hilbert spaces played a key role in this characterisation. In this talk I will present some work from my Master Thesis which I completed at the end of 2023 with supervision from Steve Lack. I give a new but related characterisation which does not involve the tensor product. As a bonus, we are also able to characterise the category of quaternionic Hilbert spaces.
 - id: 1826
-  title: T-categories, T-simplicial structure, and horizontal units
+  title: 𝑇-categories, 𝑇-simplicial structure, and horizontal units
   speaker: Steve Lack
   date: 2024-08-28T15:00:00.000+10
 - id: 1827
@@ -12301,13 +12301,13 @@
   speaker: Richard Garner
   date: 2024-09-11T14:00:00.000+10
   abstract: |-
-    The isotropy group of a category C is a group object in C which is universal among groups which act on every of C and act on themselves by conjugation. The notation was introduced by Funk, Hofstra, and Steinberg, though it is closely related to Freyd’s notion of the core of a typos. This talk will give an overview of some aspects of the theory of isotropy.
+    The isotropy group of a category $\mathcal{C}$ is a group object in $\mathcal{C}$ which is universal among groups which act on every object of $\mathcal{C}$ and act on themselves by conjugation. The notation was introduced by Funk, Hofstra, and Steinberg, though it is closely related to Freyd’s notion of the core of a topos. This talk will give an overview of some aspects of the theory of isotropy.
 - id: 1828
   title: Weights for oplax colimits
   speaker: Jason Brown
   date: 2024-09-18T14:00:00.000+10
   abstract: |-
-    In 2-categories one can consider a notion of colimit whose universal property is expressed in terms of oplax transformations, rather than 2-natural transformations. These are called oplax colimits. Examples include the coKleisli category of a comonad and the Grothendieck construction for functors into Cat. By applying the theory of oplax-morphism classifiers one can express oplax colimits as ordinary weighted Cat-colimits for particular sorts of weights. I plan to summarise some of the work done during my phd (supervised by Richard Garner) toward describing these weights; in particular, characterising the saturation as the class of coalgebras for oplax-morphism classifiers. If time allows I might also discuss free completions of 2-categories under colimits for this class of weights.
+    In 2-categories one can consider a notion of colimit whose universal property is expressed in terms of oplax transformations, rather than 2-natural transformations. These are called oplax colimits. Examples include the coKleisli category of a comonad and the Grothendieck construction for functors into $\mathbf{Cat}$. By applying the theory of oplax-morphism classifiers one can express oplax colimits as ordinary weighted $\mathbf{Cat}$-colimits for particular sorts of weights. I plan to summarise some of the work done during my PhD (supervised by Richard Garner) toward describing these weights; in particular, characterising the saturation as the class of coalgebras for oplax-morphism classifiers. If time allows I might also discuss free completions of 2-categories under colimits for this class of weights.
 - id: 1829
   title: Fun with supersymmetry
   speaker: Alexander Sherman
@@ -12327,7 +12327,7 @@
   speaker: Christopher Hone
   date: 2024-10-09T14:00:00.000+10
   abstract: |-
-    A six functor formalism is a two categorical framework which is widely used in sheaf theoretic geometry. They are the natural categorical setup for algebraic topology, giving clean definitions of homology, cohomology, Poincare duality, cup products, and more. The complexity of the data involved in a six functor formalism gives rise to many natural, nontrivial coherence problems between functors, and I’ll talk about some coherence results in this framework, proven using string diagrammatics. I’ll aim to give some of the geometric/topological context motivating these problems, though the results themselves are pure category theory.
+    A six functor formalism is a two categorical framework which is widely used in sheaf theoretic geometry. They are the natural categorical setup for algebraic topology, giving clean definitions of homology, cohomology, Poincaré duality, cup products, and more. The complexity of the data involved in a six functor formalism gives rise to many natural, nontrivial coherence problems between functors, and I’ll talk about some coherence results in this framework, proven using string diagrammatics. I’ll aim to give some of the geometric/topological context motivating these problems, though the results themselves are pure category theory.
 - id: 1832
   title: Category 𝒪 and its generalisations
   speaker: Joe Baine
