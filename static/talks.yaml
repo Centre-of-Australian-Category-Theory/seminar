@@ -12327,4 +12327,11 @@
   speaker: Christopher Hone
   date: 2024-10-09T14:00:00.000+10
   abstract: |-
-    A six functor formalism is a two categorical framework which is widely used in sheaf theoretic geometry. They are the natural categorical setup for algebraic topology, giving clean definitions of homology, cohomology, Poincare duality, cup products, and more. The complexity of the data involved in a six functor formalism gives rise to many natural, nontrivial coherence problems between functors, and I’ll talk about some coherence results in this framework, proven using string diagrammatics. I’ll aim to give some of the geometric/topological context motivating these problems, though the results themselves are pure category theory.
+    A six functor formalism is a two categorical framework which is widely used in sheaf theoretic geometry. They are the natural categorical setup for algebraic topology, giving clean definitions of homology, cohomology, Poincare duality, cup products, and more. The complexity of the data involved in a six functor formalism gives rise to many natural, nontrivial coherence problems between functors, and I’ll talk about some coherence results in this framework, proven using string diagrammatics. I’ll aim to give some of the geometric/topological context motivating these problems, though the results themselves are pure category theory.- id: 1832
+  title: Category O and its generalisations
+  speaker: Joe Baine
+  date: 2024-10-23T14:00:00.000+10
+  abstract: |-
+    Category $\mathscr{O}$ is an important subcategory of representations of a Lie algebra. It contains all finite dimensional modules and Verma modules. A natural question first posed by Verma was to determine the Jordan–Holder multiplicities of Verma modules. This turns out to be an extremely subtle question whose answer was given using the Kazhdan–Lusztig theory of the Lie algebra’s Weyl group. In this talk, I’ll introduce Category $\mathscr{O}$ and explain how its generalisation have been used to resolve many long-standing questions in Kazhdan–Lusztig theory.
+
+    This talk should be accessible to a broad audience. No prior knowledge of Category O will be required.
