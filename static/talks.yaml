@@ -11632,8 +11632,7 @@
 
     [1] McCrudden, P., Opmonoidal Monads, Theory and Applications of Categories, Vol.10, No.19, 2002, pp.469–485.</br>
     [2] Lack, S., Limits of Lax Morphisms, Applied Categorical Structures (2005) 13: 189–203</br>
-    [3] Zawadowski, M., The formal theory of monoidal monads, Journal of Pure and Applied Algebra, Volume 216, Issues 8–9, August 2012, Pages
-    1932–1942
+    [3] Zawadowski, M., The formal theory of monoidal monads, Journal of Pure and Applied Algebra, Volume 216, Issues 8–9, August 2012, Pages 1932–1942
   part: 1
 - id: 1738
   title: Opmonoidal pseudomonads
@@ -12209,7 +12208,7 @@
   abstract: |-
     Let M be the endomorphism monoid of 2 in Cat. Then the category of right M-sets is the category of graphs (directed, with chosen endo-edges at each vertex). Let $\omega = \{0,1,2,\dots\}$ as an ordered set. Call $\alpha \colon \omega \to \omega$ in Cat eventually consecutive when there exists $k$ such that $\alpha(i + 1) = \alpha(i) + 1$ for all $i>k$. Let $\Delta$ denote the monoid of eventually constant $\alpha \colon \omega \to \omega$ under composition. The category of right $\Delta$-sets is essentially the category of simplicial sets: there can be some infinite dimension cells. (This was not the main point of the lecture.) The remainder of the lecture described $O_n$, giving some technicalities as to why no loops occur.
 - id: 1815
-  title: Coherent invertibility in associative n-categories
+  title: Coherent invertibility in associative 𝑛-categories
   speaker: Nick Hu
   date: 2024-07-17T14:00:00.000+10
   abstract: |-
@@ -12336,3 +12335,9 @@
     Category $\mathcal{O}$ is an important subcategory of representations of a Lie algebra. It contains all finite dimensional modules and Verma modules. A natural question first posed by Verma was to determine the Jordan–Holder multiplicities of Verma modules. This turns out to be an extremely subtle question whose answer was given using the Kazhdan–Lusztig theory of the Lie algebra’s Weyl group. In this talk, I’ll introduce Category $\mathcal{O}$ and explain how its generalisation have been used to resolve many long-standing questions in Kazhdan–Lusztig theory.
 
     This talk should be accessible to a broad audience. No prior knowledge of Category $\mathcal{O}$ will be required.
+- id: 1833
+  title: Monoids, Dynamics and Leavitt path algebras
+  speaker: Roozbeh Hazrat
+  date: 2024-11-06T14:00:00.000+10
+  abstract: |-
+    Leavitt path algebras, which are algebras associated to directed graphs, were first introduced about 20 years ago. They have strong connections to such topics as symbolic dynamics, operator algebras, non-commutative geometry, representation theory, and even chip firing. In this talk we sneak a peek at these fascinating algebras and their interplay with several seemingly disparate parts of mathematics.
