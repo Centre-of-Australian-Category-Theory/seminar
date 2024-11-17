@@ -12341,3 +12341,9 @@
   date: 2024-11-06T14:00:00.000+10
   abstract: |-
     Leavitt path algebras, which are algebras associated to directed graphs, were first introduced about 20 years ago. They have strong connections to such topics as symbolic dynamics, operator algebras, non-commutative geometry, representation theory, and even chip firing. In this talk we sneak a peek at these fascinating algebras and their interplay with several seemingly disparate parts of mathematics.
+- id: 1834
+  title: GV-module categories, Frobenius algebras and relative Serre functors
+  speaker: Christoph Schweigert
+  date: 2024-11-13T14:00:00.000+10
+  abstract: |-
+    We begin by outlining our motivation for studying *-autonomous categories, also recently referred to as Grothendieck-Verdier categories, as well as module categories. We then explore the concept of relative Serre functors for module categories and show how these functors can be used to construct Frobenius algebras.
