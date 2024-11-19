@@ -12347,3 +12347,21 @@
   date: 2024-11-13T14:00:00.000+10
   abstract: |-
     We begin by outlining our motivation for studying *-autonomous categories, also recently referred to as Grothendieck-Verdier categories, as well as module categories. We then explore the concept of relative Serre functors for module categories and show how these functors can be used to construct Frobenius algebras.
+- id: 1835
+  title: Medial linearly distributive categories and the LD-Fox theorem
+  speaker: Rose Kudzman-Blais
+  date: 2024-11-20T14:00:00.000+10
+  abstract: |-
+    Linearly distributive categories (LDCs), introduced by Cockett and Seely to model multiplicative linear logic, are categories equipped with two monoidal structures that interact via linear distributivities. The aim of this work was to characterize a particular class of LDCs: the cartesian linearly distributive categories. A key result in monoidal category theory is the Fox theorem, which characterizes cartesian categories. To extend the Fox theorem to LDCs, medial linearly distributive categories, medial linear functors, and medial linear transformations were introduced. Medial LDCs are the categorical structure at the intersection of LDCs and duoidal categories. A LD-Fox adjunction between the inclusion of the 2-category of cartesian LDCs in the 2-category of symmetric strong medial LDCs was then proved, by taking the bicommutative medial bimonoids and the medial bimonoid morphisms of a medial LDC.
+- id: 1836
+  title: A Zariski topology for tangent categories
+  speaker: Geoff Vooys
+  date: 2024-11-20T15:00:00.000+10
+  abstract: |-
+    In a recent (as of 2023) paper, Cruttwell and Lemay have shown that the category of differential bundles for the tangent category of schemes over a base scheme $S$ is opposite-equivalent to the category of quasi-coherent sheaves on $S$. This suggests that for suitably “affine scheme”-like tangent categories, there should be a Grothendieck topology which allows us to define a larger class of objects by gluing differential bundles akin to how we glue modules and algebras in order to build schemes and how we glue affine real spaces to build smooth manifolds. In this talk we’ll show that there is, in fact, a class of tangent categories which admit a Grothendieck topology generated which generalizes (and recaptures) the Zariski topology on the (tangent) category of affine schemes. In describing this topology, we have three tasks ahead of us:
+
+    • give a tangent-categorical description of what it means to be “a category of affine schemes”
+    • give a tangent-categorical description of what it means to be a Zariski open
+    • examine the notion of etale maps in tangent categories and how they relate to said description of Zariski open.
+
+    Depending on time, we will close this talk with a short definition of what it means to be a scheme in a tangent category. This is joint work with JS Lemay.
