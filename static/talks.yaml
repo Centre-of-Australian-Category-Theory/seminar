@@ -12357,6 +12357,7 @@
   title: A Zariski topology for tangent categories
   speaker: Geoff Vooys
   date: 2024-11-20T15:00:00.000+10
+  part: 1
   abstract: |-
     In a recent (as of 2023) paper, Cruttwell and Lemay have shown that the category of differential bundles for the tangent category of schemes over a base scheme $S$ is opposite-equivalent to the category of quasi-coherent sheaves on $S$. This suggests that for suitably “affine scheme”-like tangent categories, there should be a Grothendieck topology which allows us to define a larger class of objects by gluing differential bundles akin to how we glue modules and algebras in order to build schemes and how we glue affine real spaces to build smooth manifolds. In this talk we’ll show that there is, in fact, a class of tangent categories which admit a Grothendieck topology generated which generalizes (and recaptures) the Zariski topology on the (tangent) category of affine schemes. In describing this topology, we have three tasks ahead of us:
 
@@ -12365,3 +12366,17 @@
     • examine the notion of etale maps in tangent categories and how they relate to said description of Zariski open.
 
     Depending on time, we will close this talk with a short definition of what it means to be a scheme in a tangent category. This is joint work with JS Lemay.
+- id: 1837
+  title: A Zariski Topology for Tangent Categories Part 2
+  speaker: Geoff Vooys
+  date: 2024-11-27T14:00:00.000+10
+  part: 2
+  previous: 1836
+  abstract: |-
+    In the second talk in the series regarding a Zariski topology for tangent categories, we will begin by recalling what it means for a morphism to be $T$-monic, $T$-smooth, or $T$-etale in a tangent category before examining some further properties of these classes of maps. Afterwards we’ll indicate what it means for a tangent category to be “sufficiently like affine schemes” before presenting what it means to be a Zariski open in such a category. Next, we’ll describe what it means for a family of maps to be a cover and then introduce the Zariski topology. Finally we’ll give some conditions which guarantee that the Zariski topology is subcanonical, show a series of examples of such categories, and conclude by presenting the definition of what it means to be a scheme in such a tangent category. This is joint work with JS Lemay.
+- id: 1838
+  title: Constructing linear bicategories from quantales and quantaloids
+  speaker: Rose Kudzman-Blais
+  date: 2024-11-27T15:00:00.000+10
+  abstract: |-
+    Linear bicategories, introduced by Cockett and Seely, model non-commutative multiplicative linear logic and serve as the bicategorical analogue of linearly distributive categories. A linear bicategory is characterized by two forms of composition, each defining a bicategory structure, with the two compositions interconnected through a linear distribution. In this talk, I will present joint work with co-authors Blute and Niefield, which focuses on developing examples of linear bicategories using quantales and quantaloids. It is well-known in monoidal topology that the category of quantale-valued relations forms a quantaloid, this framework extends to linear bicategories when the quantale itself is linearly distributive. Moreover, established constructions in the theory of categories enriched in a bicategory, within the context of quantaloids, can be adapted to construct linear bicategories. These extensions yield further novel examples and interesting closure results.
