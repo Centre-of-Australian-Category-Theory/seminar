@@ -12362,7 +12362,9 @@
     In a recent (as of 2023) paper, Cruttwell and Lemay have shown that the category of differential bundles for the tangent category of schemes over a base scheme $S$ is opposite-equivalent to the category of quasi-coherent sheaves on $S$. This suggests that for suitably “affine scheme”-like tangent categories, there should be a Grothendieck topology which allows us to define a larger class of objects by gluing differential bundles akin to how we glue modules and algebras in order to build schemes and how we glue affine real spaces to build smooth manifolds. In this talk we’ll show that there is, in fact, a class of tangent categories which admit a Grothendieck topology generated which generalizes (and recaptures) the Zariski topology on the (tangent) category of affine schemes. In describing this topology, we have three tasks ahead of us:
 
     • give a tangent-categorical description of what it means to be “a category of affine schemes”
+
     • give a tangent-categorical description of what it means to be a Zariski open
+
     • examine the notion of etale maps in tangent categories and how they relate to said description of Zariski open.
 
     Depending on time, we will close this talk with a short definition of what it means to be a scheme in a tangent category. This is joint work with JS Lemay.
