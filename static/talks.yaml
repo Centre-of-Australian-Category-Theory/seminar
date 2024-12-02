@@ -12382,3 +12382,9 @@
   date: 2024-11-27T15:00:00.000+10
   abstract: |-
     Linear bicategories, introduced by Cockett and Seely, model non-commutative multiplicative linear logic and serve as the bicategorical analogue of linearly distributive categories. A linear bicategory is characterized by two forms of composition, each defining a bicategory structure, with the two compositions interconnected through a linear distribution. In this talk, I will present joint work with co-authors Blute and Niefield, which focuses on developing examples of linear bicategories using quantales and quantaloids. It is well-known in monoidal topology that the category of quantale-valued relations forms a quantaloid, this framework extends to linear bicategories when the quantale itself is linearly distributive. Moreover, established constructions in the theory of categories enriched in a bicategory, within the context of quantaloids, can be adapted to construct linear bicategories. These extensions yield further novel examples and interesting closure results.
+- id: 1839
+  title: Strict Monoids in Traced Monoidal Categories
+  speaker: JS Lemay
+  date: 2024-12-04T14:00:00.000+10
+  abstract: |-
+    In a traced monoidal category, there is a special class of maps called strict maps which give a proof principle for showing when traces of maps are equal. In this talk, we’ll consider monoids whose multiplication and unit are strict maps, which we call strict monoids. In particular, the strict monoids form a traced coCartesian monoidal category.
