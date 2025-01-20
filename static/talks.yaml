@@ -12388,3 +12388,9 @@
   date: 2024-12-04T14:00:00.000+10
   abstract: |-
     In a traced monoidal category, there is a special class of maps called strict maps which give a proof principle for showing when traces of maps are equal. In this talk, we’ll consider monoids whose multiplication and unit are strict maps, which we call strict monoids. In particular, the strict monoids form a traced coCartesian monoidal category.
+- id: 1840
+  title: M*-categories: where analytic and categorical limits meet
+  speaker: Matthew Di Meglio
+  date: 2025-01-22T14:00:00.000+10
+  abstract: |-
+    In this talk, I will introduce M*-categories—an abstraction capturing both algebraic and analytic aspects of the theory of Hilbert spaces. Examples include the categories of self-dual Hilbert modules over a W*-algebra and the category of unitary representations of a group. If C is an M*-category, then each homset C(A,A) is canonically a monotone complete partially ordered *-ring and each homset C(A,X) is canonically an orthogonally complete inner product C(A,A)-module. I will introduce these analytic completeness properties and explain how they arise from categorical limits.
