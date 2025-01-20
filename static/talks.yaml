@@ -12389,7 +12389,7 @@
   abstract: |-
     In a traced monoidal category, there is a special class of maps called strict maps which give a proof principle for showing when traces of maps are equal. In this talk, we’ll consider monoids whose multiplication and unit are strict maps, which we call strict monoids. In particular, the strict monoids form a traced coCartesian monoidal category.
 - id: 1840
-  title: "𝑀*-categories: where analytic and categorical limits meet"
+  title: '𝑀*-categories: where analytic and categorical limits meet'
   speaker: Matthew Di Meglio
   date: 2025-01-22T14:00:00.000+10
   abstract: |-
