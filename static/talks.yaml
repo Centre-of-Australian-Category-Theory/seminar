@@ -12390,7 +12390,19 @@
     In a traced monoidal category, there is a special class of maps called strict maps which give a proof principle for showing when traces of maps are equal. In this talk, we’ll consider monoids whose multiplication and unit are strict maps, which we call strict monoids. In particular, the strict monoids form a traced coCartesian monoidal category.
 - id: 1840
   title: '𝑀*-categories: where analytic and categorical limits meet'
-  speaker: Matthew Di Meglio
+  speaker: Matthew di Meglio
   date: 2025-01-22T14:00:00.000+10
   abstract: |-
-    In this talk, I will introduce $M^*$-categories—an abstraction capturing both algebraic and analytic aspects of the theory of Hilbert spaces. Examples include the categories of self-dual Hilbert modules over a W*-algebra and the category of unitary representations of a group. If $\mathcal{C}$ is an $M^*$-category, then each homset $\mathcal{C}(A,A)$ is canonically a monotone complete partially ordered $\ast$-ring and each homset $\mathcal{C}(A,X)$ is canonically an orthogonally complete inner product $\mathcal{C}(A,A)$-module. I will introduce these analytic completeness properties and explain how they arise from categorical limits.
+    In this talk, I will introduce $M^*$-categories—an abstraction capturing both algebraic and analytic aspects of the theory of Hilbert spaces. Examples include the categories of self-dual Hilbert modules over a $W^*$-algebra and the category of unitary representations of a group. If $\mathcal{C}$ is an $M^*$-category, then each homset $\mathcal{C}(A,A)$ is canonically a monotone complete partially ordered $\ast$-ring and each homset $\mathcal{C}(A,X)$ is canonically an orthogonally complete inner product $\mathcal{C}(A,A)$-module. I will introduce these analytic completeness properties and explain how they arise from categorical limits.
+- id: 1841
+  title: Laxity via representability
+  speaker: Nathanael Arkor
+  date: 2025-01-29T14:00:00.000+10
+  abstract: |-
+    2-category theory provides a language to reason effectively about notions of morphism that do not necessarily preserve structure strictly. However, the techniques available for reasoning about multiple flavours of weak morphism simultaneously are rather limited. I will propose a new (or, at least, underappreciated) approach for doing so, provided we are willing to venture slightly beyond 2-categories.
+- id: 1842
+  title: Directed univalence and the Yoneda embedding for synthetic (∞,1)-categories
+  speaker: Jonathan Weinberger
+  date: 2025-01-29T15:00:00.000+10
+  abstract: |-
+    Aiming to give a synthetic account of ∞-category theory, Riehl and Shulman introduced simplicial homotopy type theory (sHoTT) allowing one to reason about (complete) Segal spaces in type theory. I will explain how one can develop a fair amount of fibered category theory in that context a lot of which resembles Riehl and Verity's ∞-cosmos theory. Some of these results have also been formalized in the proof assistant Rzk. Afterwards, I will present recent constructions in a modal extension of sHoTT including the (∞,1)-category of ∞-groupoids and the Yoneda embedding together with some applications e.g. to the theory of Kan extensions. The talk is based on joint work with Daniel Gratzer & Ulrik Buchholtz as well as Nikolai Kudasov & Emily Riehl.
