@@ -12406,3 +12406,13 @@
   date: 2025-01-29T15:00:00.000+10
   abstract: |-
     Aiming to give a synthetic account of ∞-category theory, Riehl and Shulman introduced simplicial homotopy type theory (sHoTT) allowing one to reason about (complete) Segal spaces in type theory. I will explain how one can develop a fair amount of fibered category theory in that context a lot of which resembles Riehl and Verity's ∞-cosmos theory. Some of these results have also been formalized in the proof assistant Rzk. Afterwards, I will present recent constructions in a modal extension of sHoTT including the (∞,1)-category of ∞-groupoids and the Yoneda embedding together with some applications e.g. to the theory of Kan extensions. The talk is based on joint work with Daniel Gratzer & Ulrik Buchholtz as well as Nikolai Kudasov & Emily Riehl.
+- id: 1843
+  title: Reconciling local and global colimits
+  speaker: Nathanael Arkor
+  date: 2025-02-05T14:00:00.000+10
+  abstract: |-
+    There are various notions of colimit that play important roles in 2-category theory. One of the most important is the notion of weighted colimit arising from Cat-enriched category theory, which subsumes many of the others. A notable exception is the notion of local colimit, which appears to possess a universal property of a fundamentally different nature. This is unfortunate, as there are fundamental constructions in two-dimensional category theory that could be more elegantly treated if local and weighted colimits were both instances of a more general notion.
+
+    In this talk, I will propose a new definition of colimit for double categories that (1) when specialised to 2-categories, recovers both weighted colimits and local colimits; (2) subsumes various colimit-like notions of recent interest in double category theory.
+
+    This talk is based on ongoing joint work with Bryce Clarke.
