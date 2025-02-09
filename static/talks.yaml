@@ -12416,3 +12416,15 @@
     In this talk, I will propose a new definition of colimit for double categories that (1) when specialised to 2-categories, recovers both weighted colimits and local colimits; (2) subsumes various colimit-like notions of recent interest in double category theory.
 
     This talk is based on ongoing joint work with Bryce Clarke.
+- id: 1844
+  title: Dagger categories of relations: the return of the regular-ish category
+  speaker: Matthew Di Meglio
+  date: 2025-02-12T14:00:00.000+10
+  abstract: |-
+    A dilator of a morphism in a dagger category is a terminal representation of that morphism as a span of coisometries. In dagger categories with dilators of all morphisms, such as the category of Hilbert spaces and contractions, the dilators induce a canonical bijection between arbitrary morphisms and relations in the wide subcategory of coisometries. However, the wide subcategory of coisometries is not regular—it does not even have all pullbacks—so the bijection does not fit into the usual category-theoretic framework for understanding relations. The wide subcategory of coisometries does however have a system of independent pullbacks (as defined by Simpson). In this talk, I will introduce the notion of regular-ish independence category and exhibit a correspondence between regular-ish independence categories and dagger categories with dilators. This parallels the well-known correspondence between regular categories and tabular allegories.
+- id: 1845
+  title: Polynomials via completions of parametrized categories
+  speaker: Ross Street
+  date: 2025-02-12T15:00:00.000+10
+  abstract: |-
+    This topic is intended to lead into a later talk on objective Mackey and objective Tambara functors. What I called calibration on a bicategory in my paper [134] on polynomials was stronger than necessary (as actually noted in the paper). However, a more general notion which I am calling protocalibration, can be used to provide further insight into polynomials as spans of spans.
