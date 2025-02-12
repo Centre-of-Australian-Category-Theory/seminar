@@ -12427,4 +12427,4 @@
   speaker: Ross Street
   date: 2025-02-12T15:00:00.000+10
   abstract: |-
-    This topic is intended to lead into a later talk on objective Mackey and objective Tambara functors. What I called calibration on a bicategory in my paper [134] on polynomials was stronger than necessary (as actually noted in the paper). However, a more general notion which I am calling protocalibration, can be used to provide further insight into polynomials as spans of spans.
+    This topic is intended to lead into a later talk on objective Mackey and objective Tambara functors. What I called calibration on a bicategory in my paper <a href=https://arxiv.org/abs/1903.03890>[134]</a> on polynomials was stronger than necessary (as actually noted in the paper). However, a more general notion which I am calling protocalibration, can be used to provide further insight into polynomials as spans of spans.
