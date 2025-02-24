@@ -12433,10 +12433,24 @@
   speaker: Chiara Sava
   date: 2025-02-19T14:00:00.000+10
   abstract: |-
-    In this talk we give a purely derivator-theoretic reformulation and proof of a classic result of Happel and Ladkani, showing that it occurs uniformly across stable derivators and it is then independent of coefficients. The resulting equivalence provides a bridge between homotopy theory and representation theory: indeed, we explain how our result is a derivator-theoretic version of the ∞-Dold-Kan correspondence for bounded chain complexes.
+    In this talk we give a purely derivator-theoretic reformulation and proof of a classic result of Happel and Ladkani, showing that it occurs uniformly across stable derivators and it is then independent of coefficients. The resulting equivalence provides a bridge between homotopy theory and representation theory: indeed, we explain how our result is a derivator-theoretic version of the ∞-Dold–Kan correspondence for bounded chain complexes.
 - id: 1847
   title: Skew enrichment through variation
   speaker: Alexander Campbell
   date: 2025-02-19T15:00:00.000+10
   abstract: |-
     We revisit some concepts introduced in my 2017 paper on skew-enriched categories by practising the yoga of enrichment through variation. The fundamental observation is that, for $\mathcal{V}$ a skew monoidal category, skew $\mathcal{V}$-proactegories are the same thing as lax functors from $\mathcal{V}^{\mathrm{op}}$ (seen as a one-object skew bicategory) to $\mathbf{Prof}$.
+- id: 1848
+  title: Grothendieck duality for derived algebraic stacks
+  speaker: Svetlana Makarova
+  date: 2025-02-26T14:00:00.000+10
+  abstract: |-
+    There is a theory of Grothendieck duality developed for Deligne–Mumford stacks, however in some applications it is desirable to consider morphisms between stacks that are not Deligne–Mumford. I will talk about an adaptation to ∞-categories of the formal story of Neeman's Grothendieck duality for tensor triangulated categories, and then explain how to use these categorical results to obtain geometric statements. I will apply this result to determinantal line bundles on moduli of sheaves on stacky curves. Namely, I will explain how these line bundles depend on the determinant of the vector bundle defining them, and point out where Grothendieck duality is needed.
+
+    This talk will be followed by the talk at University of Sydney on Friday February 28th, 12pm–1pm, where I will focus on the construction of moduli of sheaves on stacky curves, which is joint work with Chiara Damiolini, Vicky Hoskins and Lisanne Taams.
+- id: 1849
+  title: Approximable triangulated categories
+  speaker: Bregje Pauwels
+  date: 2025-02-26T15:00:00.000+10
+  abstract: |-
+    In this informal talk, I will explain my work on approximable triangulated categories to two of our visitors (Chiara and Sveta). Whoever wants to join and listen is welcome. I will assume some familiarity with triangulated categories.
