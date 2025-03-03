@@ -12454,3 +12454,11 @@
   date: 2025-02-26T15:00:00.000+10
   abstract: |-
     In this informal talk, I will explain my work on approximable triangulated categories to two of our visitors (Chiara and Sveta). Whoever wants to join and listen is welcome. I will assume some familiarity with triangulated categories.
+- id: 1850
+  title: The derivator associated to a dg-category
+  speaker: Chiara Sava
+  date: 2025-03-05T14:00:00.000+10
+  abstract: |-
+    This talk is based on a joint work in progress with Francesco Genovese.
+
+    A triangulated category is a category with an additional structure allowing us to compute some homotopy limits and colimits in the form of mapping cones. Unfortunately, not all homotopy limits and colimits can be computed inside a triangulated category, and -- even worse -- they are not functorial. Luckily, triangulated categories are almost always homotopy categories of higher categories called enhancements. A 2-categorical enhancement is provided by derivators, 2-functors with additional properties which allow us to define homotopy Kan extensions and, in particular, homotopy limits and colimits. Another natural higher categorical enhancement is described as a differential graded (dg-) category, namely, a category enriched in chain complexes. Dg-categories are in fact yet another model of higher categories, one which is best suited for applications to homological algebra. Since in the existing literature there is no direct construction of a derivator associated to a dg-category, in this talk we will close this gap and we will also develop a theory of homotopy limits and colimits in dg-categories. At the end of the talk, if time permits, we will also discuss some interesting applications to enhancements of derived categories.
