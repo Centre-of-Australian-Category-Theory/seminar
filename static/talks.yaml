@@ -12468,3 +12468,11 @@
   date: 2025-03-12T14:00:00.000+10
   abstract: |-
     If $\mathcal{V}$ is a monoidal category whose tensor product preserves reflexive coequalisers in each variable, then there is a bicategory $\mathbf{Comod}(\mathcal{V})$ of comonoids and comodules in $\mathcal{V}$. An example of this is where $\mathcal{V} = \mathbf{Poly}$, the category of polynomial endofunctors of $\mathbf{Set}$, for which it turns out that $\mathbf{Comod}(\mathbf{Poly})$ is equivalent to $\mathbf{PRA}$, the bicategory of parametric right adjoint functors between presheaf categories. I figured this out in 2020 in a very hands on way; this talk is about the slick way of doing this via the paper best known around here as [18].
+- id: 1852
+  title: The formal theory of tangent objects I
+  speaker: Marcello Lanfranchi
+  date: 2025-03-19T14:00:00.000+10
+  abstract: |-
+    Tangent category theory comes in different flavours: Cockett and Cruttwell, after generalizing Rosický's notion of a tangent category, introduce restriction tangent categories and tangent fibrations, and Cockett, Lemay and Lucyshyn-Wright introduced tangent monads as monads which lift a tangent structure to the category of algebras. Can we formalize these notions? Is there a common framework to capture these constructions? How do these notions behave with other constructions of tangent category theory, such as vector fields, differential bundles, or connections?
+
+    In this talk, I introduce the formal notion of tangent objects and give some examples and applications of the formal approach. I discuss the formal construction of vector fields, show how to recover in the formal context the usual operations between vector fields, such as Lie bracket, and classify vector fields in some of the examples provided.
