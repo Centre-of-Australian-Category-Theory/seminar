@@ -12476,3 +12476,24 @@
     Tangent category theory comes in different flavours: Cockett and Cruttwell, after generalizing Rosický's notion of a tangent category, introduce restriction tangent categories and tangent fibrations, and Cockett, Lemay and Lucyshyn-Wright introduced tangent monads as monads which lift a tangent structure to the category of algebras. Can we formalize these notions? Is there a common framework to capture these constructions? How do these notions behave with other constructions of tangent category theory, such as vector fields, differential bundles, or connections?
 
     In this talk, I introduce the formal notion of tangent objects and give some examples and applications of the formal approach. I discuss the formal construction of vector fields, show how to recover in the formal context the usual operations between vector fields, such as Lie bracket, and classify vector fields in some of the examples provided.
+- id: 1853
+  title: 'Plotkin and Pitts: substitution and binders'
+  speaker: John Power
+  date: 2025-03-26T14:00:00.000+10
+  abstract: |-
+    At the turn of the millennium, Fiore, Plotkin and Turi, aka Plotto et al, and Gabbay and Pitts, aka Andy and Jamie, claimed to give category theoretic models of binding. In fact, they modelled different phenomena, with Plotto et al really modelling substitution, which Andy and Jamie did not model. I wrote a string of papers, largely with Miki Tanaka, analysing and axiomatising Plotto et al's work, putting it into a conceptual mathematical framework. I remarked that, in abstract mathematical terms, one could unify the two bodies of work, but I have never attempted a conceptual reconciliation. At the end of the last seminar I gave on Plotto et al's work, Ross asked about Andy's work and the relationship. So I want to address Ross' question, mainly by trying to explain the motivation of, and background to, Andy's approach. I think the formal mathematical relationship is already known to most people in the group, in particular to Ross. So this is an informal seminar, explaining background and motivation rather than new mathematics.- id: 1854
+  title: Algebras of the tangent bundle monad
+  speaker: Joel Richardson
+  date: 2025-04-02T14:00:00.000+10
+  abstract: |-
+    In a tangent category, the tangent bundle functor naturally forms a monad. It's always interesting—and generally not easy—to figure out what the algebras of such a monad actually look like. In this talk, I'll share what I've learned (so far) in my master's project, which is about the algebras of tangent bundle monad in the category of affine schemes.
+- id: 1855
+  title: A stack model for dependent type theory
+  speaker: Harry Clarke
+  date: 2025-04-02T15:00:00.000+10
+  abstract: |-
+    Categories with families/attributes have been used to construct a number of models of dependent type theory with interesting logical properties, including Hoffman and Streicher's groupoid model that interprets contexts as groupoids and refutes uniqueness of identity proofs. Fabian Ruch showed how this model could be extended into a groupoid-valued presheaf model that validates the univalence axiom, but refutes the axiom of choice and the law of excluded middle.
+    
+    Ruch's work on a sheaf model for type theory introduced a patching condition to types in order to force levelwise inhabited propositions to be contractible. However, it applied this patching condition in a fairly indirect way. Coquand, Mannaa and Ruch published a brief paper ('Stack Semantics of Type Theory') that applies prestack and stack patching conditions to types, but does not construct this model to be as general as possible.
+    
+    This talk describes the basis of a master's project building on the above sheaf and stack models. In this talk I will introduce a more general stack model of dependent type theory by describing its structure as a category with attributes. I will describe possible directions this project may take.
