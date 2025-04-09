@@ -12498,3 +12498,15 @@
     Ruch's work on a sheaf model for type theory introduced a patching condition to types in order to force levelwise inhabited propositions to be contractible. However, it applied this patching condition in a fairly indirect way. Coquand, Mannaa and Ruch published a brief paper ('Stack Semantics of Type Theory') that applies prestack and stack patching conditions to types, but does not construct this model to be as general as possible.
     
     This talk describes the basis of a master's project building on the above sheaf and stack models. In this talk I will introduce a more general stack model of dependent type theory by describing its structure as a category with attributes. I will describe possible directions this project may take.
+- id: 1856
+  title: 'Programs as singularities: the geometry and derivatives of Turing machines when encoded into differential linear logic'
+  speaker: William Troiani
+  date: 2025-04-09T14:00:00.000+10
+  abstract: |-
+    The notion of computation as inherently discrete is fading. Modern perspectives emphasize smooth, differentiable algorithms—a view central to differential linear logic. Recent work by Daniel Murfet and myself builds on this by extending Girard’s encoding of Turing machines in linear logic, using Sweedler semantics (where '!' is interpreted as Sweedler’s cofree coalgebra) to explore connections between computational structure and geometry. Specifically, we relate the execution of a Turing machine by a universal Turing machine to the germ associated with that machine, leveraging tools from Singular Learning Theory (SLT), a niche branch of machine learning that links learning dynamics to singularities in parameter space. This talk synthesizes ideas from differential linear logic, SLT, and program synthesis, with a focus on concrete examples. Our main result connects the Taylor series expansion of a Hessian matrix to a Turing machine’s robustness to error, suggesting a deeper geometric perspective on program space. Rather than showcasing disparate fields, my goal is to make this connection feel natural and foundational.
+- id: 1857
+  title: Differential graded algebras in differential categories
+  speaker: Chiara Sava
+  date: 2025-04-09T15:00:00.000+10
+  abstract: |-
+    Differential categories capture the algebraic foundations of differential calculus. We can define various differential related concepts in a differential category such as derivations, Kahler differentials, differential algebras, etc. In this talk, I will explain how to define differential graded algebras in a differential category.
