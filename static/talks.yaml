@@ -12510,3 +12510,9 @@
   date: 2025-04-09T15:00:00.000+10
   abstract: |-
     Differential categories capture the algebraic foundations of differential calculus. We can define various differential related concepts in a differential category such as derivations, Kahler differentials, differential algebras, etc. In this talk, I will explain how to define differential graded algebras in a differential category.
+- id: 1858
+  title: Objective Mackey and Tambara functors via parametrized categories
+  speaker: Ross Street
+  date: 2025-04-16T14:00:00.000+10
+  abstract: |-
+    Lindner in 1976 recognized that Mackey functors, defined as pairs of functors, were equivalently single functors with domain a category of spans. In 1993 Tambara recognized that TNR-functors (that is, functors designed to have abstract trace, norm and restriction operations, and now called Tambara functors) were equivalently certain functors out of a category of polynomials. We define objective Mackey and objective Tambara functors as parametrized categories which have local finite products and satisfy some parametrized completeness and cocompleteness restriction. However, we can replace the original parametrizing base for objective Mackey functors by a bicategory of spans while the replacement for objective Tambara functors is a bicategory obtained by iterating the span construction; these iterated spans are polynomials. There is an objective Mackey functor of ordinary Mackey functors. We show that there is a distributive law relating objective Mackey functors to objective Tambara functors analogous to the distributive law relating abelian groups to commutative rings. We remark on hom enrichment matters involving the 2-category $\mathrm{Cat}_{+}$ of categories admitting finite coproducts and functors preserving them, both as a closed base and as a skew-closed base.
