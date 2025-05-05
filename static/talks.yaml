@@ -12524,3 +12524,15 @@
     We consider a module for a finite group and look at its tensor powers and how fast the dimension of the non-projective part grows. It turns out that this can be described in the language of commutative Banach algebras.
 
     Based on https://personalpages.manchester.ac.uk/staff/peter.symonds/preprints/bs1-final.pdf
+- id: 1860
+  title: A generalisation of Gabriel’s theorem through fusion categories
+  speaker: Edmund Heng
+  date: 2025-04-30T14:00:00.000+10
+  abstract: |-
+    In the 1970s, Gabriel (and later Bernstein—Gelfand—Ponomarev) discovered a deep connection between quiver representations and root systems associated to Weyl groups of (simply-laced) Lie algebras. In particular, indecomposable quiver representations and positive roots are in one-to-one correspondence, with the ADE Dynkin diagrams appearing in both worlds. On the other hand, Weyl groups are a family of Coxeter groups, which themselves come with a finite-type classification: a Coxeter group is finite if and only if its corresponding Coxeter graph is a Coxeter—Dynkin diagram. In this talk I will introduce a generalisation of quivers whose representations are related to root systems of Coxeter groups. As we will see, fusion categories, a special kind of monoidal categories (rigid, finite, semisimple), will be the key player. If time allows, I will speak about how algebras (monoids) in fusion categories are related to this story — similar to the relationship between finite dimensional algebras (monoids in the category of vector spaces) and quivers. This talk will be based on joint work with Ben Elias arXiv:2404.09714.
+- id: 1861
+  title: Dagger Drazin Inverses
+  speaker: JS Lemay
+  date: 2025-05-07T14:00:00.000+10
+  abstract: |-
+    Drazin inverses are a special kind of generalized inverses that can be defined for endomorphisms in any category. A natural question to ask is whether one can somehow extend the notion of Drazin inverse to arbitrary maps -- not simply endomorphisms. It turns out that this is possible and, indeed, natural to do so for dagger categories. In this talk I will introduce dagger Drazin inverses, a new kind of generalised inverse for maps in dagger categories. I will also explain how dagger Drazin inverses are deeply connected to Drazin inverses and Moore-Penrose inverses. This is based on joint work with Robin Cockett and Priyaa Varshinee Srinivasan, and our paper https://arxiv.org/pdf/2502.05306
