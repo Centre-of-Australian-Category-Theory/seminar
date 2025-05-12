@@ -12536,3 +12536,15 @@
   date: 2025-05-07T14:00:00.000+10
   abstract: |-
     Drazin inverses are a special kind of generalized inverses that can be defined for endomorphisms in any category. A natural question to ask is whether one can somehow extend the notion of Drazin inverse to arbitrary maps -- not simply endomorphisms. It turns out that this is possible and, indeed, natural to do so for dagger categories. In this talk I will introduce dagger Drazin inverses, a new kind of generalised inverse for maps in dagger categories. I will also explain how dagger Drazin inverses are deeply connected to Drazin inverses and Moore-Penrose inverses. This is based on joint work with Robin Cockett and Priyaa Varshinee Srinivasan, and our paper https://arxiv.org/pdf/2502.05306
+- id: 1862
+  title: Introducing Cartesian Fermat Categories
+  speaker: JS Lemay
+  date: 2025-05-14T14:00:00.000+10
+  abstract: |-
+    A Fermat theory is an extension of a Lawvere theory which adds Hadamard’s Lemma as an axiom. In turn, this allows us to differentiate maps in a Fermat theory, and thus every Fermat theory is a Cartesian differential category. In this talk, we introduce Cartesian Fermat categories, which are briefly Fermat theories that are not necessarily Lawvere theories (and do not assume multiplication). Still, every Cartesian Fermat theory is a Cartesian differential category, where moreover, the linear maps correspond precisely to the additive maps. We will also give a friendly introduction to Cartesian differential categories, and discuss future ideas for Cartesian Fermat categories.
+- id: 1863
+  title: Important Identities in Cartesian Fermat Categories
+  speaker: Carlos Pascual Miralles
+  date: 2025-05-14T15:00:00.000+10
+  abstract: |-
+    The key axiom of a Cartesian Fermat category is that for every map f, there is a unique map F[f] which is axiomatised by a generalised version of Hadamard’s Lemma. In this talk we’ll discuss important identities that can be derived for this combinator F[-], such as a chain rule. We’ll then explain how from these identities we can prove the axioms for a differential combinator.
