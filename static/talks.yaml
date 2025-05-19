@@ -12548,3 +12548,13 @@
   date: 2025-05-14T15:00:00.000+10
   abstract: |-
     The key axiom of a Cartesian Fermat category is that for every map f, there is a unique map F[f] which is axiomatised by a generalised version of Hadamard’s Lemma. In this talk we’ll discuss important identities that can be derived for this combinator F[-], such as a chain rule. We’ll then explain how from these identities we can prove the axioms for a differential combinator.
+- id: 1864
+  title: Representable tangent structures for affine schemes
+  speaker: Marcello Lanfranchi
+  date: 2025-05-21T14:00:00.000+10
+  abstract: |-
+    The category of affine schemes is a tangent category whose tangent bundle is given by Kahler differentials. How special is this tangent structure? Is there any other tangent structure in the category of affine schemes? In this talk, we classify the representable tangent structures in the category of affine schemes, by introducing a useful tool: the notion of tangentoid. When the base ring R is a principal ideal domain, we show there are only two such tangent structures: the aforementioned one and the trivial one. We also show that when R is not a PID, we have other non-trivial representable tangent structures.
+
+    This is joint work with JS Lemay.
+
+    Here's our paper: https://arxiv.org/abs/2505.09080
