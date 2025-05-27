@@ -12570,7 +12570,7 @@
      This is all joint work with Bob Gray, Azeef Muhammed PA and Nik Ruškuc.
 - id: 1866
   title: A categorical representation for left reductive regular semigroups
-  speaker: Azeef Muhammed P.A.
+  speaker: Azeef Muhammed
   date: 2025-05-28T15:00:00.000+10
   abstract: |-
     The idea of using small categories to give structural descriptions of semigroups goes back to the famous ESN (Ehresmann-Schein-Nambooripad) theorem. Among other things, this leads to the ideal structure description of regular semigroups using a cross-connected pair of categories by Nambooripad. But in the class of left reductive semigroups (which includes many ‘popular’ classes of semigroups like monoids, inverse semigroups etc.), we observe that the right ideal structure of the semigroups is ‘embedded’ inside the left ideal one. So we can construct these semigroups starting with only a single category, unlike in the more general cases.
