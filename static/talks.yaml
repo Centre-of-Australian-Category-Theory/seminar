@@ -12558,3 +12558,21 @@
     This is joint work with JS Lemay.
 
     Here's our paper: https://arxiv.org/abs/2505.09080
+- id: 1865
+  title: Projection algebras and free regular *-semigroups
+  speaker: James East
+  date: 2025-05-28T14:00:00.000+10
+  abstract: |-
+    It has long been known that the set of projections of a regular *-semigroup can be given the structure of a unary algebra. This gives rise to a forgetful functor from the category of regular *-semigroups to the category of projection algebras. It turns out that this functor has a left adjoint, which maps a projection algebra to an associated free (projection-generated) regular *-semigroup. The free semigroup is built from a natural ‘chain groupoid’, which can be understood topologically as the fundamental groupoid of a certain simplicial 2-complex.
+
+     In this talk I will outline the above theory, and discuss some results and consequences. For example, it turns out that Temperley-Lieb monoids are themselves free regular *-semigroups (over their own projection algebras), and are unique among diagram monoids in this regard. For another example, one can start with the projection algebra of an ‘adjacency semigroup’ (in the sense of Jackson and Volkov), and the free functor produces a new kind of graph semigroup.
+
+     This is all joint work with Bob Gray, Azeef Muhammed PA and Nik Ruškuc.
+- id: 1866
+  title: A categorical representation for left reductive regular semigroups
+  speaker: Azeef Muhammed P.A.
+  date: 2025-05-28T15:00:00.000+10
+  abstract: |-
+    The idea of using small categories to give structural descriptions of semigroups goes back to the famous ESN (Ehresmann-Schein-Nambooripad) theorem. Among other things, this leads to the ideal structure description of regular semigroups using a cross-connected pair of categories by Nambooripad. But in the class of left reductive semigroups (which includes many ‘popular’ classes of semigroups like monoids, inverse semigroups etc.), we observe that the right ideal structure of the semigroups is ‘embedded’ inside the left ideal one. So we can construct these semigroups starting with only a single category, unlike in the more general cases.
+
+     In this talk, we give an overview of Nambooripad’s cross-connection of normal categories and further develop the ideal structure theory for the class of left reductive regular semigroups using a new modified approach. To this end, we introduce an upgraded version of Nambooripad’s normal category as our building block, which we call a connected category. This is a recent joint work with Gracinda Gomes.
