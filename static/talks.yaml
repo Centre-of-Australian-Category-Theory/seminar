@@ -12576,3 +12576,19 @@
     The idea of using small categories to give structural descriptions of semigroups goes back to the famous ESN (Ehresmann-Schein-Nambooripad) theorem. Among other things, this leads to the ideal structure description of regular semigroups using a cross-connected pair of categories by Nambooripad. But in the class of left reductive semigroups (which includes many ‘popular’ classes of semigroups like monoids, inverse semigroups etc.), we observe that the right ideal structure of the semigroups is ‘embedded’ inside the left ideal one. So we can construct these semigroups starting with only a single category, unlike in the more general cases.
 
      In this talk, we give an overview of Nambooripad’s cross-connection of normal categories and further develop the ideal structure theory for the class of left reductive regular semigroups using a new modified approach. To this end, we introduce an upgraded version of Nambooripad’s normal category as our building block, which we call a connected category. This is a recent joint work with Gracinda Gomes.
+- id: 1867
+  title: Monoidal structures on Kleisli double categories
+  speaker: Richard Garner
+  date: 2025-07-09T14:00:00.000+10
+  abstract: |-
+    This is a report on ongoing work aimed towards giving an abstract reconstruction of the Boardman--Vogt tensor product of symmetric multicategories, as well as an extension of this to multiprofunctors due to Dwyer and Hess.
+
+    In this talk, I hope to cover the basic abstract setting, which is that of a so-called normal oplax monoidal double category. This is a bit less than what is usually meant by a monoidal double category, but is exactly what one gets in the leading example, which for us, is the double category of coloured symmetric sequences. The plan is to explain how such structure arises abstractly, in terms of a presentation of symmetric sequences as a Kleisli double category.
+
+    This is joint work with Nicola Gambino and Christina Vasilakopoulou.
+- id: 1868
+  title: A closed skew monoidal structure on Gray-categories
+  speaker: Michael Batanin
+  date: 2025-07-16T14:00:00.000+10
+  abstract: |-
+    It is known for long time already, that there can not be a biclosed monoidal structure on Gray-categories. We show, however, that if we do not require invertibility of the associator there exists a closed (from one side) normal skew monoidal structure with nice properties on Gray-categories and Gray-functors. This is joint work with Boris Shoikhet.
