@@ -12611,9 +12611,9 @@
   abstract: |-
     Tangent categories provide an axiomatization for the notion of a tangent bundle. We will show that the category of groups has a tangent structure for which the tangent space at any point is the abelianization of the given group. This observation led us to study the properties of the abelianization procedure. We will introduce the notion of a linear projector, which captures the essential properties of the abelianization functor which allow us to build our tangent structure.
 
-     We then study the properties of the category of groups from which this abelianization arises. We recall the notion of a linear reflective subcategory, from which one can often build a linear projector. We describe a general abelianization procedure proposed by Borceux and Bourn, and which, for unital categories, yields a linear reflector, and in turn, a linear projector. To conclude, we review many examples of unital categories and their associated projectors and tangent structures, including the categories of pointed magmas, non-unital rings, Lie algebras, and cocommutative Hopf algebras.
+    We then study the properties of the category of groups from which this abelianization arises. We recall the notion of a linear reflective subcategory, from which one can often build a linear projector. We describe a general abelianization procedure proposed by Borceux and Bourn, and which, for unital categories, yields a linear reflector, and in turn, a linear projector. To conclude, we review many examples of unital categories and their associated projectors and tangent structures, including the categories of pointed magmas, non-unital rings, Lie algebras, and cocommutative Hopf algebras.
 
-     This is joint work with JS Lemay and Tim Van der Linden.
+    This is joint work with JS Lemay and Tim Van der Linden.
 - id: 1872
   title: Gradient descent and neural networks: a categorical approach
   speaker: Sacha Ikonicoff
@@ -12621,9 +12621,9 @@
   abstract: |-
     A neural network can be thought of as a mathematical gadget which can compute a prediction from a list of inputs, using mostly parametrised linear maps. To find the right parameters and "calibrate" the neural network, one uses a technique called deep learning. Given a set of observation data, one can compute the error, i.e., the distance between the prediction given by the neural network and the observed consequence. Deep learning then uses gradient descent to update the parameters in a way which will reduce the error. This updating process is called backpropagation.
 
-     In recent years, category theorists have developed a framework to study and generalise gradient descent and neural networks. There is a construction called Para which categorises the notion of parametrised function, and a construction called Optic (a generalisation of former constructions such as Learners and Lenses), which formalises a notion of backpropagation. In this framework, neural networks are seen as maps in a small category NNet, Gradient Descent is seen as a functor from Para to Para (Optic), and deep learning can then be defined as a composition of a functor from NNet to Para with Gradient Descent.
+    In recent years, category theorists have developed a framework to study and generalise gradient descent and neural networks. There is a construction called Para which categorises the notion of parametrised function, and a construction called Optic (a generalisation of former constructions such as Learners and Lenses), which formalises a notion of backpropagation. In this framework, neural networks are seen as maps in a small category NNet, Gradient Descent is seen as a functor from Para to Para (Optic), and deep learning can then be defined as a composition of a functor from NNet to Para with Gradient Descent.
 
-     In this talk, I will present all these notions, as well as a notion of Deep Dreaming which comes from the optic construction. These correspond to work of Fong–Spivak–Tuyeras, Cruttwell–Gavranović–Ghani–Wilson–Zanasi and Capucci–Gavranović–Hedges–Rischel. Time permitting, I will also present a generalisation of the backpropagation functor using notions from Cartesian Differential Categories, due to Cockett–Cruttwell–Gallagher–Lemay–MacAdam–Plotkin–Pronk.
+    In this talk, I will present all these notions, as well as a notion of Deep Dreaming which comes from the optic construction. These correspond to work of Fong–Spivak–Tuyeras, Cruttwell–Gavranović–Ghani–Wilson–Zanasi and Capucci–Gavranović–Hedges–Rischel. Time permitting, I will also present a generalisation of the backpropagation functor using notions from Cartesian Differential Categories, due to Cockett–Cruttwell–Gallagher–Lemay–MacAdam–Plotkin–Pronk.
 - id: 1873
   title: Commuting tensor products via normal oplax monoidal double categories
   speaker: Richard Garner
@@ -12631,4 +12631,4 @@
   abstract: |-
     In this talk, I explain an abstract framework for forming the commuting tensor product of monads a normal oplax monoidal double category. This generalises the framework of Muggins--Lopez Franco, and in particular, captures the Boardman-Vogt tensor product of symmetric multicategories. A novel aspect is that we obtain a notion of commuting tensor product also for bimodules between monads, which in the case of symmetric multicategories generalises earlier work of Dwyer and Hess.
 
-     This is joint with with Nicola Gambino and Christina Vasilakopoulou.
+    This is joint with with Nicola Gambino and Christina Vasilakopoulou.
