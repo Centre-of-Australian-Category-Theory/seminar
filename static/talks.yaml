@@ -12632,3 +12632,8 @@
     In this talk, I explain an abstract framework for forming the commuting tensor product of monads a normal oplax monoidal double category. This generalises the framework of Muggins--Lopez Franco, and in particular, captures the Boardman-Vogt tensor product of symmetric multicategories. A novel aspect is that we obtain a notion of commuting tensor product also for bimodules between monads, which in the case of symmetric multicategories generalises earlier work of Dwyer and Hess.
 
     This is joint with with Nicola Gambino and Christina Vasilakopoulou.
+- id: 1874
+  title: Multicategories can be powerful
+  speaker: Steve Lack
+  date: 2025-08-20T14:00:00.000+10
+    
