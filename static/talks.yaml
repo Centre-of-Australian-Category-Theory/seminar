@@ -12642,3 +12642,9 @@
   date: 2025-08-27T14:00:00.000+10
   abstract: |-
     In 1985, I was visiting SUNY Buffalo. On 21 June 1985, Bill Lawvere gave a seminar on a piece of André Joyal's work. Presumably Bill had a preprint of the Comptes Rendues (Acad. Sci. Canada) article about the homology of symmetric groups which appeared at the end of that year. This talk is based on the article and the seminar.
+- id: 1876
+  title: From Moore-Penrose to Markov via Gauss
+  speaker: JS Lemay
+  date: 2025-09-03T14:00:00.000+10
+  abstract: |-
+    Markov categories are the central framework for categorical probability theory. Many important concepts from probability theory can be formalized in a Markov category. In particular, conditional probability distributions and Bayes’ theorem are captured via the notion of conditionals in a Markov category. Gaussian probability theory gives an example of a Markov category with conditionals, where the conditionals can be computed using the Moore-Penrose inverse. In this talk, I will explain how to generalize this example by providing a construction on a Moore-Penrose dagger additive category which produces a Markov category with conditionals. Applying this construction to the category of real matrices gives us back the Gaussian probability theory example.
