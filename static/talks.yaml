@@ -12648,3 +12648,15 @@
   date: 2025-09-03T14:00:00.000+10
   abstract: |-
     Markov categories are the central framework for categorical probability theory. Many important concepts from probability theory can be formalized in a Markov category. In particular, conditional probability distributions and Bayes’ theorem are captured via the notion of conditionals in a Markov category. Gaussian probability theory gives an example of a Markov category with conditionals, where the conditionals can be computed using the Moore-Penrose inverse. In this talk, I will explain how to generalize this example by providing a construction on a Moore-Penrose dagger additive category which produces a Markov category with conditionals. Applying this construction to the category of real matrices gives us back the Gaussian probability theory example.
+- id: 1877
+  title: Syntax and semantics for mechanical processes
+  speaker: Cole Comfort
+  date: 2025-09-10T14:00:00.000+10
+  abstract: |-
+    In these two talks, I will discuss how various classes of mechanical processes can be described using categories of relations (the semantics), which come equipped with "ZX-calculus" style graphical languages (the syntax). In the first talk, I will review how affinely-constrained mechanical systems with discrete positions and momenta are modelled using the category of affine Lagrangian relations. I will give examples in both quantum and classical mechanics, and I will sketch the associated family of graphical languages. In the subsequent talk, I will discuss how the syntax and semantics can be extended with discrete-time-evolution exploiting the theory of feedback monoidal categories, profunctors, and sesquilinear forms.
+- id: 1878
+  title: Double categorical equivalences (Alex's version)
+  speaker: Alexander Campbell
+  date: 2025-09-10T15:00:00.000+10
+  abstract: |-
+    In which I comment on Maru Sarazola's invited talk at CT2025.
