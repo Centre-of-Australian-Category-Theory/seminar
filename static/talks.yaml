@@ -12660,3 +12660,13 @@
   date: 2025-09-10T15:00:00.000+10
   abstract: |-
     In which I comment on Maru Sarazola's invited talk at CT2025.
+- id: 1879
+  title: Categorical semantics for discrete time dynamics
+  speaker: Cole Comfort
+  date: 2025-09-17T14:00:00.000+10
+  abstract: |-
+    Last week I reviewed how the category of affine Lagrangian relations is the natural setting for certain time-independent, non-deterministic mechanical systems, sketching its presentation as a compact closed category. In my second talk, I will discuss how the syntax and semantics can be augmented with a notion of discrete-time dynamics, using the theory of guarded and delayed traces.
+
+    There are several inequivalent ways to add discrete-time dynamics to this category. First, I will discuss how a notion of time can be added via the "state construction," using the coend calculus. Next, I will discuss how discrete-time dynamics can be added by moving to frequency space, and working over the field of rational functions. I will sketch a complete graphical language for this second approach, and I will discuss how both approaches are related to each other.
+
+    This is ongoing work with my coauthor Giovanni de Felice.
