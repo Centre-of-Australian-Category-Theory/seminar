@@ -12670,3 +12670,9 @@
     There are several inequivalent ways to add discrete-time dynamics to this category. First, I will discuss how a notion of time can be added via the "state construction," using the coend calculus. Next, I will discuss how discrete-time dynamics can be added by moving to frequency space, and working over the field of rational functions. I will sketch a complete graphical language for this second approach, and I will discuss how both approaches are related to each other.
 
     This is ongoing work with my coauthor Giovanni de Felice.
+- id: 1880
+  title: Around partial groups
+  speaker: Philip Hackney
+  date: 2025-09-24T14:00:00.000+10
+  abstract: |-
+    Partial groups are structures with partially-defined n-ary multiplications. They were introduced by Chermak in his proof of the existence and uniqueness of centric linking systems for saturated fusion systems, a major recent result in p-local finite group theory. We'll introduce these gadgets from the perspective of symmetric simplicial sets and give some examples. We'll also discuss a way to think about (partial) actions of partial groups, inspired by the classical notion of a star injective functor between groupoids. Especially interesting are the "characteristic" actions, which control which multiplications are valid in the partial group. These are a key ingredient in computational tools for determining when a given partial group is a d-Segal space in the sense of Dyckerhoff and Kapranov. Based on joint work with Justin Lynd.
