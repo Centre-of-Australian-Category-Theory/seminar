@@ -11629,7 +11629,6 @@
   abstract: |-
     Given an opmonoidal monad, the category of algebras inherits a monoidal structure. Similarly, braidings and symmetries lift to categories of algebras under suitable compatibility conditions. In this talk I first will review some abstract perspectives on this phenomenon [1], [2], [3]. Then we will discuss generalisations to the two-dimensional setting, now involving pseudomonads on semi-strict monoidal 2-categories, aka Gray monoids. We find that 2-categories of pseudoalgebras do inherit a monoidal structure, but one in which associativity and left and right unit laws only hold up to coherent 2-natural isomorphisms.
 
-
     [1] McCrudden, P., Opmonoidal Monads, Theory and Applications of Categories, Vol.10, No.19, 2002, pp.469–485.</br>
     [2] Lack, S., Limits of Lax Morphisms, Applied Categorical Structures (2005) 13: 189–203</br>
     [3] Zawadowski, M., The formal theory of monoidal monads, Journal of Pure and Applied Algebra, Volume 216, Issues 8–9, August 2012, Pages 1932–1942
@@ -12676,3 +12675,44 @@
   date: 2025-09-24T14:00:00.000+10
   abstract: |-
     Partial groups are structures with partially-defined n-ary multiplications. They were introduced by Chermak in his proof of the existence and uniqueness of centric linking systems for saturated fusion systems, a major recent result in p-local finite group theory. We'll introduce these gadgets from the perspective of symmetric simplicial sets and give some examples. We'll also discuss a way to think about (partial) actions of partial groups, inspired by the classical notion of a star injective functor between groupoids. Especially interesting are the "characteristic" actions, which control which multiplications are valid in the partial group. These are a key ingredient in computational tools for determining when a given partial group is a d-Segal space in the sense of Dyckerhoff and Kapranov. Based on joint work with Justin Lynd.
+- id: 1881
+  title: Understanding Steiner at 35
+  speaker: Alexander Campbell
+  date: 2025-10-08T14:00:00.000+10
+  abstract: |-
+    We give a purely combinatorial construction of a category equivalent to the category of strong Steiner complexes (nés augmented directed complexes with strongly loop-free unital bases). The objects of this category are the parity structures satisfying a certain proper subset of the axioms considered in Ross's paper on parity complexes, and the morphisms between these are the morphisms of parity complexes defined in Dom's AMS memoir.
+- id: 1882
+  title: Steiner theory without negatives
+  speaker: Alexander Campbell
+  date: 2025-10-15T14:00:00.000+10
+  abstract: |-
+    We isolate the purely combinatorial structure possessed by the bases of augmented directed complexes, sufficient to reconstruct the full category of augmented directed complexes with bases. The theory of these structures, which we name Additive Parity Complexes, is an extension of the theory of parity complexes which retains its combinatorial nature, but in which the role of subsets is played instead by multisets. We claim that it is precisely this difference which gives Steiner theory its power.
+- id: 1883
+  title: Soergel Calculus with patches
+  speaker: Leonardo Maltoni
+  date: 2025-10-22T14:00:00.000+10
+  abstract: |-
+    Elias and Williamson gave a diagrammatic presentation by generators and relations of the Hecke category (one incarnation of which is, for instance, the category of Soergel bimodules). One can adapt this presentation to describe a dg version of the category of Rouquier complexes, which are defined in terms of the Hecke category and provide a categorification of the braid groups. I will describe the basic properties of this category and some results about Rouquier complexes that can be obtained from this point of view via Discrete Morse Theory techniques.
+- id: 1884
+  title: 'Ross Street:  Timeline and Context'
+  speaker: Michael Johnson
+  date: 2025-10-01T14:00:00.000+10
+  abstract: |-
+    We'll begin our second Streetfest with a short biographical sketch of Ross's life, especially his academic life, to set some context for the other talks and for our celebrations.  Of course we'll have to leave out many fascinating details, but perhaps the sketch can provide a bare framework and we can all ask Ross questions about details that interest us at afternoon tea or dinner.
+- id: 1885
+  title: Complicial Sets, where to from here?
+  speaker: Dominic Verity
+  date: 2025-10-01T14:30:00.000+10
+  abstract: |-
+    At Ross’ 60th birthday I spoke about his complicial sets, and I propose to do so again at his 80th. On that occasion my focus was on the strict variant of this notion, whereas this time I’d like to discuss the current state of the art in the theory of their weak cousins. For most of the intervening time between Streetfests this is a topic that hasn’t been central for me. Over last two or three years, however, it is one that has reimposed itself on my consciousness largely thanks to some excellent work by Viktoria Ozornova, Martina Rovelli, our own Yuki Maehara, Felix Loubaton and others. If we have time, I will also try to say a few things about ideas I’ve been working on with Jonathan Weinberger and Emily Riehl to build type theoretic languages for expressing $(\infty,\infty)$-category theory using complicial sets.
+
+    As we go I may pause, on occasion, to speak a little about some specific ways in which Ross’ remarkable perspective on mathematics and category theory has inspired me over the years…. Or maybe, in truth, that's all I will be talking about.😺
+- id: 1886
+  title: T-Multicategories and polynomials via distributive laws
+  speaker: Mitch Buckley
+  date: 2025-10-01T16:00:00.000+10
+  abstract: |-
+    Composition in a multi-category can be visualised as the gluing together of trees and is formalised using the free monoid monad. This then generalises to $T$-categories for a suitable monad $T$ on a suitable category $\mathcal{C}$ [1]. Another kind of composition of tree-like things comes with substitution of polynomial spans in a locally cartesian closed category [2]. There is a (weak) double category associated with each kind of composition and each of these has span-like horizontal maps. We'll define what it means to have a pseudo-distributive law for a (weak) double category $\mathbb{A}$ over a (weak) double category $\mathbb{B}$ and describe the (weak) double category of "mixed spans" which this always yields. We'll show that the $T$-categories example arises this way and show how the polynomial example seems also to arise this way (some details are still being verified).
+
+    [1] Leinster, T. Higher Operads, Higher Categories. arXiv May 2, 2003. http://arxiv.org/abs/math/0305049
+    [2] Gambino, N.; Kock, J. Polynomial Functors and Polynomial Monads. Math. Proc. Camb. Phil. Soc. 2013, 154 (1), 153–192.
