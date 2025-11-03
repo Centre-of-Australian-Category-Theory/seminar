@@ -12722,3 +12722,23 @@
   date: 2025-10-29T14:00:00.000+10
   abstract: |-
     The fundamental theorem of restriction categories establishes that every restriction category embeds into a category of partial maps, which is a split restriction category constructed from an $\mathcal{M}$-category. In this talk, we prove a stronger version of this result. We show that restriction categories are equivalent to local categories, which are equivalent to categories equipped with a special system of monics that generalizes $\mathcal{M}$-categories. We present three new frameworks for partiality: local categories, in which partiality is assigned to objects rather than morphisms, partial categories, in which partiality is encoded by two operators on morphisms, and categories with inclusion systems, in which partiality is encoded by a choice of "inclusion" maps.
+- id: 1888
+  title: Categorical Probability Theory
+  speaker: Bart Jacobs
+  date: 2025-11-05T14:00:00.000+10
+  abstract: |-
+    This talk will give an overview of on the one hand formalisations of basic notions from probability theory in categorical terms. The starting point here is that a conditional probability $p(y\mid x)$ is a Kleisli map, for the discrete or continuous probability monad. This makes it possible to apply symmetric monoidal category theory and string diagrams in the area of probability theory.
+
+     On the other hand, new results will be shown that can be formulated easily in categorical terms, but that have not emerged in the traditional approach to probability theory. Further, illustrations of the use of categorical language in concrete examples will be included.
+
+     For more information there is the draft book that is close to completion:
+
+     http://www.cs.ru.nl/B.Jacobs/PAPERS/ProbabilisticReasoning.pdf
+- id: 1889
+  title: Coherence for skew structures with proof theory
+  speaker: Tarmo Uustalu
+  date: 2025-11-05T15:00:00.000+10
+  abstract: |-
+    I will show how coherence theorems for structures like skew monoidal, skew (non-monoidal and monoidal) closed categories and partially normal skew monoidal categories can be obtained with proof-theoretical methods of cut elimination and focusing.
+
+    This is based on joint works with Niccolò Veltri, Cheng-Syuan Wan and Noam Zeilberger.
