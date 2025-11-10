@@ -12742,3 +12742,23 @@
     I will show how coherence theorems for structures like skew monoidal, skew (non-monoidal and monoidal) closed categories and partially normal skew monoidal categories can be obtained with proof-theoretical methods of cut elimination and focusing.
 
     This is based on joint works with Niccolò Veltri, Cheng-Syuan Wan and Noam Zeilberger.
+- id: 1890
+  title: Sweedler theory of monads
+  speaker: Tarmo Uustalu
+  date: 2025-11-12T14:00:00.000+10
+  abstract: |-
+    Monad-comonad interaction laws are a means for specifying communication protocols between effectful computations and coeffectful environments in the paradigm where notions of effectful computation are modelled by monads and notions of coeffectful environment by comonads.
+
+    In this talk, I will demonstrate that monad-comonad interaction laws are an instance of measuring maps from López Franco and Vasilakopoulou's Sweedler theory for duoidal categories. The final interacting comonad for a monad and a residual monad arises as the Sweedler hom and the initial residual monad for a monad and an interacting comonad as the Sweedler copower.
+
+    I will explain a (co)algebraic characterization of monad-comonad interaction laws and how it leads to descriptions of the Sweedler hom and the Sweedler copower in terms of their coalgebras resp. algebras.
+
+    Joint work with Dylan McDermott and Exequiel Rivas.
+- id: 1891
+  title: Rejuvenating Chain Complexes
+  speaker: Michael Johnson
+  date: 2025-11-12T15:00:00.000+10
+  abstract: |-
+    Alexander Campbell's recent sequence of talks has 'put-to-bed' chain complexes by describing a category equivalent to strong Steiner complexes, without reference to chain complexes, and using it to establish precisely the relationship between the Steiner approach and Ross' parity complexes. I find this especially satisfying because I've wanted to see that relationship clearly, and because, after all, what have chain complexes, a computational tool for algebraic topology, really got to do with fundamental notions of category theory?
+
+     Actually, it turns out that the answer to that question is much more than at least some of us thought. This talk will outline the relationships (and include some history and some historical speculations).
