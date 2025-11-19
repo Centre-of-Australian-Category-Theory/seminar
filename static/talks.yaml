@@ -12762,3 +12762,15 @@
     Alexander Campbell's recent sequence of talks has 'put-to-bed' chain complexes by describing a category equivalent to strong Steiner complexes, without reference to chain complexes, and using it to establish precisely the relationship between the Steiner approach and Ross' parity complexes. I find this especially satisfying because I've wanted to see that relationship clearly, and because, after all, what have chain complexes, a computational tool for algebraic topology, really got to do with fundamental notions of category theory?
 
      Actually, it turns out that the answer to that question is much more than at least some of us thought. This talk will outline the relationships (and include some history and some historical speculations).
+- id: 1892
+  title: Cauchy density and lax epimorphisms
+  speaker: Adrian Doña Mateo
+  date: 2025-11-19T14:00:00.000+10
+  abstract: |-
+    A V-functor is Cauchy dense when the counit of the profunctor adjunction it induces is an isomorphism. For metric spaces, this is exactly a short map whose image is topologically dense in its codomain. In this talk, I will review this notion and Lucatelli Nunes and Sousa's characterisation of the Cauchy dense V-functors as the lax epimorphisms in V-Cat when V is symmetric monoidal closed. I will explain why fully faithful Cauchy dense functors are intimately linked to Cauchy completion and Morita equivalence. We will also look at the one-object case, and see how the Cauchy dense maps of monoids in V tend to coincide with the epimorphisms, but not always.
+- id: 1893
+  title: Parity Complexes (Reprise)
+  speaker: Alexander Campbell
+  date: 2025-11-19T15:00:00.000+10
+  abstract: |-
+    We fix the definition of parity complex by a judicious selection of three axioms from among the several considered in Street's first paper on the subject. We show that parity complexes are precisely the bases of strong Steiner complexes and, with the morphisms of parity complexes defined by Verity, form a category equivalent to the category of strong Steiner complexes.
