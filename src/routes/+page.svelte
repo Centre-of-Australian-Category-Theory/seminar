@@ -5,5 +5,5 @@
   Marcello Lanfranchi. If you would like to sign up for seminar
   announcements, or if you would like to speak at the seminar, you
   may contact Marcello at
-  <a class="hover:text-red text-deep-red" href="mailto:marcello.lanfranchi@mq.edu.au"marcello.lanfranchi@mq.edu.au</a>.
+  <a class="hover:text-red text-deep-red" href="mailto:marcello.lanfranchi@mq.edu.au">marcello.lanfranchi@mq.edu.au</a>.
 </div>
