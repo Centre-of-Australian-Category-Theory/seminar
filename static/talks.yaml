@@ -12774,3 +12774,9 @@
   date: 2025-11-19T15:00:00.000+10
   abstract: |-
     We fix the definition of parity complex by a judicious selection of three axioms from among the several considered in Street's first paper on the subject. We show that parity complexes are precisely the bases of strong Steiner complexes and, with the morphisms of parity complexes defined by Verity, form a category equivalent to the category of strong Steiner complexes.
+- id: 1894
+  title: Categorical Quantum Supermaps
+  speaker: James Hefford
+  date: 2025-11-26T14:00:00.000+10
+  abstract: |-
+    The study of higher-order quantum transformations has seen great interest over the last 10 years. They allow for the information-theoretic study of phenomena such as indefinite causal order that are expected to be present in a full-blown theory of quantum gravity, and they are known to provide advantage in certain computational and communication tasks. I will give an introduction to this field before discussing the current categorical methods employed to model quantum supermaps in terms of strong profunctors. By combining a series of canonical constructions I will show how it is possible to build a BV-category which supports higher-order quantum theory and provides logical connectives describing the arrangements of agents in spacetime. This is based on joint work with Matt Wilson.
