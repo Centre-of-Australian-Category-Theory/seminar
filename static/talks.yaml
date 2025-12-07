@@ -12780,3 +12780,17 @@
   date: 2025-11-26T14:00:00.000+10
   abstract: |-
     The study of higher-order quantum transformations has seen great interest over the last 10 years. They allow for the information-theoretic study of phenomena such as indefinite causal order that are expected to be present in a full-blown theory of quantum gravity, and they are known to provide advantage in certain computational and communication tasks. I will give an introduction to this field before discussing the current categorical methods employed to model quantum supermaps in terms of strong profunctors. By combining a series of canonical constructions I will show how it is possible to build a BV-category which supports higher-order quantum theory and provides logical connectives describing the arrangements of agents in spacetime. This is based on joint work with Matt Wilson.
+- id: 1895
+  title: Closed Premonoidal Categories and Effectful Optics
+  speaker: James Hefford
+  date: 2025-12-03T14:00:00.000+10
+  abstract: |-
+    By a result of Day we know that closed monoidal structures on presheaf categories are equivalent to promonoidal structures on the base. Building on the work of Power, I will discuss the equivalent result in the setting of premonoidal categories. Along the way we will see how a slight modification of premonoidal categories known as effectful (generalised Freyd) categories can be seen to be pseudomonoids in a bicategory of V^2-categories equipped with a version of the funny tensor product. Finally, I will discuss a generalisation of the Pastro-Street double (aka the category of coend optics) over a premonoidal category and its monoidal-like structures.
+- id: 1896
+  title: Closed Premonoidal Categories and Effectful Optics
+  speaker: James Hefford
+  date: 2025-12-10T14:00:00.000+10
+  part: 2
+  previous: 1895
+  abstract: |-
+    I will give the remainder of my talk from last week, starting with a brief recap of effectful categories before discussing a generalisation of the Pastro-Street double monad to this setting. I expect this will only take around 30mins.
