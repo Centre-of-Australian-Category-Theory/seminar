@@ -12806,3 +12806,9 @@
   date: 2026-01-07T14:00:00.000+10
   abstract: |-
     We introduce a new type theoretic generalisation of a category, known as a weak-target category. After recalling the relevant background, we show that weak-target categories are equivalent to self-similar actions of groupoids on categories. We finish by showing a prospective definition of a weak-target presheaf, and discuss how we plan to use this to compute the cohomology of self-similar actions.
+- id: 1899
+  title: Homodular pseudofunctors and bicategories of modules
+  speaker: Ross Street
+  date: 2026-01-21T14:00:00.000+10
+  abstract: |-
+    The adjective in the title is intended to suggest homology and modules. Joyal's idea to prove things about the homology of classical groups, using a universal homological functor as presented in my last ACS talk, has led me to various ideas for an objective version that I think have reached a reasonable stage for a talk. I am keen to have feedback.
