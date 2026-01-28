@@ -12812,3 +12812,9 @@
   date: 2026-01-21T14:00:00.000+10
   abstract: |-
     The adjective in the title is intended to suggest homology and modules. Joyal's idea to prove things about the homology of classical groups, using a universal homological functor as presented in my last ACS talk, has led me to various ideas for an objective version that I think have reached a reasonable stage for a talk. I am keen to have feedback.
+- id: 1900
+  title: Relative monads and Hopf monads
+  speaker: Jana Nickel
+  date: 2026-01-28T14:00:00.000+10
+  abstract: |-
+    Together with JS, I aim to establish a notion of a relative Hopf monad, combining the concepts of a relative monad on a functor and a Hopf monad in a monoidal category. First, I will give an introduction to relative monads and Hopf monads, and will outline some considerations on a relative version.
