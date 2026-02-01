@@ -12818,3 +12818,13 @@
   date: 2026-01-28T14:00:00.000+10
   abstract: |-
     Together with JS, I aim to establish a notion of a relative Hopf monad, combining the concepts of a relative monad on a functor and a Hopf monad in a monoidal category. First, I will give an introduction to relative monads and Hopf monads, and will outline some considerations on a relative version.
+- id: 1901
+  title: Pullbacks in tangent categories and tangent display maps
+  speaker: Marcello Lanfranchi
+  date: 2026-02-04T14:00:00.000+10
+  abstract: |-
+    In differential geometry, the existence of pullbacks is a delicate matter, since the category of smooth manifolds does not admit all of them. This issue is reflected in tangent categories, which offer a minimal categorical framework for differential geometry.
+
+    Often, in differential geometry, one solves this issue by working with submersions, which form a well-behaved class of morphisms. In this talk, we introduce another class of maps in a tangent category, called tangent display maps, which are designed to work well with respect to pullbacks and that generalize submersions in differential geometry.
+
+    From this definition, we also show how to construct a notion of open sub-objects in a tangent category, reconstructing the topological information of the objects.
