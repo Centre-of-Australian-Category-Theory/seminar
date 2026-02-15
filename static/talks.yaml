@@ -12828,3 +12828,23 @@
     Often, in differential geometry, one solves this issue by working with submersions, which form a well-behaved class of morphisms. In this talk, we introduce another class of maps in a tangent category, called tangent display maps, which are designed to work well with respect to pullbacks and that generalize submersions in differential geometry.
 
     From this definition, we also show how to construct a notion of open sub-objects in a tangent category, reconstructing the topological information of the objects.
+- id: 1902
+  title: Ehresmann connections in tangent categories
+  speaker: Marcello Lanfranchi
+  date: 2026-02-11T14:00:00.000+10
+  abstract: |-
+    Ehresmann connections are an important concept of differential geometry. In this talk, I will show how to define a good notion of Ehresmann connections in the context of tangent categories.
+
+    This is joint work with Geoff Cruttwell
+- id: 1903
+  title: Accessible 2-categories, isocartesian theories, and free constructions
+  speaker: Giacomo Tendas
+  date: 2026-02-18T14:00:00.000+10
+  abstract: |-
+    The importance of free constructions in 2-dimensional category theory is undeniable; it's enough to think about free completions under limits or colimits of some shape, as well as free regular and exact completions. A way to show that such free constructions exist is usually provided by an adjoint functor theorem, an instance of which is proved in [1] in the context of accessible 2-categories with flexible limits.
+
+    The purpose of this talk, which is joint with N. Gambino, is to present a notion of 2-dimensional theory, in the sense of logic, whose 2-categories of models fit such framework. This, together with the result of [1], implies that free models, in form of left biadjoints, always exist. We call the 2-dimensional theories in question isocartesian. The idea being that, just like in ordinary cartesian logic one is allowed to express properties defined by unique existential quantification, within isocartesian logic one can express properties defined by existence which is unique up to (unique) isomorphism.
+
+    Examples of 2-categories arising this way include those whose objects are: Categories with (co)limits of some shape, categories with a n.n.o, Clans, Regular and Exact categories, as well as Mal'tsev and Semiabilian categories.
+
+    [1] J. Bourke, S. Lack and L. Vokrínek, Adjoint functor theorems for homotopically enriched categories, Advances in Mathematics 412:108812, 2023.
