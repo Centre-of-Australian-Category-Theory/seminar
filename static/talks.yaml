@@ -12848,3 +12848,29 @@
     Examples of 2-categories arising this way include those whose objects are: Categories with (co)limits of some shape, categories with a n.n.o, Clans, Regular and Exact categories, as well as Mal'tsev and Semiabilian categories.
 
     [1] J. Bourke, S. Lack and L. Vokrínek, Adjoint functor theorems for homotopically enriched categories, Advances in Mathematics 412:108812, 2023.
+- id: 1904
+  title: Upgrading equivalences in weak ω-categories to coherent ones
+  speaker: Yuki Maehara
+  date: 2026-02-25T14:00:00.000+10
+  abstract: |-
+    It is well known that any equivalence in a 2-category can be upgraded to an adjoint equivalence. I will present an analogous result for Batanin-Leinster weak ω-categories. More precisely, I will introduce two notions of "coherent equivalence" such that 1) any equivalence in a weak ω-category can be upgraded to such a coherent one, and 2) the free coherent equivalence n-cells can be used to characterise a weak ω-categorical version of isofibrations via the right lifting property. As a bonus, we also obtain an explicit description of the fibrations between strict ω-categories in the Lafont-Métayer-Worytkiewicz folk model structure. This talk is based on joint work with Soichiro Fujii (National Institute of Informatics) and Keisuke Hoshino (Kyoto University).
+- id: 1905
+  title: Constructing Canonical Calculi
+  speaker: Gabriele Lobbia
+  date: 2026-02-25T15:00:00.000+10
+  abstract: |-
+    In noncommutative geometry, one typically equips an associative algebra A with further structure such that it can then be regarded as encoding a “noncommutative space”. A general axiomatic approach is via the notion of a differential calculus (aka exterior algebra), introduced by Woronowicz. Unfortunately, such an approach is, in general, insufficient to yield existence or uniqueness of a compatible notion of form, and such procedures are typically not functorial.
+
+     In this work, we aim to address this problem treating the geometry of a category E as a relative notion: it will emerge when E is equipped with an isofibration E-->Mon(V) into the category of monoids in a monoidal additive category V.
+
+     We start by considering the notion of first order differential calculi in the setting of monoids internal to a monoidal additive category V and show that the standard results concerning first order differential calculi extend to this setting. Then, we establish sufficient conditions on the faithful isofibration E-->Mon(V) such that E admits a canonical functor into the category of first order differential calculi in V.
+
+     This talk is based on joint work with Keegan Flood and Giacomo Tendas, which can be found at arXiv:2512.20742.
+- id: 1906
+  title: A categorical account of the Metropolis-Hastings algorithm
+  speaker: Rob Cornish
+  date: 2026-03-04T14:00:00.000+10
+  abstract: |-
+    Metropolis-Hastings (MH) is a foundational Markov chain Monte Carlo (MCMC) algorithm. In this talk I will present our recent work (https://arxiv.org/abs/2601.22911) that asks whether it is possible to formulate and analyse MH in terms of categorical probability, using a recent involutive framework for MH-type procedures as a concrete case study. We show how basic MCMC concepts such as invariance and reversibility can be formulated in Markov categories, and how one part of the MH kernel can be analysed using standard copy-discard (CD) categories. To go further, we then consider enrichments of CD categories over commutative monoids. This gives an expressive setting for reasoning abstractly about a range of important probabilistic concepts, including substochastic kernels, finite and sigma-finite measures, absolute continuity, singular measures, and Lebesgue decompositions. Using these tools, we give synthetic necessary and sufficient conditions for a general MH-type sampler to be reversible with respect to a given target distribution.
+
+    This talk aims to be accessible with minimal background in MCMC or probability theory.
