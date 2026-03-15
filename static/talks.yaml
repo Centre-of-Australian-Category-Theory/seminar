@@ -12880,3 +12880,13 @@
   date: 2026-03-11T14:00:00.000+10
   abstract: |-
     Codensity liftings provide a general method for constructing liftings of endofunctors and monads along fibrations. The idea originates from the construction of logical predicates for monadic types introduced by Lindley and Stark. Codensity liftings are connected to a variety of mathematical constructions involving preorders, relations, topologies, and metrics, including the lower and upper preorders on powersets and the Kantorovich metric on probability distributions. In this talk, I will present applications of codensity liftings to the theory of bisimulations for coalgebraic transition systems.
+- id: 1908
+  title: A Structural Account of Combinatory Completeness
+  speaker: Chad Nester
+  date: 2026-03-18T14:00:00.000+10
+  abstract: |-
+    Combinatory logic was introduced more than a century ago in pursuit of logical syntax without bound variables. Its power and simplicity have made it a subject of enduring interest, and it has played a foundational role in logic and computer science. A combinatory algebra is an algebraic model of combinatory logic. Concretely, such an algebra consists of a set equipped with a binary operation satisfying a condition called combinatory completeness. This condition is rather complex, but is equivalent to the existence of elements of the carrier set satisfying certain simple equations.
+
+    This talk concerns a more general notion of combinatory completeness relative to a certain well-behaved collections of functions between finite sets, called faithful Cartesian clubs. The classical notion of combinatory completeness corresponds to the club consisting of all such functions. Moreover, the equivalence of combinatory completeness with the existence of elements satisfying simple equations holds in some form for a number instances of the more general notion. These results hold in settings beyond the usual category of sets and functions, and their technical development takes place in a multicategory equipped with an action of the faithful Cartesian club in question.
+
+    These structured multicategories are a natural setting in which to study (variations of) combinatory algebras. The multicategorical perspective leads to a characterisation of combinatory completeness in terms of categorical structure. Specifically, we will see that a given applicative system is combinatory complete if and only if its computable morphisms form a (structured) sub-multicategory of the ambient (structured) multicategory. This talk is based on joint work with Ivan Kuzmin, Ülo Reimaa, and Sam Speight. A preprint is available at https://arxiv.org/abs/2511.17152
