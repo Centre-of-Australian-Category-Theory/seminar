@@ -12896,3 +12896,15 @@
   date: 2026-03-25T14:00:00.000+10
   abstract: |-
     A differential category is a category enriched over commutative monoids together with a monad, equipped with some additional structure including a differential operator. I will review the notion of a differential category and then I will introduce variants I’ve been working on. These are respectively called graded, filtered, relative and Hasse-Schmidt differential categories. I will motivate each variant, explain the definition and give some examples and results. I will also mention some conjectures and difficulties which are not yet resolved.
+- id: 1910
+  title: Groupoid models and their universal property
+  speaker: Ralf Meyer
+  date: 2026-04-01T14:00:00.000+10
+  abstract: |-
+    I will introduce the bicategory of étale groupoids and their correspondences and define the groupoid model of a diagram by specifying its actions on topological spaces. This groupoid models is a choice of a bicategorical limit, but defined uniquely up to isomorphism. Groupoid models can be computed explicitly in simple cases, and their Steinberg algebras and C*-algebras reproduce interesting algebras such as Leavitt path algebras and graph C*-algebras and similar algebras associated to self-similar groups. Certain special groupoid correspondences form the category of actors, a different kind of morphism of groupoids that induce homomorphisms on the *-algebras attached to them or functors between their associated categories of actions on spaces. The universal property of the groupoid model also describes these actors on the groupoid model. This gives a nice description of the actors for the underlying groupoids of Leavitt path algebras and graph C*-algebras, which generalise the relation morphisms between graphs recently studied by de Castro, D'Andrea and Hajac.
+- id: 1911
+  title: What an ω-category is
+  speaker: Alexander Campbell
+  date: 2026-04-08T14:00:00.000+10
+  abstract: |-
+    In preparation for my future reports in this seminar on "a highly focused workshop on recent developments in ω-categories" which I attended last month in Chicago, I will present the by-now standard definition of ω-categories, a.k.a. (∞,∞)-categories.
