@@ -12908,3 +12908,9 @@
   date: 2026-04-08T14:00:00.000+10
   abstract: |-
     In preparation for my future reports in this seminar on "a highly focused workshop on recent developments in ω-categories" which I attended last month in Chicago, I will present the by-now standard definition of ω-categories, a.k.a. (∞,∞)-categories.
+- id: 1912
+  title: Linear and Monoidal Differential Turing Categories
+  speaker: Isaiah Hilsenrath
+  date: 2026-04-15T14:00:00.000+10
+  abstract: |-
+    Cockett and Gallagher, in a 2019 paper, introduced Cartesian differential Turing categories as a categorical semantics of the untyped differential lambda-calculus. These new categories coherently combined the well-known categorical framework for differentiation, a Cartesian differential category, with a type of category that provides a sound and complete semantics for the ordinary untyped lambda-calculus, a (total) Turing category. Now, an important source of examples of Cartesian differential categories comes from the categorical semantics of differential linear logic, monoidal differential categories, because the coKleisli category of a monoidal differential category is, in fact, a Cartesian differential category. It is then natural to ask: what is the analogue of a monoidal differential category whose induced coKleisli category is a Cartesian differential Turing category? In this talk, we will start by defining the linear analogue of a Turing category, called the (total) linear Turing category, show that its induced coKleisli category (and hopefully also its induced coEilenberg-Moore category) is a regular Turing category, define a type of linear Turing category called a monoidal differential Turing category, and show that this category is the solution to our question. That is, we will show that the coKleisli category of a monoidal differential Turing category is indeed a Cartesian differential Turing category.
