@@ -12920,3 +12920,9 @@
   date: 2026-04-22T14:00:00.000+10
   abstract: |-
     DRC-semigroups model associative systems with domain and range operations, and contain many important classes, such as inverse, restriction, Ehresmann, regular ∗-, and ∗-regular semigroups. In this joint work with James East, Azeef Muhammed and Tim Stokes, we show that the category of DRC-semigroups is isomorphic to a category of certain biordered categories whose object sets are projection algebras in the sense of Jones. This extends the recent groupoid approach to regular ∗-semigroups of East and Muhammed. We also establish the existence of free DRC-semigroups by constructing a left adjoint to the forgetful functor into the category of projection algebras.
+- id: 1914
+  title: The linear part of the algebras of the tangent bundle monad
+  speaker: Joel Richardson
+  date: 2026-04-29T14:00:00.000+10
+  abstract: |-
+    Tangent categories generalise the tangent bundle construction beyond differential geometry. Each tangent category carries a canonical tangent bundle monad, whose algebras (Eilenberg–Moore category) have proved difficult to characterise. In this talk we examine the linear part of the algebras of the tangent bundle monad arising in algebraic geometry, showing that they always square to zero – a result that generalises to all tangent categories.
