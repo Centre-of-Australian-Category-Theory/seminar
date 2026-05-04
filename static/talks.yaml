@@ -12926,3 +12926,11 @@
   date: 2026-04-29T14:00:00.000+10
   abstract: |-
     Tangent categories generalise the tangent bundle construction beyond differential geometry. Each tangent category carries a canonical tangent bundle monad, whose algebras (Eilenberg–Moore category) have proved difficult to characterise. In this talk we examine the linear part of the algebras of the tangent bundle monad arising in algebraic geometry, showing that they always square to zero – a result that generalises to all tangent categories.
+- id: 1915
+  title: Curve objects in tangent restriction categories
+  speaker: Robin Cockett
+  date: 2026-05-06T14:00:00.000+10
+  abstract: |-
+    The last section of Geoff Cruttwell and my 2013 paper on Tangent Categories is dedicated entirely to axiomatizing restriction tangent categories (that is partiality in tangent categories). Disappointingly, however, this aspect of tangent categories has not received as much attention as we expected. This is a little surprising as all the traditional areas such as differential geometry, algebraic geometry, analysis, and computability have foundational aspects of partiality.
+
+    We will recall the definition of tangent restriction categories and take a look at curve objects in tangent join restriction categories.
