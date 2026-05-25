@@ -12934,3 +12934,11 @@
     The last section of Geoff Cruttwell and my 2013 paper on Tangent Categories is dedicated entirely to axiomatizing restriction tangent categories (that is partiality in tangent categories). Disappointingly, however, this aspect of tangent categories has not received as much attention as we expected. This is a little surprising as all the traditional areas such as differential geometry, algebraic geometry, analysis, and computability have foundational aspects of partiality.
 
     We will recall the definition of tangent restriction categories and take a look at curve objects in tangent join restriction categories.
+- id: 1916
+  title: Traces, Kleene wands, and co-universal natural number objects
+  speaker: Robin Cockett
+  date: 2026-05-27T14:00:00.000+10
+  abstract: |-
+    In a lextensive restriction category with a natural number object, there are three conditions which are equivalent: having an inductive trace on the coproduct, having an inductive Kleene wand, and having the natural number object be co-universal. Any of these properties ensure that the setting can represent all computable functions.
+
+    An open problem is to show that there is a suitable internal notion of computability allowing one to extract from any such setting a Turing category with the same properties (i.e.. a natural number object with a co-universal property).
