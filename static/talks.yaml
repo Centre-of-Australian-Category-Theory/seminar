@@ -12942,3 +12942,37 @@
     In a lextensive restriction category with a natural number object, there are three conditions which are equivalent: having an inductive trace on the coproduct, having an inductive Kleene wand, and having the natural number object be co-universal. Any of these properties ensure that the setting can represent all computable functions.
 
     An open problem is to show that there is a suitable internal notion of computability allowing one to extract from any such setting a Turing category with the same properties (i.e.. a natural number object with a co-universal property).
+- id: 1917
+  title: Stack models of type theory
+  speaker: Charlotte Clarke
+  date: 2026-06-03T14:00:00.000+10
+  abstract: |-
+    The synthetic algebraic geometry (SAG) project (of Cherubini, Coquand, Hutzler, etc.) has used sheaf models of type theory as the internal language of the big and little Zariski toposes. To encode higher geometric structure, Richard and I have been exploring stack models of type theory. Specifically, we have followed two constructions: an ‘external stack model’ built from the 2-category of stacks mapping from a given site into a 2-category with structure modelling type theory, and an ‘internal stack model’ constructed from internal notions of a category and Grothendieck topology within an initial type-theoretic model. I will present some of our findings thus far.
+- id: 1918
+  title: Normal Isofibrations of Infinity Categories
+  speaker: Declan Zammit
+  date: 2026-06-17T14:00:00.000+10
+  abstract: |-
+    Inside any 2-category there is a class of maps known as 'normal isofibrations': a generalisation of isofibrations between categories for which isomorphisms can be lifted in a particularly nice way. Bourke and Lack showed that the normal isofibrations equip a nice 2-category with the structure of an ∞-cosmos, the theory of which is due to Riehl and Verity. In this talk, we will generalise the notion of a normal isofibration to the setting of quasicategorically enriched categories. We then show that these normal isofibrations equip a quasicategorically enriched category (so long as it satisfies some minimal axioms) with the structure of an ∞-cosmos. The ∞-cosmoi of quasicategories, complete Segal spaces, Segal categories and 1-complicial sets all turn out to be particularisations of this general phenomenon. This talk is based on joint work with Steve Lack.
+- id: 1919
+  title: Filtrations and Formality Problems
+  speaker: Joel Richardson
+  date: 2026-06-24T14:00:00.000+10
+  abstract: |-
+    Quantum topology studies nasty filtered objects. For instance, one can construct a filtration on the infinite-dimensional vector space spanned by the set of tangles on n-points by counting the number of strand crossing changes required to zero-out vectors. There are certain functors which, from nasty filtered objects, produce nice filtered objects. To solve the "formality problem" associated with a nasty object is to find a structure preserving map from the nasty object into the corresponding nice object.
+
+    In this talk we discuss solving formality problems as finding (Eilenberg-Moore-esk) coalgebras for idempotent semi-comonads, and use (co)kernels in the category of coalgebras to solve a certain formality problem.
+- id: 1920
+  title: A Cyclic Operadic Characterization of the Profinite Grothendieck-Teichmüller Group
+  speaker: Chandan Singh
+  date: 2026-07-01T14:00:00.000+10
+  abstract: |-
+    The profinite Grothendieck-Teichmüller group (GT), originally introduced by Drinfeld, is a powerful mathematical object characterized by its action on a tower of appropriately completed braid groups. It holds deep arithmetic significance, most notably containing the absolute Galois group of rationals. Traditionally, these rich symmetries have been encoded using the operad of parenthesised braids.
+
+    In this talk, I will demonstrate how GT naturally acts on the cyclic operad of parenthesised ribbon braids. By introducing this cyclic symmetry, we obtain an operad that generates a symmetric monoidal category equivalent to Furusho's category of profinite tangles. We will conclude by exploring how this framework allows us to extend GT (and absolute Galois) symmetries directly to these tangles, elegantly bridging the topological behavior of configuration spaces with deep arithmetic symmetries.
+- id: 1921
+  title: Locally subcartesian closed categories
+  speaker: Charles Walker
+  date: 2026-07-08T14:00:00.000+10
+  abstract: |-
+    We introduce locally subcartesian closed categories: categories with pullbacks equipped with a coherent choice of subobjects of pullbacks, such that the resulting affine base-change functors have right adjoints. We develop the basic theory, emphasizing the analogy with locally cartesian closed categories, and justify the terminology by showing that every slice category is monoidal closed with jointly monic projections. We also extend the theory of polynomials, showing that such a category gives rise to a bicategory of polynomials in the sense of Street, biequivalent to a 2-category of subcartesian polynomial functors. We illustrate this theory with the Lawvere quantale as a basic example and the category of nominal sets as a richer one. This work suggests a natural categorical semantics for an extensional dependent affine type theory with bunched contexts and affine implication.
