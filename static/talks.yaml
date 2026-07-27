@@ -12976,3 +12976,9 @@
   date: 2026-07-08T14:00:00.000+10
   abstract: |-
     We introduce locally subcartesian closed categories: categories with pullbacks equipped with a coherent choice of subobjects of pullbacks, such that the resulting affine base-change functors have right adjoints. We develop the basic theory, emphasizing the analogy with locally cartesian closed categories, and justify the terminology by showing that every slice category is monoidal closed with jointly monic projections. We also extend the theory of polynomials, showing that such a category gives rise to a bicategory of polynomials in the sense of Street, biequivalent to a 2-category of subcartesian polynomial functors. We illustrate this theory with the Lawvere quantale as a basic example and the category of nominal sets as a richer one. This work suggests a natural categorical semantics for an extensional dependent affine type theory with bunched contexts and affine implication.
+- id: 1922
+  title: An equivariant Auslander correspondence
+  speaker: Edmund Heng
+  date: 2026-07-29T14:00:00.000+10
+  abstract: |-
+    For finite abelian categories (category of modules over a finite dimensional algebra), Auslander proves a bijection between the following two classes: finite abelian categories that have only finitely many indecomposables (finite-type), and finite abelian categories that satisfy a “nice” homological property (gl.proj.dim <= 2 <= dom.dim). This correspondence, nowadays known as the Auslander correspondence, is essentially a consequence of the Yoneda embedding. In this talk, I will discuss an equivariant version of the Auslander correspondence. In this setting, finite abelian categories are equipped with actions of tensor categories, hence have well-defined internal Hom — the equivariant Auslander correspondence will therefore be a consequence of the internal Yoneda embedding instead. This is based on an ongoing joint work with Kevin Coulembier.
