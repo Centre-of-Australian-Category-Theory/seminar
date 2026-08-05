@@ -12982,3 +12982,9 @@
   date: 2026-07-29T14:00:00.000+10
   abstract: |-
     For finite abelian categories (category of modules over a finite dimensional algebra), Auslander proves a bijection between the following two classes: finite abelian categories that have only finitely many indecomposables (finite-type), and finite abelian categories that satisfy a “nice” homological property (gl.proj.dim <= 2 <= dom.dim). This correspondence, nowadays known as the Auslander correspondence, is essentially a consequence of the Yoneda embedding. In this talk, I will discuss an equivariant version of the Auslander correspondence. In this setting, finite abelian categories are equipped with actions of tensor categories, hence have well-defined internal Hom — the equivariant Auslander correspondence will therefore be a consequence of the internal Yoneda embedding instead. This is based on an ongoing joint work with Kevin Coulembier.
+- id: 1923
+  title: A comonad via algebraically-free commutative monoids
+  speaker: Jerry Zhang
+  date: 2026-08-05T14:00:00.000+10
+  abstract: |-
+    When actions of an object correspond to actions of its free commutative monoid, we call it algebraically-free. In fact, such a property can be neatly characterised by a universal property. Moreover, in the case where we are enriched over commutative monoids, we can construct maps via that universal property that gives a (cartesian differential) comonad on the algebraically free monoids. We will see that these constructions are inspired from the structure of differential categories, both by their differential axioms, and the modalities therein. This talk will give an overview of the methods, and end with its application on MOD and REL, which arise from their symmetric algebras, as the symmetric algebra is always algebraically-free.
