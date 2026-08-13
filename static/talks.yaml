@@ -12988,3 +12988,9 @@
   date: 2026-08-05T14:00:00.000+10
   abstract: |-
     When actions of an object correspond to actions of its free commutative monoid, we call it algebraically-free. In fact, such a property can be neatly characterised by a universal property. Moreover, in the case where we are enriched over commutative monoids, we can construct maps via that universal property that gives a (cartesian differential) comonad on the algebraically free monoids. We will see that these constructions are inspired from the structure of differential categories, both by their differential axioms, and the modalities therein. This talk will give an overview of the methods, and end with its application on MOD and REL, which arise from their symmetric algebras, as the symmetric algebra is always algebraically-free.
+- id: 1924
+  title: Tangent category structures in C-infinity algebraic geometry
+  speaker: Ivan Schweiger
+  date: 2026-08-12T14:00:00.000+10
+  abstract: |-
+    We review the concepts of C-infinity ring and C-infinity scheme. Then, we sketch a proof that the category of C-infinity rings, the opposite of the category of C-infinity rings, and the category of C-infinity schemes admit tangent structures in the sense of Rosický, Cockett, and Cruttwell. Lastly, we discuss Sikorski differential spaces and explain how the existing tangent bundle functor for Sikorski differential spaces compares to the aforementioned tangent structures.
