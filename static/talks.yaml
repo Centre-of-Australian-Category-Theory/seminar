@@ -12994,3 +12994,15 @@
   date: 2026-08-12T14:00:00.000+10
   abstract: |-
     We review the concepts of C-infinity ring and C-infinity scheme. Then, we sketch a proof that the category of C-infinity rings, the opposite of the category of C-infinity rings, and the category of C-infinity schemes admit tangent structures in the sense of Rosický, Cockett, and Cruttwell. Lastly, we discuss Sikorski differential spaces and explain how the existing tangent bundle functor for Sikorski differential spaces compares to the aforementioned tangent structures.
+- id: 1925
+  title: The differential Lie algebra of a tangent Lie group
+  speaker: Marcello Lanfranchi
+  date: 2026-08-26T14:00:00.000+10
+  abstract: |-
+    The Lie algebra of a Lie group can be defined in at least two different flavours: as the algebra of left-invariant vector fields or, as the tangent space at the unit.
+
+    A similar correspondence appears in algebraic geometry for algebraic groups. So, one could wonder, is there a more systematic theory of Lie groups that generalize these two geometric contexts?
+
+    Recently, Cockett and Schwarz studied group objects in tangent categories, a categorical context for differential geometry. In their paper, they constructed the external Lie algebra of left-invariant vector fields (LIVF) of a group object. However, their paper does not introduce an internal Lie algebra object: their Lie algebra does not live within the tangent category itself.
+
+    In this talk, we fill this gap by introducing tangent Lie groups, which are group objects which carry a natural notion of internal Lie algebra object. Surprisingly, we prove that a group object is a tangent Lie group object if and only if it admits the tangent space at the unit. In fact, the internal Lie algebra corresponds precisely to this tangent space.
