@@ -13006,3 +13006,9 @@
     Recently, Cockett and Schwarz studied group objects in tangent categories, a categorical context for differential geometry. In their paper, they constructed the external Lie algebra of left-invariant vector fields (LIVF) of a group object. However, their paper does not introduce an internal Lie algebra object: their Lie algebra does not live within the tangent category itself.
 
     In this talk, we fill this gap by introducing tangent Lie groups, which are group objects which carry a natural notion of internal Lie algebra object. Surprisingly, we prove that a group object is a tangent Lie group object if and only if it admits the tangent space at the unit. In fact, the internal Lie algebra corresponds precisely to this tangent space.
+- id: 1926
+  title: An Introduction to Classical Quantum Topology
+  speaker: Nelson Odins-Jones
+  date: 2026-09-02T14:00:00.000+10
+  abstract: |-
+    Quantum topology is a very fun land at the confluence of algebra, topology, and physics. With a motivating quest to find nice (functorial!) ways to study knotted ropes in space, we will take a stroll through this land, and meet some of its foundational ideas and results. By the end, you will appreciate the surprising connections between knots and Lie algebras, including understanding the fabled associators of Drinfeld.
