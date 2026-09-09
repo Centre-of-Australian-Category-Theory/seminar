@@ -13012,3 +13012,9 @@
   date: 2026-09-02T14:00:00.000+10
   abstract: |-
     Quantum topology is a very fun land at the confluence of algebra, topology, and physics. With a motivating quest to find nice (functorial!) ways to study knotted ropes in space, we will take a stroll through this land, and meet some of its foundational ideas and results. By the end, you will appreciate the surprising connections between knots and Lie algebras, including understanding the fabled associators of Drinfeld.
+- id: 1927
+  title: How to Construct Strict Conical Limits in a Category of Fibrant Objects
+  speaker: Declan Zammit
+  date: 2026-09-09T14:00:00.000+10
+  abstract: |-
+    Say we are working in the subcategory of fibrant objects of a Cat-enriched model category. The kinds of limits that are native here are the flexible limits, which for example generalise pseudolimits. But there are examples of strict conical limits that we have around in this setting, such as pullbacks along fibrations or limits of towers of fibrations, which are not prima facie flexible. In this talk, inspired by a trick discovered by John Bourke, we will show how to construct these limits from flexible limits.
