@@ -13052,3 +13052,9 @@
     Furthermore, we shall see that Taylor expansion at any degree can be described by a similar operator, reminiscent of jet bundles found in differential geometry and of higher order dual numbers found in automated differentiation. Surprisingly, this Taylor operation has the exact same categorical structure as the tangent bundle functor, even though its underlying combinatorics is much more complex.
 
     This talk is the first part of a two talk series, but each talk can be followed independently.
+- id: 1932
+  title: "Forest-skein groups II:  Exotic simple groups built from monoidal categories"
+  speaker: Ryan Seelig
+  date: 2026-10-07T14:00:00.000+10
+  abstract: |-
+    We continue where we left off last week. Recall forest-skein groups are, in a sense, infinite discrete groups having a "two-dimensional" presentation (given by a strict monoidal category presentation) and that Jones' technology can be used to efficiently produce sophisticated actions of such groups. With this, we will construct the so-called "canonical action" of each forest-skein group, which is the analogue of the defining finite piecewise affine action of Thompson's groups on the unit interval. This action allows us to study the normal subgroups of forest-skein groups. In this talk I will describe the normal subgroup structure of forest-skein groups and give necessary and sufficient conditions for their commutator subgroups to be simple. This will allow us to construct explicit examples of finitely presented infinite simple groups by carefully choosing the input presentation. We will see that for many of these choices the simple groups we get are rather exotic and exhibit dynamical behaviour that was previously unforeseen in the literature. In particular, many of these simple groups admit no finite piecewise affine action on any 1-manifold, unlike Thompson's groups.
