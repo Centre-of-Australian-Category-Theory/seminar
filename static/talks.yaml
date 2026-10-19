@@ -13064,3 +13064,19 @@
   date: 2026-10-14T14:00:00.000+10
   abstract: |-
     (Warning: The speaker is not a category theorist. The talk will feature abstract algebra, at least one functor, and touch on operads if time allows.) The Goldman-Turaev loop operations equip the vector space of free loops in a surface with boundary with the structure of a Lie bialgebra. In this talk we will construct a "homomorphic expansion" (or "formality map") for the Goldman-Turaev Lie bialgebra: an isomorphism between the I-adic completion and the associated graded Lie algebra. After an introduction to expansions, we will show that in genus zero the Goldman-Turaev loop operations are naturally induced by tangle operations in the surface cross an interval. In turn, the Kontsevich integral of tangles induces a homomorphic expansion for the Goldman-Turaev Lie bialgebra. This is especially interesting in light of a seminal result of Alekseev, Kawazumi, Kuno and Naef stating that in genus zero Goldman-Turaev expansions correspond to solutions to the Kashiwara-Vergne equations arising from convolutions on Lie groups, opening up rich connections to quantum algebra. Our results are parallel to earlier work of Massuyeau (in the context of braids) and Alekseev-Naef (in the context of the KZ connection), and related to recent results on 'emergent' objects by Kuno and Ren. I will discuss outstanding questions and work in progress at the end. Based on joint work (https://arxiv.org/abs/2509.20983) with Dror Bar-Natan, Jessica Liu, Tamara Hogan, and Nancy Scherich.
+- id: 1934
+  title: "Quantum Coherence Spaces Revisited: A von Neumann (Co)Algebraic Approach"
+  speaker: Thea Li
+  date: 2026-10-21T14:00:00.000+10
+  abstract: |-
+    We describe a categorical model of MALL (Multiplicative Additive Linear Logic) inspired by the Heisenberg-Schrödinger duality of finite-dimensional quantum theory. Proofs of formulas with positive logical polarity correspond to CPTP (completely positive trace-preserving) maps in our model, i.e. the quantum operations in the Schrödinger picture, whereas proofs of formulas with negative logical polarity correspond to CPU (completely positive unital) maps, i.e. the quantum operations in the Heisenberg picture. The mathematical development is based on noncommutative geometry and finite-dimensional C-(co)algebras, which can be defined as special kinds of (co)monoid objects internal to the category of finite-dimensional operator spaces. This is joint work with Vladimir Zamdzhiev.
+- id: 1935
+  title: Towards Traced Non-Symmetric *-Autonomous Categories
+  speaker: Rose Kudzman-Blais
+  date: 2026-10-21T15:00:00.000+10
+  abstract: |-
+    With the advent of linear logic and its geometry of interaction interpretation, *-autonomy and monoidal trace became central concepts in categorical linear logic, with compact closed categories as canonical examples of both structures. Motivated by this perspective, Hajgato and Hasegawa began investigating the relationship between the two in 2013, asking: are there traced *-autonomous categories beyond compact closed categories?
+
+    They successfully answered this question by establishing a correspondence between traced *-autonomous categories and compact closed categories equipped with dualizing objects. This result subsequently motivated Hasegawa to seek an analogous characterization in the non-symmetric setting. Although significant progress has been made, and there are compelling reasons to believe such a generalization should hold, the problem remains open.
+
+    In this talk, we will review the classical symmetric result, explore the motivations for extending it to the non-symmetric setting, and introduce Hasegawa’s conjecture. Finally, we will discuss the main obstacles to proving the conjecture and outline my current approach to overcoming them.
