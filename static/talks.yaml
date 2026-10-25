@@ -13080,3 +13080,9 @@
     They successfully answered this question by establishing a correspondence between traced *-autonomous categories and compact closed categories equipped with dualizing objects. This result subsequently motivated Hasegawa to seek an analogous characterization in the non-symmetric setting. Although significant progress has been made, and there are compelling reasons to believe such a generalization should hold, the problem remains open.
 
     In this talk, we will review the classical symmetric result, explore the motivations for extending it to the non-symmetric setting, and introduce Hasegawa’s conjecture. Finally, we will discuss the main obstacles to proving the conjecture and outline my current approach to overcoming them.
+- id: 1936
+  title: Expansion Categories and Goldman-Turaev Formality
+  speaker: Joel Richardson
+  date: 2026-10-28T14:00:00.000+10
+  abstract: |-
+    We recently heard from Zsuzsanna Dancso about constructing expansions of the Goldman-Turaev Lie bialgebra from the Kontsevich integral. In this talk, we’ll realise this construction within a larger categorical framework. We’ll discuss idempotent endofunctors and their associated expansion categories, as well as algebraic objects (i.e. monoid objects, Lie algebra objects, etc) therein. We’ll show that morphisms of idempotent endofunctors induce functors between expansion categories, and use this, together with pullbacks and pushouts, to turn the Kontsevich integral (an expansion of the braid group) into an expansion of the Goldman-Turaev Lie bialgebra.
