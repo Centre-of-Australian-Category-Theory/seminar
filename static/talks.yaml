@@ -13086,3 +13086,15 @@
   date: 2026-10-28T14:00:00.000+10
   abstract: |-
     We recently heard from Zsuzsanna Dancso about constructing expansions of the Goldman-Turaev Lie bialgebra from the Kontsevich integral. In this talk, we’ll realise this construction within a larger categorical framework. We’ll discuss idempotent endofunctors and their associated expansion categories, as well as algebraic objects (i.e. monoid objects, Lie algebra objects, etc) therein. We’ll show that morphisms of idempotent endofunctors induce functors between expansion categories, and use this, together with pullbacks and pushouts, to turn the Kontsevich integral (an expansion of the braid group) into an expansion of the Goldman-Turaev Lie bialgebra.
+- id: 1937
+  title: Morphisms of matched pairs and weak-target categories
+  speaker: Isaac Bankier
+  date: 2026-11-04T14:00:00.000+10
+  abstract: |-
+    A matched pair consists of a groupoid and a category which act on each other in a "self-similar" manner. In this talk we show that matched pairs are equivalent to a new type theoretic generalisation of a category, known as a weak-target category. We show that weak-target categories are also equivalent to polynomial comonads on the category of groupoids. Inspired by these equivalences, we give a new notion of morphism between matched pairs and two notions of presheaves of matched pairs.
+- id: 1938
+  title: On Hasegawa’s Question about Traced Monoidal Closed Categories and Idempotent Comonads on Compact Closed Categories
+  speaker: JS Lemay
+  date: 2026-11-04T15:00:00.000+10
+  abstract: |-
+    In Hasegawa's paper “On Traced Monoidal Closed Categories”, he showed that a traced monoidal category was closed if and only if the canonical functor into the its INT construction has a right adjoint. As a consequence, every traced monoidal closed category is a reflexive subcategory of a compact closed category. As such, for a traced monoidal closed category, there is an idempotent comonad on its INT construction. Hasegawa pondered an open question of if there was a possible adjunction between traced monoidal closed categories and compact closed categories with a suitable notion of idempotent comonad. In this talk, I will review the main results of Hasegawa's paper and answer his open question (hopefully correctly!).
